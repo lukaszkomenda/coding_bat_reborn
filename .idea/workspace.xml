@@ -4,28 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/coding_bat_reborn_2.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/coding_bat_reborn_2.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_bat_reborn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_bat_reborn_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Makes10/Makes10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NearHundred/NearHundred.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PosNeg/PosNeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Makes10/Makes10Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NearHundred/NearHundredTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PosNeg/PosNegTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  makes10, nearHundred">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BackAround/BackAround.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Front3/Front3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FrontBack/FrontBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MissingChar/MissingChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NotString/NotString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BackAround/BackAroundTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Front3/Front3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FrontBack/FrontBackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MissingChar/MissingCharTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NotString/NotStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,112 +59,112 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.example.PosNeg" />
-      <recent name="org.example.NearHundred" />
-      <recent name="org.example.Makes10" />
-      <recent name="org.example.ParrotTrouble" />
-      <recent name="org.example.Diff21" />
+      <recent name="org.example.BackAround" />
+      <recent name="org.example.Front3" />
+      <recent name="org.example.FrontBack" />
+      <recent name="org.example.MissingChar" />
+      <recent name="org.example.NotString" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PosNegTest.multiplyNumbersPositiveAndNegativeTest">
-    <configuration name="NearHundredTest.multiplyNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BackAroundTest.readTest">
+    <configuration name="BackAroundTest.aTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.NearHundred.*" />
+          <option name="PATTERN" value="org.example.BackAround.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.NearHundred" />
-      <option name="MAIN_CLASS_NAME" value="org.example.NearHundred.NearHundredTest" />
-      <option name="METHOD_NAME" value="multiplyNumberTest" />
+      <option name="PACKAGE_NAME" value="org.example.BackAround" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BackAround.BackAroundTest" />
+      <option name="METHOD_NAME" value="aTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosNegTest.minusFourAndMinusFiveNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BackAroundTest.catTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.PosNeg.*" />
+          <option name="PATTERN" value="org.example.BackAround.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.PosNeg" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PosNeg.PosNegTest" />
-      <option name="METHOD_NAME" value="minusFourAndMinusFiveNegativeTest" />
+      <option name="PACKAGE_NAME" value="org.example.BackAround" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BackAround.BackAroundTest" />
+      <option name="METHOD_NAME" value="catTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosNegTest.minusOneAndOnePositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BackAroundTest.readTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.PosNeg.*" />
+          <option name="PATTERN" value="org.example.BackAround.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.PosNeg" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PosNeg.PosNegTest" />
-      <option name="METHOD_NAME" value="minusOneAndOnePositiveTest" />
+      <option name="PACKAGE_NAME" value="org.example.BackAround" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BackAround.BackAroundTest" />
+      <option name="METHOD_NAME" value="readTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosNegTest.multiplyNumbersPositiveAndNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Front3Test.aTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.PosNeg.*" />
+          <option name="PATTERN" value="org.example.Front3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.PosNeg" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PosNeg.PosNegTest" />
-      <option name="METHOD_NAME" value="multiplyNumbersPositiveAndNegativeTest" />
+      <option name="PACKAGE_NAME" value="org.example.Front3" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Front3.Front3Test" />
+      <option name="METHOD_NAME" value="aTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosNegTest.oneAndMinusOnePositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Front3Test.noCharTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.PosNeg.*" />
+          <option name="PATTERN" value="org.example.Front3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.PosNeg" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PosNeg.PosNegTest" />
-      <option name="METHOD_NAME" value="oneAndMinusOnePositiveTest" />
+      <option name="PACKAGE_NAME" value="org.example.Front3" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Front3.Front3Test" />
+      <option name="METHOD_NAME" value="noCharTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PosNegTest.multiplyNumbersPositiveAndNegativeTest" />
-        <item itemvalue="JUnit.PosNegTest.minusFourAndMinusFiveNegativeTest" />
-        <item itemvalue="JUnit.PosNegTest.minusOneAndOnePositiveTest" />
-        <item itemvalue="JUnit.PosNegTest.oneAndMinusOnePositiveTest" />
-        <item itemvalue="JUnit.NearHundredTest.multiplyNumberTest" />
+        <item itemvalue="JUnit.BackAroundTest.readTest" />
+        <item itemvalue="JUnit.BackAroundTest.aTest" />
+        <item itemvalue="JUnit.BackAroundTest.catTest" />
+        <item itemvalue="JUnit.Front3Test.noCharTest" />
+        <item itemvalue="JUnit.Front3Test.aTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +189,11 @@
       <option name="presentableId" value="Default" />
       <updated>1667053403440</updated>
       <workItem from="1667053404778" duration="9769000" />
-      <workItem from="1667141528363" duration="7337000" />
+      <workItem from="1667141528363" duration="7770000" />
+      <workItem from="1667150137012" duration="169000" />
+      <workItem from="1667150479573" duration="46000" />
+      <workItem from="1667151814114" duration="73000" />
+      <workItem from="1667233663443" duration="5383000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -208,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667062552386</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add method:  makes10, nearHundred, posNeg">
+      <created>1667149650027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667149650027</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add method:  makes10, nearHundred">
+      <created>1667149719569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667149719569</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +235,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble" />
+    <MESSAGE value="Add method:  makes10, nearHundred, posNeg" />
+    <MESSAGE value="Add method:  makes10, nearHundred" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  makes10, nearHundred" />
   </component>
 </project>
