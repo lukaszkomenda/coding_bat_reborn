@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  makes10, nearHundred">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BackAround/BackAround.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Front3/Front3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FrontBack/FrontBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MissingChar/MissingChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NotString/NotString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BackAround/BackAroundTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Front3/Front3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FrontBack/FrontBackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MissingChar/MissingCharTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NotString/NotStringTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  notString, missingChar, frontBack, front3, backAround">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Front22/Front22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Or35/Or35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StartHi/StartHi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Front22/Front22Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Or35/Or35Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StartHi/StartHiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,89 +78,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.StartHi" />
+      <recent name="org.example.Front22" />
+      <recent name="org.example.Or35" />
       <recent name="org.example.BackAround" />
       <recent name="org.example.Front3" />
-      <recent name="org.example.FrontBack" />
-      <recent name="org.example.MissingChar" />
-      <recent name="org.example.NotString" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BackAroundTest.readTest">
-    <configuration name="BackAroundTest.aTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StartHiTest.hiHoTest">
+    <configuration name="Front22Test.haTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.BackAround.*" />
+          <option name="PATTERN" value="org.example.Front22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.BackAround" />
-      <option name="MAIN_CLASS_NAME" value="org.example.BackAround.BackAroundTest" />
-      <option name="METHOD_NAME" value="aTest" />
+      <option name="PACKAGE_NAME" value="org.example.Front22" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Front22.Front22Test" />
+      <option name="METHOD_NAME" value="haTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackAroundTest.catTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Front22Test.noCharTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.BackAround.*" />
+          <option name="PATTERN" value="org.example.Front22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.BackAround" />
-      <option name="MAIN_CLASS_NAME" value="org.example.BackAround.BackAroundTest" />
-      <option name="METHOD_NAME" value="catTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BackAroundTest.readTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.BackAround.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.BackAround" />
-      <option name="MAIN_CLASS_NAME" value="org.example.BackAround.BackAroundTest" />
-      <option name="METHOD_NAME" value="readTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Front3Test.aTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Front3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Front3" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Front3.Front3Test" />
-      <option name="METHOD_NAME" value="aTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Front3Test.noCharTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Front3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Front3" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Front3.Front3Test" />
+      <option name="PACKAGE_NAME" value="org.example.Front22" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Front22.Front22Test" />
       <option name="METHOD_NAME" value="noCharTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartHiTest.hTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.StartHi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.StartHi" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StartHi.StartHiTest" />
+      <option name="METHOD_NAME" value="hTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartHiTest.hiHoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.StartHi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.StartHi" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StartHi.StartHiTest" />
+      <option name="METHOD_NAME" value="hiHoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartHiTest.hiThereTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.StartHi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.StartHi" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StartHi.StartHiTest" />
+      <option name="METHOD_NAME" value="hiThereTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BackAroundTest.readTest" />
-        <item itemvalue="JUnit.BackAroundTest.aTest" />
-        <item itemvalue="JUnit.BackAroundTest.catTest" />
-        <item itemvalue="JUnit.Front3Test.noCharTest" />
-        <item itemvalue="JUnit.Front3Test.aTest" />
+        <item itemvalue="JUnit.StartHiTest.hiHoTest" />
+        <item itemvalue="JUnit.StartHiTest.hTest" />
+        <item itemvalue="JUnit.StartHiTest.hiThereTest" />
+        <item itemvalue="JUnit.Front22Test.noCharTest" />
+        <item itemvalue="JUnit.Front22Test.haTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +189,8 @@
       <workItem from="1667150137012" duration="169000" />
       <workItem from="1667150479573" duration="46000" />
       <workItem from="1667151814114" duration="73000" />
-      <workItem from="1667233663443" duration="5383000" />
+      <workItem from="1667233663443" duration="5584000" />
+      <workItem from="1667323526437" duration="2227000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -216,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667149719569</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add method:  notString, missingChar, frontBack, front3, backAround">
+      <created>1667239638720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667239638720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +241,7 @@
     <MESSAGE value="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble" />
     <MESSAGE value="Add method:  makes10, nearHundred, posNeg" />
     <MESSAGE value="Add method:  makes10, nearHundred" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  makes10, nearHundred" />
+    <MESSAGE value="Add method:  notString, missingChar, frontBack, front3, backAround" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  notString, missingChar, frontBack, front3, backAround" />
   </component>
 </project>
