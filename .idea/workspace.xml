@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  notString, missingChar, frontBack, front3, backAround">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Front22/Front22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Or35/Or35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StartHi/StartHi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Front22/Front22Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Or35/Or35Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StartHi/StartHiTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  or35, front22, startHi">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HasTeen/HasTeen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IcyHot/IcyHot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/In1020/In1020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HasTeen/HasTeenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/IcyHot/IcyHotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/In1020/In1020Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,89 +78,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.HasTeen" />
+      <recent name="org.example.In1020" />
+      <recent name="org.example.IcyHot" />
       <recent name="org.example.StartHi" />
       <recent name="org.example.Front22" />
-      <recent name="org.example.Or35" />
-      <recent name="org.example.BackAround" />
-      <recent name="org.example.Front3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StartHiTest.hiHoTest">
-    <configuration name="Front22Test.haTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HasTeenTest.fourAndTwoAndTwentyTest">
+    <configuration name="HasTeenTest.fourAndTwoAndTwentyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Front22.*" />
+          <option name="PATTERN" value="org.example.HasTeen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Front22" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Front22.Front22Test" />
-      <option name="METHOD_NAME" value="haTest" />
+      <option name="PACKAGE_NAME" value="org.example.HasTeen" />
+      <option name="MAIN_CLASS_NAME" value="org.example.HasTeen.HasTeenTest" />
+      <option name="METHOD_NAME" value="fourAndTwoAndTwentyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Front22Test.noCharTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HasTeenTest.oneAndTwentyAndTwelveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Front22.*" />
+          <option name="PATTERN" value="org.example.HasTeen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Front22" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Front22.Front22Test" />
-      <option name="METHOD_NAME" value="noCharTest" />
+      <option name="PACKAGE_NAME" value="org.example.HasTeen" />
+      <option name="MAIN_CLASS_NAME" value="org.example.HasTeen.HasTeenTest" />
+      <option name="METHOD_NAME" value="oneAndTwentyAndTwelveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartHiTest.hTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HasTeenTest.thirteenAndTwentyAndTenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StartHi.*" />
+          <option name="PATTERN" value="org.example.HasTeen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.StartHi" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StartHi.StartHiTest" />
-      <option name="METHOD_NAME" value="hTest" />
+      <option name="PACKAGE_NAME" value="org.example.HasTeen" />
+      <option name="MAIN_CLASS_NAME" value="org.example.HasTeen.HasTeenTest" />
+      <option name="METHOD_NAME" value="thirteenAndTwentyAndTenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartHiTest.hiHoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="In1020Test.doubleNineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StartHi.*" />
+          <option name="PATTERN" value="org.example.In1020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.StartHi" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StartHi.StartHiTest" />
-      <option name="METHOD_NAME" value="hiHoTest" />
+      <option name="PACKAGE_NAME" value="org.example.In1020" />
+      <option name="MAIN_CLASS_NAME" value="org.example.In1020.In1020Test" />
+      <option name="METHOD_NAME" value="doubleNineTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartHiTest.hiThereTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="In1020Test.doubleTwentyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StartHi.*" />
+          <option name="PATTERN" value="org.example.In1020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.StartHi" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StartHi.StartHiTest" />
-      <option name="METHOD_NAME" value="hiThereTest" />
+      <option name="PACKAGE_NAME" value="org.example.In1020" />
+      <option name="MAIN_CLASS_NAME" value="org.example.In1020.In1020Test" />
+      <option name="METHOD_NAME" value="doubleTwentyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StartHiTest.hiHoTest" />
-        <item itemvalue="JUnit.StartHiTest.hTest" />
-        <item itemvalue="JUnit.StartHiTest.hiThereTest" />
-        <item itemvalue="JUnit.Front22Test.noCharTest" />
-        <item itemvalue="JUnit.Front22Test.haTest" />
+        <item itemvalue="JUnit.HasTeenTest.fourAndTwoAndTwentyTest" />
+        <item itemvalue="JUnit.HasTeenTest.oneAndTwentyAndTwelveTest" />
+        <item itemvalue="JUnit.HasTeenTest.thirteenAndTwentyAndTenTest" />
+        <item itemvalue="JUnit.In1020Test.doubleNineTest" />
+        <item itemvalue="JUnit.In1020Test.doubleTwentyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +190,8 @@
       <workItem from="1667150479573" duration="46000" />
       <workItem from="1667151814114" duration="73000" />
       <workItem from="1667233663443" duration="5584000" />
-      <workItem from="1667323526437" duration="2227000" />
+      <workItem from="1667323526437" duration="3228000" />
+      <workItem from="1667408511163" duration="2965000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -220,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667239638720</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add method:  or35, front22, startHi">
+      <created>1667328050918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667328050918</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +250,7 @@
     <MESSAGE value="Add method:  makes10, nearHundred, posNeg" />
     <MESSAGE value="Add method:  makes10, nearHundred" />
     <MESSAGE value="Add method:  notString, missingChar, frontBack, front3, backAround" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  notString, missingChar, frontBack, front3, backAround" />
+    <MESSAGE value="Add method:  or35, front22, startHi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  or35, front22, startHi" />
   </component>
 </project>
