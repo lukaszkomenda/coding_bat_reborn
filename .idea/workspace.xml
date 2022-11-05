@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  loneTeen, delDel, mixStart">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Close10/Close10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IntMax/IntMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StartOz/StartOz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Close10/Close10Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/IntMax/IntMaxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StartOz/StartOzTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  startOz, intMax, close10">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EndUp/EndUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/In3050/In3050.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LastDigit/LastDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Max1020/Max1020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringE/StringE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/EndUp/EndUpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/In3050/In3050Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LastDigit/LastDigitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Max1020/Max1020Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StringE/StringETest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,89 +82,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.example.Close10" />
-      <recent name="org.example.IntMax" />
-      <recent name="org.example.StartOz" />
-      <recent name="org.example.MixStart" />
-      <recent name="org.example.DelDel" />
+      <recent name="org.example.EndUp" />
+      <recent name="org.example.LastDigit" />
+      <recent name="org.example.StringE" />
+      <recent name="org.example.Max1020" />
+      <recent name="org.example.In3050" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Close10Test.tenTwelveTest">
-    <configuration name="Close10Test.sevenThirteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EndUpTest.xTest">
+    <configuration name="EndUpTest.hiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Close10.*" />
+          <option name="PATTERN" value="org.example.EndUp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Close10" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Close10.Close10Test" />
-      <option name="METHOD_NAME" value="sevenThirteenTest" />
+      <option name="PACKAGE_NAME" value="org.example.EndUp" />
+      <option name="MAIN_CLASS_NAME" value="org.example.EndUp.EndUpTest" />
+      <option name="METHOD_NAME" value="hiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Close10Test.tenTwelveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EndUpTest.wooHooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Close10.*" />
+          <option name="PATTERN" value="org.example.EndUp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Close10" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Close10.Close10Test" />
-      <option name="METHOD_NAME" value="tenTwelveTest" />
+      <option name="PACKAGE_NAME" value="org.example.EndUp" />
+      <option name="MAIN_CLASS_NAME" value="org.example.EndUp.EndUpTest" />
+      <option name="METHOD_NAME" value="wooHooTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Close10Test.zeroTwentyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EndUpTest.xTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Close10.*" />
+          <option name="PATTERN" value="org.example.EndUp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Close10" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Close10.Close10Test" />
-      <option name="METHOD_NAME" value="zeroTwentyTest" />
+      <option name="PACKAGE_NAME" value="org.example.EndUp" />
+      <option name="MAIN_CLASS_NAME" value="org.example.EndUp.EndUpTest" />
+      <option name="METHOD_NAME" value="xTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntMaxTest.minusThreeMinusOneMinusTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LastDigitTest.tenZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.IntMax.*" />
+          <option name="PATTERN" value="org.example.LastDigit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.IntMax" />
-      <option name="MAIN_CLASS_NAME" value="org.example.IntMax.IntMaxTest" />
-      <option name="METHOD_NAME" value="minusThreeMinusOneMinusTwoTest" />
+      <option name="PACKAGE_NAME" value="org.example.LastDigit" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LastDigit.LastDigitTest" />
+      <option name="METHOD_NAME" value="tenZeroTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntMaxTest.sixTwoFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LastDigitTest.threeHundredThirteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.IntMax.*" />
+          <option name="PATTERN" value="org.example.LastDigit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.IntMax" />
-      <option name="MAIN_CLASS_NAME" value="org.example.IntMax.IntMaxTest" />
-      <option name="METHOD_NAME" value="sixTwoFiveTest" />
+      <option name="PACKAGE_NAME" value="org.example.LastDigit" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LastDigit.LastDigitTest" />
+      <option name="METHOD_NAME" value="threeHundredThirteenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Close10Test.tenTwelveTest" />
-        <item itemvalue="JUnit.Close10Test.zeroTwentyTest" />
-        <item itemvalue="JUnit.Close10Test.sevenThirteenTest" />
-        <item itemvalue="JUnit.IntMaxTest.sixTwoFiveTest" />
-        <item itemvalue="JUnit.IntMaxTest.minusThreeMinusOneMinusTwoTest" />
+        <item itemvalue="JUnit.EndUpTest.xTest" />
+        <item itemvalue="JUnit.EndUpTest.wooHooTest" />
+        <item itemvalue="JUnit.EndUpTest.hiTest" />
+        <item itemvalue="JUnit.LastDigitTest.tenZeroTest" />
+        <item itemvalue="JUnit.LastDigitTest.threeHundredThirteenTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +197,8 @@
       <workItem from="1667323526437" duration="3228000" />
       <workItem from="1667408511163" duration="3381000" />
       <workItem from="1667491935943" duration="4615000" />
-      <workItem from="1667579091937" duration="3601000" />
+      <workItem from="1667579091937" duration="3711000" />
+      <workItem from="1667662979542" duration="6980000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -244,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667496484133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add method:  startOz, intMax, close10">
+      <created>1667583102462</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667583102462</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +281,7 @@
     <MESSAGE value="Add method:  or35, front22, startHi" />
     <MESSAGE value="Add method:  icyHot, in1020, hasTeen" />
     <MESSAGE value="Add method:  loneTeen, delDel, mixStart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  loneTeen, delDel, mixStart" />
+    <MESSAGE value="Add method:  startOz, intMax, close10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  startOz, intMax, close10" />
   </component>
 </project>
