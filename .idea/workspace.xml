@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  in3050, max1020, stringE, lastDigit, endUp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EveryNth/EveryNth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/EveryNth/EveryNthTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  everyNth">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CountXX/CountXX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DoubleX/DoubleX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FrontTimes/FrontTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringTimes/StringTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CountXX/CountXXTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DoubleX/DoubleXTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FrontTimes/FrontTimesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StringTimes/StringTimesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +45,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="5e7e5963-54df-4664-94aa-e08520a9f294" />
@@ -74,89 +81,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.DoubleX" />
+      <recent name="org.example.CountXX" />
+      <recent name="org.example.FrontTimes" />
+      <recent name="org.example.StringTimes" />
       <recent name="org.example.EveryNth" />
-      <recent name="org.example.EndUp" />
-      <recent name="org.example.LastDigit" />
-      <recent name="org.example.StringE" />
-      <recent name="org.example.Max1020" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EveryNthTest.abcdefgTest">
-    <configuration name="EndUpTest.wooHooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FrontTimesTest.abcTest">
+    <configuration name="CountXXTest.abcxxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.EndUp.*" />
+          <option name="PATTERN" value="org.example.CountXX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.EndUp" />
-      <option name="MAIN_CLASS_NAME" value="org.example.EndUp.EndUpTest" />
-      <option name="METHOD_NAME" value="wooHooTest" />
+      <option name="PACKAGE_NAME" value="org.example.CountXX" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CountXX.CountXXTest" />
+      <option name="METHOD_NAME" value="abcxxTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EndUpTest.xTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleXTest.abcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.EndUp.*" />
+          <option name="PATTERN" value="org.example.DoubleX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.EndUp" />
-      <option name="MAIN_CLASS_NAME" value="org.example.EndUp.EndUpTest" />
-      <option name="METHOD_NAME" value="xTest" />
+      <option name="PACKAGE_NAME" value="org.example.DoubleX" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DoubleX.DoubleXTest" />
+      <option name="METHOD_NAME" value="abcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EveryNthTest.abcdefgTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleXTest.axxbbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.EveryNth.*" />
+          <option name="PATTERN" value="org.example.DoubleX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.EveryNth" />
-      <option name="MAIN_CLASS_NAME" value="org.example.EveryNth.EveryNthTest" />
-      <option name="METHOD_NAME" value="abcdefgTest" />
+      <option name="PACKAGE_NAME" value="org.example.DoubleX" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DoubleX.DoubleXTest" />
+      <option name="METHOD_NAME" value="axxbbTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EveryNthTest.chocolateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleXTest.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.EveryNth.*" />
+          <option name="PATTERN" value="org.example.DoubleX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.EveryNth" />
-      <option name="MAIN_CLASS_NAME" value="org.example.EveryNth.EveryNthTest" />
-      <option name="METHOD_NAME" value="chocolateTest" />
+      <option name="PACKAGE_NAME" value="org.example.DoubleX" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DoubleX.DoubleXTest" />
+      <option name="METHOD_NAME" value="noneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EveryNthTest.miracleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FrontTimesTest.abcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.EveryNth.*" />
+          <option name="PATTERN" value="org.example.FrontTimes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.EveryNth" />
-      <option name="MAIN_CLASS_NAME" value="org.example.EveryNth.EveryNthTest" />
-      <option name="METHOD_NAME" value="miracleTest" />
+      <option name="PACKAGE_NAME" value="org.example.FrontTimes" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FrontTimes.FrontTimesTest" />
+      <option name="METHOD_NAME" value="abcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EveryNthTest.abcdefgTest" />
-        <item itemvalue="JUnit.EveryNthTest.miracleTest" />
-        <item itemvalue="JUnit.EveryNthTest.chocolateTest" />
-        <item itemvalue="JUnit.EndUpTest.xTest" />
-        <item itemvalue="JUnit.EndUpTest.wooHooTest" />
+        <item itemvalue="JUnit.FrontTimesTest.abcTest" />
+        <item itemvalue="JUnit.DoubleXTest.noneTest" />
+        <item itemvalue="JUnit.DoubleXTest.abcTest" />
+        <item itemvalue="JUnit.DoubleXTest.axxbbTest" />
+        <item itemvalue="JUnit.CountXXTest.abcxxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +198,7 @@
       <workItem from="1667491935943" duration="4615000" />
       <workItem from="1667579091937" duration="3711000" />
       <workItem from="1667662979542" duration="7367000" />
-      <workItem from="1667738961925" duration="1780000" />
+      <workItem from="1667738961925" duration="6527000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -256,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667670515205</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add method:  everyNth">
+      <created>1667741016102</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667741016102</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +297,7 @@
     <MESSAGE value="Add method:  loneTeen, delDel, mixStart" />
     <MESSAGE value="Add method:  startOz, intMax, close10" />
     <MESSAGE value="Add method:  in3050, max1020, stringE, lastDigit, endUp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  in3050, max1020, stringE, lastDigit, endUp" />
+    <MESSAGE value="Add method:  everyNth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  everyNth" />
   </component>
 </project>
