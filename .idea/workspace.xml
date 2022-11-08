@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  stringTimes, frontTimes, countXX, doubleX">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Last2/Last2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringBits/StringBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringSplosion/StringSplosion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Last2/Last2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StringBits/StringBitsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StringSplosion/StringSplosionTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  stringBits, stringSplosion, last2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Array123/Array123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayCount9/ArrayCount9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayFront9/ArrayFront9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Array123/Array123Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ArrayCount9/ArrayCount9Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ArrayFront9/ArrayFront9Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,89 +79,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.Array123" />
+      <recent name="org.example.ArrayFront9" />
+      <recent name="org.example.ArrayCount9" />
       <recent name="org.example.Last2" />
       <recent name="org.example.StringSplosion" />
-      <recent name="org.example.StringBits" />
-      <recent name="org.example.DoubleX" />
-      <recent name="org.example.CountXX" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Last2Test.hixxhiTest">
-    <configuration name="Last2Test.hTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Array123Test.noneTest">
+    <configuration name="Array123Test.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Last2.*" />
+          <option name="PATTERN" value="org.example.Array123.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Last2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Last2.Last2Test" />
-      <option name="METHOD_NAME" value="hTest" />
+      <option name="PACKAGE_NAME" value="org.example.Array123" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Array123.Array123Test" />
+      <option name="METHOD_NAME" value="noneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Last2Test.hixxhiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Array123Test.oneOneTwoOneTwoOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Last2.*" />
+          <option name="PATTERN" value="org.example.Array123.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Last2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Last2.Last2Test" />
-      <option name="METHOD_NAME" value="hixxhiTest" />
+      <option name="PACKAGE_NAME" value="org.example.Array123" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Array123.Array123Test" />
+      <option name="METHOD_NAME" value="oneOneTwoOneTwoOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Last2Test.xxxxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Array123Test.oneOneTwoThreeOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Last2.*" />
+          <option name="PATTERN" value="org.example.Array123.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Last2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Last2.Last2Test" />
-      <option name="METHOD_NAME" value="xxxxTest" />
+      <option name="PACKAGE_NAME" value="org.example.Array123" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Array123.Array123Test" />
+      <option name="METHOD_NAME" value="oneOneTwoThreeOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringSplosionTest.byeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayFront9Test.nineTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StringSplosion.*" />
+          <option name="PATTERN" value="org.example.ArrayFront9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.StringSplosion" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StringSplosion.StringSplosionTest" />
-      <option name="METHOD_NAME" value="byeTest" />
+      <option name="PACKAGE_NAME" value="org.example.ArrayFront9" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ArrayFront9.ArrayFront9Test" />
+      <option name="METHOD_NAME" value="nineTwoThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringSplosionTest.fadeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayFront9Test.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StringSplosion.*" />
+          <option name="PATTERN" value="org.example.ArrayFront9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.StringSplosion" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StringSplosion.StringSplosionTest" />
-      <option name="METHOD_NAME" value="fadeTest" />
+      <option name="PACKAGE_NAME" value="org.example.ArrayFront9" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ArrayFront9.ArrayFront9Test" />
+      <option name="METHOD_NAME" value="noneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Last2Test.hixxhiTest" />
-        <item itemvalue="JUnit.Last2Test.hTest" />
-        <item itemvalue="JUnit.Last2Test.xxxxTest" />
-        <item itemvalue="JUnit.StringSplosionTest.byeTest" />
-        <item itemvalue="JUnit.StringSplosionTest.fadeTest" />
+        <item itemvalue="JUnit.Array123Test.noneTest" />
+        <item itemvalue="JUnit.Array123Test.oneOneTwoOneTwoOneTest" />
+        <item itemvalue="JUnit.Array123Test.oneOneTwoThreeOneTest" />
+        <item itemvalue="JUnit.ArrayFront9Test.noneTest" />
+        <item itemvalue="JUnit.ArrayFront9Test.nineTwoThreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +197,8 @@
       <workItem from="1667579091937" duration="3711000" />
       <workItem from="1667662979542" duration="7367000" />
       <workItem from="1667738961925" duration="6997000" />
-      <workItem from="1667838769791" duration="3107000" />
+      <workItem from="1667838769791" duration="3403000" />
+      <workItem from="1667926145306" duration="2875000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -276,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667746344384</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add method:  stringBits, stringSplosion, last2">
+      <created>1667842141573</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667842141573</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +313,7 @@
     <MESSAGE value="Add method:  in3050, max1020, stringE, lastDigit, endUp" />
     <MESSAGE value="Add method:  everyNth" />
     <MESSAGE value="Add method:  stringTimes, frontTimes, countXX, doubleX" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  stringTimes, frontTimes, countXX, doubleX" />
+    <MESSAGE value="Add method:  stringBits, stringSplosion, last2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  stringBits, stringSplosion, last2" />
   </component>
 </project>
