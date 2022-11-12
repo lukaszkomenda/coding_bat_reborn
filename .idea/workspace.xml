@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  altPairs, stringYak, array667">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AltPairs/AltPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Array667/Array667.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringYak/StringYak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AltPairs/AltPairsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Array667/Array667Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StringYak/StringYakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Has271/Has271.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NoTriples/NoTriples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Has271/Has271Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NoTriples/NoTriplesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,88 +77,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.Has271" />
+      <recent name="org.example.NoTriples" />
       <recent name="org.example.Array667" />
       <recent name="org.example.StringYak" />
       <recent name="org.example.AltPairs" />
-      <recent name="org.example.StringX" />
-      <recent name="org.example.StringMatch" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AltPairsTest">
-    <configuration name="AltPairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Has271Test.twoSevenMinusOneTest">
+    <configuration name="Has271Test.oneTwoSevenOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.AltPairs.*" />
+          <option name="PATTERN" value="org.example.Has271.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.AltPairs" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AltPairs.AltPairsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array667Test.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Array667.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Array667" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Array667.Array667Test" />
-      <option name="METHOD_NAME" value="noneTest" />
+      <option name="PACKAGE_NAME" value="org.example.Has271" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Has271.Has271Test" />
+      <option name="METHOD_NAME" value="oneTwoSevenOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array667Test.sixSixTwoSixSevenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Has271Test.twoSevenFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Array667.*" />
+          <option name="PATTERN" value="org.example.Has271.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Array667" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Array667.Array667Test" />
-      <option name="METHOD_NAME" value="sixSixTwoSixSevenTest" />
+      <option name="PACKAGE_NAME" value="org.example.Has271" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Has271.Has271Test" />
+      <option name="METHOD_NAME" value="twoSevenFourTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array667Test.sixSixTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Has271Test.twoSevenMinusOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Array667.*" />
+          <option name="PATTERN" value="org.example.Has271.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Array667" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Array667.Array667Test" />
-      <option name="METHOD_NAME" value="sixSixTwoTest" />
+      <option name="PACKAGE_NAME" value="org.example.Has271" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Has271.Has271Test" />
+      <option name="METHOD_NAME" value="twoSevenMinusOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringYakTest.hiyakhiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NoTriplesTest.oneOneOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StringYak.*" />
+          <option name="PATTERN" value="org.example.NoTriples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.StringYak" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StringYak.StringYakTest" />
-      <option name="METHOD_NAME" value="hiyakhiTest" />
+      <option name="PACKAGE_NAME" value="org.example.NoTriples" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NoTriples.NoTriplesTest" />
+      <option name="METHOD_NAME" value="oneOneOneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoTriplesTest.oneOneTwoTwoOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.NoTriples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.NoTriples" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NoTriples.NoTriplesTest" />
+      <option name="METHOD_NAME" value="oneOneTwoTwoOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AltPairsTest" />
-        <item itemvalue="JUnit.Array667Test.noneTest" />
-        <item itemvalue="JUnit.Array667Test.sixSixTwoSixSevenTest" />
-        <item itemvalue="JUnit.Array667Test.sixSixTwoTest" />
-        <item itemvalue="JUnit.StringYakTest.hiyakhiTest" />
+        <item itemvalue="JUnit.Has271Test.twoSevenMinusOneTest" />
+        <item itemvalue="JUnit.Has271Test.twoSevenFourTest" />
+        <item itemvalue="JUnit.Has271Test.oneTwoSevenOneTest" />
+        <item itemvalue="JUnit.NoTriplesTest.oneOneOneTest" />
+        <item itemvalue="JUnit.NoTriplesTest.oneOneTwoTwoOneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +198,8 @@
       <workItem from="1667838769791" duration="3403000" />
       <workItem from="1667926145306" duration="3213000" />
       <workItem from="1668013398134" duration="3313000" />
-      <workItem from="1668185301629" duration="4449000" />
+      <workItem from="1668185301629" duration="4542000" />
+      <workItem from="1668271496225" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -299,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668018009457</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add method:  altPairs, stringYak, array667">
+      <created>1668190919748</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668190919748</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
