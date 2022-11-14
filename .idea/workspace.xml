@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  noTriples, has271">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HelloName/HelloName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MakeAbba/MakeAbba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MakeTags/MakeTags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HelloName/HelloNameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MakeAbba/MakeAbbaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MakeTags/MakeTagsTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  helloName, makeAbba, makeTags">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExtraEnd/ExtraEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MakeOutWord/MakeOutWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ExtraEnd/ExtraEndTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MakeOutWord/MakeOutWordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,89 +82,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.ExtraEnd" />
+      <recent name="org.example.MakeOutWord" />
       <recent name="org.example.MakeTags" />
       <recent name="org.example.MakeAbba" />
       <recent name="org.example.HelloName" />
-      <recent name="org.example.Has271" />
-      <recent name="org.example.NoTriples" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MakeTagsTest.noneTest">
-    <configuration name="MakeAbbaTest.noneYTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExtraEndTest.codeTest">
+    <configuration name="ExtraEndTest.codeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.MakeAbba.*" />
+          <option name="PATTERN" value="org.example.ExtraEnd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.MakeAbba" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MakeAbba.MakeAbbaTest" />
-      <option name="METHOD_NAME" value="noneYTest" />
+      <option name="PACKAGE_NAME" value="org.example.ExtraEnd" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ExtraEnd.ExtraEndTest" />
+      <option name="METHOD_NAME" value="codeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeAbbaTest.xyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtraEndTest.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.MakeAbba.*" />
+          <option name="PATTERN" value="org.example.ExtraEnd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.MakeAbba" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MakeAbba.MakeAbbaTest" />
-      <option name="METHOD_NAME" value="xyTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MakeTagsTest.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.MakeTags.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.MakeTags" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MakeTags.MakeTagsTest" />
+      <option name="PACKAGE_NAME" value="org.example.ExtraEnd" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ExtraEnd.ExtraEndTest" />
       <option name="METHOD_NAME" value="helloTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeTagsTest.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtraEndTest.hiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.MakeTags.*" />
+          <option name="PATTERN" value="org.example.ExtraEnd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.MakeTags" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MakeTags.MakeTagsTest" />
-      <option name="METHOD_NAME" value="noneTest" />
+      <option name="PACKAGE_NAME" value="org.example.ExtraEnd" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ExtraEnd.ExtraEndTest" />
+      <option name="METHOD_NAME" value="hiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeTagsTest.yayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MakeOutWordTest.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.MakeTags.*" />
+          <option name="PATTERN" value="org.example.MakeOutWord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.MakeTags" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MakeTags.MakeTagsTest" />
-      <option name="METHOD_NAME" value="yayTest" />
+      <option name="PACKAGE_NAME" value="org.example.MakeOutWord" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MakeOutWord.MakeOutWordTest" />
+      <option name="METHOD_NAME" value="helloTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MakeOutWordTest.wordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.MakeOutWord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.MakeOutWord" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MakeOutWord.MakeOutWordTest" />
+      <option name="METHOD_NAME" value="wordTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MakeTagsTest.noneTest" />
-        <item itemvalue="JUnit.MakeTagsTest.helloTest" />
-        <item itemvalue="JUnit.MakeTagsTest.yayTest" />
-        <item itemvalue="JUnit.MakeAbbaTest.noneYTest" />
-        <item itemvalue="JUnit.MakeAbbaTest.xyTest" />
+        <item itemvalue="JUnit.ExtraEndTest.codeTest" />
+        <item itemvalue="JUnit.ExtraEndTest.hiTest" />
+        <item itemvalue="JUnit.ExtraEndTest.helloTest" />
+        <item itemvalue="JUnit.MakeOutWordTest.helloTest" />
+        <item itemvalue="JUnit.MakeOutWordTest.wordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +205,8 @@
       <workItem from="1668013398134" duration="3313000" />
       <workItem from="1668185301629" duration="4542000" />
       <workItem from="1668271496225" duration="2908000" />
-      <workItem from="1668359188070" duration="3170000" />
+      <workItem from="1668359188070" duration="3537000" />
+      <workItem from="1668443588203" duration="4265000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -321,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668275274893</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add method:  helloName, makeAbba, makeTags">
+      <created>1668363405260</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668363405260</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +361,7 @@
     <MESSAGE value="Add method:  stringMatch, stringX" />
     <MESSAGE value="Add method:  altPairs, stringYak, array667" />
     <MESSAGE value="Add method:  noTriples, has271" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  noTriples, has271" />
+    <MESSAGE value="Add method:  helloName, makeAbba, makeTags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  helloName, makeAbba, makeTags" />
   </component>
 </project>
