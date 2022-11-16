@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  firstHalf, withoutEnd, comboString">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FirstTwo/FirstTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FirstTwo/FirstTwoTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  firstTwo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Left2/Left2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NonStart/NonStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Left2/Left2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NonStart/NonStartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,89 +82,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.Left2" />
+      <recent name="org.example.NonStart" />
       <recent name="org.example.FirstTwo" />
       <recent name="org.example.ComboString" />
       <recent name="org.example.WithoutEnd" />
-      <recent name="org.example.FirstHalf" />
-      <recent name="org.example.ExtraEnd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTwoTest.noneTest">
-    <configuration name="ComboStringTest.noneBbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Left2Test.catTest">
+    <configuration name="Left2Test.catTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ComboString.*" />
+          <option name="PATTERN" value="org.example.Left2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ComboString" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ComboString.ComboStringTest" />
-      <option name="METHOD_NAME" value="noneBbTest" />
+      <option name="PACKAGE_NAME" value="org.example.Left2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Left2.Left2Test" />
+      <option name="METHOD_NAME" value="catTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComboStringTest.xyzAbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Left2Test.hiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ComboString.*" />
+          <option name="PATTERN" value="org.example.Left2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ComboString" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ComboString.ComboStringTest" />
-      <option name="METHOD_NAME" value="xyzAbTest" />
+      <option name="PACKAGE_NAME" value="org.example.Left2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Left2.Left2Test" />
+      <option name="METHOD_NAME" value="hiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTwoTest.aTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Left2Test.javaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.FirstTwo.*" />
+          <option name="PATTERN" value="org.example.Left2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.FirstTwo" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FirstTwo.FirstTwoTest" />
-      <option name="METHOD_NAME" value="aTest" />
+      <option name="PACKAGE_NAME" value="org.example.Left2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Left2.Left2Test" />
+      <option name="METHOD_NAME" value="javaTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTwoTest.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NonStartTest.abXyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.FirstTwo.*" />
+          <option name="PATTERN" value="org.example.NonStart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.FirstTwo" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FirstTwo.FirstTwoTest" />
-      <option name="METHOD_NAME" value="helloTest" />
+      <option name="PACKAGE_NAME" value="org.example.NonStart" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NonStart.NonStartTest" />
+      <option name="METHOD_NAME" value="abXyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTwoTest.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NonStartTest.axTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.FirstTwo.*" />
+          <option name="PATTERN" value="org.example.NonStart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.FirstTwo" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FirstTwo.FirstTwoTest" />
-      <option name="METHOD_NAME" value="noneTest" />
+      <option name="PACKAGE_NAME" value="org.example.NonStart" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NonStart.NonStartTest" />
+      <option name="METHOD_NAME" value="axTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstTwoTest.noneTest" />
-        <item itemvalue="JUnit.FirstTwoTest.aTest" />
-        <item itemvalue="JUnit.FirstTwoTest.helloTest" />
-        <item itemvalue="JUnit.ComboStringTest.xyzAbTest" />
-        <item itemvalue="JUnit.ComboStringTest.noneBbTest" />
+        <item itemvalue="JUnit.Left2Test.catTest" />
+        <item itemvalue="JUnit.Left2Test.hiTest" />
+        <item itemvalue="JUnit.Left2Test.javaTest" />
+        <item itemvalue="JUnit.NonStartTest.axTest" />
+        <item itemvalue="JUnit.NonStartTest.abXyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +208,7 @@
       <workItem from="1668359188070" duration="3537000" />
       <workItem from="1668443588203" duration="4437000" />
       <workItem from="1668531699171" duration="2302000" />
-      <workItem from="1668616565456" duration="686000" />
+      <workItem from="1668616565456" duration="2210000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -341,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668534003611</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add method:  firstTwo">
+      <created>1668617296914</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668617296914</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +387,7 @@
     <MESSAGE value="Add method:  helloName, makeAbba, makeTags" />
     <MESSAGE value="Add method:  makeOutWord, extraEnd" />
     <MESSAGE value="Add method:  firstHalf, withoutEnd, comboString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  firstHalf, withoutEnd, comboString" />
+    <MESSAGE value="Add method:  firstTwo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  firstTwo" />
   </component>
 </project>
