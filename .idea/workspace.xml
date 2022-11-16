@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  makeOutWord, extraEnd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ComboString/ComboString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FirstHalf/FirstHalf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WithoutEnd/WithoutEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ComboString/ComboStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FirstHalf/FirstHalfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WithoutEnd/WithoutEndTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  firstHalf, withoutEnd, comboString">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FirstTwo/FirstTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FirstTwo/FirstTwoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,30 +80,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.FirstTwo" />
       <recent name="org.example.ComboString" />
       <recent name="org.example.WithoutEnd" />
       <recent name="org.example.FirstHalf" />
       <recent name="org.example.ExtraEnd" />
-      <recent name="org.example.MakeOutWord" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComboStringTest.xyzAbTest">
-    <configuration name="ComboStringTest.helloHiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ComboString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.ComboString" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ComboString.ComboStringTest" />
-      <option name="METHOD_NAME" value="helloHiTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FirstTwoTest.noneTest">
     <configuration name="ComboStringTest.noneBbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -140,33 +120,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithoutEndTest.abTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTwoTest.aTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.WithoutEnd.*" />
+          <option name="PATTERN" value="org.example.FirstTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.WithoutEnd" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WithoutEnd.WithoutEndTest" />
-      <option name="METHOD_NAME" value="abTest" />
+      <option name="PACKAGE_NAME" value="org.example.FirstTwo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FirstTwo.FirstTwoTest" />
+      <option name="METHOD_NAME" value="aTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithoutEndTest.codingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTwoTest.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.WithoutEnd.*" />
+          <option name="PATTERN" value="org.example.FirstTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.WithoutEnd" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WithoutEnd.WithoutEndTest" />
-      <option name="METHOD_NAME" value="codingTest" />
+      <option name="PACKAGE_NAME" value="org.example.FirstTwo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FirstTwo.FirstTwoTest" />
+      <option name="METHOD_NAME" value="helloTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTwoTest.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.FirstTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.FirstTwo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FirstTwo.FirstTwoTest" />
+      <option name="METHOD_NAME" value="noneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTwoTest.noneTest" />
+        <item itemvalue="JUnit.FirstTwoTest.aTest" />
+        <item itemvalue="JUnit.FirstTwoTest.helloTest" />
         <item itemvalue="JUnit.ComboStringTest.xyzAbTest" />
         <item itemvalue="JUnit.ComboStringTest.noneBbTest" />
-        <item itemvalue="JUnit.ComboStringTest.helloHiTest" />
-        <item itemvalue="JUnit.WithoutEndTest.abTest" />
-        <item itemvalue="JUnit.WithoutEndTest.codingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +205,8 @@
       <workItem from="1668271496225" duration="2908000" />
       <workItem from="1668359188070" duration="3537000" />
       <workItem from="1668443588203" duration="4437000" />
-      <workItem from="1668531699171" duration="2231000" />
+      <workItem from="1668531699171" duration="2302000" />
+      <workItem from="1668616565456" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -337,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668448697453</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add method:  firstHalf, withoutEnd, comboString">
+      <created>1668534003611</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668534003611</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +377,7 @@
     <MESSAGE value="Add method:  noTriples, has271" />
     <MESSAGE value="Add method:  helloName, makeAbba, makeTags" />
     <MESSAGE value="Add method:  makeOutWord, extraEnd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  makeOutWord, extraEnd" />
+    <MESSAGE value="Add method:  firstHalf, withoutEnd, comboString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  firstHalf, withoutEnd, comboString" />
   </component>
 </project>
