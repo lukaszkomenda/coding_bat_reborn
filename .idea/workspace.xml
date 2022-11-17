@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  firstTwo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Left2/Left2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NonStart/NonStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Left2/Left2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NonStart/NonStartTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  nonStart, left2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Right2/Right2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TheEnd/TheEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WithoutEnd2/WithoutEnd2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Right2/Right2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TheEnd/TheEndTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WithoutEnd2/WithoutEnd2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,89 +84,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.WithoutEnd2" />
+      <recent name="org.example.TheEnd" />
+      <recent name="org.example.Right2" />
       <recent name="org.example.Left2" />
       <recent name="org.example.NonStart" />
-      <recent name="org.example.FirstTwo" />
-      <recent name="org.example.ComboString" />
-      <recent name="org.example.WithoutEnd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Left2Test.catTest">
-    <configuration name="Left2Test.catTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WithoutEnd2Test.aTest">
+    <configuration name="TheEndTest.helloBackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Left2.*" />
+          <option name="PATTERN" value="org.example.TheEnd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Left2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Left2.Left2Test" />
-      <option name="METHOD_NAME" value="catTest" />
+      <option name="PACKAGE_NAME" value="org.example.TheEnd" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TheEnd.TheEndTest" />
+      <option name="METHOD_NAME" value="helloBackTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Left2Test.hiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TheEndTest.xFrontTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Left2.*" />
+          <option name="PATTERN" value="org.example.TheEnd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Left2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Left2.Left2Test" />
-      <option name="METHOD_NAME" value="hiTest" />
+      <option name="PACKAGE_NAME" value="org.example.TheEnd" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TheEnd.TheEndTest" />
+      <option name="METHOD_NAME" value="xFrontTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Left2Test.javaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WithoutEnd2Test.aTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Left2.*" />
+          <option name="PATTERN" value="org.example.WithoutEnd2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Left2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Left2.Left2Test" />
-      <option name="METHOD_NAME" value="javaTest" />
+      <option name="PACKAGE_NAME" value="org.example.WithoutEnd2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WithoutEnd2.WithoutEnd2Test" />
+      <option name="METHOD_NAME" value="aTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonStartTest.abXyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WithoutEnd2Test.abcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.NonStart.*" />
+          <option name="PATTERN" value="org.example.WithoutEnd2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.NonStart" />
-      <option name="MAIN_CLASS_NAME" value="org.example.NonStart.NonStartTest" />
-      <option name="METHOD_NAME" value="abXyTest" />
+      <option name="PACKAGE_NAME" value="org.example.WithoutEnd2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WithoutEnd2.WithoutEnd2Test" />
+      <option name="METHOD_NAME" value="abcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonStartTest.axTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WithoutEnd2Test.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.NonStart.*" />
+          <option name="PATTERN" value="org.example.WithoutEnd2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.NonStart" />
-      <option name="MAIN_CLASS_NAME" value="org.example.NonStart.NonStartTest" />
-      <option name="METHOD_NAME" value="axTest" />
+      <option name="PACKAGE_NAME" value="org.example.WithoutEnd2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WithoutEnd2.WithoutEnd2Test" />
+      <option name="METHOD_NAME" value="helloTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Left2Test.catTest" />
-        <item itemvalue="JUnit.Left2Test.hiTest" />
-        <item itemvalue="JUnit.Left2Test.javaTest" />
-        <item itemvalue="JUnit.NonStartTest.axTest" />
-        <item itemvalue="JUnit.NonStartTest.abXyTest" />
+        <item itemvalue="JUnit.WithoutEnd2Test.aTest" />
+        <item itemvalue="JUnit.WithoutEnd2Test.abcTest" />
+        <item itemvalue="JUnit.WithoutEnd2Test.helloTest" />
+        <item itemvalue="JUnit.TheEndTest.xFrontTest" />
+        <item itemvalue="JUnit.TheEndTest.helloBackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +210,8 @@
       <workItem from="1668359188070" duration="3537000" />
       <workItem from="1668443588203" duration="4437000" />
       <workItem from="1668531699171" duration="2302000" />
-      <workItem from="1668616565456" duration="2210000" />
+      <workItem from="1668616565456" duration="2307000" />
+      <workItem from="1668706636543" duration="2144000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -350,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668617296914</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add method:  nonStart, left2">
+      <created>1668618874798</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668618874798</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,6 +398,7 @@
     <MESSAGE value="Add method:  makeOutWord, extraEnd" />
     <MESSAGE value="Add method:  firstHalf, withoutEnd, comboString" />
     <MESSAGE value="Add method:  firstTwo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  firstTwo" />
+    <MESSAGE value="Add method:  nonStart, left2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  nonStart, left2" />
   </component>
 </project>
