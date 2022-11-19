@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  nonStart, left2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Right2/Right2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TheEnd/TheEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WithoutEnd2/WithoutEnd2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Right2/Right2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TheEnd/TheEndTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WithoutEnd2/WithoutEnd2Test.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  Right2, TheEnd, WithoutEnd2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EndsLy/EndsLy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MiddleTwo/MiddleTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NTwice/NTwice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/EndsLy/EndsLyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MiddleTwo/MiddleTwoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NTwice/NTwiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,88 +84,88 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.NTwice" />
+      <recent name="org.example.EndsLy" />
+      <recent name="org.example.MiddleTwo" />
       <recent name="org.example.WithoutEnd2" />
       <recent name="org.example.TheEnd" />
-      <recent name="org.example.Right2" />
-      <recent name="org.example.Left2" />
-      <recent name="org.example.NonStart" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WithoutEnd2Test.aTest">
-    <configuration name="TheEndTest.helloBackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NTwiceTest.chocolateTest">
+    <configuration name="EndsLyTest.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.TheEnd.*" />
+          <option name="PATTERN" value="org.example.EndsLy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.TheEnd" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TheEnd.TheEndTest" />
-      <option name="METHOD_NAME" value="helloBackTest" />
+      <option name="PACKAGE_NAME" value="org.example.EndsLy" />
+      <option name="MAIN_CLASS_NAME" value="org.example.EndsLy.EndsLyTest" />
+      <option name="METHOD_NAME" value="noneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheEndTest.xFrontTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EndsLyTest.yTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.TheEnd.*" />
+          <option name="PATTERN" value="org.example.EndsLy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.TheEnd" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TheEnd.TheEndTest" />
-      <option name="METHOD_NAME" value="xFrontTest" />
+      <option name="PACKAGE_NAME" value="org.example.EndsLy" />
+      <option name="MAIN_CLASS_NAME" value="org.example.EndsLy.EndsLyTest" />
+      <option name="METHOD_NAME" value="yTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithoutEnd2Test.aTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NTwiceTest.chocolateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.WithoutEnd2.*" />
+          <option name="PATTERN" value="org.example.NTwice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.WithoutEnd2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WithoutEnd2.WithoutEnd2Test" />
-      <option name="METHOD_NAME" value="aTest" />
+      <option name="PACKAGE_NAME" value="org.example.NTwice" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NTwice.NTwiceTest" />
+      <option name="METHOD_NAME" value="chocolateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithoutEnd2Test.abcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NTwiceTest.codeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.WithoutEnd2.*" />
+          <option name="PATTERN" value="org.example.NTwice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.WithoutEnd2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WithoutEnd2.WithoutEnd2Test" />
-      <option name="METHOD_NAME" value="abcTest" />
+      <option name="PACKAGE_NAME" value="org.example.NTwice" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NTwice.NTwiceTest" />
+      <option name="METHOD_NAME" value="codeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithoutEnd2Test.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NTwiceTest.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.WithoutEnd2.*" />
+          <option name="PATTERN" value="org.example.NTwice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.WithoutEnd2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WithoutEnd2.WithoutEnd2Test" />
+      <option name="PACKAGE_NAME" value="org.example.NTwice" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NTwice.NTwiceTest" />
       <option name="METHOD_NAME" value="helloTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WithoutEnd2Test.aTest" />
-        <item itemvalue="JUnit.WithoutEnd2Test.abcTest" />
-        <item itemvalue="JUnit.WithoutEnd2Test.helloTest" />
-        <item itemvalue="JUnit.TheEndTest.xFrontTest" />
-        <item itemvalue="JUnit.TheEndTest.helloBackTest" />
+        <item itemvalue="JUnit.NTwiceTest.chocolateTest" />
+        <item itemvalue="JUnit.NTwiceTest.codeTest" />
+        <item itemvalue="JUnit.NTwiceTest.helloTest" />
+        <item itemvalue="JUnit.EndsLyTest.noneTest" />
+        <item itemvalue="JUnit.EndsLyTest.yTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +211,8 @@
       <workItem from="1668443588203" duration="4437000" />
       <workItem from="1668531699171" duration="2302000" />
       <workItem from="1668616565456" duration="2307000" />
-      <workItem from="1668706636543" duration="2144000" />
+      <workItem from="1668706636543" duration="2233000" />
+      <workItem from="1668868329625" duration="3336000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -360,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668618874798</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add method:  Right2, TheEnd, WithoutEnd2">
+      <created>1668708876145</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668708876145</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +407,7 @@
     <MESSAGE value="Add method:  firstHalf, withoutEnd, comboString" />
     <MESSAGE value="Add method:  firstTwo" />
     <MESSAGE value="Add method:  nonStart, left2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  nonStart, left2" />
+    <MESSAGE value="Add method:  Right2, TheEnd, WithoutEnd2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  Right2, TheEnd, WithoutEnd2" />
   </component>
 </project>
