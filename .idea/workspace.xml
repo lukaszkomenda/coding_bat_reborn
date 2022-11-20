@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  Right2, TheEnd, WithoutEnd2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EndsLy/EndsLy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MiddleTwo/MiddleTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NTwice/NTwice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/EndsLy/EndsLyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MiddleTwo/MiddleTwoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NTwice/NTwiceTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  middleTwo, endsLy, nTwice">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MiddleThree/MiddleThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TwoChar/TwoChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MiddleThree/MiddleThreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TwoChar/TwoCharTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,89 +82,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.MiddleThree" />
+      <recent name="org.example.TwoChar" />
       <recent name="org.example.NTwice" />
       <recent name="org.example.EndsLy" />
       <recent name="org.example.MiddleTwo" />
-      <recent name="org.example.WithoutEnd2" />
-      <recent name="org.example.TheEnd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NTwiceTest.chocolateTest">
-    <configuration name="EndsLyTest.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MiddleThreeTest.javaYetTest">
+    <configuration name="MiddleThreeTest.candyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.EndsLy.*" />
+          <option name="PATTERN" value="org.example.MiddleThree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.EndsLy" />
-      <option name="MAIN_CLASS_NAME" value="org.example.EndsLy.EndsLyTest" />
-      <option name="METHOD_NAME" value="noneTest" />
+      <option name="PACKAGE_NAME" value="org.example.MiddleThree" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MiddleThree.MiddleThreeTest" />
+      <option name="METHOD_NAME" value="candyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EndsLyTest.yTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MiddleThreeTest.javaYetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.EndsLy.*" />
+          <option name="PATTERN" value="org.example.MiddleThree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.EndsLy" />
-      <option name="MAIN_CLASS_NAME" value="org.example.EndsLy.EndsLyTest" />
-      <option name="METHOD_NAME" value="yTest" />
+      <option name="PACKAGE_NAME" value="org.example.MiddleThree" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MiddleThree.MiddleThreeTest" />
+      <option name="METHOD_NAME" value="javaYetTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NTwiceTest.chocolateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MiddleThreeTest.solvingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.NTwice.*" />
+          <option name="PATTERN" value="org.example.MiddleThree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.NTwice" />
-      <option name="MAIN_CLASS_NAME" value="org.example.NTwice.NTwiceTest" />
-      <option name="METHOD_NAME" value="chocolateTest" />
+      <option name="PACKAGE_NAME" value="org.example.MiddleThree" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MiddleThree.MiddleThreeTest" />
+      <option name="METHOD_NAME" value="solvingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NTwiceTest.codeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoCharTest.javaMinusOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.NTwice.*" />
+          <option name="PATTERN" value="org.example.TwoChar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.NTwice" />
-      <option name="MAIN_CLASS_NAME" value="org.example.NTwice.NTwiceTest" />
-      <option name="METHOD_NAME" value="codeTest" />
+      <option name="PACKAGE_NAME" value="org.example.TwoChar" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TwoChar.TwoCharTest" />
+      <option name="METHOD_NAME" value="javaMinusOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NTwiceTest.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoCharTest.javaZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.NTwice.*" />
+          <option name="PATTERN" value="org.example.TwoChar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.NTwice" />
-      <option name="MAIN_CLASS_NAME" value="org.example.NTwice.NTwiceTest" />
-      <option name="METHOD_NAME" value="helloTest" />
+      <option name="PACKAGE_NAME" value="org.example.TwoChar" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TwoChar.TwoCharTest" />
+      <option name="METHOD_NAME" value="javaZeroTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NTwiceTest.chocolateTest" />
-        <item itemvalue="JUnit.NTwiceTest.codeTest" />
-        <item itemvalue="JUnit.NTwiceTest.helloTest" />
-        <item itemvalue="JUnit.EndsLyTest.noneTest" />
-        <item itemvalue="JUnit.EndsLyTest.yTest" />
+        <item itemvalue="JUnit.MiddleThreeTest.javaYetTest" />
+        <item itemvalue="JUnit.MiddleThreeTest.solvingTest" />
+        <item itemvalue="JUnit.MiddleThreeTest.candyTest" />
+        <item itemvalue="JUnit.TwoCharTest.javaMinusOneTest" />
+        <item itemvalue="JUnit.TwoCharTest.javaZeroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +210,8 @@
       <workItem from="1668531699171" duration="2302000" />
       <workItem from="1668616565456" duration="2307000" />
       <workItem from="1668706636543" duration="2233000" />
-      <workItem from="1668868329625" duration="3336000" />
+      <workItem from="1668868329625" duration="3727000" />
+      <workItem from="1668962987525" duration="3554000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -368,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668708876145</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add method:  middleTwo, endsLy, nTwice">
+      <created>1668872223493</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668872223493</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,6 +414,7 @@
     <MESSAGE value="Add method:  firstTwo" />
     <MESSAGE value="Add method:  nonStart, left2" />
     <MESSAGE value="Add method:  Right2, TheEnd, WithoutEnd2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  Right2, TheEnd, WithoutEnd2" />
+    <MESSAGE value="Add method:  middleTwo, endsLy, nTwice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  middleTwo, endsLy, nTwice" />
   </component>
 </project>
