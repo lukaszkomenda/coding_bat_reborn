@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  hasBad, atFirst, lastChars">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConCat/ConCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LastTwo/LastTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ConCat/ConCatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LastTwo/LastTwoTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  lastTwo (correct a mistake)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FrontAgain/FrontAgain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SeeColor/SeeColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FrontAgain/FrontAgainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SeeColor/SeeColorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,89 +82,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.FrontAgain" />
+      <recent name="org.example.SeeColor" />
       <recent name="org.example.LastTwo" />
       <recent name="org.example.ConCat" />
       <recent name="org.example.LastChars" />
-      <recent name="org.example.AtFirst" />
-      <recent name="org.example.HasBad" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LastTwoTest.noneTest">
-    <configuration name="ConCatTest.abcNoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FrontAgainTest.xTest">
+    <configuration name="FrontAgainTest.editTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ConCat.*" />
+          <option name="PATTERN" value="org.example.FrontAgain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ConCat" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ConCat.ConCatTest" />
-      <option name="METHOD_NAME" value="abcNoneTest" />
+      <option name="PACKAGE_NAME" value="org.example.FrontAgain" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FrontAgain.FrontAgainTest" />
+      <option name="METHOD_NAME" value="editTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConCatTest.pigGTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FrontAgainTest.editedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ConCat.*" />
+          <option name="PATTERN" value="org.example.FrontAgain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ConCat" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ConCat.ConCatTest" />
-      <option name="METHOD_NAME" value="pigGTest" />
+      <option name="PACKAGE_NAME" value="org.example.FrontAgain" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FrontAgain.FrontAgainTest" />
+      <option name="METHOD_NAME" value="editedTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastTwoTest.abTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FrontAgainTest.xTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.LastTwo.*" />
+          <option name="PATTERN" value="org.example.FrontAgain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.LastTwo" />
-      <option name="MAIN_CLASS_NAME" value="org.example.LastTwo.LastTwoTest" />
-      <option name="METHOD_NAME" value="abTest" />
+      <option name="PACKAGE_NAME" value="org.example.FrontAgain" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FrontAgain.FrontAgainTest" />
+      <option name="METHOD_NAME" value="xTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastTwoTest.catTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeeColorTest.aTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.LastTwo.*" />
+          <option name="PATTERN" value="org.example.SeeColor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.LastTwo" />
-      <option name="MAIN_CLASS_NAME" value="org.example.LastTwo.LastTwoTest" />
-      <option name="METHOD_NAME" value="catTest" />
+      <option name="PACKAGE_NAME" value="org.example.SeeColor" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SeeColor.SeeColorTest" />
+      <option name="METHOD_NAME" value="aTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastTwoTest.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeeColorTest.noColorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.LastTwo.*" />
+          <option name="PATTERN" value="org.example.SeeColor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.LastTwo" />
-      <option name="MAIN_CLASS_NAME" value="org.example.LastTwo.LastTwoTest" />
-      <option name="METHOD_NAME" value="noneTest" />
+      <option name="PACKAGE_NAME" value="org.example.SeeColor" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SeeColor.SeeColorTest" />
+      <option name="METHOD_NAME" value="noColorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LastTwoTest.noneTest" />
-        <item itemvalue="JUnit.LastTwoTest.abTest" />
-        <item itemvalue="JUnit.LastTwoTest.catTest" />
-        <item itemvalue="JUnit.ConCatTest.pigGTest" />
-        <item itemvalue="JUnit.ConCatTest.abcNoneTest" />
+        <item itemvalue="JUnit.FrontAgainTest.xTest" />
+        <item itemvalue="JUnit.FrontAgainTest.editTest" />
+        <item itemvalue="JUnit.FrontAgainTest.editedTest" />
+        <item itemvalue="JUnit.SeeColorTest.aTest" />
+        <item itemvalue="JUnit.SeeColorTest.noColorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,10 @@
       <workItem from="1668868329625" duration="3727000" />
       <workItem from="1668962987525" duration="3604000" />
       <workItem from="1669047900926" duration="3894000" />
-      <workItem from="1669222766508" duration="4945000" />
+      <workItem from="1669222766508" duration="5479000" />
+      <workItem from="1669311779140" duration="1000" />
+      <workItem from="1669311813353" duration="9000" />
+      <workItem from="1669312230387" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -390,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669051318293</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add method:  conCat, lastTwo">
+      <created>1669228770818</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1669228770818</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add method:  lastTwo (correct a mistake)">
+      <created>1669228858499</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1669228858499</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,8 +425,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble" />
-    <MESSAGE value="Add method:  makes10, nearHundred, posNeg" />
     <MESSAGE value="Add method:  makes10, nearHundred" />
     <MESSAGE value="Add method:  notString, missingChar, frontBack, front3, backAround" />
     <MESSAGE value="Add method:  or35, front22, startHi" />
@@ -433,6 +448,8 @@
     <MESSAGE value="Add method:  middleTwo, endsLy, nTwice" />
     <MESSAGE value="Add method:  twoChar, middleThree" />
     <MESSAGE value="Add method:  hasBad, atFirst, lastChars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  hasBad, atFirst, lastChars" />
+    <MESSAGE value="Add method:  conCat, lastTwo" />
+    <MESSAGE value="Add method:  lastTwo (correct a mistake)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  lastTwo (correct a mistake)" />
   </component>
 </project>
