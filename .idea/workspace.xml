@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  lastTwo (correct a mistake)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FrontAgain/FrontAgain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SeeColor/SeeColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FrontAgain/FrontAgainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SeeColor/SeeColorTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  seeColor, frontAgain">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExtraFront/ExtraFront.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MinCat/MinCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ExtraFront/ExtraFrontTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MinCat/MinCatTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,89 +82,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.ExtraFront" />
+      <recent name="org.example.MinCat" />
       <recent name="org.example.FrontAgain" />
       <recent name="org.example.SeeColor" />
       <recent name="org.example.LastTwo" />
-      <recent name="org.example.ConCat" />
-      <recent name="org.example.LastChars" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FrontAgainTest.xTest">
-    <configuration name="FrontAgainTest.editTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExtraFrontTest.noneTest">
+    <configuration name="ExtraFrontTest.hTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.FrontAgain.*" />
+          <option name="PATTERN" value="org.example.ExtraFront.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.FrontAgain" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FrontAgain.FrontAgainTest" />
-      <option name="METHOD_NAME" value="editTest" />
+      <option name="PACKAGE_NAME" value="org.example.ExtraFront" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ExtraFront.ExtraFrontTest" />
+      <option name="METHOD_NAME" value="hTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrontAgainTest.editedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtraFrontTest.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.FrontAgain.*" />
+          <option name="PATTERN" value="org.example.ExtraFront.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.FrontAgain" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FrontAgain.FrontAgainTest" />
-      <option name="METHOD_NAME" value="editedTest" />
+      <option name="PACKAGE_NAME" value="org.example.ExtraFront" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ExtraFront.ExtraFrontTest" />
+      <option name="METHOD_NAME" value="helloTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrontAgainTest.xTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtraFrontTest.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.FrontAgain.*" />
+          <option name="PATTERN" value="org.example.ExtraFront.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.FrontAgain" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FrontAgain.FrontAgainTest" />
-      <option name="METHOD_NAME" value="xTest" />
+      <option name="PACKAGE_NAME" value="org.example.ExtraFront" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ExtraFront.ExtraFrontTest" />
+      <option name="METHOD_NAME" value="noneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeeColorTest.aTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinCatTest.abcNoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SeeColor.*" />
+          <option name="PATTERN" value="org.example.MinCat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.SeeColor" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SeeColor.SeeColorTest" />
-      <option name="METHOD_NAME" value="aTest" />
+      <option name="PACKAGE_NAME" value="org.example.MinCat" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MinCat.MinCatTest" />
+      <option name="METHOD_NAME" value="abcNoneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeeColorTest.noColorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinCatTest.abcXTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SeeColor.*" />
+          <option name="PATTERN" value="org.example.MinCat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.SeeColor" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SeeColor.SeeColorTest" />
-      <option name="METHOD_NAME" value="noColorTest" />
+      <option name="PACKAGE_NAME" value="org.example.MinCat" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MinCat.MinCatTest" />
+      <option name="METHOD_NAME" value="abcXTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FrontAgainTest.xTest" />
-        <item itemvalue="JUnit.FrontAgainTest.editTest" />
-        <item itemvalue="JUnit.FrontAgainTest.editedTest" />
-        <item itemvalue="JUnit.SeeColorTest.aTest" />
-        <item itemvalue="JUnit.SeeColorTest.noColorTest" />
+        <item itemvalue="JUnit.ExtraFrontTest.noneTest" />
+        <item itemvalue="JUnit.ExtraFrontTest.hTest" />
+        <item itemvalue="JUnit.ExtraFrontTest.helloTest" />
+        <item itemvalue="JUnit.MinCatTest.abcNoneTest" />
+        <item itemvalue="JUnit.MinCatTest.abcXTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +216,8 @@
       <workItem from="1669222766508" duration="5479000" />
       <workItem from="1669311779140" duration="1000" />
       <workItem from="1669311813353" duration="9000" />
-      <workItem from="1669312230387" duration="1295000" />
+      <workItem from="1669312230387" duration="1404000" />
+      <workItem from="1669394782234" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -407,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669228858499</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add method:  seeColor, frontAgain">
+      <created>1669313633160</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669313633160</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +433,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  makes10, nearHundred" />
     <MESSAGE value="Add method:  notString, missingChar, frontBack, front3, backAround" />
     <MESSAGE value="Add method:  or35, front22, startHi" />
     <MESSAGE value="Add method:  icyHot, in1020, hasTeen" />
@@ -450,6 +457,7 @@
     <MESSAGE value="Add method:  hasBad, atFirst, lastChars" />
     <MESSAGE value="Add method:  conCat, lastTwo" />
     <MESSAGE value="Add method:  lastTwo (correct a mistake)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  lastTwo (correct a mistake)" />
+    <MESSAGE value="Add method:  seeColor, frontAgain" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  seeColor, frontAgain" />
   </component>
 </project>
