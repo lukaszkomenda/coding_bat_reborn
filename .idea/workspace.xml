@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  minCat, extraFront">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Without2/Without2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Without2/Without2Test.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  deFront">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DeFront/DeFront.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DeFront/DeFrontTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,89 +81,88 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.DeFront" />
       <recent name="org.example.Without2" />
       <recent name="org.example.ExtraFront" />
       <recent name="org.example.MinCat" />
       <recent name="org.example.FrontAgain" />
-      <recent name="org.example.SeeColor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Without2Test.noneTest">
-    <configuration name="ExtraFrontTest.hTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeFrontTest">
+    <configuration name="DeFrontTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ExtraFront.*" />
+          <option name="PATTERN" value="org.example.DeFront.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ExtraFront" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ExtraFront.ExtraFrontTest" />
-      <option name="METHOD_NAME" value="hTest" />
+      <option name="PACKAGE_NAME" value="org.example.DeFront" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DeFront.DeFrontTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeFrontTest.abcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DeFront.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DeFront" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DeFront.DeFrontTest" />
+      <option name="METHOD_NAME" value="abcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtraFrontTest.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeFrontTest.ayzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ExtraFront.*" />
+          <option name="PATTERN" value="org.example.DeFront.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ExtraFront" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ExtraFront.ExtraFrontTest" />
-      <option name="METHOD_NAME" value="noneTest" />
+      <option name="PACKAGE_NAME" value="org.example.DeFront" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DeFront.DeFrontTest" />
+      <option name="METHOD_NAME" value="ayzTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Without2Test.helloHeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeFrontTest.helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Without2.*" />
+          <option name="PATTERN" value="org.example.DeFront.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Without2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Without2.Without2Test" />
-      <option name="METHOD_NAME" value="helloHeTest" />
+      <option name="PACKAGE_NAME" value="org.example.DeFront" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DeFront.DeFrontTest" />
+      <option name="METHOD_NAME" value="helloTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Without2Test.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeFrontTest.xbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Without2.*" />
+          <option name="PATTERN" value="org.example.DeFront.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Without2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Without2.Without2Test" />
-      <option name="METHOD_NAME" value="noneTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Without2Test.xxxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Without2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Without2" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Without2.Without2Test" />
-      <option name="METHOD_NAME" value="xxxTest" />
+      <option name="PACKAGE_NAME" value="org.example.DeFront" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DeFront.DeFrontTest" />
+      <option name="METHOD_NAME" value="xbTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Without2Test.noneTest" />
-        <item itemvalue="JUnit.Without2Test.xxxTest" />
-        <item itemvalue="JUnit.Without2Test.helloHeTest" />
-        <item itemvalue="JUnit.ExtraFrontTest.noneTest" />
-        <item itemvalue="JUnit.ExtraFrontTest.hTest" />
+        <item itemvalue="JUnit.DeFrontTest" />
+        <item itemvalue="JUnit.DeFrontTest.ayzTest" />
+        <item itemvalue="JUnit.DeFrontTest.xbTest" />
+        <item itemvalue="JUnit.DeFrontTest.abcTest" />
+        <item itemvalue="JUnit.DeFrontTest.helloTest" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +217,9 @@
       <workItem from="1669312230387" duration="1404000" />
       <workItem from="1669394782234" duration="1923000" />
       <workItem from="1669474852583" duration="225000" />
-      <workItem from="1669486230379" duration="1392000" />
+      <workItem from="1669486230379" duration="1446000" />
+      <workItem from="1669558415857" duration="49000" />
+      <workItem from="1669566783967" duration="1948000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -423,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669396704184</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Add method:  without2">
+      <created>1669487657280</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1669487657280</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,8 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  or35, front22, startHi" />
-    <MESSAGE value="Add method:  icyHot, in1020, hasTeen" />
     <MESSAGE value="Add method:  loneTeen, delDel, mixStart" />
     <MESSAGE value="Add method:  startOz, intMax, close10" />
     <MESSAGE value="Add method:  in3050, max1020, stringE, lastDigit, endUp" />
@@ -466,6 +472,8 @@
     <MESSAGE value="Add method:  lastTwo (correct a mistake)" />
     <MESSAGE value="Add method:  seeColor, frontAgain" />
     <MESSAGE value="Add method:  minCat, extraFront" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  minCat, extraFront" />
+    <MESSAGE value="Add method:  without2" />
+    <MESSAGE value="Add method:  deFront" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  deFront" />
   </component>
 </project>
