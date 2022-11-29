@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  deFront">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StartWord/StartWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StartWord/StartWordTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/coding_bat_reborn_2.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/coding_bat_reborn_2.test.iml" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  StartWord">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WithoutX/WithoutX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WithoutX/WithoutXTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,22 +92,7 @@
       <recent name="org.example.MinCat" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StartWordTest">
-    <configuration name="DeFrontTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DeFront.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.DeFront" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DeFront.DeFrontTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WithoutXTest.hixTest">
     <configuration name="StartWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -120,38 +104,6 @@
       <option name="PACKAGE_NAME" value="org.example.StartWord" />
       <option name="MAIN_CLASS_NAME" value="org.example.StartWord.StartWordTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StartWordTest.hIxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.StartWord.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.StartWord" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StartWord.StartWordTest" />
-      <option name="METHOD_NAME" value="hIxTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StartWordTest.hippoHiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.StartWord.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.StartWord" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StartWord.StartWordTest" />
-      <option name="METHOD_NAME" value="hippoHiTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,13 +124,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WithoutXTest.hixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.WithoutX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.WithoutX" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WithoutX.WithoutXTest" />
+      <option name="METHOD_NAME" value="hixTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithoutXTest.xHiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.WithoutX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.WithoutX" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WithoutX.WithoutXTest" />
+      <option name="METHOD_NAME" value="xHiTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithoutXTest.xxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.WithoutX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.WithoutX" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WithoutX.WithoutXTest" />
+      <option name="METHOD_NAME" value="xxTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WithoutXTest.hixTest" />
+        <item itemvalue="JUnit.WithoutXTest.xxTest" />
+        <item itemvalue="JUnit.WithoutXTest.xHiTest" />
         <item itemvalue="JUnit.StartWordTest" />
         <item itemvalue="JUnit.StartWordTest.hippoXippoTest" />
-        <item itemvalue="JUnit.StartWordTest.hIxTest" />
-        <item itemvalue="JUnit.StartWordTest.hippoHiTest" />
-        <item itemvalue="JUnit.DeFrontTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +225,9 @@
       <workItem from="1669558415857" duration="49000" />
       <workItem from="1669566783967" duration="1997000" />
       <workItem from="1669653355931" duration="65000" />
-      <workItem from="1669657589679" duration="1327000" />
+      <workItem from="1669657589679" duration="1636000" />
+      <workItem from="1669739977152" duration="61000" />
+      <workItem from="1669744299010" duration="3280000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -444,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669568774447</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add method:  StartWord">
+      <created>1669660087596</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1669660087596</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  loneTeen, delDel, mixStart" />
     <MESSAGE value="Add method:  startOz, intMax, close10" />
     <MESSAGE value="Add method:  in3050, max1020, stringE, lastDigit, endUp" />
     <MESSAGE value="Add method:  everyNth" />
@@ -487,6 +495,7 @@
     <MESSAGE value="Add method:  minCat, extraFront" />
     <MESSAGE value="Add method:  without2" />
     <MESSAGE value="Add method:  deFront" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  deFront" />
+    <MESSAGE value="Add method:  StartWord" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  StartWord" />
   </component>
 </project>
