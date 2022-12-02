@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  StartWord">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WithoutX/WithoutX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WithoutX/WithoutXTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  WithoutX">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WithoutX2/WithoutX2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WithoutX2/WithoutX2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,40 +85,57 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.WithoutX2" />
+      <recent name="org.example.WithoutX" />
       <recent name="org.example.StartWord" />
       <recent name="org.example.DeFront" />
       <recent name="org.example.Without2" />
-      <recent name="org.example.ExtraFront" />
-      <recent name="org.example.MinCat" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WithoutXTest.hixTest">
-    <configuration name="StartWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WithoutX2Test.xaxbTest">
+    <configuration name="WithoutX2Test.xHiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StartWord.*" />
+          <option name="PATTERN" value="org.example.WithoutX2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.StartWord" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StartWord.StartWordTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example.WithoutX2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WithoutX2.WithoutX2Test" />
+      <option name="METHOD_NAME" value="xHiTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartWordTest.hippoXippoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WithoutX2Test.xaxbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StartWord.*" />
+          <option name="PATTERN" value="org.example.WithoutX2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.StartWord" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StartWord.StartWordTest" />
-      <option name="METHOD_NAME" value="hippoXippoTest" />
+      <option name="PACKAGE_NAME" value="org.example.WithoutX2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WithoutX2.WithoutX2Test" />
+      <option name="METHOD_NAME" value="xaxbTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithoutX2Test.xxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.WithoutX2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.WithoutX2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WithoutX2.WithoutX2Test" />
+      <option name="METHOD_NAME" value="xxTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,22 +152,6 @@
       <option name="PACKAGE_NAME" value="org.example.WithoutX" />
       <option name="MAIN_CLASS_NAME" value="org.example.WithoutX.WithoutXTest" />
       <option name="METHOD_NAME" value="hixTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WithoutXTest.xHiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.WithoutX.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.WithoutX" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WithoutX.WithoutXTest" />
-      <option name="METHOD_NAME" value="xHiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WithoutX2Test.xaxbTest" />
+        <item itemvalue="JUnit.WithoutX2Test.xxTest" />
+        <item itemvalue="JUnit.WithoutX2Test.xHiTest" />
         <item itemvalue="JUnit.WithoutXTest.hixTest" />
         <item itemvalue="JUnit.WithoutXTest.xxTest" />
-        <item itemvalue="JUnit.WithoutXTest.xHiTest" />
-        <item itemvalue="JUnit.StartWordTest" />
-        <item itemvalue="JUnit.StartWordTest.hippoXippoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +228,9 @@
       <workItem from="1669653355931" duration="65000" />
       <workItem from="1669657589679" duration="1636000" />
       <workItem from="1669739977152" duration="61000" />
-      <workItem from="1669744299010" duration="3280000" />
+      <workItem from="1669744299010" duration="4015000" />
+      <workItem from="1669914007770" duration="32000" />
+      <workItem from="1670001119352" duration="2368000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -453,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669660087596</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Add method:  WithoutX">
+      <created>1669747783788</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1669747783788</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  startOz, intMax, close10" />
     <MESSAGE value="Add method:  in3050, max1020, stringE, lastDigit, endUp" />
     <MESSAGE value="Add method:  everyNth" />
     <MESSAGE value="Add method:  stringTimes, frontTimes, countXX, doubleX" />
@@ -496,6 +505,7 @@
     <MESSAGE value="Add method:  without2" />
     <MESSAGE value="Add method:  deFront" />
     <MESSAGE value="Add method:  StartWord" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  StartWord" />
+    <MESSAGE value="Add method:  WithoutX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method:  WithoutX" />
   </component>
 </project>
