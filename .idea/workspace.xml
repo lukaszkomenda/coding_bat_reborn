@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  WithoutX2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethodsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/arrayMethods/ArrayMethodsImplTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  sameFirstLast">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethodsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/arrayMethods/ArrayMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/arrayMethods/ArrayMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +109,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayMethodsImplTest.noneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.arrayMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="noneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayMethodsImplTest.oneTwoOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.arrayMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="oneTwoOneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayMethodsImplTest.oneTwoSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -125,49 +157,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstLast6Test.oneTwoSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayMethodsImplTest.sevenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.FirstLast6.*" />
+          <option name="PATTERN" value="org.example.arrayMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.FirstLast6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FirstLast6.FirstLast6Test" />
-      <option name="METHOD_NAME" value="oneTwoSixTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstLast6Test.oneTwoThreeFourSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.FirstLast6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.FirstLast6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FirstLast6.FirstLast6Test" />
-      <option name="METHOD_NAME" value="oneTwoThreeFourSixTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstLast6Test.threeSixOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.FirstLast6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.FirstLast6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FirstLast6.FirstLast6Test" />
-      <option name="METHOD_NAME" value="threeSixOneTest" />
+      <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="sevenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,10 +176,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ArrayMethodsImplTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.noneTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.sevenTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.oneTwoOneTest" />
         <item itemvalue="JUnit.ArrayMethodsImplTest.oneTwoSixTest" />
-        <item itemvalue="JUnit.FirstLast6Test.oneTwoThreeFourSixTest" />
-        <item itemvalue="JUnit.FirstLast6Test.threeSixOneTest" />
-        <item itemvalue="JUnit.FirstLast6Test.oneTwoSixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +230,7 @@
       <workItem from="1669739977152" duration="61000" />
       <workItem from="1669744299010" duration="4015000" />
       <workItem from="1669914007770" duration="32000" />
-      <workItem from="1670001119352" duration="3876000" />
+      <workItem from="1670001119352" duration="5634000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -470,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670003528690</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Add implementation:  firstLast6">
+      <created>1670005119097</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1670005119097</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,8 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  everyNth" />
-    <MESSAGE value="Add method:  stringTimes, frontTimes, countXX, doubleX" />
     <MESSAGE value="Add method:  stringBits, stringSplosion, last2" />
     <MESSAGE value="Add method:  arrayCount9, arrayFront9, array123" />
     <MESSAGE value="Add method:  stringMatch, stringX" />
@@ -513,6 +518,8 @@
     <MESSAGE value="Add method:  StartWord" />
     <MESSAGE value="Add method:  WithoutX" />
     <MESSAGE value="Add method:  WithoutX2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  WithoutX2" />
+    <MESSAGE value="Add implementation:  firstLast6" />
+    <MESSAGE value="Add implementation:  sameFirstLast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  sameFirstLast" />
   </component>
 </project>

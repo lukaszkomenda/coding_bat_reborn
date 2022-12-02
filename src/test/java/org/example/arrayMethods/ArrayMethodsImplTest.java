@@ -8,6 +8,7 @@ class ArrayMethodsImplTest {
 
     ArrayMethods arrayMethods = new ArrayMethodsImpl();
 
+    //firstLast6Tests
     @Test
     void oneTwoSixTest(){
         //given
@@ -38,4 +39,34 @@ class ArrayMethodsImplTest {
         assertTrue(isSixContains);
     }
 
+    //sameFirstLastTests
+    @Test
+    void oneTwoOneTest() {
+        //given
+        int[] nums = {1,2,1};
+        //when
+        boolean isFirstAndLastSame = arrayMethods.sameFirstLast(nums);
+        //then
+        assertTrue(isFirstAndLastSame);
+    }
+
+    @Test
+    void sevenTest(){
+        //given
+        int[] nums = {7};
+        //when
+        boolean isFirstAndLastSame = arrayMethods.sameFirstLast(nums);
+        //then
+        assertTrue(isFirstAndLastSame);
+    }
+
+    @Test
+    void noneTest(){
+        //given
+        int[] nums = {0};
+        //when
+        boolean isFirstAndLastSame = arrayMethods.sameFirstLast(nums);
+        //then
+        assertTrue(isFirstAndLastSame);
+    }
 }
