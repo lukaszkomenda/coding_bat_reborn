@@ -15,4 +15,33 @@ public class ArrayMethodsImpl implements ArrayMethods {
             return false;
         }
     }
+
+    @Override
+    public int[] makePi() {
+        return new int[]{3,1,4};
+    }
+
+    @Override
+    public boolean commonEnd(int[] a, int[] b) {
+        if (a[0] == b[0]){
+            return true;
+        }
+
+        return a[a.length - 1] == b[b.length - 1];
+    }
+
+    @Override
+    public int sum3(int[] nums) {
+        return nums[0] + nums[1] + nums[2];
+    }
+
+    @Override
+    public int[] rotateLeft3(int[] nums) {
+        return new int[]{nums[1], nums[2], nums[0]};
+    }
+
+    @Override
+    public int[] reverse3(int[] nums) {
+        return new int[] {nums[2], nums[1], nums[0]};
+    }
 }
