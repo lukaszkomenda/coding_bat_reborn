@@ -163,4 +163,112 @@ class ArrayMethodsImplTest {
         int[] expectedArray = {3,11,2};
         assertArrayEquals(expectedArray, newOrder);
     }
+
+    @Test
+    void maxEnd3OneTwoThreeTest() {
+        //given
+        int[] nums = {1,2,3};
+        //when
+        int[] newOrder = arrayMethods.maxEnd3(nums);
+        //then
+        int[] expectedArray = {3,3,3};
+        assertArrayEquals(expectedArray, newOrder);
+    }
+
+    @Test
+    void maxEnd3ThreeElevenElevenTest(){
+        //given
+        int[] nums = {3,11,11};
+        //when
+        int[] newOrder = arrayMethods.maxEnd3(nums);
+        //then
+        int[] expectedArray = {11,11,11};
+        assertArrayEquals(expectedArray, newOrder);
+    }
+
+    @Test
+    void sum2OneTwoThreeTest() {
+        //given
+        int[] nums ={1,2,3};
+        //when
+        int sum2 = arrayMethods.sum2(nums);
+        //then
+        assertEquals(3, sum2);
+    }
+
+    @Test
+    void sum2OneTest(){
+        //given
+        int[] nums = {1};
+        //when
+        int sum2 = arrayMethods.sum2(nums);
+        //then
+        assertEquals(1, sum2);
+    }
+
+    @Test
+    void middleWayOneTwoThreeFourFiveSix() {
+        //given
+        int[] a = {1,2,3};
+        int[] b = {4,5,6};
+        //when
+        int[] newArray = arrayMethods.middleWay(a, b);
+        //then
+        int[] expectedArray = {2,5};
+        assertArrayEquals(expectedArray,newArray);
+    }
+
+    @Test
+    void middleWayTripleSevenThreeEightZeroTest(){
+        //given
+        int[] a = {7,7,7};
+        int[] b = {3,8,0};
+        //when
+        int[] newArray = arrayMethods.middleWay(a, b);
+        //then
+        int[] expectedArray = {7,8};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void makeEndsOneTwoThreeTest() {
+        //given
+        int[] nums = {1,2,3};
+        //when
+        int[] newArray = arrayMethods.makeEnds(nums);
+        //then
+        int[] expectedArray = {1,3};
+        assertArrayEquals(expectedArray,newArray);
+    }
+
+    @Test
+    void makeEndsSevenTest(){
+        //given
+        int[] nums = {7};
+        //when
+        int[] newArray = arrayMethods.makeEnds(nums);
+        //then
+        int[] expectedArray = {7,7};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void has23TwoFiveTest() {
+        //given
+        int[] nums = {2,5};
+        //when
+        boolean is23Contains = arrayMethods.has23(nums);
+        //then
+        assertTrue(is23Contains);
+    }
+
+    @Test
+    void has23DoubleSevenTest(){
+        //given
+        int[] nums = {7,7};
+        //when
+        boolean is23Contains = arrayMethods.has23(nums);
+        //then
+        assertFalse(is23Contains);
+    }
 }

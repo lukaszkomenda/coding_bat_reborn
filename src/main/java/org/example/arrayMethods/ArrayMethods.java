@@ -9,5 +9,10 @@ public interface ArrayMethods {
     int sum3(int[] nums);
     int[] rotateLeft3(int[] nums);
     int[] reverse3(int[] nums);
+    int[] maxEnd3(int[] nums);
+    int sum2(int[] nums);
+    int[] middleWay(int[] a, int[] b);
+    int[] makeEnds(int[] nums);
+    boolean has23(int[] nums);
 
 }

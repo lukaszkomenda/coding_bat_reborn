@@ -44,4 +44,45 @@ public class ArrayMethodsImpl implements ArrayMethods {
     public int[] reverse3(int[] nums) {
         return new int[] {nums[2], nums[1], nums[0]};
     }
+
+    @Override
+    public int[] maxEnd3(int[] nums) {
+        if (nums[0] >= nums[nums.length - 1]) {
+            return new int[] {nums[0], nums[0], nums[0]};
+        } else {
+            return new int[] {nums[nums.length - 1], nums[nums.length - 1], nums[nums.length - 1]};
+        }
+    }
+
+    @Override
+    public int sum2(int[] nums) {
+        if (nums.length == 0){
+            return 0;
+        } else if (nums.length == 1){
+            return nums[0];
+        } else {
+            return nums[0] + nums[1];
+        }
+    }
+
+    @Override
+    public int[] middleWay(int[] a, int[] b) {
+        return new int[] {a[1], b[1]};
+    }
+
+    @Override
+    public int[] makeEnds(int[] nums) {
+        if (nums.length == 1){
+            return new int[] {nums[0], nums[0]};
+        } else {
+            return new int[] {nums[0], nums[nums.length - 1]};
+        }
+    }
+
+    @Override
+    public boolean has23(int[] nums) {
+        if (nums[0] == 2 || nums[1] == 2){
+            return true;
+        } else return nums[0] == 3 || nums[1] == 3;
+    }
 }
