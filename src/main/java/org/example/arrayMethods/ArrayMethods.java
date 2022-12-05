@@ -14,5 +14,8 @@ public interface ArrayMethods {
     int[] middleWay(int[] a, int[] b);
     int[] makeEnds(int[] nums);
     boolean has23(int[] nums);
+    boolean no23(int[] nums);
+    int[] makeLast(int[] nums);
+    boolean double23(int[] nums);
 
 }

@@ -271,4 +271,66 @@ class ArrayMethodsImplTest {
         //then
         assertFalse(is23Contains);
     }
+
+    @Test
+    void no23FourFiveTest() {
+        //given
+        int[] nums = {4,5};
+        //when
+        boolean is23NoContains = arrayMethods.no23(nums);
+        //then
+        assertTrue(is23NoContains);
+    }
+
+    @Test
+    void no23FourTwoTest(){
+        //given
+        int[] nums = {4,2};
+        //when
+        boolean is23NoContains = arrayMethods.no23(nums);
+        //then
+        assertFalse(is23NoContains);
+    }
+
+    @Test
+    void makeLastOneTwoTest() {
+        //given
+        int[] nums = {1,2};
+        //when
+        int[] newArray = arrayMethods.makeLast(nums);
+        //then
+        int[] expectedArray = {0,0,0,2};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void makeLastZeroTest(){
+        //given
+        int[] nums = {0};
+        //when
+        int[] newArray = arrayMethods.makeLast(nums);
+        //then
+        int[] expectedArray = {0,0};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void double23DoubleTwoTest() {
+        //given
+        int[] nums = {2,2};
+        //when
+        boolean isDouble23Contains = arrayMethods.double23(nums);
+        //then
+        assertTrue(isDouble23Contains);
+    }
+
+    @Test
+    void double23TwoThreeTest(){
+        //given
+        int[] nums = {2,3};
+        //when
+        boolean isDouble23Contains = arrayMethods.double23(nums);
+        //then
+        assertFalse(isDouble23Contains);
+    }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  makePi, commonEnd, sum3, rotateLeft3, reverse3">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  maxEnd3, sum2, middleWay, makeEnds, has23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethodsImpl.java" afterDir="false" />
@@ -58,29 +58,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/HP/IdeaProjects/FirstSpringProject2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects/FirstSpringProject2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -93,8 +93,8 @@
       <recent name="org.example.StartWord" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayMethodsImplTest.has23DoubleSevenTest">
-    <configuration name="ArrayMethodsImplTest.has23DoubleSevenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArrayMethodsImplTest.double23TwoThreeTest">
+    <configuration name="ArrayMethodsImplTest.double23DoubleTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="has23DoubleSevenTest" />
+      <option name="METHOD_NAME" value="double23DoubleTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMethodsImplTest.has23TwoFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayMethodsImplTest.double23TwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +120,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="has23TwoFiveTest" />
+      <option name="METHOD_NAME" value="double23TwoThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMethodsImplTest.makeEndsOneTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayMethodsImplTest.makeLastOneTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +136,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="makeEndsOneTwoThreeTest" />
+      <option name="METHOD_NAME" value="makeLastOneTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMethodsImplTest.makeEndsSevenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayMethodsImplTest.makeLastZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -152,13 +152,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="makeEndsSevenTest" />
+      <option name="METHOD_NAME" value="makeLastZeroTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMethodsImplTest.middleWayTripleSevenThreeEightZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayMethodsImplTest.no23FourTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -168,7 +168,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="middleWayTripleSevenThreeEightZeroTest" />
+      <option name="METHOD_NAME" value="no23FourTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayMethodsImplTest.has23DoubleSevenTest" />
-        <item itemvalue="JUnit.ArrayMethodsImplTest.has23TwoFiveTest" />
-        <item itemvalue="JUnit.ArrayMethodsImplTest.makeEndsSevenTest" />
-        <item itemvalue="JUnit.ArrayMethodsImplTest.makeEndsOneTwoThreeTest" />
-        <item itemvalue="JUnit.ArrayMethodsImplTest.middleWayTripleSevenThreeEightZeroTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.double23TwoThreeTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.double23DoubleTwoTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.makeLastZeroTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.makeLastOneTwoTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.no23FourTwoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +235,8 @@
       <workItem from="1670074077537" duration="71000" />
       <workItem from="1670078766264" duration="3254000" />
       <workItem from="1670161536375" duration="233000" />
-      <workItem from="1670168391807" duration="3953000" />
+      <workItem from="1670168391807" duration="4578000" />
+      <workItem from="1670257525101" duration="3467000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -496,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670081559181</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add implementation:  maxEnd3, sum2, middleWay, makeEnds, has23">
+      <created>1670173308768</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1670173308768</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  arrayCount9, arrayFront9, array123" />
     <MESSAGE value="Add method:  stringMatch, stringX" />
     <MESSAGE value="Add method:  altPairs, stringYak, array667" />
     <MESSAGE value="Add method:  noTriples, has271" />
@@ -539,6 +546,7 @@
     <MESSAGE value="Add implementation:  firstLast6" />
     <MESSAGE value="Add implementation:  sameFirstLast" />
     <MESSAGE value="Add implementation:  makePi, commonEnd, sum3, rotateLeft3, reverse3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  makePi, commonEnd, sum3, rotateLeft3, reverse3" />
+    <MESSAGE value="Add implementation:  maxEnd3, sum2, middleWay, makeEnds, has23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  maxEnd3, sum2, middleWay, makeEnds, has23" />
   </component>
 </project>
