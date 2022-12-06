@@ -17,5 +17,8 @@ public interface ArrayMethods {
     boolean no23(int[] nums);
     int[] makeLast(int[] nums);
     boolean double23(int[] nums);
+    int[] fix23(int[] nums);
+    int start1(int[] a, int[] b);
+    int[] biggerTwo(int[] a, int[] b);
 
 }

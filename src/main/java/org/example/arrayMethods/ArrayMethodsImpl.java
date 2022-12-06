@@ -114,4 +114,41 @@ public class ArrayMethodsImpl implements ArrayMethods {
             return true;
         } else return nums[0] == 3 && nums[1] == 3;
     }
+
+    @Override
+    public int[] fix23(int[] nums) {
+        if (nums[0] == 2 && nums[1] == 3){
+            nums[1] = 0;
+        }
+        if (nums[1] == 2 && nums[2] == 3){
+            nums[2] = 0;
+        }
+        return nums;
+    }
+
+    @Override
+    public int start1(int[] a, int[] b) {
+        int countA = 0;
+        int countB = 0;
+
+        if (a.length > 0 && a[0] == 1){
+            countA++;
+        }
+
+        if (b.length > 0 && b[0] == 1){
+            countB++;
+        }
+        return countA + countB;
+    }
+
+    @Override
+    public int[] biggerTwo(int[] a, int[] b) {
+        boolean isABiggerThanB = (a[0] + a[1]) >= (b[0] + b[1]);
+
+        if (isABiggerThanB){
+            return a;
+        } else {
+            return b;
+        }
+    }
 }

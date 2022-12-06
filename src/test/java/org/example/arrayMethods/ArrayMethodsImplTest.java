@@ -333,4 +333,72 @@ class ArrayMethodsImplTest {
         //then
         assertFalse(isDouble23Contains);
     }
+
+    @Test
+    void fix23OneTwoThreeTest() {
+        //given
+        int[] nums = {1,2,3};
+        //when
+        int[] newArray = arrayMethods.fix23(nums);
+        //then
+        int[] expectedArray = {1,2,0};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void fix23OneTwoOneTest(){
+        //given
+        int[] nums = {1,2,1};
+        //when
+        int[] newArray = arrayMethods.fix23(nums);
+        //then
+        int[] expectedArray = {1,2,1};
+        assertArrayEquals(expectedArray,newArray);
+    }
+
+    @Test
+    void start1OneTwoThreeAndOneThreeTest() {
+        //given
+        int[] a = {1,2,3};
+        int[] b = {1,3};
+        //when
+        int count1 = arrayMethods.start1(a, b);
+        //then
+        assertEquals(2, count1);
+    }
+
+    @Test
+    void start1NoneOneTwoTest(){
+        //given
+        int[] a = {};
+        int[] b = {1,2};
+        //when
+        int count1 = arrayMethods.start1(a, b);
+        //then
+        assertEquals(1, count1);
+    }
+
+    @Test
+    void biggerTwoOneTwoAndThreeFourTest() {
+        //given
+        int[] a = {1,2};
+        int[] b = {3,4};
+        //when
+        int[] biggerArray = arrayMethods.biggerTwo(a, b);
+        //then
+        int[] expectedArray = {3,4};
+        assertArrayEquals(expectedArray,biggerArray);
+    }
+
+    @Test
+    void biggerTwoDoubleTwoAndOneThreeTest(){
+        //given
+        int[] a = {2,2};
+        int[] b = {1,3};
+        //when
+        int[] biggerArray = arrayMethods.biggerTwo(a, b);
+        //then
+        int[] expectedArray = {2,2};
+        assertArrayEquals(expectedArray,biggerArray);
+    }
 }
