@@ -20,5 +20,8 @@ public interface ArrayMethods {
     int[] fix23(int[] nums);
     int start1(int[] a, int[] b);
     int[] biggerTwo(int[] a, int[] b);
+    int[] makeMiddle(int[] nums);
+    int[] plusTwo(int[] a, int[] b);
+    int[] swapEnds(int[] nums);
 
 }

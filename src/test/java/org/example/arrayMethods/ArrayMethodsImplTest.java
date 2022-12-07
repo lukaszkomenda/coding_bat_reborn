@@ -401,4 +401,72 @@ class ArrayMethodsImplTest {
         int[] expectedArray = {2,2};
         assertArrayEquals(expectedArray,biggerArray);
     }
+
+    @Test
+    void makeMiddleOneTwoThreeFourTest() {
+        //given
+        int[] nums = {1,2,3,4};
+        //when
+        int[] newArray = arrayMethods.makeMiddle(nums);
+        //then
+        int[] expectedArray = {2,3};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void makeMiddleOneTwoTest(){
+        //given
+        int[] nums = {1,2};
+        //when
+        int[] newArray = arrayMethods.makeMiddle(nums);
+        //then
+        int[] expectedArray = {1,2};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void plusTwoOneTwoThreeFourTest() {
+        //given
+        int[] a = {1,2};
+        int[] b = {3,4};
+        //when
+        int[] newArray = arrayMethods.plusTwo(a, b);
+        //then
+        int[] expectedArray = {1,2,3,4};
+        assertArrayEquals(expectedArray,newArray);
+    }
+
+    @Test
+    void plusTwoDoubleFourDoubleTwoTest(){
+        //given
+        int[] a = {4,4};
+        int[] b = {2,2};
+        //when
+        int[] newArray = arrayMethods.plusTwo(a, b);
+        //then
+        int[] expectedArray = {4,4,2,2};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void swapEndsOneTwoThreeFourTest() {
+        //given
+        int[] nums = {1,2,3,4};
+        //when
+        int[] swappedNums = arrayMethods.swapEnds(nums);
+        //then
+        int[] expectedArray = {4,2,3,1};
+        assertArrayEquals(expectedArray, swappedNums);
+    }
+
+    @Test
+    void swapEndsOneTest(){
+        //given
+        int[] nums = {1};
+        //when
+        int[] swappedNums = arrayMethods.swapEnds(nums);
+        //then
+        int[] expectedArray = {1};
+        assertArrayEquals(expectedArray, swappedNums);
+    }
 }

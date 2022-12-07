@@ -151,4 +151,29 @@ public class ArrayMethodsImpl implements ArrayMethods {
             return b;
         }
     }
+
+    @Override
+    public int[] makeMiddle(int[] nums) {
+        int length = nums.length;
+
+        if (length == 2){
+            return nums;
+        }
+        return new int[] {nums[length/2 - 1], nums[length/2]};
+    }
+
+    @Override
+    public int[] plusTwo(int[] a, int[] b) {
+        return new int[] {a[0], a[1], b[0], b[1]};
+    }
+
+    @Override
+    public int[] swapEnds(int[] nums) {
+        int firstLetter = nums[0];
+
+        nums[0] = nums[nums.length - 1];
+        nums[nums.length - 1] = firstLetter;
+
+        return nums;
+    }
 }
