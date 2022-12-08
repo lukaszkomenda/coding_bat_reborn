@@ -23,5 +23,8 @@ public interface ArrayMethods {
     int[] makeMiddle(int[] nums);
     int[] plusTwo(int[] a, int[] b);
     int[] swapEnds(int[] nums);
+    int[] midThree(int[] nums);
+    int maxTriple(int[] nums);
+    int[] frontPiece(int[] nums);
 
 }

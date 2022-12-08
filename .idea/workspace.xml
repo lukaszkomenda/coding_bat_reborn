@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  fix23, start1, biggerTwo">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  makeMiddle, plusTwo, swapEnds">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayMethods/ArrayMethodsImpl.java" afterDir="false" />
@@ -93,8 +93,8 @@
       <recent name="org.example.StartWord" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayMethodsImplTest.swapEndsOneTest">
-    <configuration name="ArrayMethodsImplTest.makeMiddleOneTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArrayMethodsImplTest.frontPieceOneTest">
+    <configuration name="ArrayMethodsImplTest.frontPieceOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="makeMiddleOneTwoTest" />
+      <option name="METHOD_NAME" value="frontPieceOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMethodsImplTest.plusTwoDoubleFourDoubleTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayMethodsImplTest.frontPieceOneTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +120,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="plusTwoDoubleFourDoubleTwoTest" />
+      <option name="METHOD_NAME" value="frontPieceOneTwoThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMethodsImplTest.plusTwoOneTwoThreeFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayMethodsImplTest.maxTripleOneTwoThreeDoubleOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +136,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="plusTwoOneTwoThreeFourTest" />
+      <option name="METHOD_NAME" value="maxTripleOneTwoThreeDoubleOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMethodsImplTest.swapEndsOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayMethodsImplTest.maxTripleOneTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -152,13 +152,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="swapEndsOneTest" />
+      <option name="METHOD_NAME" value="maxTripleOneTwoThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMethodsImplTest.swapEndsOneTwoThreeFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayMethodsImplTest.midThreeOneTwoThreeFourFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -168,7 +168,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.arrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.arrayMethods.ArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="swapEndsOneTwoThreeFourTest" />
+      <option name="METHOD_NAME" value="midThreeOneTwoThreeFourFiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayMethodsImplTest.swapEndsOneTest" />
-        <item itemvalue="JUnit.ArrayMethodsImplTest.swapEndsOneTwoThreeFourTest" />
-        <item itemvalue="JUnit.ArrayMethodsImplTest.plusTwoDoubleFourDoubleTwoTest" />
-        <item itemvalue="JUnit.ArrayMethodsImplTest.plusTwoOneTwoThreeFourTest" />
-        <item itemvalue="JUnit.ArrayMethodsImplTest.makeMiddleOneTwoTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.frontPieceOneTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.frontPieceOneTwoThreeTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.maxTripleOneTwoThreeDoubleOneTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.maxTripleOneTwoThreeTest" />
+        <item itemvalue="JUnit.ArrayMethodsImplTest.midThreeOneTwoThreeFourFiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +240,9 @@
       <workItem from="1670344884957" duration="53000" />
       <workItem from="1670349307146" duration="3816000" />
       <workItem from="1670430914942" duration="41000" />
-      <workItem from="1670434367035" duration="2107000" />
+      <workItem from="1670434367035" duration="2727000" />
+      <workItem from="1670516676564" duration="40000" />
+      <workItem from="1670520886875" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -522,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670352627560</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Add implementation:  makeMiddle, plusTwo, swapEnds">
+      <created>1670436686003</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1670436686003</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  noTriples, has271" />
     <MESSAGE value="Add method:  helloName, makeAbba, makeTags" />
     <MESSAGE value="Add method:  makeOutWord, extraEnd" />
     <MESSAGE value="Add method:  firstHalf, withoutEnd, comboString" />
@@ -565,6 +573,7 @@
     <MESSAGE value="Add implementation:  maxEnd3, sum2, middleWay, makeEnds, has23" />
     <MESSAGE value="Add implementation:  no23, makeLast, double23" />
     <MESSAGE value="Add implementation:  fix23, start1, biggerTwo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  fix23, start1, biggerTwo" />
+    <MESSAGE value="Add implementation:  makeMiddle, plusTwo, swapEnds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  makeMiddle, plusTwo, swapEnds" />
   </component>
 </project>

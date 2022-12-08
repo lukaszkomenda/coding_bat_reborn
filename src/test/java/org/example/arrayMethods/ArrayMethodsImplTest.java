@@ -469,4 +469,68 @@ class ArrayMethodsImplTest {
         int[] expectedArray = {1};
         assertArrayEquals(expectedArray, swappedNums);
     }
+
+    @Test
+    void midThreeOneTwoThreeTest() {
+        //given
+        int[] nums = {1,2,3};
+        //when
+        int[] newArray = arrayMethods.midThree(nums);
+        //then
+        int[] expectedArray = {1,2,3};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void midThreeOneTwoThreeFourFiveTest(){
+        //given
+        int[] nums = {1,2,3,4,5};
+        //when
+        int[] newArray = arrayMethods.midThree(nums);
+        //then
+        int[] expectedArray = {2,3,4};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void maxTripleOneTwoThreeTest() {
+        //given
+        int[] nums = {1,2,3};
+        //when
+        int max = arrayMethods.maxTriple(nums);
+        //then
+        assertEquals(3, max);
+    }
+
+    @Test
+    void maxTripleOneTwoThreeDoubleOneTest(){
+        //given
+        int[] nums = {1,2,3,1,1};
+        //when
+        int max = arrayMethods.maxTriple(nums);
+        //then
+        assertEquals(3,max);
+    }
+
+    @Test
+    void frontPieceOneTwoThreeTest() {
+        //given
+        int[] nums = {1,2,3};
+        //when
+        int[] newArray = arrayMethods.frontPiece(nums);
+        //then
+        int[] expectedArray = {1,2};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void frontPieceOneTest(){
+        //given
+        int[] nums = {1};
+        //when
+        int[] newArray = arrayMethods.frontPiece(nums);
+        //then
+        int[] expectedArray = {1};
+        assertArrayEquals(expectedArray, newArray);
+    }
 }

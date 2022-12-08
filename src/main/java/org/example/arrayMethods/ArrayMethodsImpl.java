@@ -176,4 +176,39 @@ public class ArrayMethodsImpl implements ArrayMethods {
 
         return nums;
     }
+
+    @Override
+    public int[] midThree(int[] nums) {
+        int length = nums.length;
+
+        if (length == 3){
+            return nums;
+        }
+        return new int[] {nums[length/2 - 1], nums[length/2], nums[length/2 +1]};
+    }
+
+    @Override
+    public int maxTriple(int[] nums) {
+        int firstValue = nums[0];
+        int middleValue = nums[nums.length /2];
+        int lastValue = nums[nums.length -1];
+
+        if (firstValue >= middleValue && firstValue >= lastValue){
+            return firstValue;
+        } else if (middleValue >= firstValue && middleValue >= lastValue){
+            return middleValue;
+        } else {
+            return lastValue;
+        }
+
+    }
+
+    @Override
+    public int[] frontPiece(int[] nums) {
+        if (nums.length >= 2){
+            return new int[] {nums[0], nums[1]};
+        } else {
+            return nums;
+        }
+    }
 }
