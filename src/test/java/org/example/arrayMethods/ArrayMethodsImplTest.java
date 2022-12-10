@@ -533,4 +533,72 @@ class ArrayMethodsImplTest {
         int[] expectedArray = {1};
         assertArrayEquals(expectedArray, newArray);
     }
+
+    @Test
+    void unlucky1OneThreeFourFiveTest() {
+        //given
+        int[] nums = {1,3,4,5};
+        //when
+        boolean is13Contains = arrayMethods.unlucky1(nums);
+        //then
+        assertTrue(is13Contains);
+    }
+
+    @Test
+    void unlucky1TripleOneTest(){
+        //given
+        int[] nums = {1,1,1};
+        //when
+        boolean is13Contains = arrayMethods.unlucky1(nums);
+        //then
+        assertFalse(is13Contains);
+    }
+
+    @Test
+    void make2NoneOneTwoTest() {
+        //given
+        int[] a = {};
+        int[] b = {1,2};
+        //when
+        int[] newArray = arrayMethods.make2(a, b);
+        //then
+        int[] expectedArray = {1,2};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void make2OneTwoNoneTest(){
+        //given
+        int[] a = {1,2};
+        int[] b = {};
+        //when
+        int[] newArray = arrayMethods.make2(a, b);
+        //then
+        int[] expectedArray = {1,2};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void front11OneAndTwoTest() {
+        //given
+        int[] a = {1};
+        int[] b = {2};
+        //when
+        int[] newArray = arrayMethods.front11(a, b);
+        //then
+        int[] expectedArray = {1,2};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void front11NoneAndNoneTest(){
+        //given
+        int[] a = {};
+        int[] b  = {};
+        //when
+        int[] newArray = arrayMethods.front11(a, b);
+        //then
+        int[] expectedArray = {};
+        assertArrayEquals(expectedArray, newArray);
+    }
 }

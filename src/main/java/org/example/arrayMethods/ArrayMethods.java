@@ -26,5 +26,8 @@ public interface ArrayMethods {
     int[] midThree(int[] nums);
     int maxTriple(int[] nums);
     int[] frontPiece(int[] nums);
+    boolean unlucky1(int[] nums);
+    int[] make2(int[] a, int[] b);
+    int[] front11(int[] a, int[] b);
 
 }

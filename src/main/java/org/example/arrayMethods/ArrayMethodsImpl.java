@@ -98,29 +98,29 @@ public class ArrayMethodsImpl implements ArrayMethods {
     public int[] makeLast(int[] nums) {
         int[] newArray = new int[nums.length * 2];
 
-        for(int i = 0; i < newArray.length - 1; i++) {
+        for (int i = 0; i < newArray.length - 1; i++) {
             newArray[i] = 0;
         }
-        newArray[newArray.length -1] = nums[nums.length - 1];
+        newArray[newArray.length - 1] = nums[nums.length - 1];
 
         return newArray;
     }
 
     @Override
     public boolean double23(int[] nums) {
-        if (nums.length == 1 || nums.length == 0){
+        if (nums.length == 1 || nums.length == 0) {
             return false;
-        } else if (nums[0] == 2 && nums[1] == 2){
+        } else if (nums[0] == 2 && nums[1] == 2) {
             return true;
         } else return nums[0] == 3 && nums[1] == 3;
     }
 
     @Override
     public int[] fix23(int[] nums) {
-        if (nums[0] == 2 && nums[1] == 3){
+        if (nums[0] == 2 && nums[1] == 3) {
             nums[1] = 0;
         }
-        if (nums[1] == 2 && nums[2] == 3){
+        if (nums[1] == 2 && nums[2] == 3) {
             nums[2] = 0;
         }
         return nums;
@@ -131,11 +131,11 @@ public class ArrayMethodsImpl implements ArrayMethods {
         int countA = 0;
         int countB = 0;
 
-        if (a.length > 0 && a[0] == 1){
+        if (a.length > 0 && a[0] == 1) {
             countA++;
         }
 
-        if (b.length > 0 && b[0] == 1){
+        if (b.length > 0 && b[0] == 1) {
             countB++;
         }
         return countA + countB;
@@ -145,7 +145,7 @@ public class ArrayMethodsImpl implements ArrayMethods {
     public int[] biggerTwo(int[] a, int[] b) {
         boolean isABiggerThanB = (a[0] + a[1]) >= (b[0] + b[1]);
 
-        if (isABiggerThanB){
+        if (isABiggerThanB) {
             return a;
         } else {
             return b;
@@ -156,15 +156,15 @@ public class ArrayMethodsImpl implements ArrayMethods {
     public int[] makeMiddle(int[] nums) {
         int length = nums.length;
 
-        if (length == 2){
+        if (length == 2) {
             return nums;
         }
-        return new int[] {nums[length/2 - 1], nums[length/2]};
+        return new int[]{nums[length / 2 - 1], nums[length / 2]};
     }
 
     @Override
     public int[] plusTwo(int[] a, int[] b) {
-        return new int[] {a[0], a[1], b[0], b[1]};
+        return new int[]{a[0], a[1], b[0], b[1]};
     }
 
     @Override
@@ -181,21 +181,21 @@ public class ArrayMethodsImpl implements ArrayMethods {
     public int[] midThree(int[] nums) {
         int length = nums.length;
 
-        if (length == 3){
+        if (length == 3) {
             return nums;
         }
-        return new int[] {nums[length/2 - 1], nums[length/2], nums[length/2 +1]};
+        return new int[]{nums[length / 2 - 1], nums[length / 2], nums[length / 2 + 1]};
     }
 
     @Override
     public int maxTriple(int[] nums) {
         int firstValue = nums[0];
-        int middleValue = nums[nums.length /2];
-        int lastValue = nums[nums.length -1];
+        int middleValue = nums[nums.length / 2];
+        int lastValue = nums[nums.length - 1];
 
-        if (firstValue >= middleValue && firstValue >= lastValue){
+        if (firstValue >= middleValue && firstValue >= lastValue) {
             return firstValue;
-        } else if (middleValue >= firstValue && middleValue >= lastValue){
+        } else if (middleValue >= firstValue && middleValue >= lastValue) {
             return middleValue;
         } else {
             return lastValue;
@@ -205,10 +205,55 @@ public class ArrayMethodsImpl implements ArrayMethods {
 
     @Override
     public int[] frontPiece(int[] nums) {
-        if (nums.length >= 2){
-            return new int[] {nums[0], nums[1]};
+        if (nums.length >= 2) {
+            return new int[]{nums[0], nums[1]};
         } else {
             return nums;
         }
+    }
+
+    @Override
+    public boolean unlucky1(int[] nums) {
+        if (nums.length == 0 || nums.length == 1) {
+            return false;
+        }
+        if (nums.length == 2) {
+            return nums[0] == 1 && nums[1] == 3;
+        } else {
+            if (nums[0] == 1 && nums[1] == 3) {
+                return true;
+            } else {
+                if (nums[1] == 1 && nums[2] == 3) {
+                    return true;
+                } else return nums[nums.length - 2] == 1 && nums[nums.length - 1] == 3;
+            }
+        }
+    }
+
+    @Override
+    public int[] make2(int[] a, int[] b) {
+        if (a.length == 0){
+            return new int[] {b[0], b[1]};
+        } else if (a.length == 1){
+            return new int[] {a[0], b[0]};
+        } else {
+            return new int[] {a[0], a[1]};
+        }
+
+
+    }
+
+    @Override
+    public int[] front11(int[] a, int[] b) {
+        if (a.length == 0 && b.length ==0){
+            return a;
+        } else if (a.length == 0){
+            return new int[] {b[0]};
+        } else if (b.length == 0){
+            return new int[] {a[0]};
+        } else {
+            return new int[] {a[0], b[0]};
+        }
+
     }
 }
