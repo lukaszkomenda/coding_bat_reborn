@@ -81,4 +81,29 @@ public class LogicMethodsImpl implements LogicMethods{
             }
         }
     }
+
+    @Override
+    public boolean love6(int a, int b) {
+        int six = 6;
+        
+        if(a == six || b == six){
+            return true;
+        } else if (a + b == six) {
+            return true;
+        } else return Math.abs(a - b) == six || Math.abs(b - a) == six;
+    }
+
+    @Override
+    public boolean in1To10(int n, boolean outsideMode) {
+        if (outsideMode){
+            return n <= 1 || n >= 10;
+        } else {
+            return n >= 1 && n <= 10;
+        }
+    }
+
+    @Override
+    public boolean specialEleven(int n) {
+        return n % 11 == 0 || n % 11 == 1;
+    }
 }

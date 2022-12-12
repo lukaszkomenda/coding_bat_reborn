@@ -139,4 +139,68 @@ class LogicMethodsImplTest {
         //then
         assertEquals("off", clock);
     }
+
+    @Test
+    void love6SixFourTest() {
+        //given
+        int a = 6;
+        int b = 4;
+        //when
+        boolean isSixResult = logicMethods.love6(a, b);
+        //then
+        assertTrue(isSixResult);
+    }
+
+    @Test
+    void love6MinusTwoMinusFourTest(){
+        //given
+        int a = -2;
+        int b = -4;
+        //when
+        boolean isSixResult = logicMethods.love6(a, b);
+        //then
+        assertFalse(isSixResult);
+    }
+
+    @Test
+    void in1To10FiveNoOutsideTest() {
+        //given
+        int n = 5;
+        boolean outsideMode = false;
+        //when
+        boolean isIn1to10 = logicMethods.in1To10(n, outsideMode);
+        //then
+        assertTrue(isIn1to10);
+    }
+
+    @Test
+    void in1To10MinusOneNoOutsideTest(){
+        //given
+        int n = -1;
+        boolean outsideMode = false;
+        //when
+        boolean isIn1to10 = logicMethods.in1To10(n, outsideMode);
+        //then
+        assertFalse(isIn1to10);
+    }
+
+    @Test
+    void specialElevenTwentyTwoTest() {
+        //given
+        int n = 22;
+        //when
+        boolean is11Divisible = logicMethods.specialEleven(n);
+        //then
+        assertTrue(is11Divisible);
+    }
+
+    @Test
+    void specialElevenNineTest(){
+        //given
+        int n = 9;
+        //when
+        boolean is11Divisible = logicMethods.specialEleven(n);
+        //then
+        assertFalse(is11Divisible);
+    }
 }
