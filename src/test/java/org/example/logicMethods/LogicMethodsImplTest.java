@@ -203,4 +203,64 @@ class LogicMethodsImplTest {
         //then
         assertFalse(is11Divisible);
     }
+
+    @Test
+    void more20TwentyTest() {
+        //given
+        int n = 20;
+        //when
+        boolean isRest12 = logicMethods.more20(n);
+        //then
+        assertFalse(isRest12);
+    }
+
+    @Test
+    void more20TwentyOneTest(){
+        //given
+        int n = 21;
+        //when
+        boolean isRest12 = logicMethods.more20(n);
+        //then
+        assertTrue(isRest12);
+    }
+
+    @Test
+    void old35ThreeTest() {
+        //given
+        int n = 3;
+        //when
+        boolean isDivisible3or5 = logicMethods.old35(n);
+        //then
+        assertTrue(isDivisible3or5);
+    }
+
+    @Test
+    void old35fifteenTest(){
+        //given
+        int n = 15;
+        //when
+        boolean isDivisible3or5 = logicMethods.old35(n);
+        //then
+        assertFalse(isDivisible3or5);
+    }
+
+    @Test
+    void less20eighteenTest() {
+        //given
+        int n = 18;
+        //when
+        boolean isDivisible1819 = logicMethods.less20(n);
+        //then
+        assertTrue(isDivisible1819);
+    }
+
+    @Test
+    void less20eightTest(){
+        //given
+        int n = 8;
+        //when
+        boolean isDivisible1819 = logicMethods.less20(n);
+        //then
+        assertFalse(isDivisible1819);
+    }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  dateFashion, squirrelPlay, caughtSpeeding, sortaSum, alarmClock">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  love6, in1To10, specialEleven">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethodsImpl.java" afterDir="false" />
@@ -59,29 +59,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects/coding_bat_reborn_2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/HP/IdeaProjects/coding_bat_reborn_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -94,8 +94,8 @@
       <recent name="org.example.WithoutX" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LogicMethodsImplTest.specialElevenNineTest">
-    <configuration name="LogicMethodsImplTest.in1To10FiveNoOutsideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LogicMethodsImplTest.less20eightTest">
+    <configuration name="LogicMethodsImplTest.less20eightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +105,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.logicMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="in1To10FiveNoOutsideTest" />
+      <option name="METHOD_NAME" value="less20eightTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.in1To10MinusOneNoOutsideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicMethodsImplTest.less20eighteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +121,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.logicMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="in1To10MinusOneNoOutsideTest" />
+      <option name="METHOD_NAME" value="less20eighteenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.love6MinusTwoMinusFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicMethodsImplTest.more20TwentyOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -137,13 +137,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.logicMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="love6MinusTwoMinusFourTest" />
+      <option name="METHOD_NAME" value="more20TwentyOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.specialElevenNineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicMethodsImplTest.old35ThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -153,13 +153,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.logicMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="specialElevenNineTest" />
+      <option name="METHOD_NAME" value="old35ThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.specialElevenTwentyTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicMethodsImplTest.old35fifteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -169,7 +169,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.logicMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="specialElevenTwentyTwoTest" />
+      <option name="METHOD_NAME" value="old35fifteenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LogicMethodsImplTest.specialElevenNineTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.specialElevenTwentyTwoTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.in1To10MinusOneNoOutsideTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.in1To10FiveNoOutsideTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.love6MinusTwoMinusFourTest" />
+        <item itemvalue="JUnit.LogicMethodsImplTest.less20eightTest" />
+        <item itemvalue="JUnit.LogicMethodsImplTest.less20eighteenTest" />
+        <item itemvalue="JUnit.LogicMethodsImplTest.old35fifteenTest" />
+        <item itemvalue="JUnit.LogicMethodsImplTest.old35ThreeTest" />
+        <item itemvalue="JUnit.LogicMethodsImplTest.more20TwentyOneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +248,9 @@
       <workItem from="1670686751057" duration="3882000" />
       <workItem from="1670764997863" duration="61000" />
       <workItem from="1670774113729" duration="4884000" />
-      <workItem from="1670868919585" duration="2614000" />
+      <workItem from="1670868919585" duration="3259000" />
+      <workItem from="1670949798497" duration="89000" />
+      <workItem from="1670952423987" duration="2938000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -565,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670778428401</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Add implementation:  love6, in1To10, specialEleven">
+      <created>1670871594403</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1670871594403</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  nonStart, left2" />
     <MESSAGE value="Add method:  Right2, TheEnd, WithoutEnd2" />
     <MESSAGE value="Add method:  middleTwo, endsLy, nTwice" />
     <MESSAGE value="Add method:  twoChar, middleThree" />
@@ -608,6 +616,7 @@
     <MESSAGE value="Add implementation:  unlucky1, make2, front11" />
     <MESSAGE value="Add implementation:  cigarParty" />
     <MESSAGE value="Add implementation:  dateFashion, squirrelPlay, caughtSpeeding, sortaSum, alarmClock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  dateFashion, squirrelPlay, caughtSpeeding, sortaSum, alarmClock" />
+    <MESSAGE value="Add implementation:  love6, in1To10, specialEleven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  love6, in1To10, specialEleven" />
   </component>
 </project>

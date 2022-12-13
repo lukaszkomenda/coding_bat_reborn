@@ -11,4 +11,7 @@ public interface LogicMethods {
     boolean love6(int a, int b);
     boolean in1To10(int n, boolean outsideMode);
     boolean specialEleven(int n);
+    boolean more20(int n);
+    boolean old35(int n);
+    boolean less20(int n);
 }
