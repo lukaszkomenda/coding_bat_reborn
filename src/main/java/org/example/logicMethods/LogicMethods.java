@@ -14,4 +14,9 @@ public interface LogicMethods {
     boolean more20(int n);
     boolean old35(int n);
     boolean less20(int n);
+    boolean nearTen(int num);
+    int teenSum(int a, int b);
+    boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep);
+    int teaParty(int tea, int candy);
+    String fizzString(String str);
 }

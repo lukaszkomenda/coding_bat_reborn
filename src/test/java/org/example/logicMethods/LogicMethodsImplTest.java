@@ -263,4 +263,112 @@ class LogicMethodsImplTest {
         //then
         assertFalse(isDivisible1819);
     }
+
+    @Test
+    void nearTenTwelveTest() {
+        //given
+        int num = 12;
+        //when
+        boolean isNear10 = logicMethods.nearTen(num);
+        //then
+        assertTrue(isNear10);
+    }
+
+    @Test
+    void nearTenSixTest(){
+        //given
+        int num = 6;
+        //when
+        boolean isNear10 = logicMethods.nearTen(num);
+        //then
+        assertFalse(isNear10);
+    }
+
+    @Test
+    void teenSumThreeFourTest() {
+        //given
+        int a = 3;
+        int b = 4;
+        //when
+        int teenSum = logicMethods.teenSum(a, b);
+        //then
+        assertEquals(7, teenSum);
+    }
+
+    @Test
+    void teenSumThreeNineteenTest(){
+        //given
+        int a = 3;
+        int b = 19;
+        //when
+        int teenSum = logicMethods.teenSum(a, b);
+        //then
+        assertEquals(19, teenSum);
+    }
+
+    @Test
+    void answerCellNoMorningNoMumNoAsleepTest() {
+        //given
+        boolean isMorning = false;
+        boolean isMum = false;
+        boolean isAsleep = false;
+        //when
+        boolean makeCall = logicMethods.answerCell(isMorning, isMum, isAsleep);
+        //then
+        assertTrue(makeCall);
+    }
+
+    @Test
+    void answerCellNoMorningNoMumAsleepTest(){
+        //given
+        boolean isMorning = false;
+        boolean isMum = false;
+        boolean isAsleep = true;
+        //when
+        boolean makeCall = logicMethods.answerCell(isMorning, isMum, isAsleep);
+        //then
+        assertFalse(makeCall);
+    }
+
+    @Test
+    void teaPartySixEightTest() {
+        //given
+        int tea = 6;
+        int candy = 8;
+        //when
+        int partyRate = logicMethods.teaParty(tea, candy);
+        //then
+        assertEquals(1 ,partyRate);
+    }
+
+    @Test
+    void teaPartyThreeEightTest(){
+        //given
+        int tea = 3;
+        int candy = 8;
+        //when
+        int partyRate = logicMethods.teaParty(tea, candy);
+        //then
+        assertEquals(0, partyRate);
+    }
+
+    @Test
+    void fizzStringFigTest() {
+        //given
+        String str = "fig";
+        //when
+        String newStr = logicMethods.fizzString(str);
+        //then
+        assertEquals("Fizz", newStr);
+    }
+
+    @Test
+    void fizzStringFooobTest(){
+        //given
+        String str = "fooob";
+        //when
+        String newStr = logicMethods.fizzString(str);
+        //then
+        assertEquals("FizzBuzz", newStr);
+    }
 }

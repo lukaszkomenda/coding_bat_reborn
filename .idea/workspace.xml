@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  love6, in1To10, specialEleven">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  more20, old35, less20">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethodsImpl.java" afterDir="false" />
@@ -34,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,8 +94,8 @@
       <recent name="org.example.WithoutX" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LogicMethodsImplTest.less20eightTest">
-    <configuration name="LogicMethodsImplTest.less20eightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LogicMethodsImplTest.fizzStringFooobTest">
+    <configuration name="LogicMethodsImplTest.answerCellNoMorningNoMumAsleepTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +105,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.logicMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="less20eightTest" />
+      <option name="METHOD_NAME" value="answerCellNoMorningNoMumAsleepTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.less20eighteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicMethodsImplTest.fizzStringFigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +121,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.logicMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="less20eighteenTest" />
+      <option name="METHOD_NAME" value="fizzStringFigTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.more20TwentyOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicMethodsImplTest.fizzStringFooobTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -137,13 +137,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.logicMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="more20TwentyOneTest" />
+      <option name="METHOD_NAME" value="fizzStringFooobTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.old35ThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicMethodsImplTest.teaPartySixEightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -153,13 +153,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.logicMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="old35ThreeTest" />
+      <option name="METHOD_NAME" value="teaPartySixEightTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.old35fifteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicMethodsImplTest.teaPartyThreeEightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -169,7 +169,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.logicMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="old35fifteenTest" />
+      <option name="METHOD_NAME" value="teaPartyThreeEightTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LogicMethodsImplTest.less20eightTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.less20eighteenTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.old35fifteenTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.old35ThreeTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.more20TwentyOneTest" />
+        <item itemvalue="JUnit.LogicMethodsImplTest.fizzStringFooobTest" />
+        <item itemvalue="JUnit.LogicMethodsImplTest.fizzStringFigTest" />
+        <item itemvalue="JUnit.LogicMethodsImplTest.teaPartyThreeEightTest" />
+        <item itemvalue="JUnit.LogicMethodsImplTest.teaPartySixEightTest" />
+        <item itemvalue="JUnit.LogicMethodsImplTest.answerCellNoMorningNoMumAsleepTest" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +250,10 @@
       <workItem from="1670774113729" duration="4884000" />
       <workItem from="1670868919585" duration="3259000" />
       <workItem from="1670949798497" duration="89000" />
-      <workItem from="1670952423987" duration="2938000" />
+      <workItem from="1670952423987" duration="3226000" />
+      <workItem from="1671121928561" duration="594000" />
+      <workItem from="1671208467134" duration="47000" />
+      <workItem from="1671212632759" duration="3315000" />
     </task>
     <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
       <created>1667062552386</created>
@@ -574,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670871594403</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Add implementation:  more20, old35, less20">
+      <created>1670956053829</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1670956053829</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  Right2, TheEnd, WithoutEnd2" />
     <MESSAGE value="Add method:  middleTwo, endsLy, nTwice" />
     <MESSAGE value="Add method:  twoChar, middleThree" />
     <MESSAGE value="Add method:  hasBad, atFirst, lastChars" />
@@ -617,6 +626,7 @@
     <MESSAGE value="Add implementation:  cigarParty" />
     <MESSAGE value="Add implementation:  dateFashion, squirrelPlay, caughtSpeeding, sortaSum, alarmClock" />
     <MESSAGE value="Add implementation:  love6, in1To10, specialEleven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  love6, in1To10, specialEleven" />
+    <MESSAGE value="Add implementation:  more20, old35, less20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  more20, old35, less20" />
   </component>
 </project>

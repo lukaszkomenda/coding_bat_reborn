@@ -125,4 +125,59 @@ public class LogicMethodsImpl implements LogicMethods {
     public boolean less20(int n) {
         return n % 20 == 19 || n % 20 == 18;
     }
+
+    @Override
+    public boolean nearTen(int num) {
+        return num % 10 <= 2 || num % 10 >= 8;
+    }
+
+    @Override
+    public int teenSum(int a, int b) {
+        if (a >= 13 && a <= 19){
+            return 19;
+        } else if (b >= 13 && b <= 19){
+            return 19;
+        } else {
+            return a+b;
+        }
+    }
+
+    @Override
+    public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+        if (isAsleep){
+            return false;
+        }
+
+        if (isMorning){
+            return isMom;
+        }
+
+        return true;
+    }
+
+    @Override
+    public int teaParty(int tea, int candy) {
+        if (tea < 5 || candy < 5){
+            return 0;
+        } else {
+            if (tea >= candy * 2 || candy >= tea * 2){
+                return 2;
+            } else {
+                return 1;
+            }
+        }
+    }
+
+    @Override
+    public String fizzString(String str) {
+        if (str.startsWith("f") && str.endsWith("b")){
+            return "FizzBuzz";
+        } else if (str.startsWith("f")) {
+            return "Fizz";
+        } else if (str.endsWith("b")) {
+            return "Buzz";
+        } else {
+            return str;
+        }
+    }
 }
