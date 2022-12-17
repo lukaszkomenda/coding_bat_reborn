@@ -371,4 +371,128 @@ class LogicMethodsImplTest {
         //then
         assertEquals("FizzBuzz", newStr);
     }
+
+    @Test
+    void twoAsOneOneTwoThreeTest() {
+        //given
+        int a = 1;
+        int b = 2;
+        int c = 3;
+        //when
+        boolean isSumEachOther = logicMethods.twoAsOne(a, b, c);
+        //then
+        assertTrue(isSumEachOther);
+    }
+
+    @Test
+    void twoAsOneThreeDoubleTwoTest(){
+        //given
+        int a = 3;
+        int b = 2;
+        int c = 2;
+        //when
+        boolean isSumEachOther = logicMethods.twoAsOne(a, b, c);
+        //then
+        assertFalse(isSumEachOther);
+    }
+
+    @Test
+    void inOrderOneTwoFourBNoOkTest() {
+        //given
+        int a = 1;
+        int b = 2;
+        int c = 4;
+        boolean bOk = false;
+        //when
+        boolean isOk = logicMethods.inOrder(a, b, c, bOk);
+        //then
+        assertTrue(isOk);
+    }
+
+    @Test
+    void inOrderOneTwoOneBNoOkTest(){
+        //given
+        int a = 1;
+        int b = 2;
+        int c = 1;
+        boolean bOk = false;
+        //when
+        boolean isOk = logicMethods.inOrder(a, b, c, bOk);
+        //then
+        assertFalse(isOk);
+    }
+
+    @Test
+    void inOrderEqualTwoFiveElevenNoEqualModeTest() {
+        //given
+        int a = 2;
+        int b = 5;
+        int c = 11;
+        boolean equalMode = false;
+        //when
+        boolean isOk = logicMethods.inOrderEqual(a, b, c, equalMode);
+        //then
+        assertTrue(isOk);
+    }
+
+    @Test
+    void inOrderFiveSevenSixNoEqualModeTest(){
+        //given
+        int a = 5;
+        int b = 7;
+        int c = 6;
+        boolean equalMode = false;
+        //when
+        boolean isOk = logicMethods.inOrderEqual(a, b, c, equalMode);
+        //then
+        assertFalse(isOk);
+    }
+
+    @Test
+    void lastDigitOneTwoThreeTest() {
+        //given
+        int a = 1;
+        int b = 2;
+        int c = 3;
+        //when
+        boolean isLastDigitSame = logicMethods.lastDigit(a, b, c);
+        //then
+        assertFalse(isLastDigitSame);
+    }
+
+    @Test
+    void lastDigitTenElevenTwentyTest(){
+        //given
+        int a = 10;
+        int b = 11;
+        int c = 20;
+        //when
+        boolean isLastDigitSame = logicMethods.lastDigit(a, b, c);
+        //then
+        assertTrue(isLastDigitSame);
+    }
+
+    @Test
+    void lessBy10OneSevenElevenTest() {
+        //given
+        int a = 1;
+        int b = 7;
+        int c = 11;
+        //when
+        boolean isLessThan10 = logicMethods.lessBy10(a, b, c);
+        //then
+        assertTrue(isLessThan10);
+    }
+
+    @Test
+    void lessBy10OneSevenTen(){
+        //given
+        int a = 1;
+        int b = 7;
+        int c = 10;
+        //when
+        boolean isLessThan10 = logicMethods.lessBy10(a, b, c);
+        //then
+        assertFalse(isLessThan10);
+    }
 }

@@ -19,4 +19,9 @@ public interface LogicMethods {
     boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep);
     int teaParty(int tea, int candy);
     String fizzString(String str);
+    boolean twoAsOne(int a, int b, int c);
+    boolean inOrder(int a, int b, int c, boolean bOk);
+    boolean inOrderEqual(int a, int b, int c, boolean equalOk);
+    boolean lastDigit(int a, int b, int c);
+    boolean lessBy10(int a, int b, int c);
 }

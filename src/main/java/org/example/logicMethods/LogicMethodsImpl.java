@@ -133,22 +133,22 @@ public class LogicMethodsImpl implements LogicMethods {
 
     @Override
     public int teenSum(int a, int b) {
-        if (a >= 13 && a <= 19){
+        if (a >= 13 && a <= 19) {
             return 19;
-        } else if (b >= 13 && b <= 19){
+        } else if (b >= 13 && b <= 19) {
             return 19;
         } else {
-            return a+b;
+            return a + b;
         }
     }
 
     @Override
     public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
-        if (isAsleep){
+        if (isAsleep) {
             return false;
         }
 
-        if (isMorning){
+        if (isMorning) {
             return isMom;
         }
 
@@ -157,10 +157,10 @@ public class LogicMethodsImpl implements LogicMethods {
 
     @Override
     public int teaParty(int tea, int candy) {
-        if (tea < 5 || candy < 5){
+        if (tea < 5 || candy < 5) {
             return 0;
         } else {
-            if (tea >= candy * 2 || candy >= tea * 2){
+            if (tea >= candy * 2 || candy >= tea * 2) {
                 return 2;
             } else {
                 return 1;
@@ -170,7 +170,7 @@ public class LogicMethodsImpl implements LogicMethods {
 
     @Override
     public String fizzString(String str) {
-        if (str.startsWith("f") && str.endsWith("b")){
+        if (str.startsWith("f") && str.endsWith("b")) {
             return "FizzBuzz";
         } else if (str.startsWith("f")) {
             return "Fizz";
@@ -179,5 +179,57 @@ public class LogicMethodsImpl implements LogicMethods {
         } else {
             return str;
         }
+    }
+
+    @Override
+    public boolean twoAsOne(int a, int b, int c) {
+        if (a + b == c) {
+            return true;
+        } else if (a + c == b) {
+            return true;
+        } else return b + c == a;
+    }
+
+    @Override
+    public boolean inOrder(int a, int b, int c, boolean bOk) {
+        if (bOk) {
+            return c > b;
+        } else {
+            return b > a && c > b;
+        }
+    }
+
+    @Override
+    public boolean inOrderEqual(int a, int b, int c, boolean equalOk) {
+        if (equalOk) {
+            if (a == b && a == c) {
+                return true;
+            }
+            return b >= a && c >= b;
+        } else {
+            return b > a && c > b;
+        }
+    }
+
+    @Override
+    public boolean lastDigit(int a, int b, int c) {
+        if (a%10==b%10){
+            return true;
+        }
+        if (a%10==c%10){
+            return true;
+        }
+        return b % 10 == c % 10;
+    }
+
+    @Override
+    public boolean lessBy10(int a, int b, int c) {
+        if (a >= b + 10 || a >= c + 10){
+            return true;
+        }
+        if (b >= a + 10 || b >= c + 10){
+            return true;
+        }
+        return c >= a + 10 || c >= b + 10;
     }
 }
