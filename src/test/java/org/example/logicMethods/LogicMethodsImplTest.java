@@ -495,4 +495,122 @@ class LogicMethodsImplTest {
         //then
         assertFalse(isLessThan10);
     }
+
+    @Test
+    void withoutDoublesTwoThreeNoDoubleTest() {
+        //given
+        int die1 = 2;
+        int die2 = 3;
+        boolean noDouble = true;
+        //when
+        int result = logicMethods.withoutDoubles(die1, die2, noDouble);
+        //then
+        assertEquals(5, result);
+    }
+
+    @Test
+    void withoutDoublesDoubleSixNoDoubleTest(){
+        //given
+        int die1 = 6;
+        int die2 = 6;
+        boolean noDouble = true;
+        //when
+        int result = logicMethods.withoutDoubles(die1, die2, noDouble);
+        //then
+        assertEquals(7, result);
+    }
+
+    @Test
+    void maxMod5TwoThreeTest() {
+        //given
+        int a = 2;
+        int b = 3;
+        //when
+        int result = logicMethods.maxMod5(a, b);
+        //then
+        assertEquals(3, result);
+    }
+
+    @Test
+    void maxMod5SevenTwelveTest(){
+        //given
+        int a = 7;
+        int b = 12;
+        //when
+        int result = logicMethods.maxMod5(a, b);
+        //then
+        assertEquals(7, result);
+    }
+
+    @Test
+    void redTicketTripleTwoTest() {
+        //given
+        int a = 2;
+        int b = 2;
+        int c = 2;
+        //when
+        int result = logicMethods.redTicket(a, b, c);
+        //then
+        assertEquals(10, result);
+    }
+
+    @Test
+    void redTicketOneTwoZeroTest(){
+        //given
+        int a = 1;
+        int b = 2;
+        int c = 0;
+        //when
+        int result = logicMethods.redTicket(a, b, c);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void greenTicketOneTwoThreeTest() {
+        //given
+        int a = 1;
+        int b = 2;
+        int c = 3;
+        //when
+        int result = logicMethods.greenTicket(a, b, c);
+        //then
+        assertEquals(0, result);
+    }
+
+    @Test
+    void greenTicketTripleZeroTest(){
+        //given
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        //when
+        int result = logicMethods.greenTicket(a, b, c);
+        //then
+        assertEquals(20, result);
+    }
+
+    @Test
+    void blueTicketNineOneZeroTest() {
+        //given
+        int a = 9;
+        int b = 1;
+        int c = 0;
+        //when
+        int result = logicMethods.blueTicket(a, b, c);
+        //then
+        assertEquals(10, result);
+    }
+
+    @Test
+    void blueTicketFifteenZeroFiveTest(){
+        //given
+        int a = 15;
+        int b = 0;
+        int c = 5;
+        //when
+        int result = logicMethods.blueTicket(a, b, c);
+        //then
+        assertEquals(5, result);
+    }
 }

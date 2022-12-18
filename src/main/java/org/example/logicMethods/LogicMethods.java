@@ -24,4 +24,10 @@ public interface LogicMethods {
     boolean inOrderEqual(int a, int b, int c, boolean equalOk);
     boolean lastDigit(int a, int b, int c);
     boolean lessBy10(int a, int b, int c);
+    int withoutDoubles(int die1, int die2, boolean noDoubles);
+    int maxMod5(int a, int b);
+    int redTicket(int a, int b, int c);
+    int greenTicket(int a, int b, int c);
+    int blueTicket(int a, int b, int c);
+
 }

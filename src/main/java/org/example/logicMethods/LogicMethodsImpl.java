@@ -232,4 +232,71 @@ public class LogicMethodsImpl implements LogicMethods {
         }
         return c >= a + 10 || c >= b + 10;
     }
+
+    @Override
+    public int withoutDoubles(int die1, int die2, boolean noDoubles) {
+        if (noDoubles){
+            if (die1 == die2){
+                if (die1 == 6){
+                    return ++die1;
+                }
+                return die1 + die2 + 1;
+            }
+        }
+        return die1 + die2;
+    }
+
+    @Override
+    public int maxMod5(int a, int b) {
+        if (a == b ){
+            return 0;
+        } else if (a > b) {
+            if (a%5 == b%5){
+                return b;
+            }
+            return a;
+        } else {
+            if (a%5 == b%5){
+                return a;
+            }
+            return b;
+        }
+    }
+
+    @Override
+    public int redTicket(int a, int b, int c) {
+        if (a == 2 && b == 2 && c == 2){
+            return 10;
+        } else if (a == b && b == c) {
+            return 5;
+        } else {
+            if (b != a && c != a){
+                return 1;
+            }
+        }
+        return 0;
+    }
+
+    @Override
+    public int greenTicket(int a, int b, int c) {
+
+        if (a==b && b==c){
+            return 20;
+        }
+        if (a== b || a == c || b == c){
+            return 10;
+        }
+        return 0;
+    }
+
+    @Override
+    public int blueTicket(int a, int b, int c) {
+        if (a + b == 10 || a + c == 10 || b + c == 10){
+            return 10;
+        }
+        if (a + b >= b + c + 10 || a + b >= a + c + 10){
+            return 5;
+        }
+        return 0;
+    }
 }
