@@ -299,4 +299,38 @@ public class LogicMethodsImpl implements LogicMethods {
         }
         return 0;
     }
+
+    @Override
+    public String fizzString2(int n) {
+        if (n % 3 == 0 && n % 5 == 0){
+            return "FizzBuzz!";
+        } else if (n % 3 == 0) {
+            return "Fizz!";
+        } else if (n % 5 == 0) {
+            return "Buzz!";
+        } else {
+            return n + "!";
+        }
+    }
+
+    @Override
+    public boolean shareDigit(int a, int b) {
+        if (a/10 == b/10){
+            return true;
+        } else if (a % 10 == b % 10) {
+            return true;
+        } else if (a / 10 == b % 10) {
+            return true;
+        } else return a % 10 == b / 10;
+    }
+
+    @Override
+    public int sumLimit(int a, int b) {
+        int sum = a + b;
+
+        if (String.valueOf(a).length() == String.valueOf(sum).length()){
+            return sum;
+        }
+        return a;
+    }
 }

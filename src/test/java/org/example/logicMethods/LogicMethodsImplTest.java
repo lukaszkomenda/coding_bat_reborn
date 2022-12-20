@@ -613,4 +613,68 @@ class LogicMethodsImplTest {
         //then
         assertEquals(5, result);
     }
+
+    @Test
+    void fizzString2FizzTest() {
+        //given
+        int n = 3;
+        //when
+        String result = logicMethods.fizzString2(n);
+        //then
+        assertEquals("Fizz!", result);
+    }
+
+    @Test
+    void fizzString2BuzzTest(){
+        //given
+        int n = 100;
+        //when
+        String result = logicMethods.fizzString2(n);
+        //then
+        assertEquals("Buzz!", result);
+    }
+
+    @Test
+    void shareDigitTwelveTwentyThreeTest() {
+        //given
+        int a = 12;
+        int b = 23;
+        //when
+        boolean isContainsSameDigit = logicMethods.shareDigit(a, b);
+        //then
+        assertTrue(isContainsSameDigit);
+    }
+
+    @Test
+    void shareDigitTwelveFortyThreeTest(){
+        //given
+        int a = 12;
+        int b = 43;
+        //when
+        boolean isContainsSameDigit = logicMethods.shareDigit(a, b);
+        //then
+        assertFalse(isContainsSameDigit);
+    }
+
+    @Test
+    void sumLimitTwoThreeTest() {
+        //given
+        int a = 2;
+        int b = 3;
+        //when
+        int result = logicMethods.sumLimit(a, b);
+        //then
+        assertEquals(5, result);
+    }
+
+    @Test
+    void sumLimitEightThreeTest(){
+        //given
+        int a = 8;
+        int b = 3;
+        //when
+        int result = logicMethods.sumLimit(a, b);
+        //then
+        assertEquals(8, result);
+    }
 }

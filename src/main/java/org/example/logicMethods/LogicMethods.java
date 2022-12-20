@@ -29,5 +29,8 @@ public interface LogicMethods {
     int redTicket(int a, int b, int c);
     int greenTicket(int a, int b, int c);
     int blueTicket(int a, int b, int c);
+    String fizzString2(int n);
+    boolean shareDigit(int a, int b);
+    int sumLimit(int a, int b);
 
 }
