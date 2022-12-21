@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  withoutDoubles, maxMod5, redTicket, greenTicket, blueTicket">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  fizzString2, shareDigit, sumLimit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/puzzle/PuzzleMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/puzzle/PuzzleMethodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/puzzle/PuzzleMethodsImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/logicMethods/LogicMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/logicMethods/LogicMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/logicMethods/LogicMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +34,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Array-1" />
+        <entry key="$PROJECT_DIR$" value="Logic-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,117 +59,117 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/HP/IdeaProjects/coding_bat_reborn_2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects/coding_bat_reborn_2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.puzzle" />
       <recent name="org.example.logicMethods" />
       <recent name="org.example.arrayMethods" />
       <recent name="org.example.FirstLast6" />
       <recent name="org.example.WithoutX2" />
-      <recent name="org.example.WithoutX" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LogicMethodsImplTest.sumLimitEightThreeTest">
-    <configuration name="LogicMethodsImplTest.fizzString2BuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PuzzleMethodsImplTest.luckySumThirteenTwoThirteenTest">
+    <configuration name="PuzzleMethodsImplTest.loneSumOneTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.logicMethods.*" />
+          <option name="PATTERN" value="org.example.puzzle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.logicMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="fizzString2BuzzTest" />
+      <option name="PACKAGE_NAME" value="org.example.puzzle" />
+      <option name="MAIN_CLASS_NAME" value="org.example.puzzle.PuzzleMethodsImplTest" />
+      <option name="METHOD_NAME" value="loneSumOneTwoThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.shareDigitTwelveFortyThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PuzzleMethodsImplTest.loneSumThreeTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.logicMethods.*" />
+          <option name="PATTERN" value="org.example.puzzle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.logicMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="shareDigitTwelveFortyThreeTest" />
+      <option name="PACKAGE_NAME" value="org.example.puzzle" />
+      <option name="MAIN_CLASS_NAME" value="org.example.puzzle.PuzzleMethodsImplTest" />
+      <option name="METHOD_NAME" value="loneSumThreeTwoThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.shareDigitTwelveTwentyThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PuzzleMethodsImplTest.luckySumOneTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.logicMethods.*" />
+          <option name="PATTERN" value="org.example.puzzle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.logicMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="shareDigitTwelveTwentyThreeTest" />
+      <option name="PACKAGE_NAME" value="org.example.puzzle" />
+      <option name="MAIN_CLASS_NAME" value="org.example.puzzle.PuzzleMethodsImplTest" />
+      <option name="METHOD_NAME" value="luckySumOneTwoThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.sumLimitEightThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PuzzleMethodsImplTest.luckySumThirteenTwoThirteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.logicMethods.*" />
+          <option name="PATTERN" value="org.example.puzzle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.logicMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="sumLimitEightThreeTest" />
+      <option name="PACKAGE_NAME" value="org.example.puzzle" />
+      <option name="MAIN_CLASS_NAME" value="org.example.puzzle.PuzzleMethodsImplTest" />
+      <option name="METHOD_NAME" value="luckySumThirteenTwoThirteenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicMethodsImplTest.sumLimitTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PuzzleMethodsImplTest.makeBricksThreeOneNineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.logicMethods.*" />
+          <option name="PATTERN" value="org.example.puzzle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.logicMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.logicMethods.LogicMethodsImplTest" />
-      <option name="METHOD_NAME" value="sumLimitTwoThreeTest" />
+      <option name="PACKAGE_NAME" value="org.example.puzzle" />
+      <option name="MAIN_CLASS_NAME" value="org.example.puzzle.PuzzleMethodsImplTest" />
+      <option name="METHOD_NAME" value="makeBricksThreeOneNineTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LogicMethodsImplTest.sumLimitEightThreeTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.sumLimitTwoThreeTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.shareDigitTwelveFortyThreeTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.shareDigitTwelveTwentyThreeTest" />
-        <item itemvalue="JUnit.LogicMethodsImplTest.fizzString2BuzzTest" />
+        <item itemvalue="JUnit.PuzzleMethodsImplTest.luckySumThirteenTwoThirteenTest" />
+        <item itemvalue="JUnit.PuzzleMethodsImplTest.luckySumOneTwoThreeTest" />
+        <item itemvalue="JUnit.PuzzleMethodsImplTest.loneSumThreeTwoThreeTest" />
+        <item itemvalue="JUnit.PuzzleMethodsImplTest.loneSumOneTwoThreeTest" />
+        <item itemvalue="JUnit.PuzzleMethodsImplTest.makeBricksThreeOneNineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -259,14 +259,8 @@
       <workItem from="1671371134972" duration="3890000" />
       <workItem from="1671386805062" duration="2225000" />
       <workItem from="1671475343924" duration="15000" />
-      <workItem from="1671553075183" duration="2466000" />
-    </task>
-    <task id="LOCAL-00002" summary="Add method:  makes10, nearHundred, posNeg">
-      <created>1667149650027</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1667149650027</updated>
+      <workItem from="1671553075183" duration="2698000" />
+      <workItem from="1671639223933" duration="3481000" />
     </task>
     <task id="LOCAL-00003" summary="Add method:  makes10, nearHundred">
       <created>1667149719569</created>
@@ -604,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671388437760</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Add implementation:  fizzString2, shareDigit, sumLimit">
+      <created>1671555779839</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1671555779839</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  conCat, lastTwo" />
     <MESSAGE value="Add method:  lastTwo (correct a mistake)" />
     <MESSAGE value="Add method:  seeColor, frontAgain" />
     <MESSAGE value="Add method:  minCat, extraFront" />
@@ -647,6 +647,7 @@
     <MESSAGE value="Add implementation:  nearTen, teenSum, answerCell, teaParty, fizzString" />
     <MESSAGE value="Add implementation:  twoAsOne, inOrder, inOrderEqual, lastDigit, lessBy10" />
     <MESSAGE value="Add implementation:  withoutDoubles, maxMod5, redTicket, greenTicket, blueTicket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  withoutDoubles, maxMod5, redTicket, greenTicket, blueTicket" />
+    <MESSAGE value="Add implementation:  fizzString2, shareDigit, sumLimit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  fizzString2, shareDigit, sumLimit" />
   </component>
 </project>
