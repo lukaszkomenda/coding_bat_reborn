@@ -8,4 +8,8 @@ public interface PuzzleMethods {
     int noTeenSum(int a, int b, int c);
     int roundSum(int a, int b, int c);
     boolean closeFar(int a, int b, int c);
+    int blackjack(int a, int b);
+    boolean evenlySpaced(int a, int b, int c);
+    int makeChocolate(int small, int big, int goal);
+
 }

@@ -1,5 +1,7 @@
 package org.example.puzzle;
 
+import java.util.Arrays;
+
 public class PuzzleMethodsImpl implements PuzzleMethods {
     @Override
     public boolean makeBricks(int small, int big, int goal) {
@@ -79,6 +81,37 @@ public class PuzzleMethodsImpl implements PuzzleMethods {
             return true;
         } else return Math.abs(a - c) <= 1 && Math.abs(a - b) >= 2 && Math.abs(b - c) >= 2;
 
+    }
+
+    @Override
+    public int blackjack(int a, int b) {
+        if (a > 21 && b > 21){
+            return 0;
+        } else if (a == 21) {
+            return a;
+        } else if (b == 21){
+            return b;
+        } else if (a > 21){
+            return b;
+        } else if (b > 21){
+            return a;
+        } else return Math.max(a, b);
+    }
+
+    @Override
+    public boolean evenlySpaced(int a, int b, int c) {
+        int[] array = {a,b,c};
+
+        Arrays.sort(array);
+
+        return array[1] - array[0] == array[2] - array[1];
+    }
+
+    @Override
+    public int makeChocolate(int small, int big, int goal) {
+        int remainder = goal >= 5 * big ? goal - (5 * big) : goal % 5;
+
+        return remainder <= small ? remainder : -1;
     }
 
 }

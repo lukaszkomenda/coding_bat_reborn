@@ -151,4 +151,74 @@ class PuzzleMethodsImplTest {
         //then
         assertTrue(isCloseFar);
     }
+
+    @Test
+    void blackjackNineteenTwentyOneTest() {
+        //given
+        int a = 19;
+        int b = 21;
+        //when
+        int blackjack = puzzleMethods.blackjack(a, b);
+        //then
+        assertEquals(21, blackjack);
+    }
+
+    @Test
+    void blackjackTwentyTwoFiftyTest(){
+        //given
+        int a = 22;
+        int b = 50;
+        //when
+        int blackjack = puzzleMethods.blackjack(a, b);
+        //then
+        assertEquals(0, blackjack);
+    }
+
+    @Test
+    void evenlySpacedTwoFourSixTest() {
+        //given
+        int a = 2;
+        int b = 4;
+        int c = 6;
+        //when
+        boolean isSameDifference = puzzleMethods.evenlySpaced(a, b, c);
+        //then
+        assertTrue(isSameDifference);
+    }
+
+    @Test
+    void evenlySpacedFourSixThreeTest(){
+        //given
+        int a = 4;
+        int b = 6;
+        int c = 3;
+        //when
+        boolean isSameDifference = puzzleMethods.evenlySpaced(a, b, c);
+        //then
+        assertFalse(isSameDifference);
+    }
+
+    @Test
+    void makeChocolateFourOneNineTest() {
+        //given
+        int small = 4;
+        int big = 1;
+        int goal = 9;
+        //when
+        int result = puzzleMethods.makeChocolate(small, big, goal);
+        //then
+        assertEquals(4, result);
+    }
+
+    @Test
+    void makeChocolateFourOneTenTest(){
+        //given
+        int small = 4;
+        int big = 1;
+        int goal = 10;
+        //when
+        int result = puzzleMethods.makeChocolate(small, big, goal);
+        //then
+        assertEquals(-1, result);
+    }
 }

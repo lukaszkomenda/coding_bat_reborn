@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  noTeenSum, roundSum, closeFar">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  blackjack, evenlySpaced, makeChocolate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzle/PuzzleMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/puzzle/PuzzleMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/puzzle/PuzzleMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/puzzle/PuzzleMethodsImpl.java" afterDir="false" />
@@ -34,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,8 +94,21 @@
       <recent name="org.example.WithoutX2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PuzzleMethodsImplTest.closeFarMinusOneTenZeroTest">
-    <configuration name="PuzzleMethodsImplTest.closeFarFourOneThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PuzzleMethodsImplTest.evenlySpacedFourSixThreeTest">
+    <configuration name="xyz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.puzzle.xyz" />
+      <module name="coding_bat_reborn_2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.puzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PuzzleMethodsImplTest.evenlySpacedFourSixThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +118,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.puzzle" />
       <option name="MAIN_CLASS_NAME" value="org.example.puzzle.PuzzleMethodsImplTest" />
-      <option name="METHOD_NAME" value="closeFarFourOneThreeTest" />
+      <option name="METHOD_NAME" value="evenlySpacedFourSixThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PuzzleMethodsImplTest.closeFarMinusOneTenZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PuzzleMethodsImplTest.evenlySpacedTwoFourSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +134,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.puzzle" />
       <option name="MAIN_CLASS_NAME" value="org.example.puzzle.PuzzleMethodsImplTest" />
-      <option name="METHOD_NAME" value="closeFarMinusOneTenZeroTest" />
+      <option name="METHOD_NAME" value="evenlySpacedTwoFourSixTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PuzzleMethodsImplTest.noTeenSumTwoThirteenOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PuzzleMethodsImplTest.makeChocolateFourOneNineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -137,13 +150,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.puzzle" />
       <option name="MAIN_CLASS_NAME" value="org.example.puzzle.PuzzleMethodsImplTest" />
-      <option name="METHOD_NAME" value="noTeenSumTwoThirteenOneTest" />
+      <option name="METHOD_NAME" value="makeChocolateFourOneNineTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PuzzleMethodsImplTest.roundSumSixFourFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PuzzleMethodsImplTest.makeChocolateFourOneTenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -153,23 +166,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.puzzle" />
       <option name="MAIN_CLASS_NAME" value="org.example.puzzle.PuzzleMethodsImplTest" />
-      <option name="METHOD_NAME" value="roundSumSixFourFour" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PuzzleMethodsImplTest.roundSumTenTenNineteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.puzzle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.puzzle" />
-      <option name="MAIN_CLASS_NAME" value="org.example.puzzle.PuzzleMethodsImplTest" />
-      <option name="METHOD_NAME" value="roundSumTenTenNineteenTest" />
+      <option name="METHOD_NAME" value="makeChocolateFourOneTenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PuzzleMethodsImplTest.closeFarMinusOneTenZeroTest" />
-        <item itemvalue="JUnit.PuzzleMethodsImplTest.closeFarFourOneThreeTest" />
-        <item itemvalue="JUnit.PuzzleMethodsImplTest.roundSumTenTenNineteenTest" />
-        <item itemvalue="JUnit.PuzzleMethodsImplTest.roundSumSixFourFour" />
-        <item itemvalue="JUnit.PuzzleMethodsImplTest.noTeenSumTwoThirteenOneTest" />
+        <item itemvalue="JUnit.PuzzleMethodsImplTest.evenlySpacedFourSixThreeTest" />
+        <item itemvalue="JUnit.PuzzleMethodsImplTest.evenlySpacedTwoFourSixTest" />
+        <item itemvalue="JUnit.PuzzleMethodsImplTest.makeChocolateFourOneTenTest" />
+        <item itemvalue="JUnit.PuzzleMethodsImplTest.makeChocolateFourOneNineTest" />
+        <item itemvalue="Application.xyz" />
       </list>
     </recent_temporary>
   </component>
@@ -261,14 +258,8 @@
       <workItem from="1671475343924" duration="15000" />
       <workItem from="1671553075183" duration="2698000" />
       <workItem from="1671639223933" duration="3549000" />
-      <workItem from="1671727358450" duration="5545000" />
-    </task>
-    <task id="LOCAL-00004" summary="Add method:  notString, missingChar, frontBack, front3, backAround">
-      <created>1667239638720</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1667239638720</updated>
+      <workItem from="1671727358450" duration="5573000" />
+      <workItem from="1671815238830" duration="4838000" />
     </task>
     <task id="LOCAL-00005" summary="Add method:  or35, front22, startHi">
       <created>1667328050918</created>
@@ -606,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671642881329</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Add implementation:  noTeenSum, roundSum, closeFar">
+      <created>1671733466606</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1671733466606</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  minCat, extraFront" />
     <MESSAGE value="Add method:  without2" />
     <MESSAGE value="Add method:  deFront" />
     <MESSAGE value="Add method:  StartWord" />
@@ -649,6 +646,7 @@
     <MESSAGE value="Add implementation:  fizzString2, shareDigit, sumLimit" />
     <MESSAGE value="Add implementation:  makeBricks, loneSum, luckySum" />
     <MESSAGE value="Add implementation:  noTeenSum, roundSum, closeFar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  noTeenSum, roundSum, closeFar" />
+    <MESSAGE value="Add implementation:  blackjack, evenlySpaced, makeChocolate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  blackjack, evenlySpaced, makeChocolate" />
   </component>
 </project>
