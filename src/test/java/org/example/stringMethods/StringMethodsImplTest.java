@@ -47,4 +47,24 @@ class StringMethodsImplTest {
         //then
         assertEquals(0, counter);
     }
+
+    @Test
+    void catDogCatDogTest() {
+        //given
+        String str = "catdog";
+        //when
+        boolean isCatDogEquals = stringMethods.catDog(str);
+        //then
+        assertTrue(isCatDogEquals);
+    }
+
+    @Test
+    void catDogNoneTest(){
+        //given
+        String str = "";
+        //when
+        boolean isCatDogEquals = stringMethods.catDog(str);
+        //then
+        assertTrue(isCatDogEquals);
+    }
 }
