@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation:  doubleChar, countHi">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: catDog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stringMethods/StringMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stringMethods/StringMethodsImplTest.java" afterDir="false" />
@@ -93,8 +93,8 @@
       <recent name="org.example.FirstLast6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringMethodsImplTest.catDogNoneTest">
-    <configuration name="StringMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringMethodsImplTest.xyzThereXyTest">
+    <configuration name="StringMethodsImplTest.countCodeNoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -104,28 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringMethodsImplTest.catDogCatDogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.stringMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.stringMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="catDogCatDogTest" />
+      <option name="METHOD_NAME" value="countCodeNoneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.catDogNoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.endOtherAbcAbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -135,13 +120,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="catDogNoneTest" />
+      <option name="METHOD_NAME" value="endOtherAbcAbcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.countHiHiHiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.endOtherYzXzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -151,13 +136,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="countHiHiHiTest" />
+      <option name="METHOD_NAME" value="endOtherYzXzTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.countHiNoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.xyzThereAbcxyzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -167,7 +152,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="countHiNoneTest" />
+      <option name="METHOD_NAME" value="xyzThereAbcxyzTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMethodsImplTest.xyzThereXyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.stringMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.stringMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
+      <option name="METHOD_NAME" value="xyzThereXyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringMethodsImplTest.catDogNoneTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.catDogCatDogTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.countHiNoneTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.countHiHiHiTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.xyzThereXyTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.xyzThereAbcxyzTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.endOtherYzXzTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.endOtherAbcAbcTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.countCodeNoneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -261,14 +262,8 @@
       <workItem from="1671639223933" duration="3549000" />
       <workItem from="1671727358450" duration="5573000" />
       <workItem from="1671815238830" duration="4889000" />
-      <workItem from="1671889560902" duration="2492000" />
-    </task>
-    <task id="LOCAL-00007" summary="Add method:  loneTeen, delDel, mixStart">
-      <created>1667496484133</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1667496484133</updated>
+      <workItem from="1671889560902" duration="2627000" />
+      <workItem from="1672063803609" duration="1881000" />
     </task>
     <task id="LOCAL-00008" summary="Add method:  startOz, intMax, close10">
       <created>1667583102462</created>
@@ -606,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671891010871</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Add implementation: catDog">
+      <created>1671893371919</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1671893371919</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +626,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  deFront" />
     <MESSAGE value="Add method:  StartWord" />
     <MESSAGE value="Add method:  WithoutX" />
     <MESSAGE value="Add method:  WithoutX2" />
@@ -649,6 +650,7 @@
     <MESSAGE value="Add implementation:  noTeenSum, roundSum, closeFar" />
     <MESSAGE value="Add implementation:  blackjack, evenlySpaced, makeChocolate" />
     <MESSAGE value="Add implementation:  doubleChar, countHi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation:  doubleChar, countHi" />
+    <MESSAGE value="Add implementation: catDog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: catDog" />
   </component>
 </project>

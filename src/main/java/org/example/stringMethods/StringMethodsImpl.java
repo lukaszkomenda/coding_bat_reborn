@@ -42,4 +42,40 @@ public class StringMethodsImpl implements StringMethods{
 
         return catCounter == dogCounter;
     }
+
+    @Override
+    public int countCode(String str) {
+        int count = 0;
+
+        for(int i = 0; i < str.length() - 3; i++) {
+            if(str.startsWith("co", i) && str.charAt(i + 3) == 'e')
+                count++;
+        }
+
+        return count;
+    }
+
+    @Override
+    public boolean endOther(String a, String b) {
+        if(a.length() < b.length()) {
+            String temp = a;
+            a = b.toLowerCase();
+            b = temp.toLowerCase();
+        }
+
+        return a.endsWith(b);
+    }
+
+    @Override
+    public boolean xyzThere(String str) {
+        if(str.startsWith("xyz"))
+            return true;
+
+        for(int i = 1; i < str.length() - 2; i++) {
+            if(str.charAt(i - 1) != '.' && str.startsWith("xyz", i))
+                return true;
+        }
+
+        return false;
+    }
 }
