@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: catDog">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: countCode, endOther, xyzThere">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stringMethods/StringMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stringMethods/StringMethodsImplTest.java" afterDir="false" />
@@ -93,8 +94,8 @@
       <recent name="org.example.FirstLast6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringMethodsImplTest.xyzThereXyTest">
-    <configuration name="StringMethodsImplTest.countCodeNoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringMethodsImplTest.mixStringAxBTest">
+    <configuration name="StringMethodsImplTest.bobThereBacTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +105,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="countCodeNoneTest" />
+      <option name="METHOD_NAME" value="bobThereBacTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.endOtherAbcAbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.mixStringAbcXyz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +121,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="endOtherAbcAbcTest" />
+      <option name="METHOD_NAME" value="mixStringAbcXyz" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.endOtherYzXzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.mixStringAxBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +137,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="endOtherYzXzTest" />
+      <option name="METHOD_NAME" value="mixStringAxBTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.xyzThereAbcxyzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.xyBalanceXxbxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -152,13 +153,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="xyzThereAbcxyzTest" />
+      <option name="METHOD_NAME" value="xyBalanceXxbxTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.xyzThereXyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.xyBalanceXyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -168,7 +169,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="xyzThereXyTest" />
+      <option name="METHOD_NAME" value="xyBalanceXyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringMethodsImplTest.xyzThereXyTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.xyzThereAbcxyzTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.endOtherYzXzTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.endOtherAbcAbcTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.countCodeNoneTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.mixStringAxBTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.mixStringAbcXyz" />
+        <item itemvalue="JUnit.StringMethodsImplTest.xyBalanceXyTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.xyBalanceXxbxTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.bobThereBacTest" />
       </list>
     </recent_temporary>
   </component>
@@ -263,14 +264,9 @@
       <workItem from="1671727358450" duration="5573000" />
       <workItem from="1671815238830" duration="4889000" />
       <workItem from="1671889560902" duration="2627000" />
-      <workItem from="1672063803609" duration="1881000" />
-    </task>
-    <task id="LOCAL-00008" summary="Add method:  startOz, intMax, close10">
-      <created>1667583102462</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1667583102462</updated>
+      <workItem from="1672063803609" duration="1957000" />
+      <workItem from="1672156692342" duration="59000" />
+      <workItem from="1672157720258" duration="3166000" />
     </task>
     <task id="LOCAL-00009" summary="Add method:  in3050, max1020, stringE, lastDigit, endUp">
       <created>1667670515205</created>
@@ -608,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671893371919</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Add implementation: countCode, endOther, xyzThere">
+      <created>1672065764704</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1672065764704</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  StartWord" />
     <MESSAGE value="Add method:  WithoutX" />
     <MESSAGE value="Add method:  WithoutX2" />
     <MESSAGE value="Add implementation:  firstLast6" />
@@ -651,6 +653,7 @@
     <MESSAGE value="Add implementation:  blackjack, evenlySpaced, makeChocolate" />
     <MESSAGE value="Add implementation:  doubleChar, countHi" />
     <MESSAGE value="Add implementation: catDog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: catDog" />
+    <MESSAGE value="Add implementation: countCode, endOther, xyzThere" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: countCode, endOther, xyzThere" />
   </component>
 </project>

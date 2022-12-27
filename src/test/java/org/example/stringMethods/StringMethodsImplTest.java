@@ -129,4 +129,66 @@ class StringMethodsImplTest {
         //then
         assertFalse(isRareXyzAppear);
     }
+
+    @Test
+    void bobThereB9bTest() {
+        //given
+        String str = "b9b";
+        //when
+        boolean isBobContains = stringMethods.bobThere(str);
+        //then
+        assertTrue(isBobContains);
+    }
+
+    @Test
+    void bobThereBacTest(){
+        //given
+        String str = "bac";
+        //when
+        boolean isBobContains = stringMethods.bobThere(str);
+        //then
+        assertFalse(isBobContains);
+    }
+
+    @Test
+    void xyBalanceXxbxTest() {
+        //given
+        String str = "xxbx";
+        //when
+        boolean isXyBalance = stringMethods.xyBalance(str);
+        //then
+        assertFalse(isXyBalance);
+    }
+
+    @Test
+    void xyBalanceXyTest(){
+        //given
+        String str = "xy";
+        //when
+        boolean isXyBalance = stringMethods.xyBalance(str);
+        //then
+        assertTrue(isXyBalance);
+    }
+
+    @Test
+    void mixStringAbcXyz() {
+        //given
+        String a = "abc";
+        String b = "xyz";
+        //when
+        String newStr = stringMethods.mixString(a, b);
+        //then
+        assertEquals("axbycz", newStr);
+    }
+
+    @Test
+    void mixStringAxBTest(){
+        //given
+        String a = "ax";
+        String b = "b";
+        //when
+        String newStr = stringMethods.mixString(a, b);
+        //then
+        assertEquals("abx", newStr);
+    }
 }
