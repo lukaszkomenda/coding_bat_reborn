@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: countCode, endOther, xyzThere">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethods.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: bobThere, xyBalance, mixString">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stringMethods/StringMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stringMethods/StringMethodsImplTest.java" afterDir="false" />
     </list>
@@ -47,9 +47,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="5e7e5963-54df-4664-94aa-e08520a9f294" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -94,8 +91,8 @@
       <recent name="org.example.FirstLast6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringMethodsImplTest.mixStringAxBTest">
-    <configuration name="StringMethodsImplTest.bobThereBacTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringMethodsImplTest.repeatSeparatorAbcXxThreeTest">
+    <configuration name="StringMethodsImplTest.repeatEndAbcThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="bobThereBacTest" />
+      <option name="METHOD_NAME" value="repeatEndAbcThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.mixStringAbcXyz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.repeatEndHelloThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +118,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="mixStringAbcXyz" />
+      <option name="METHOD_NAME" value="repeatEndHelloThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.mixStringAxBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.repeatFrontJavaOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -137,13 +134,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="mixStringAxBTest" />
+      <option name="METHOD_NAME" value="repeatFrontJavaOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.xyBalanceXxbxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.repeatSeparatorAbcXxThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -153,13 +150,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="xyBalanceXxbxTest" />
+      <option name="METHOD_NAME" value="repeatSeparatorAbcXxThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.xyBalanceXyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.repeatSeparatorThisAndTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -169,7 +166,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="xyBalanceXyTest" />
+      <option name="METHOD_NAME" value="repeatSeparatorThisAndTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringMethodsImplTest.mixStringAxBTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.mixStringAbcXyz" />
-        <item itemvalue="JUnit.StringMethodsImplTest.xyBalanceXyTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.xyBalanceXxbxTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.bobThereBacTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.repeatSeparatorAbcXxThreeTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.repeatSeparatorThisAndTwoTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.repeatFrontJavaOneTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.repeatEndHelloThreeTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.repeatEndAbcThreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -266,21 +263,8 @@
       <workItem from="1671889560902" duration="2627000" />
       <workItem from="1672063803609" duration="1957000" />
       <workItem from="1672156692342" duration="59000" />
-      <workItem from="1672157720258" duration="3166000" />
-    </task>
-    <task id="LOCAL-00009" summary="Add method:  in3050, max1020, stringE, lastDigit, endUp">
-      <created>1667670515205</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1667670515205</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Add method:  everyNth">
-      <created>1667741016102</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1667741016102</updated>
+      <workItem from="1672157720258" duration="4236000" />
+      <workItem from="1672244286277" duration="2877000" />
     </task>
     <task id="LOCAL-00011" summary="Add method:  stringTimes, frontTimes, countXX, doubleX">
       <created>1667746344384</created>
@@ -611,7 +595,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672065764704</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Add implementation: bobThere, xyBalance, mixString">
+      <created>1672161173430</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1672161173430</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Add implementation: bobThere, xyBalance, mixString">
+      <created>1672161298367</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1672161298367</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  WithoutX" />
     <MESSAGE value="Add method:  WithoutX2" />
     <MESSAGE value="Add implementation:  firstLast6" />
     <MESSAGE value="Add implementation:  sameFirstLast" />
@@ -654,6 +651,7 @@
     <MESSAGE value="Add implementation:  doubleChar, countHi" />
     <MESSAGE value="Add implementation: catDog" />
     <MESSAGE value="Add implementation: countCode, endOther, xyzThere" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: countCode, endOther, xyzThere" />
+    <MESSAGE value="Add implementation: bobThere, xyBalance, mixString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: bobThere, xyBalance, mixString" />
   </component>
 </project>

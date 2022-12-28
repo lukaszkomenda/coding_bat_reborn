@@ -191,4 +191,72 @@ class StringMethodsImplTest {
         //then
         assertEquals("abx", newStr);
     }
+
+    @Test
+    void repeatEndHelloThreeTest() {
+        //given
+        String str = "Hello";
+        int n = 3;
+        //when
+        String newStr = stringMethods.repeatEnd(str, n);
+        //then
+        assertEquals("llollollo", newStr);
+    }
+
+    @Test
+    void repeatEndAbcThreeTest(){
+        //given
+        String str = "abc";
+        int n = 3;
+        //when
+        String newStr = stringMethods.repeatEnd(str, n);
+        //then
+        assertEquals("abcabcabc", newStr);
+    }
+
+    @Test
+    void repeatFrontXyzThreeTest() {
+        //given
+        String str = "xyz";
+        int n = 3;
+        //when
+        String newStr = stringMethods.repeatFront(str, n);
+        //then
+        assertEquals("xyzxyx", newStr);
+    }
+
+    @Test
+    void repeatFrontJavaOneTest(){
+        //given
+        String str = "Java";
+        int n = 1;
+        //when
+        String newStr = stringMethods.repeatFront(str, n);
+        //then
+        assertEquals("J", newStr);
+    }
+
+    @Test
+    void repeatSeparatorThisAndTwoTest() {
+        //given
+        String word = "This";
+        String sep = "And";
+        int count = 2;
+        //when
+        String newStr = stringMethods.repeatSeparator(word, sep, count);
+        //then
+        assertEquals("ThisAndThis", newStr);
+    }
+
+    @Test
+    void repeatSeparatorAbcXxThreeTest(){
+        //given
+        String word = "abc";
+        String sep = "XX";
+        int count = 3;
+        //when
+        String newStr = stringMethods.repeatSeparator(word, sep, count);
+        //then
+        assertEquals("abcXXabcXXabc", newStr);
+    }
 }

@@ -11,4 +11,7 @@ public interface StringMethods {
     boolean bobThere(String str);
     boolean xyBalance(String str);
     String mixString(String a, String b);
+    String repeatEnd(String str, int n);
+    String repeatFront(String str, int n);
+    String repeatSeparator(String word, String sep, int count);
 }

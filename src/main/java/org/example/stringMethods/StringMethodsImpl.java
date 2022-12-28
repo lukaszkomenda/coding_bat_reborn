@@ -124,4 +124,36 @@ public class StringMethodsImpl implements StringMethods{
         }
         return sb.toString();
     }
+
+    @Override
+    public String repeatEnd(String str, int n) {
+        StringBuilder sb = new StringBuilder();
+        String pattern = str.substring(str.length() - n);
+
+        sb.append(pattern.repeat(Math.max(0, n)));
+        return sb.toString();
+    }
+
+    @Override
+    public String repeatFront(String str, int n) {
+        StringBuilder sb = new StringBuilder();
+        int limit = n;
+
+        for (int i = 0; i < n; i++) {
+            sb.append(str, 0, limit);
+            limit--;
+        }
+        return sb.toString();
+    }
+
+    @Override
+    public String repeatSeparator(String word, String sep, int count) {
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < count; i++) {
+            sb.append(word);
+            sb.append(sep);
+        }
+        return sb.substring(0, sb.length() - sep.length());
+    }
 }
