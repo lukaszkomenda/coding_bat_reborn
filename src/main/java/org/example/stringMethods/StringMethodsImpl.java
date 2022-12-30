@@ -156,4 +156,53 @@ public class StringMethodsImpl implements StringMethods{
         }
         return sb.substring(0, sb.length() - sep.length());
     }
+
+    @Override
+    public boolean prefixAgain(String str, int n) {
+        String prefix = str.substring(0,n);
+
+        return str.substring(n).contains(prefix);
+    }
+
+    @Override
+    public boolean xyzMiddle(String str) {
+        if(str.length() < 3)
+            return false;
+
+        int start1 = str.length() / 2 - 2;
+        int start2 = str.length() / 2 - 1;
+        boolean isXyzAppear = str.startsWith("xyz", start2);
+
+        if(str.length() % 2 == 0) {
+            return str.startsWith("xyz", start1) ||
+                    isXyzAppear;
+        }
+
+        return isXyzAppear;
+    }
+
+    @Override
+    public String getSandwich(String str) {
+        int first = -1;
+        int last = -1;
+
+        for(int i = 0; i < str.length() - 5; i++) {
+            if(str.startsWith("bread", i)) {
+                first = i;
+                break;
+            }
+        }
+
+        for(int i = str.length() - 5; i >= 0; i--) {
+            if(str.startsWith("bread", i)) {
+                last = i;
+                break;
+            }
+        }
+
+        if(first != -1 && last != -1 && first != last)
+            return str.substring(first + 5, last);
+
+        return "";
+    }
 }

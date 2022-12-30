@@ -259,4 +259,66 @@ class StringMethodsImplTest {
         //then
         assertEquals("abcXXabcXXabc", newStr);
     }
+
+    @Test
+    void prefixAgainAaOneTest() {
+        //given
+        String str = "aa";
+        int n = 1;
+        //when
+        boolean isPrefixAppear = stringMethods.prefixAgain(str, n);
+        //then
+        assertTrue(isPrefixAppear);
+    }
+
+    @Test
+    void prefixAgainAbXyAbcThreeTest(){
+        //given
+        String str = "abXYabc";
+        int n = 3;
+        //when
+        boolean isPrefixAppear = stringMethods.prefixAgain(str, n);
+        //then
+        assertFalse(isPrefixAppear);
+    }
+
+    @Test
+    void xyzMiddleAaXyzBbTest() {
+        //given
+        String str = "AAxyzBB";
+        //when
+        boolean isXyzInMiddle = stringMethods.xyzMiddle(str);
+        //then
+        assertTrue(isXyzInMiddle);
+    }
+
+    @Test
+    void xyzMiddleAxyzBbbTest(){
+        //given
+        String str = "AxyzBBB";
+        //when
+        boolean isXyzInMiddle = stringMethods.xyzMiddle(str);
+        //then
+        assertFalse(isXyzInMiddle);
+    }
+
+    @Test
+    void getSandwichDoubleBreadTest() {
+        //given
+        String str = "breadbread";
+        //when
+        String newStr = stringMethods.getSandwich(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void getSandwichBreadJamBreadTest(){
+        //given
+        String str = "breadjambread";
+        //when
+        String newStr = stringMethods.getSandwich(str);
+        //then
+        assertEquals("jam", newStr);
+    }
 }

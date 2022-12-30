@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: bobThere, xyBalance, mixString">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: repeatEnd, repeatFront, repeatSeparator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/stringMethods/StringMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/stringMethods/StringMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/stringMethods/StringMethodsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/stringMethods/StringMethodsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/stringMethods/StringMethodsImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/example/stringMethods/StringMethodsImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stringMethods/StringMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stringMethods/StringMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stringMethods/StringMethodsImplTest.java" afterDir="false" />
@@ -91,8 +94,8 @@
       <recent name="org.example.FirstLast6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringMethodsImplTest.repeatSeparatorAbcXxThreeTest">
-    <configuration name="StringMethodsImplTest.repeatEndAbcThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringMethodsImplTest.getSandwichBreadJamBreadTest">
+    <configuration name="StringMethodsImplTest.getSandwichBreadJamBreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -102,13 +105,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="repeatEndAbcThreeTest" />
+      <option name="METHOD_NAME" value="getSandwichBreadJamBreadTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.repeatEndHelloThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.getSandwichDoubleBreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -118,13 +121,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="repeatEndHelloThreeTest" />
+      <option name="METHOD_NAME" value="getSandwichDoubleBreadTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.repeatFrontJavaOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.prefixAgainAbXyAbcThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -134,13 +137,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="repeatFrontJavaOneTest" />
+      <option name="METHOD_NAME" value="prefixAgainAbXyAbcThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.repeatSeparatorAbcXxThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.xyzMiddleAaXyzBbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -150,13 +153,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="repeatSeparatorAbcXxThreeTest" />
+      <option name="METHOD_NAME" value="xyzMiddleAaXyzBbTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodsImplTest.repeatSeparatorThisAndTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMethodsImplTest.xyzMiddleAxyzBbbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -166,7 +169,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.stringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.stringMethods.StringMethodsImplTest" />
-      <option name="METHOD_NAME" value="repeatSeparatorThisAndTwoTest" />
+      <option name="METHOD_NAME" value="xyzMiddleAxyzBbbTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringMethodsImplTest.repeatSeparatorAbcXxThreeTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.repeatSeparatorThisAndTwoTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.repeatFrontJavaOneTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.repeatEndHelloThreeTest" />
-        <item itemvalue="JUnit.StringMethodsImplTest.repeatEndAbcThreeTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.getSandwichBreadJamBreadTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.getSandwichDoubleBreadTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.xyzMiddleAxyzBbbTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.xyzMiddleAaXyzBbTest" />
+        <item itemvalue="JUnit.StringMethodsImplTest.prefixAgainAbXyAbcThreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -264,14 +267,8 @@
       <workItem from="1672063803609" duration="1957000" />
       <workItem from="1672156692342" duration="59000" />
       <workItem from="1672157720258" duration="4236000" />
-      <workItem from="1672244286277" duration="2877000" />
-    </task>
-    <task id="LOCAL-00011" summary="Add method:  stringTimes, frontTimes, countXX, doubleX">
-      <created>1667746344384</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1667746344384</updated>
+      <workItem from="1672244286277" duration="2988000" />
+      <workItem from="1672418260061" duration="3375000" />
     </task>
     <task id="LOCAL-00012" summary="Add method:  stringBits, stringSplosion, last2">
       <created>1667842141573</created>
@@ -609,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672161298367</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Add implementation: repeatEnd, repeatFront, repeatSeparator">
+      <created>1672247288584</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1672247288584</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  WithoutX2" />
     <MESSAGE value="Add implementation:  firstLast6" />
     <MESSAGE value="Add implementation:  sameFirstLast" />
     <MESSAGE value="Add implementation:  makePi, commonEnd, sum3, rotateLeft3, reverse3" />
@@ -652,6 +655,7 @@
     <MESSAGE value="Add implementation: catDog" />
     <MESSAGE value="Add implementation: countCode, endOther, xyzThere" />
     <MESSAGE value="Add implementation: bobThere, xyBalance, mixString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: bobThere, xyBalance, mixString" />
+    <MESSAGE value="Add implementation: repeatEnd, repeatFront, repeatSeparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: repeatEnd, repeatFront, repeatSeparator" />
   </component>
 </project>

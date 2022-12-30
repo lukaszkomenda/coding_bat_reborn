@@ -14,4 +14,7 @@ public interface StringMethods {
     String repeatEnd(String str, int n);
     String repeatFront(String str, int n);
     String repeatSeparator(String word, String sep, int count);
+    boolean prefixAgain(String str, int n);
+    boolean xyzMiddle(String str);
+    String getSandwich(String str);
 }
