@@ -205,4 +205,49 @@ public class StringMethodsImpl implements StringMethods{
 
         return "";
     }
+
+    @Override
+    public boolean sameStarChar(String str) {
+
+        for(int i = 1; i < str.length() - 1; i++) {
+            if(str.charAt(i) == '*' && str.charAt(i - 1) != str.charAt(i + 1))
+                return false;
+        }
+
+        return true;
+    }
+
+    @Override
+    public String oneTwo(String str) {
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < str.length() - 2; i+=3) {
+            result.append(str, i + 1, i + 3).append(str.charAt(i));
+        }
+        return result.toString();
+    }
+
+    @Override
+    public String zipZap(String str) {
+        char[] arr = new char[str.length()];
+        int count = 0;
+
+        int i = 0;
+        while(i < str.length()) {
+            if(i < str.length() - 2 && str.charAt(i) == 'z' &&
+                    str.charAt(i + 2) == 'p') {
+                arr[count] = 'z';
+                count++;
+                arr[count] = 'p';
+                count++;
+                i += 3;
+            } else {
+                arr[count] = str.charAt(i);
+                count++;
+                i++;
+            }
+        }
+
+        return new String(arr, 0, count);
+    }
 }

@@ -321,4 +321,64 @@ class StringMethodsImplTest {
         //then
         assertEquals("jam", newStr);
     }
+
+    @Test
+    void sameStarCharXyStarYzzTest() {
+        //given
+        String str = "xy*yzz";
+        //when
+        boolean isSameCharBetweenStar = stringMethods.sameStarChar(str);
+        //then
+        assertTrue(isSameCharBetweenStar);
+    }
+
+    @Test
+    void sameStarCharXyStarZzzTest(){
+        //given
+        String str = "xy*zzz";
+        //then
+        boolean isSameCharBetweenStar = stringMethods.sameStarChar(str);
+        //then
+        assertFalse(isSameCharBetweenStar);
+    }
+
+    @Test
+    void oneTwoAbcTest() {
+        //given
+        String str = "abc";
+        //when
+        String newStr = stringMethods.oneTwo(str);
+        //then
+        assertEquals("bca", newStr);
+    }
+
+    @Test
+    void oneTwoTcaTest(){
+        //given
+        String str = "tca";
+        //when
+        String newStr = stringMethods.oneTwo(str);
+        //then
+        assertEquals("cat", newStr);
+    }
+
+    @Test
+    void zipZapZipXzapTest() {
+        //given
+        String str = "zipXzap";
+        //when
+        String newStr = stringMethods.zipZap(str);
+        //then
+        assertEquals("zpXzp", newStr);
+    }
+
+    @Test
+    void zipZapZzpTest(){
+        //given
+        String str = "zzp";
+        //when
+        String newStr = stringMethods.zipZap(str);
+        //then
+        assertEquals("zp", newStr);
+    }
 }

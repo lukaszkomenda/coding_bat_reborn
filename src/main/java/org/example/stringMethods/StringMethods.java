@@ -17,4 +17,7 @@ public interface StringMethods {
     boolean prefixAgain(String str, int n);
     boolean xyzMiddle(String str);
     String getSandwich(String str);
+    boolean sameStarChar(String str);
+    String oneTwo(String str);
+    String zipZap(String str);
 }
