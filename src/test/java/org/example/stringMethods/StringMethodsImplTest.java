@@ -381,4 +381,68 @@ class StringMethodsImplTest {
         //then
         assertEquals("zp", newStr);
     }
+
+    @Test
+    void starOutAbStarCdTest() {
+        //given
+        String str = "ab*cd";
+        //when
+        String newStr = stringMethods.starOut(str);
+        //then
+        assertEquals("ad", newStr);
+    }
+
+    @Test
+    void starOutAbDoubleStarCdTest(){
+        //given
+        String str = "ab**cd";
+        //when
+        String newStr = stringMethods.starOut(str);
+        //then
+        assertEquals("ad", newStr);
+    }
+
+    @Test
+    void plusOutTwelveXyThirtyFourTest() {
+        //given
+        String str = "12xy34";
+        String word = "xy";
+        //when
+        String newStr = stringMethods.plusOut(str, word);
+        //then
+        assertEquals("++xy++", newStr);
+    }
+
+    @Test
+    void plusOutAaXxxxBbTest(){
+        //given
+        String str = "aaxxxxbb";
+        String word = "xx";
+        //when
+        String newStr = stringMethods.plusOut(str, word);
+        //then
+        assertEquals("++xxxx++", newStr);
+    }
+
+    @Test
+    void wordEndsHiXyTest() {
+        //given
+        String str = "Hi";
+        String word = "XY";
+        //when
+        String newStr = stringMethods.wordEnds(str, word);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void wordEndsXyxyXyTest(){
+        //given
+        String str = "XYXY";
+        String word = "XY";
+        //when
+        String newStr = stringMethods.wordEnds(str, word);
+        //then
+        assertEquals("XY", newStr);
+    }
 }

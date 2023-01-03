@@ -20,4 +20,7 @@ public interface StringMethods {
     boolean sameStarChar(String str);
     String oneTwo(String str);
     String zipZap(String str);
+    String starOut(String str);
+    String plusOut(String str, String word);
+    String wordEnds(String str, String word);
 }
