@@ -47,6 +47,66 @@ class HardStringMethodsImplTest {
         //when
         String newStr = hardStringMethods.withoutString(base, remove);
         //then
-        assertEquals("11", newStr);
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void equalIsNotThisIsNotTest() {
+        //given
+        String str = "This is not";
+        //when
+        boolean isEqual = hardStringMethods.equalIsNot(str);
+        //then
+        assertFalse(isEqual);
+    }
+
+    @Test
+    void equalIsNotThisIsNotNotTest(){
+        //given
+        String str = "This is notnot";
+        //when
+        boolean isEqual = hardStringMethods.equalIsNot(str);
+        //then
+        assertTrue(isEqual);
+    }
+
+    @Test
+    void gHappyDoubleGTest() {
+        //given
+        String str = "gg";
+        //when
+        boolean isGHappy = hardStringMethods.gHappy(str);
+        //then
+        assertTrue(isGHappy);
+    }
+
+    @Test
+    void gHappyMgmTest(){
+        //given
+        String str = "mgm";
+        //when
+        boolean isGHappy = hardStringMethods.gHappy(str);
+        //then
+        assertFalse(isGHappy);
+    }
+
+    @Test
+    void countTripleXxxAbcTest() {
+        //given
+        String str = "XXXabc";
+        //when
+        int tripleCounter = hardStringMethods.countTriple(str);
+        //then
+        assertEquals(1, tripleCounter);
+    }
+
+    @Test
+    void countTripleATest(){
+        //given
+        String str = "a";
+        //when
+        int tripleCounter = hardStringMethods.countTriple(str);
+        //then
+        assertEquals(0, tripleCounter);
     }
 }

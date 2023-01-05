@@ -1,5 +1,8 @@
 package org.example.hardStringMethods;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class HardStringMethodsImpl implements HardStringMethods{
     @Override
     public int countYZ(String str) {
@@ -48,5 +51,61 @@ public class HardStringMethodsImpl implements HardStringMethods{
         }
 
         return new String(arr, 0, count);
+    }
+
+    @Override
+    public boolean equalIsNot(String str) {
+        int isCount = 0;
+        int notCount = 0;
+
+        Pattern isPattern = Pattern.compile("is");
+        Matcher isMatcher = isPattern.matcher(str);
+
+        while (isMatcher.find()){
+            isCount++;
+        }
+
+        Pattern notPattern = Pattern.compile("not");
+        Matcher notMatcher = notPattern.matcher(str);
+
+        while (notMatcher.find()) {
+            notCount++;
+        }
+
+        return isCount == notCount;
+    }
+
+    @Override
+    public boolean gHappy(String str) {
+
+        if(str.length() == 1 && str.charAt(0) == 'g')
+            return false;
+
+        if(str.length() >= 2 &&
+                (str.charAt(0) == 'g' && str.charAt(1) != 'g' ||
+                        str.charAt(str.length()-1) == 'g' &&
+                                str.charAt(str.length()-2) != 'g'))
+            return false;
+
+        for(int i = 1; i <= str.length() - 2; i++) {
+            if(str.charAt(i) == 'g' && str.charAt(i-1) != 'g' &&
+                    str.charAt(i+1) != 'g')
+                return false;
+        }
+
+        return true;
+    }
+
+    @Override
+    public int countTriple(String str) {
+        int count = 0;
+
+        for(int i = 0; i <= str.length() - 3; i++) {
+            if(str.charAt(i) == str.charAt(i+1) &&
+                    str.charAt(i) == str.charAt(i+2))
+                count++;
+        }
+
+        return count;
     }
 }
