@@ -108,4 +108,47 @@ public class HardStringMethodsImpl implements HardStringMethods{
 
         return count;
     }
+
+    @Override
+    public int sumDigits(String str) {
+        int counter = 0;
+        char[] strArray = str.toCharArray();
+
+        for (int i = 0; i < strArray.length; i++) {
+            if (Character.isDigit(strArray[i])) {
+                counter += Integer.parseInt(str.substring(i, i + 1));
+            }
+        }
+        return counter;
+    }
+
+    @Override
+    public String sameEnds(String string) {
+        int start = (int) Math.ceil((double) string.length() / 2);
+        int end = string.length() / 2;
+
+        for(int i = 0; i < string.length() / 2; i++) {
+            if(string.substring(0, end).equals(string.substring(start))) {
+                return string.substring(0, end);
+            } else {
+                start++;
+                end--;
+            }
+        }
+        return "";
+    }
+
+    @Override
+    public String mirrorEnds(String string) {
+        StringBuilder result = new StringBuilder();
+
+        for(int i = 0; i < string.length(); i++) {
+            if(string.charAt(i) == string.charAt(string.length() - i - 1))
+                result.append(string.charAt(i));
+            else
+                break;
+        }
+
+        return result.toString();
+    }
 }

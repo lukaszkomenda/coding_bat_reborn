@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: countYZ, withoutString">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: equalIsNot, gHappy, countTriple">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/classpath.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/classpath.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hardStringMethods/HardStringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hardStringMethods/HardStringMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hardStringMethods/HardStringMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hardStringMethods/HardStringMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hardStringMethods/HardStringMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hardStringMethods/HardStringMethodsImplTest.java" afterDir="false" />
@@ -93,8 +91,8 @@
       <recent name="org.example.arrayMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HardStringMethodsImplTest.countTripleATest">
-    <configuration name="HardStringMethodsImplTest.countTripleATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HardStringMethodsImplTest.mirrorEndsAbabTest">
+    <configuration name="HardStringMethodsImplTest.mirrorEndsAbabTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.hardStringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.hardStringMethods.HardStringMethodsImplTest" />
-      <option name="METHOD_NAME" value="countTripleATest" />
+      <option name="METHOD_NAME" value="mirrorEndsAbabTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardStringMethodsImplTest.countTripleXxxAbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HardStringMethodsImplTest.mirrorEndsAbcaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +118,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.hardStringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.hardStringMethods.HardStringMethodsImplTest" />
-      <option name="METHOD_NAME" value="countTripleXxxAbcTest" />
+      <option name="METHOD_NAME" value="mirrorEndsAbcaTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardStringMethodsImplTest.equalIsNotThisIsNotNotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HardStringMethodsImplTest.sameEndsAbXyAbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +134,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.hardStringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.hardStringMethods.HardStringMethodsImplTest" />
-      <option name="METHOD_NAME" value="equalIsNotThisIsNotNotTest" />
+      <option name="METHOD_NAME" value="sameEndsAbXyAbTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardStringMethodsImplTest.gHappyDoubleGTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HardStringMethodsImplTest.sameEndsXxxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -152,13 +150,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.hardStringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.hardStringMethods.HardStringMethodsImplTest" />
-      <option name="METHOD_NAME" value="gHappyDoubleGTest" />
+      <option name="METHOD_NAME" value="sameEndsXxxTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardStringMethodsImplTest.gHappyMgmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HardStringMethodsImplTest.sumDigitsAa11b33Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -168,7 +166,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.hardStringMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.hardStringMethods.HardStringMethodsImplTest" />
-      <option name="METHOD_NAME" value="gHappyMgmTest" />
+      <option name="METHOD_NAME" value="sumDigitsAa11b33Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HardStringMethodsImplTest.countTripleATest" />
-        <item itemvalue="JUnit.HardStringMethodsImplTest.countTripleXxxAbcTest" />
-        <item itemvalue="JUnit.HardStringMethodsImplTest.gHappyMgmTest" />
-        <item itemvalue="JUnit.HardStringMethodsImplTest.gHappyDoubleGTest" />
-        <item itemvalue="JUnit.HardStringMethodsImplTest.equalIsNotThisIsNotNotTest" />
+        <item itemvalue="JUnit.HardStringMethodsImplTest.mirrorEndsAbabTest" />
+        <item itemvalue="JUnit.HardStringMethodsImplTest.mirrorEndsAbcaTest" />
+        <item itemvalue="JUnit.HardStringMethodsImplTest.sameEndsXxxTest" />
+        <item itemvalue="JUnit.HardStringMethodsImplTest.sameEndsAbXyAbTest" />
+        <item itemvalue="JUnit.HardStringMethodsImplTest.sumDigitsAa11b33Test" />
       </list>
     </recent_temporary>
   </component>
@@ -271,14 +269,9 @@
       <workItem from="1672673792765" duration="4691000" />
       <workItem from="1672762448099" duration="3064000" />
       <workItem from="1672848587675" duration="3866000" />
-      <workItem from="1672935592267" duration="2507000" />
-    </task>
-    <task id="LOCAL-00016" summary="Add method:  noTriples, has271">
-      <created>1668275274893</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1668275274893</updated>
+      <workItem from="1672935592267" duration="3510000" />
+      <workItem from="1673011088304" duration="258000" />
+      <workItem from="1673104539683" duration="3263000" />
     </task>
     <task id="LOCAL-00017" summary="Add method:  helloName, makeAbba, makeTags">
       <created>1668363405260</created>
@@ -616,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672851880275</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Add implementation: equalIsNot, gHappy, countTriple">
+      <created>1672938360195</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1672938360195</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation:  no23, makeLast, double23" />
     <MESSAGE value="Add implementation:  fix23, start1, biggerTwo" />
     <MESSAGE value="Add implementation:  makeMiddle, plusTwo, swapEnds" />
     <MESSAGE value="Add implementation:  midThree, maxTriple, frontPiece" />
@@ -659,6 +658,7 @@
     <MESSAGE value="Add implementation: sameStarChar, oneTwo, zipZap" />
     <MESSAGE value="Add implementation: starOut, plusOut, wordEnds" />
     <MESSAGE value="Add implementation: countYZ, withoutString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: countYZ, withoutString" />
+    <MESSAGE value="Add implementation: equalIsNot, gHappy, countTriple" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: equalIsNot, gHappy, countTriple" />
   </component>
 </project>

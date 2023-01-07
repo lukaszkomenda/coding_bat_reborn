@@ -7,4 +7,7 @@ public interface HardStringMethods {
     boolean equalIsNot(String str);
     boolean gHappy(String str);
     int countTriple(String str);
+    int sumDigits(String str);
+    String sameEnds(String string);
+    String mirrorEnds(String string);
 }

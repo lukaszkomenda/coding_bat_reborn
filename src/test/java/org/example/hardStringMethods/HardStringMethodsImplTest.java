@@ -109,4 +109,64 @@ class HardStringMethodsImplTest {
         //then
         assertEquals(0, tripleCounter);
     }
+
+    @Test
+    void sumDigitsAa1Bc2D3Test() {
+        //given
+        String str = "aa1bc2d3";
+        //when
+        int result = hardStringMethods.sumDigits(str);
+        //then
+        assertEquals(6, result);
+    }
+
+    @Test
+    void sumDigitsAa11b33Test(){
+        //given
+        String str = "aa11b33";
+        //when
+        int result = hardStringMethods.sumDigits(str);
+        //then
+        assertEquals(8, result);
+    }
+
+    @Test
+    void sameEndsAbXyAbTest() {
+        //given
+        String str = "abXYab";
+        //when
+        String newStr = hardStringMethods.sameEnds(str);
+        //then
+        assertEquals("ab", newStr);
+    }
+
+    @Test
+    void sameEndsXxxTest(){
+        //given
+        String str = "xxx";
+        //when
+        String newStr = hardStringMethods.sameEnds(str);
+        //then
+        assertEquals("x", newStr);
+    }
+
+    @Test
+    void mirrorEndsAbcaTest() {
+        //given
+        String str = "abca";
+        //when
+        String newStr = hardStringMethods.mirrorEnds(str);
+        //then
+        assertEquals("a", newStr);
+    }
+
+    @Test
+    void mirrorEndsAbabTest(){
+        //given
+        String str = "abab";
+        //when
+        String newStr = hardStringMethods.mirrorEnds(str);
+        //then
+        assertEquals("", newStr);
+    }
 }
