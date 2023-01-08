@@ -10,4 +10,5 @@ public interface HardStringMethods {
     int sumDigits(String str);
     String sameEnds(String string);
     String mirrorEnds(String string);
+    int sumNumbers(String str);
 }

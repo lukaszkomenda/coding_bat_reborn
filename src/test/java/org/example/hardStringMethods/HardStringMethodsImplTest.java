@@ -169,4 +169,24 @@ class HardStringMethodsImplTest {
         //then
         assertEquals("", newStr);
     }
+
+    @Test
+    void sumNumbersSevenEmptySpaceElevenTest() {
+        //given
+        String str = "7 11";
+        //when
+        int result = hardStringMethods.sumNumbers(str);
+        //then
+        assertEquals(18, result);
+    }
+
+    @Test
+    void sumNumbersNoneTest(){
+        //given
+        String str = "";
+        //when
+        int result = hardStringMethods.sumNumbers(str);
+        //then
+        assertEquals(0, result);
+    }
 }
