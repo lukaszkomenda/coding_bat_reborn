@@ -11,4 +11,6 @@ public interface HardStringMethods {
     String sameEnds(String string);
     String mirrorEnds(String string);
     int sumNumbers(String str);
+    int maxBlock(String str);
+    String notReplace(String str);
 }

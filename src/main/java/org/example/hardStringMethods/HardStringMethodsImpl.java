@@ -184,4 +184,62 @@ public class HardStringMethodsImpl implements HardStringMethods{
 
         return sum;
     }
+
+    @Override
+    public int maxBlock(String str) {
+        if(str.length() == 0)
+            return 0;
+
+        int largest = 0;
+        int current = 1;
+
+        for(int i = 1; i < str.length(); i++) {
+            if(str.charAt(i) != str.charAt(i-1)) {
+                if(current > largest)
+                    largest = current;
+                current = 1;
+            } else {
+                current++;
+            }
+        }
+
+        return Math.max(largest, current);
+    }
+
+    @Override
+    public String notReplace(String str) {
+        if(str.equals("is"))
+            return "is not";
+
+        StringBuilder result = new StringBuilder();
+        int i = 0;
+
+        if(str.length() >= 3 && str.startsWith("is") &&
+                !Character.isLetter(str.charAt(2))) {
+            result.append("is not");
+            i = 2;
+        }
+
+        while(i < str.length()) {
+            if(!Character.isLetter(str.charAt(i))) {
+                result.append(str.charAt(i));
+                i++;
+            } else if(i >= 1 && i <= str.length()-3 &&
+                    !Character.isLetter(str.charAt(i-1)) &&
+                    str.startsWith("is", i) &&
+                    !Character.isLetter(str.charAt(i+2))) {
+                result.append("is not");
+                i += 2;
+            } else if(i >= 1 && !Character.isLetter(str.charAt(i-1)) &&
+                    str.substring(i).equals("is")) {
+                result.append("is not");
+                i += 2;
+            } else {
+                result.append(str.charAt(i));
+                i++;
+            }
+        }
+
+        return result.toString();
+    }
 }

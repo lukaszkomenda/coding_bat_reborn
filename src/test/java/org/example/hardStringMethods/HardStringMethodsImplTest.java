@@ -189,4 +189,44 @@ class HardStringMethodsImplTest {
         //then
         assertEquals(0, result);
     }
+
+    @Test
+    void maxBlockHooplaTest() {
+        //given
+        String str = "hoopla";
+        //when
+        int result = hardStringMethods.maxBlock(str);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void maxBlockXyzTest(){
+        //given
+        String str = "xyz";
+        //when
+        int result = hardStringMethods.maxBlock(str);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void notReplaceIsTest() {
+        //given
+        String str = "is test";
+        //when
+        String newStr = hardStringMethods.notReplace(str);
+        //then
+        assertEquals("is not test", newStr);
+    }
+
+    @Test
+    void notReplaceIsisTest(){
+        //given
+        String str = "isis";
+        //when
+        String newStr = hardStringMethods.notReplace(str);
+        //then
+        assertEquals("isis", newStr);
+    }
 }
