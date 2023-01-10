@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: sumNumbers">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: maxBlock, notReplace">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumArrayMethods/MediumArrayMethodsImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hardStringMethods/HardStringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hardStringMethods/HardStringMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hardStringMethods/HardStringMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hardStringMethods/HardStringMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hardStringMethods/HardStringMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hardStringMethods/HardStringMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="String-2" />
+        <entry key="$PROJECT_DIR$" value="String-3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,20 +84,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.mediumArrayMethods" />
       <recent name="org.example.hardStringMethods" />
       <recent name="org.example.stringMethods" />
       <recent name="org.example.puzzle" />
       <recent name="org.example.logicMethods" />
-      <recent name="org.example.arrayMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HardStringMethodsImplTest.notReplaceIsisTest">
-    <configuration name="HardStringMethodsImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hardStringMethods.HardStringMethodsImpl" />
+  <component name="RunManager" selected="JUnit.MediumArrayMethodsImplTest.centeredAverageOneSevenEightTest">
+    <configuration name="MediumArrayMethodsImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImpl" />
       <module name="coding_bat_reborn_2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hardStringMethods.*" />
+          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,65 +105,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardStringMethodsImplTest.maxBlockHooplaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumArrayMethodsImplTest.bigDiffTenThreeFiveSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hardStringMethods.*" />
+          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.hardStringMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hardStringMethods.HardStringMethodsImplTest" />
-      <option name="METHOD_NAME" value="maxBlockHooplaTest" />
+      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="bigDiffTenThreeFiveSixTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardStringMethodsImplTest.maxBlockXyzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumArrayMethodsImplTest.bigDiffTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hardStringMethods.*" />
+          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.hardStringMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hardStringMethods.HardStringMethodsImplTest" />
-      <option name="METHOD_NAME" value="maxBlockXyzTest" />
+      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="bigDiffTwoThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardStringMethodsImplTest.notReplaceIsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumArrayMethodsImplTest.centeredAverageFourZeroHundredTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hardStringMethods.*" />
+          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.hardStringMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hardStringMethods.HardStringMethodsImplTest" />
-      <option name="METHOD_NAME" value="notReplaceIsTest" />
+      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="centeredAverageFourZeroHundredTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardStringMethodsImplTest.notReplaceIsisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumArrayMethodsImplTest.centeredAverageOneSevenEightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hardStringMethods.*" />
+          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.hardStringMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hardStringMethods.HardStringMethodsImplTest" />
-      <option name="METHOD_NAME" value="notReplaceIsisTest" />
+      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="centeredAverageOneSevenEightTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HardStringMethodsImplTest.notReplaceIsisTest" />
-        <item itemvalue="JUnit.HardStringMethodsImplTest.notReplaceIsTest" />
-        <item itemvalue="JUnit.HardStringMethodsImplTest.maxBlockXyzTest" />
-        <item itemvalue="JUnit.HardStringMethodsImplTest.maxBlockHooplaTest" />
-        <item itemvalue="Application.HardStringMethodsImpl" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.centeredAverageOneSevenEightTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.centeredAverageFourZeroHundredTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.bigDiffTwoThreeTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.bigDiffTenThreeFiveSixTest" />
+        <item itemvalue="Application.MediumArrayMethodsImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -270,14 +270,8 @@
       <workItem from="1673011088304" duration="258000" />
       <workItem from="1673104539683" duration="3623000" />
       <workItem from="1673191669574" duration="1643000" />
-      <workItem from="1673283844015" duration="3219000" />
-    </task>
-    <task id="LOCAL-00019" summary="Add method:  firstHalf, withoutEnd, comboString">
-      <created>1668534003611</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1668534003611</updated>
+      <workItem from="1673283844015" duration="3877000" />
+      <workItem from="1673369277155" duration="2676000" />
     </task>
     <task id="LOCAL-00020" summary="Add method:  firstTwo">
       <created>1668617296914</created>
@@ -615,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673193690433</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Add implementation: maxBlock, notReplace">
+      <created>1673287397002</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1673287397018</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation:  midThree, maxTriple, frontPiece" />
     <MESSAGE value="Add implementation:  unlucky1, make2, front11" />
     <MESSAGE value="Add implementation:  cigarParty" />
     <MESSAGE value="Add implementation:  dateFashion, squirrelPlay, caughtSpeeding, sortaSum, alarmClock" />
@@ -658,6 +658,7 @@
     <MESSAGE value="Add implementation: equalIsNot, gHappy, countTriple" />
     <MESSAGE value="Add implementation: sumDigits, sameEnds, mirrorEnds" />
     <MESSAGE value="Add implementation: sumNumbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: sumNumbers" />
+    <MESSAGE value="Add implementation: maxBlock, notReplace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: maxBlock, notReplace" />
   </component>
 </project>
