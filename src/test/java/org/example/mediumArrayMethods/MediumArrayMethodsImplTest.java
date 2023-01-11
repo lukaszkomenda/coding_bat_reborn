@@ -67,4 +67,24 @@ class MediumArrayMethodsImplTest {
         //then
         assertEquals(7, result);
     }
+
+    @Test
+    void sum13OneTwoTwoOneTest() {
+        //given
+        int[] nums = {1,2,2,1};
+        //when
+        int result = mediumArrayMethods.sum13(nums);
+        //then
+        assertEquals(6, result);
+    }
+
+    @Test
+    void sum13ThirteenOneThirteenTest(){
+        //given
+        int[] nums = {13,1,13};
+        //when
+        int result = mediumArrayMethods.sum13(nums);
+        //then
+        assertEquals(0, result);
+    }
 }

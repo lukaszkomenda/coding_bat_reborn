@@ -5,4 +5,5 @@ public interface MediumArrayMethods {
     int countEvens(int[] nums);
     int bigDiff(int[] nums);
     int centeredAverage(int[] nums);
+    int sum13(int[] nums);
 }
