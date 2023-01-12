@@ -87,4 +87,64 @@ class MediumArrayMethodsImplTest {
         //then
         assertEquals(0, result);
     }
+
+    @Test
+    void sum67OneTwoTwoTest() {
+        //given
+        int[] nums = {1,2,2};
+        //when
+        int result = mediumArrayMethods.sum67(nums);
+        //then
+        assertEquals(5, result);
+    }
+
+    @Test
+    void sum67OneSixSevenSevenTest(){
+        //given
+        int[] nums = {1,6,7,7};
+        //when
+        int result = mediumArrayMethods.sum67(nums);
+        //then
+        assertEquals(8, result);
+    }
+
+    @Test
+    void has22OneTwoTwoTest() {
+        //given
+        int[] nums = {1,2,2};
+        //when
+        boolean isTwoInRaw = mediumArrayMethods.has22(nums);
+        //then
+        assertTrue(isTwoInRaw);
+    }
+
+    @Test
+    void has22OneThreeTwoTest(){
+        //given
+        int[] nums = {1,3,2};
+        //when
+        boolean isTwoInRaw = mediumArrayMethods.has22(nums);
+        //then
+        assertFalse(isTwoInRaw);
+    }
+
+    @Test
+    void lucky13ZeroTwoFourTest() {
+        //given
+        int[] nums = {0, 2, 4};
+        //when
+        boolean is13InArray = mediumArrayMethods.lucky13(nums);
+        //then
+        assertTrue(is13InArray);
+    }
+
+    @Test
+    void lucky13OneTwoThreeTest(){
+        //given
+        int[] nums = {1,2,3};
+        //when
+        boolean is13InArray = mediumArrayMethods.lucky13(nums);
+        //then
+        assertFalse(is13InArray);
+    }
 }

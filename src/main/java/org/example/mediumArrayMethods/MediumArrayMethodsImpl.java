@@ -57,4 +57,47 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods{
 
         return sum;
     }
+
+    @Override
+    public int sum67(int[] nums) {
+        int sum = 0;
+        boolean inRange = false;
+
+        for (int num : nums) {
+            if (num == 6)
+                inRange = true;
+
+            if (!inRange)
+                sum += num;
+
+            if (inRange && num == 7)
+                inRange = false;
+
+        }
+
+        return sum;
+    }
+
+    @Override
+    public boolean has22(int[] nums) {
+        if (nums.length <= 1){
+            return false;
+        }
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == 2 && nums[i+1] == 2){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public boolean lucky13(int[] nums) {
+        for (int num : nums) {
+            if (num == 1 || num == 3) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
