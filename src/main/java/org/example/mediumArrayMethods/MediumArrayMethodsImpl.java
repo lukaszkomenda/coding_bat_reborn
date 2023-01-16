@@ -100,4 +100,31 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods{
         }
         return true;
     }
+
+    @Override
+    public boolean sum28(int[] nums) {
+        int counter = 0;
+
+        for (int num : nums) {
+            if (num == 2) {
+                counter += num;
+            }
+        }
+        return counter == 8;
+    }
+
+    @Override
+    public boolean more14(int[] nums) {
+        int counterFour = 0;
+        int counterOne = 0;
+
+        for (int num : nums) {
+            if (num == 4) {
+                counterFour++;
+            } else if (num == 1) {
+                counterOne++;
+            }
+        }
+        return counterFour < counterOne;
+    }
 }

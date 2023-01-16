@@ -9,4 +9,6 @@ public interface MediumArrayMethods {
     int sum67(int[] nums);
     boolean has22(int[] nums);
     boolean lucky13(int[] nums);
+    boolean sum28(int[] nums);
+    boolean more14(int[] nums);
 }

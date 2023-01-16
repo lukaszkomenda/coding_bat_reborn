@@ -147,4 +147,44 @@ class MediumArrayMethodsImplTest {
         //then
         assertFalse(is13InArray);
     }
+
+    @Test
+    void sum28TwoThreeDoubleTwoFourTwoTest() {
+        //given
+        int[] nums = {2,3,2,2,4,2};
+        //when
+        boolean isEqualEight = mediumArrayMethods.sum28(nums);
+        //then
+        assertTrue(isEqualEight);
+    }
+
+    @Test
+    void sum28OneTwoThreeFourTest(){
+        //given
+        int[] nums = {1,2,3,4};
+        //when
+        boolean isEqualEight = mediumArrayMethods.sum28(nums);
+        //then
+        assertFalse(isEqualEight);
+    }
+
+    @Test
+    void more14OneFourOneTest() {
+        //given
+        int[] nums = {1,4,1};
+        //when
+        boolean is4MoreThan1 = mediumArrayMethods.more14(nums);
+        //then
+        assertTrue(is4MoreThan1);
+    }
+
+    @Test
+    void more14OneFourTest(){
+        //given
+        int[] nums = {1,4};
+        //when
+        boolean is4MoreThan1 = mediumArrayMethods.more14(nums);
+        //then
+        assertFalse(is4MoreThan1);
+    }
 }
