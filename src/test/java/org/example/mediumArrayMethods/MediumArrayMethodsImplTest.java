@@ -187,4 +187,68 @@ class MediumArrayMethodsImplTest {
         //then
         assertFalse(is4MoreThan1);
     }
+
+    @Test
+    void fizzArrayZeroTest() {
+        //given
+        int n = 0;
+        //when
+        int[] array = mediumArrayMethods.fizzArray(n);
+        //then
+        int[] expectedArray = new int[0];
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void fizzArrayTwoTest(){
+        //given
+        int n = 2;
+        //when
+        int[] array = mediumArrayMethods.fizzArray(n);
+        //then
+        int[] expectedArray = {0,1};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void only14OneFourOneFourTest() {
+        //given
+        int[] nums = {1,4,1,4};
+        //when
+        boolean isOnly14 = mediumArrayMethods.only14(nums);
+        //then
+        assertTrue(isOnly14);
+    }
+
+    @Test
+    void only14TwoTest(){
+        //given
+        int[] nums = {2};
+        //when
+        boolean isOnly14 = mediumArrayMethods.only14(nums);
+        //then
+        assertFalse(isOnly14);
+    }
+
+    @Test
+    void fizzArray2FourTest() {
+        //given
+        int n = 4;
+        //when
+        String[] array = mediumArrayMethods.fizzArray2(n);
+        //then
+        String[] expectedArray = {"0", "1", "2", "3"};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void fizzArray2ZeroTest(){
+        //given
+        int n = 0;
+        //when
+        String[] array2 = mediumArrayMethods.fizzArray2(n);
+        //then
+        String[] expectedArray = new String[0];
+        assertArrayEquals(expectedArray, array2);
+    }
 }

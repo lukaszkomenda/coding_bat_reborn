@@ -1,6 +1,7 @@
 package org.example.mediumArrayMethods;
 
-public class MediumArrayMethodsImpl implements MediumArrayMethods{
+
+public class MediumArrayMethodsImpl implements MediumArrayMethods {
     @Override
     public int countEvens(int[] nums) {
         int counter = 0;
@@ -46,8 +47,8 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods{
         int sum = 0;
         int i = 0;
 
-        while(i < nums.length) {
-            if(nums[i] == 13) {
+        while (i < nums.length) {
+            if (nums[i] == 13) {
                 i += 2;
             } else {
                 sum += nums[i];
@@ -80,11 +81,11 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods{
 
     @Override
     public boolean has22(int[] nums) {
-        if (nums.length <= 1){
+        if (nums.length <= 1) {
             return false;
         }
         for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == 2 && nums[i+1] == 2){
+            if (nums[i] == 2 && nums[i + 1] == 2) {
                 return true;
             }
         }
@@ -126,5 +127,46 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods{
             }
         }
         return counterFour < counterOne;
+    }
+
+    @Override
+    public int[] fizzArray(int n) {
+        if (n == 0) {
+            return new int[0];
+        }
+
+        int[] array = new int[n];
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i;
+        }
+
+        return array;
+    }
+
+    @Override
+    public boolean only14(int[] nums) {
+
+        for (int num : nums) {
+            if (num != 1 && num != 4) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    @Override
+    public String[] fizzArray2(int n) {
+        if (n == 0){
+            return new String[0];
+        }
+        String[] array = new String[n];
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = String.valueOf(i);
+        }
+
+        return array;
     }
 }

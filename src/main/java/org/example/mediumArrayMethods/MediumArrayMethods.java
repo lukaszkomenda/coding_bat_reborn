@@ -11,4 +11,7 @@ public interface MediumArrayMethods {
     boolean lucky13(int[] nums);
     boolean sum28(int[] nums);
     boolean more14(int[] nums);
+    int[] fizzArray(int n);
+    boolean only14(int[] nums);
+    String[] fizzArray2(int n);
 }
