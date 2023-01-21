@@ -14,4 +14,7 @@ public interface MediumArrayMethods {
     int[] fizzArray(int n);
     boolean only14(int[] nums);
     String[] fizzArray2(int n);
+    boolean no14(int[] nums);
+    boolean isEverywhere(int[] nums, int val);
+    boolean either24(int[] nums);
 }

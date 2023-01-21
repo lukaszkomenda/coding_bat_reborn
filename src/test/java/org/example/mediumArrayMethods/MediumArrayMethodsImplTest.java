@@ -251,4 +251,66 @@ class MediumArrayMethodsImplTest {
         String[] expectedArray = new String[0];
         assertArrayEquals(expectedArray, array2);
     }
+
+    @Test
+    void no14OneTwoThreeTest() {
+        //given
+        int[] nums = {1,2,3};
+        //when
+        boolean is14Exist = mediumArrayMethods.no14(nums);
+        //then
+        assertTrue(is14Exist);
+    }
+
+    @Test
+    void no14OneTwoThreeFourTest(){
+        //given
+        int[] nums = {1,2,3,4};
+        //when
+        boolean is14Exist = mediumArrayMethods.no14(nums);
+        //then
+        assertFalse(is14Exist);
+    }
+
+    @Test
+    void isEverywhereOneTwoOneThreeAndOneTest() {
+        //given
+        int[] nums = {1,2,1,3};
+        int val = 1;
+        //when
+        boolean isValInPair = mediumArrayMethods.isEverywhere(nums, val);
+        //then
+        assertTrue(isValInPair);
+    }
+
+    @Test
+    void isEverywhereOneTwoOneThreeAndTwoTest(){
+        //given
+        int[] nums = {1,2,1,3};
+        int val = 2;
+        //when
+        boolean isValInPair = mediumArrayMethods.isEverywhere(nums, val);
+        //then
+        assertFalse(isValInPair);
+    }
+
+    @Test
+    void either24OneTwoTwo() {
+        //given
+        int[] nums = {1,2,2};
+        //when
+        boolean is22Or44InPair = mediumArrayMethods.either24(nums);
+        //then
+        assertTrue(is22Or44InPair);
+    }
+
+    @Test
+    void either24OneTwoThreeFourTest(){
+        //given
+        int[] nums = {1,2,3,4};
+        //when
+        boolean is22Or44InPair = mediumArrayMethods.either24(nums);
+        //then
+        assertFalse(is22Or44InPair);
+    }
 }

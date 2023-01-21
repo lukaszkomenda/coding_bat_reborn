@@ -169,4 +169,56 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods {
 
         return array;
     }
+
+    @Override
+    public boolean no14(int[] nums) {
+
+        int countOne = 0;
+        int countFour = 0;
+
+        if(nums.length == 0){
+            return true;
+        } else if(nums.length == 1){
+            return true;
+        }
+
+        for (int num : nums) {
+            if (num == 1){
+                countOne++;
+            }
+            if (num == 4){
+                countFour++;
+            }
+        }
+
+        if (countOne >= 1 && countFour == 0){
+            return true;
+        } else return countOne == 0 && countFour >= 1;
+    }
+
+    @Override
+    public boolean isEverywhere(int[] nums, int val) {
+        for(int i = 0; i < nums.length - 1; i++) {
+            if(nums[i] != val && nums[i + 1] != val)
+                return false;
+        }
+
+        return true;
+    }
+
+    @Override
+    public boolean either24(int[] nums) {
+        boolean has22 = false;
+        boolean has44 = false;
+
+        for(int i = 0; i < nums.length - 1; i++) {
+            if(nums[i] == 2 && nums[i+1] == 2)
+                has22 = true;
+
+            if(nums[i] == 4 && nums[i+1] == 4)
+                has44 = true;
+        }
+
+        return has22 != has44;
+    }
 }
