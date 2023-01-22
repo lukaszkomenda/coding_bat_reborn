@@ -221,4 +221,65 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods {
 
         return has22 != has44;
     }
+
+    @Override
+    public int matchUp(int[] nums1, int[] nums2) {
+        int counter = 0;
+
+        for (int i = 0; i < nums1.length; i++) {
+            if (nums1[i] >= nums2[i]){
+                if (nums1[i] - nums2[i] <= 2 && nums1[i] - nums2[i] != 0){
+                    counter++;
+                }
+            } else {
+                if (nums2[i] - nums1[i] <= 2 && nums2[i] - nums1[i] != 0){
+                    counter++;
+                }
+            }
+        }
+
+        return counter;
+    }
+
+    @Override
+    public boolean has77(int[] nums) {
+        if (nums.length <= 1){
+            return false;
+        }
+
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == 7 && nums[i+1] == 7){
+                return true;
+            }
+        }
+
+        for (int i = 0; i < nums.length - 2; i++) {
+            if (nums[i] == 7 && nums[i + 2] == 7){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public boolean has12(int[] nums) {
+
+        int countOne = 0;
+        int countTwo = 0;
+        int positionOne = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 1){
+                countOne++;
+                positionOne = i;
+            }
+        }
+
+        for (int i = positionOne; i < nums.length; i++) {
+            if (nums[i] == 2){
+                countTwo++;
+            }
+        }
+        return countOne > 0 & countTwo > 0;
+    }
 }

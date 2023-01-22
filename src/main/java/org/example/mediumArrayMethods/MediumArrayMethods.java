@@ -17,4 +17,7 @@ public interface MediumArrayMethods {
     boolean no14(int[] nums);
     boolean isEverywhere(int[] nums, int val);
     boolean either24(int[] nums);
+    int matchUp(int[] nums1, int[] nums2);
+    boolean has77(int[] nums);
+    boolean has12(int[] nums);
 }

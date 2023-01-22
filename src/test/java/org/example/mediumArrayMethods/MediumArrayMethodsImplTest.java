@@ -313,4 +313,66 @@ class MediumArrayMethodsImplTest {
         //then
         assertFalse(is22Or44InPair);
     }
+
+    @Test
+    void matchUpOneTwoThreeAndTwoThreeTenTest() {
+        //given
+        int[] num1 = {1,2,3};
+        int[] num2 = {2,3,10};
+        //when
+        int result = mediumArrayMethods.matchUp(num1, num2);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void matchUpFiveThreeAndDoubleFourTest(){
+        //given
+        int[] num1 = {5,3};
+        int[] num2 = {4,4};
+        //when
+        int result = mediumArrayMethods.matchUp(num1, num2);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void has77OneDoubleSevenTest() {
+        //given
+        int[] nums = {1,7,7};
+        //when
+        boolean isSevenNear = mediumArrayMethods.has77(nums);
+        //then
+        assertTrue(isSevenNear);
+    }
+
+    @Test
+    void has77SevenOneSevenTest(){
+        //given
+        int[] nums = {7, 1,7};
+        //when
+        boolean isSevenNear = mediumArrayMethods.has77(nums);
+        //then
+        assertTrue(isSevenNear);
+    }
+
+    @Test
+    void has12OneThreeTwoTest() {
+        //given
+        int[] nums = {1,3,2};
+        //when
+        boolean isTwoAfterOne = mediumArrayMethods.has12(nums);
+        //then
+        assertTrue(isTwoAfterOne);
+    }
+
+    @Test
+    void has12TwoOneThreeTest(){
+        //given
+        int[] nums = {2,1,3};
+        //when
+        boolean isTwoAfterOne = mediumArrayMethods.has12(nums);
+        //then
+        assertFalse(isTwoAfterOne);
+    }
 }
