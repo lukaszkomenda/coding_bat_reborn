@@ -282,4 +282,56 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods {
         }
         return countOne > 0 & countTwo > 0;
     }
+
+    @Override
+    public boolean modThree(int[] nums) {
+        int counterEven = 0;
+        int counterOdd = 0;
+
+        for (int i = 0; i < nums.length - 2; i++) {
+            if (nums[i] % 2 == 0 && nums[i+1] % 2 == 0 && nums[i+2] % 2 == 0){
+                counterEven++;
+            } else if (nums[i] % 2 != 0 && nums[i+1] % 2 != 0 && nums[i+2] % 2 != 0) {
+                counterOdd++;
+            }
+        }
+        return counterEven >= 1 || counterOdd >= 1;
+    }
+
+    @Override
+    public boolean haveThree(int[] nums) {
+
+        int counterThree = 0;
+
+        for (int num : nums) {
+            if (num == 3) {
+                counterThree++;
+            }
+        }
+
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == 3 && nums[i + 1] == 3){
+                counterThree--;
+            }
+        }
+
+        return counterThree == 3;
+    }
+
+    @Override
+    public boolean twoTwo(int[] nums) {
+        if(nums.length == 1 && nums[0] == 2)
+            return false;
+
+        if(nums.length >= 2 && ((nums[0] == 2 && nums[1] != 2) ||
+                (nums[nums.length-1] == 2 && nums[nums.length-2] != 2)))
+            return false;
+
+        for(int i = 1; i <= nums.length - 2; i++) {
+            if(nums[i] == 2 && nums[i-1] != 2 && nums[i+1] != 2)
+                return false;
+        }
+
+        return true;
+    }
 }

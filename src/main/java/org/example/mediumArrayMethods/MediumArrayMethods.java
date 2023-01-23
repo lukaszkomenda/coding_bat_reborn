@@ -20,4 +20,7 @@ public interface MediumArrayMethods {
     int matchUp(int[] nums1, int[] nums2);
     boolean has77(int[] nums);
     boolean has12(int[] nums);
+    boolean modThree(int[] nums);
+    boolean haveThree(int[] nums);
+    boolean twoTwo(int[] nums);
 }

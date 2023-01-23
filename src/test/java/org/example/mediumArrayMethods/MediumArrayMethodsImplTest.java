@@ -375,4 +375,64 @@ class MediumArrayMethodsImplTest {
         //then
         assertFalse(isTwoAfterOne);
     }
+
+    @Test
+    void modThreeTwoOneThreeFiveTest() {
+        //given
+        int[] nums = {2,1,3,5};
+        //when
+        boolean isEvenOrOddSequence = mediumArrayMethods.modThree(nums);
+        //then
+        assertTrue(isEvenOrOddSequence);
+    }
+
+    @Test
+    void modThreeTwoOneTwoFiveTest(){
+        //given
+        int[] nums = {2,1,2,5};
+        //when
+        boolean isEvenOrOddSequence = mediumArrayMethods.modThree(nums);
+        //then
+        assertFalse(isEvenOrOddSequence);
+    }
+
+    @Test
+    void haveThreeThreeOneThreeOneThreeTest() {
+        //given
+        int[] nums = {3,1,3,1,3};
+        //when
+        boolean isThreeTimesThree = mediumArrayMethods.haveThree(nums);
+        //then
+        assertTrue(isThreeTimesThree);
+    }
+
+    @Test
+    void haveThreeThreeOneDoubleThreeTest(){
+        //given
+        int[] nums = {3,1,3,3};
+        //when
+        boolean isThreeTimesThree = mediumArrayMethods.haveThree(nums);
+        //then
+        assertFalse(isThreeTimesThree);
+    }
+
+    @Test
+    void twoTwoDoubleTwoFourTest() {
+        //given
+        int[] nums = {2,2,4};
+        //when
+        boolean isTwoNextTo = mediumArrayMethods.twoTwo(nums);
+        //then
+        assertTrue(isTwoNextTo);
+    }
+
+    @Test
+    void twoTwoDoubleTwoFourTwoTest(){
+        //given
+        int[] nums = {2,2,4,2};
+        //when
+        boolean isTwoNextTo = mediumArrayMethods.twoTwo(nums);
+        //then
+        assertFalse(isTwoNextTo);
+    }
 }
