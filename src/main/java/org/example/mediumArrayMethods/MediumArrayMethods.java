@@ -23,4 +23,7 @@ public interface MediumArrayMethods {
     boolean modThree(int[] nums);
     boolean haveThree(int[] nums);
     boolean twoTwo(int[] nums);
+    boolean sameEnds(int[] nums, int len);
+    boolean tripleUp(int[] nums);
+    int[] fizzArray3(int start, int end);
 }

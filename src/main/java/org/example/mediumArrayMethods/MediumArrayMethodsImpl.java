@@ -334,4 +334,45 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods {
 
         return true;
     }
+
+    @Override
+    public boolean sameEnds(int[] nums, int len) {
+        int[] pattern = new int[len];
+        int counter = 0;
+        int iterator = 0;
+
+        System.arraycopy(nums, 0, pattern, 0, pattern.length);
+
+        for (int i = nums.length - len; i < nums.length; i++) {
+            if (pattern[iterator] == nums[i]){
+                counter++;
+                iterator++;
+            }
+        }
+
+        return counter >= len;
+    }
+
+    @Override
+    public boolean tripleUp(int[] nums) {
+
+        for(int i = 0; i <= nums.length - 3; i++) {
+            if(nums[i] + 1 == nums[i+1] && nums[i+1] + 1 == nums[i+2])
+                return true;
+        }
+
+        return false;
+    }
+
+    @Override
+    public int[] fizzArray3(int start, int end) {
+        int[] array = new int[end - start];
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = start;
+            start++;
+        }
+
+        return array;
+    }
 }

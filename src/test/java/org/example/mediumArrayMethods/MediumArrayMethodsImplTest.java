@@ -435,4 +435,70 @@ class MediumArrayMethodsImplTest {
         //then
         assertFalse(isTwoNextTo);
     }
+
+    @Test
+    void sameEndsOneTwoFiveTwoOneAndOneTest() {
+        //given
+        int[] nums = {1,2,5,2,1};
+        int len = 1;
+        //when
+        boolean isEndsEqual = mediumArrayMethods.sameEnds(nums, len);
+        //then
+        assertTrue(isEndsEqual);
+    }
+
+    @Test
+    void sameEndsOneTwoFiveTwoOneAndTwoTest(){
+        //given
+        int[] nums = {1,2,5,2,1};
+        int len = 2;
+        //when
+        boolean isEndsEqual = mediumArrayMethods.sameEnds(nums, len);
+        //then
+        assertFalse(isEndsEqual);
+    }
+
+    @Test
+    void tripleUpOneFourFiveSixTwoTest() {
+        //given
+        int[] nums = {1,4,5,6,2};
+        //when
+        boolean isIncreasingAdjacent = mediumArrayMethods.tripleUp(nums);
+        //then
+        assertTrue(isIncreasingAdjacent);
+    }
+
+    @Test
+    void tripleUpOneTwoFourTest(){
+        //given
+        int[] nums = {1,2,4};
+        //when
+        boolean isIncreasingAdjacent = mediumArrayMethods.tripleUp(nums);
+        //then
+        assertFalse(isIncreasingAdjacent);
+    }
+
+    @Test
+    void fizzArray3FiveAndTenTest() {
+        //given
+        int start = 5;
+        int end = 10;
+        //when
+        int[] array = mediumArrayMethods.fizzArray3(start, end);
+        //then
+        int[] expectedArray = {5,6,7,8,9};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void fizzArray3OneAndOneTest(){
+        //given
+        int start = 1;
+        int end = 1;
+        //when
+        int[] array = mediumArrayMethods.fizzArray3(start, end);
+        //then
+        int[] expectedArray = new int[0];
+        assertArrayEquals(expectedArray, array);
+    }
 }
