@@ -501,4 +501,70 @@ class MediumArrayMethodsImplTest {
         int[] expectedArray = new int[0];
         assertArrayEquals(expectedArray, array);
     }
+
+    @Test
+    void shiftLeftSixTwoFiveThreeTest() {
+        //given
+        int[] nums = {6,2,5,3};
+        //when
+        int[] newArray = mediumArrayMethods.shiftLeft(nums);
+        //then
+        int[] expectedArray = {2,5,3,6};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void shiftLeftOneTest(){
+        //given
+        int[] nums = {1};
+        //when
+        int[] newArray  = mediumArrayMethods.shiftLeft(nums);
+        //then
+        int[] expectedArray = {1};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void tenRunTenTwoTest() {
+        //given
+        int[] nums = {10,2};
+        //when
+        int[] newArray = mediumArrayMethods.tenRun(nums);
+        //then
+        int[] expectedArray = {10,10};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void tenRunOneTwoFiftyOneTest(){
+        //given
+        int[] nums = {1,2,50,1};
+        //when
+        int[] newArray = mediumArrayMethods.tenRun(nums);
+        //then
+        int[] expectedArray = {1,2,50,50};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void pre4OneTwoFourOneTest() {
+        //given
+        int[] nums = {1,2,4,1};
+        //when
+        int[] newArray = mediumArrayMethods.pre4(nums);
+        //then
+        int[] expectedArray = {1,2};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void pre4DoubleFourTest(){
+        //given
+        int[] nums = {4,4};
+        //when
+        int[] newArray = mediumArrayMethods.pre4(nums);
+        //then
+        int[] expectedArray = new int[0];
+        assertArrayEquals(expectedArray, newArray);
+    }
 }

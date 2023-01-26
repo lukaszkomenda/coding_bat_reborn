@@ -375,4 +375,66 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods {
 
         return array;
     }
+
+    @Override
+    public int[] shiftLeft(int[] nums) {
+
+        if (nums.length <= 1){
+            return nums;
+        }
+        
+        int first = nums[0];
+        int[] newArray = new int[nums.length];
+        int iterator = 0;
+
+        for (int i = 0; i < nums.length - 1; i++) {
+            newArray[i] = nums[i+1];
+            iterator++;
+        }
+        newArray[iterator] = first;
+
+        return newArray;
+    }
+
+    @Override
+    public int[] tenRun(int[] nums) {
+        int current;
+        int i = 0;
+
+        while(i < nums.length && nums[i] % 10 != 0)
+            i++;
+
+        if(i >= nums.length)
+            return nums;
+
+        current = nums[i];
+        i++;
+
+        while(i < nums.length) {
+            if(nums[i] % 10 == 0)
+                current = nums[i];
+            else
+                nums[i] = current;
+            i++;
+        }
+
+        return nums;
+    }
+
+    @Override
+    public int[] pre4(int[] nums) {
+        int positionFour = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 4){
+                positionFour = i;
+                break;
+            }
+        }
+
+        int[] newArray = new int[positionFour];
+        System.arraycopy(nums, 0, newArray, 0, newArray.length);
+
+        return newArray;
+    }
 }

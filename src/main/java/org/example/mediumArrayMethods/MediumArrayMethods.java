@@ -26,4 +26,7 @@ public interface MediumArrayMethods {
     boolean sameEnds(int[] nums, int len);
     boolean tripleUp(int[] nums);
     int[] fizzArray3(int start, int end);
+    int[] shiftLeft(int[] nums);
+    int[] tenRun(int[] nums);
+    int[] pre4(int[] nums);
 }
