@@ -29,4 +29,7 @@ public interface MediumArrayMethods {
     int[] shiftLeft(int[] nums);
     int[] tenRun(int[] nums);
     int[] pre4(int[] nums);
+    int[] post4(int[] nums);
+    int[] notAlone(int[] nums, int val);
+    int[] zeroFront(int[] nums);
 }

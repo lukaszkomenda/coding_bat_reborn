@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: sameEnds, tripleUp, fizzArray3">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: shiftLeft, tenRun, pre4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethodsImpl.java" afterDir="false" />
@@ -91,8 +91,8 @@
       <recent name="org.example.logicMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumArrayMethodsImplTest.pre4DoubleFourTest">
-    <configuration name="MediumArrayMethodsImplTest.pre4DoubleFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MediumArrayMethodsImplTest.zeroFrontOneZeroTest">
+    <configuration name="MediumArrayMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -102,13 +102,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="pre4DoubleFourTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediumArrayMethodsImplTest.notAloneOneTwoThreeAndTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="notAloneOneTwoThreeAndTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumArrayMethodsImplTest.pre4OneTwoFourOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumArrayMethodsImplTest.notAloneTripleOneTwoAndOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -118,13 +133,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="pre4OneTwoFourOneTest" />
+      <option name="METHOD_NAME" value="notAloneTripleOneTwoAndOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumArrayMethodsImplTest.shiftLeftOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumArrayMethodsImplTest.zeroFrontOneDoubleZeroOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -134,13 +149,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="shiftLeftOneTest" />
+      <option name="METHOD_NAME" value="zeroFrontOneDoubleZeroOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumArrayMethodsImplTest.tenRunOneTwoFiftyOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumArrayMethodsImplTest.zeroFrontOneZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -150,23 +165,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="tenRunOneTwoFiftyOneTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediumArrayMethodsImplTest.tenRunTenTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="tenRunTenTwoTest" />
+      <option name="METHOD_NAME" value="zeroFrontOneZeroTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.pre4DoubleFourTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.pre4OneTwoFourOneTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.tenRunOneTwoFiftyOneTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.tenRunTenTwoTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.shiftLeftOneTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.zeroFrontOneZeroTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.zeroFrontOneDoubleZeroOneTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.notAloneTripleOneTwoAndOneTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.notAloneOneTwoThreeAndTwoTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -285,21 +284,8 @@
       <workItem from="1674400840196" duration="2276000" />
       <workItem from="1674479900024" duration="3412000" />
       <workItem from="1674564717443" duration="3245000" />
-      <workItem from="1674752014704" duration="3241000" />
-    </task>
-    <task id="LOCAL-00029" summary="Add method:  minCat, extraFront">
-      <created>1669396704184</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1669396704184</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Add method:  without2">
-      <created>1669487657280</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1669487657280</updated>
+      <workItem from="1674752014704" duration="3684000" />
+      <workItem from="1674910160988" duration="6123000" />
     </task>
     <task id="LOCAL-00031" summary="Add method:  deFront">
       <created>1669568774447</created>
@@ -630,7 +616,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674567976088</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Add implementation: shiftLeft, tenRun, pre4">
+      <created>1674755426609</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1674755426610</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Add implementation: shiftLeft, tenRun, pre4">
+      <created>1674755721935</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1674755721935</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation:  makeBricks, loneSum, luckySum" />
     <MESSAGE value="Add implementation:  noTeenSum, roundSum, closeFar" />
     <MESSAGE value="Add implementation:  blackjack, evenlySpaced, makeChocolate" />
     <MESSAGE value="Add implementation:  doubleChar, countHi" />
@@ -673,6 +672,7 @@
     <MESSAGE value="Add implementation: matchUp, has77, has12" />
     <MESSAGE value="Add implementation: modThree, haveThree, twoTwo" />
     <MESSAGE value="Add implementation: sameEnds, tripleUp, fizzArray3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: sameEnds, tripleUp, fizzArray3" />
+    <MESSAGE value="Add implementation: shiftLeft, tenRun, pre4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: shiftLeft, tenRun, pre4" />
   </component>
 </project>

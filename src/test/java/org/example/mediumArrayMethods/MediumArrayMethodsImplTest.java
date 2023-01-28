@@ -567,4 +567,72 @@ class MediumArrayMethodsImplTest {
         int[] expectedArray = new int[0];
         assertArrayEquals(expectedArray, newArray);
     }
+
+    @Test
+    void post4OneTwoFourOneTest() {
+        //given
+        int[] nums = {1,2,4,1};
+        //when
+        int[] newArray = mediumArrayMethods.post4(nums);
+        //then
+        int[] expectedArray = {1,2};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void post4ThreeOneFourTest(){
+        //given
+        int[] nums = {3,1,4};
+        //when
+        int[] newArray = mediumArrayMethods.post4(nums);
+        //then
+        int[] expectedArray = {3,1};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void notAloneOneTwoThreeAndTwoTest() {
+        //given
+        int[] nums = {1,2,3};
+        int val = 2;
+        //when
+        int[] newArray = mediumArrayMethods.notAlone(nums, val);
+        //then
+        int[] expectedArray = {1,3,3};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void notAloneTripleOneTwoAndOneTest(){
+        //given
+        int[] nums = {1,1,1,2};
+        int val = 1;
+        //when
+        int[] newArray = mediumArrayMethods.notAlone(nums, val);
+        //then
+        int[] expectedArray = {1,1,1,2};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void zeroFrontOneDoubleZeroOneTest() {
+        //given
+        int[] nums = {1,0,0,1};
+        //when
+        int[] newArray = mediumArrayMethods.zeroFront(nums);
+        //then
+        int[] expectedArray = {0,0,1,1};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void zeroFrontOneZeroTest(){
+        //given
+        int[] nums = {1,0};
+        //when
+        int[] newArray = mediumArrayMethods.zeroFront(nums);
+        //then
+        int[] expectedArray = {0,1};
+        assertArrayEquals(expectedArray, newArray);
+    }
 }

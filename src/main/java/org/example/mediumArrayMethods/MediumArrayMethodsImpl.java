@@ -437,4 +437,66 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods {
 
         return newArray;
     }
+
+    @Override
+    public int[] post4(int[] nums) {
+        int positionFour = 0;
+
+        if(nums.length == 0){
+            return nums;
+        } else if (nums.length == 1 && nums[0] == 4) {
+            return new int[0];
+        } else if (nums.length == 1){
+            return nums;
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 4){
+                positionFour = i;
+                break;
+            }
+        }
+        int[] newArray = new int[positionFour];
+
+        System.arraycopy(nums, 0, newArray, 0, newArray.length);
+
+        return newArray;
+    }
+
+    @Override
+    public int[] notAlone(int[] nums, int val) {
+
+        if(nums.length <=2){
+            return nums;
+        }
+
+        for (int i = 1; i < nums.length - 1; i++) {
+            if (nums[i] == val && nums[i-1] != nums[i] && nums[i+1] != nums[i]){
+                nums[i] = Math.max(nums[i - 1], nums[i + 1]);
+            }
+        }
+        return nums;
+    }
+
+    @Override
+    public int[] zeroFront(int[] nums) {
+        if(nums.length == 0)
+            return nums;
+
+        int i = 0;
+
+        while(nums[i] == 0)
+            i++;
+
+        for(int j = i + 1; j < nums.length; j++) {
+            if(nums[j] == 0) {
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+                i++;
+            }
+        }
+
+        return nums;
+    }
 }
