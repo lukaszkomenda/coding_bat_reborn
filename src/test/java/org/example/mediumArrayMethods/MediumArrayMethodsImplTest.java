@@ -635,4 +635,26 @@ class MediumArrayMethodsImplTest {
         int[] expectedArray = {0,1};
         assertArrayEquals(expectedArray, newArray);
     }
+
+    @Test
+    void withoutTenOneDoubleTenTwoTest() {
+        //given
+        int[] nums = {1,10,10,2};
+        //when
+        int[] newArray = mediumArrayMethods.withoutTen(nums);
+        //then
+        int[] expectedArray = {1,2,0,0};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void withoutTenDoubleTenThreeTest(){
+        //given
+        int[] nums = {10,10,3};
+        //when
+        int[] newArray = mediumArrayMethods.withoutTen(nums);
+        //then
+        int[] expectedArray = {3,0,0};
+        assertArrayEquals(expectedArray, newArray);
+    }
 }

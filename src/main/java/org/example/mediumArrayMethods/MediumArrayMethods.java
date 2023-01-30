@@ -32,4 +32,5 @@ public interface MediumArrayMethods {
     int[] post4(int[] nums);
     int[] notAlone(int[] nums, int val);
     int[] zeroFront(int[] nums);
+    int[] withoutTen(int[] nums);
 }

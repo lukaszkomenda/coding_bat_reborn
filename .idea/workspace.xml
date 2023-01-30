@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: shiftLeft, tenRun, pre4">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: post4, notAlone, zeroFront">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumArrayMethods/MediumArrayMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumArrayMethods/MediumArrayMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumArrayMethods/MediumArrayMethodsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumArrayMethods/MediumArrayMethodsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/mediumArrayMethods/MediumArrayMethodsImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/example/mediumArrayMethods/MediumArrayMethodsImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/mediumArrayMethods/MediumArrayMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumArrayMethods/MediumArrayMethodsImplTest.java" afterDir="false" />
@@ -65,7 +68,6 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
@@ -91,7 +93,22 @@
       <recent name="org.example.logicMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumArrayMethodsImplTest.zeroFrontOneZeroTest">
+  <component name="RunManager" selected="JUnit.MediumArrayMethodsImplTest.withoutTenDoubleTenThreeTest">
+    <configuration name="AltPairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.AltPairs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.AltPairs" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AltPairs.AltPairsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MediumArrayMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -107,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumArrayMethodsImplTest.notAloneOneTwoThreeAndTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumArrayMethodsImplTest.withoutTenDoubleTenThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +134,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="notAloneOneTwoThreeAndTwoTest" />
+      <option name="METHOD_NAME" value="withoutTenDoubleTenThreeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumArrayMethodsImplTest.notAloneTripleOneTwoAndOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumArrayMethodsImplTest.withoutTenOneDoubleTenTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -133,23 +150,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="notAloneTripleOneTwoAndOneTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediumArrayMethodsImplTest.zeroFrontOneDoubleZeroOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="zeroFrontOneDoubleZeroOneTest" />
+      <option name="METHOD_NAME" value="withoutTenOneDoubleTenTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.zeroFrontOneZeroTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.zeroFrontOneDoubleZeroOneTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.notAloneTripleOneTwoAndOneTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.notAloneOneTwoThreeAndTwoTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.withoutTenDoubleTenThreeTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.withoutTenOneDoubleTenTwoTest" />
         <item itemvalue="JUnit.MediumArrayMethodsImplTest" />
+        <item itemvalue="JUnit.AltPairsTest" />
+        <item itemvalue="JUnit.MediumArrayMethodsImplTest.zeroFrontOneZeroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -285,14 +286,8 @@
       <workItem from="1674479900024" duration="3412000" />
       <workItem from="1674564717443" duration="3245000" />
       <workItem from="1674752014704" duration="3684000" />
-      <workItem from="1674910160988" duration="6123000" />
-    </task>
-    <task id="LOCAL-00031" summary="Add method:  deFront">
-      <created>1669568774447</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1669568774447</updated>
+      <workItem from="1674910160988" duration="6325000" />
+      <workItem from="1675095837508" duration="31000" />
     </task>
     <task id="LOCAL-00032" summary="Add method:  StartWord">
       <created>1669660087596</created>
@@ -630,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674755721935</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Add implementation: post4, notAlone, zeroFront">
+      <created>1674916569383</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1674916569383</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation:  noTeenSum, roundSum, closeFar" />
     <MESSAGE value="Add implementation:  blackjack, evenlySpaced, makeChocolate" />
     <MESSAGE value="Add implementation:  doubleChar, countHi" />
     <MESSAGE value="Add implementation: catDog" />
@@ -673,6 +674,7 @@
     <MESSAGE value="Add implementation: modThree, haveThree, twoTwo" />
     <MESSAGE value="Add implementation: sameEnds, tripleUp, fizzArray3" />
     <MESSAGE value="Add implementation: shiftLeft, tenRun, pre4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: shiftLeft, tenRun, pre4" />
+    <MESSAGE value="Add implementation: post4, notAlone, zeroFront" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: post4, notAlone, zeroFront" />
   </component>
 </project>
