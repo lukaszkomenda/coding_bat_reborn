@@ -33,4 +33,6 @@ public interface MediumArrayMethods {
     int[] notAlone(int[] nums, int val);
     int[] zeroFront(int[] nums);
     int[] withoutTen(int[] nums);
+    int[] zeroMax(int[] nums);
+    int[] evenOdd(int[] nums);
 }

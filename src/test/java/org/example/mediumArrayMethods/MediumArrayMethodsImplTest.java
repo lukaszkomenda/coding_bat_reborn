@@ -657,4 +657,48 @@ class MediumArrayMethodsImplTest {
         int[] expectedArray = {3,0,0};
         assertArrayEquals(expectedArray, newArray);
     }
+
+    @Test
+    void zeroMaxZeroFiveZeroThreeTest() {
+        //given
+        int[] nums = {0,5,0,3};
+        //when
+        int[] newArray = mediumArrayMethods.zeroMax(nums);
+        //then
+        int[] expectedArray = {5,5,3,3};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void zeroMaxZeroOneFiveTest(){
+        //given
+        int[] nums = {0,1,5};
+        //when
+        int[] newArray = mediumArrayMethods.zeroMax(nums);
+        //then
+        int[] expectedArray = {5, 1, 5};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void evenOddDoubleThreeTwoTest() {
+        //given
+        int[] nums = {3,3,2};
+        //when
+        int[] newArray = mediumArrayMethods.evenOdd(nums);
+        //then
+        int[] expectedArray = {2,3,3};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void evenOddOneTwoTest(){
+        //given
+        int[] nums = {1,2};
+        //when
+        int[] newArray = mediumArrayMethods.evenOdd(nums);
+        //then
+        int[] expectedArray = {2,1};
+        assertArrayEquals(expectedArray, newArray);
+    }
 }
