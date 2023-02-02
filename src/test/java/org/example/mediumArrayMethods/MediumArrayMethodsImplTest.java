@@ -701,4 +701,28 @@ class MediumArrayMethodsImplTest {
         int[] expectedArray = {2,1};
         assertArrayEquals(expectedArray, newArray);
     }
+
+    @Test
+    void fizzBuzzOneAndSixTest() {
+        //given
+        int start = 1;
+        int end = 6;
+        //when
+        String[] newArray = mediumArrayMethods.fizzBuzz(start, end);
+        //then
+        String[] expectedArray = {"1", "2", "Fizz", "4", "Buzz"};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void fizzBuzzFifteenAndSeventeenTest(){
+        //given
+        int start = 15;
+        int end = 17;
+        //when
+        String[] newArray = mediumArrayMethods.fizzBuzz(start, end);
+        //then
+        String[] expectedArray = {"FizzBuzz", "16"};
+        assertArrayEquals(expectedArray, newArray);
+    }
 }

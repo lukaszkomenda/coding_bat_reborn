@@ -559,4 +559,28 @@ public class MediumArrayMethodsImpl implements MediumArrayMethods {
 
         return nums;
     }
+
+    @Override
+    public String[] fizzBuzz(int start, int end) {
+
+        String[] newArray = new String[end - start];
+
+        for (int i = 0; i < newArray.length; i++) {
+            if (start % 3 == 0 && start % 5 == 0){
+                newArray[i] = "FizzBuzz";
+                start++;
+            } else if (start % 3 == 0) {
+                newArray[i] = "Fizz";
+                start++;
+            } else if (start % 5 == 0){
+                newArray[i] = "Buzz";
+                start++;
+            } else {
+                newArray[i] = String.valueOf(start);
+                start++;
+            }
+        }
+
+        return newArray;
+    }
 }

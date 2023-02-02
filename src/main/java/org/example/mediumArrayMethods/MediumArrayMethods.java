@@ -35,4 +35,5 @@ public interface MediumArrayMethods {
     int[] withoutTen(int[] nums);
     int[] zeroMax(int[] nums);
     int[] evenOdd(int[] nums);
+    String[] fizzBuzz(int start, int end);
 }
