@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: zeroMax, evenOdd">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: fizzBuzz">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/hardArrayMethods/HardArrayMethodsImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumArrayMethods/MediumArrayMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumArrayMethods/MediumArrayMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumArrayMethods/MediumArrayMethodsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumArrayMethods/MediumArrayMethodsImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/mediumArrayMethods/MediumArrayMethodsImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/example/mediumArrayMethods/MediumArrayMethodsImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumArrayMethods/MediumArrayMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/mediumArrayMethods/MediumArrayMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumArrayMethods/MediumArrayMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="String-3" />
+        <entry key="$PROJECT_DIR$" value="Array-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,18 +90,34 @@
       <recent name="org.example.logicMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumArrayMethodsImplTest.fizzBuzzFifteenAndSeventeenTest">
-    <configuration name="MediumArrayMethodsImplTest.evenOddDoubleThreeTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HardArrayMethodsImplTest.maxSpanThreeNineTest">
+    <configuration name="HardArrayMethodsImplTest.maxSpanOneTwoDoubleOneThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
+          <option name="PATTERN" value="org.example.hardArrayMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="evenOddDoubleThreeTwoTest" />
+      <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="maxSpanOneTwoDoubleOneThreeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HardArrayMethodsImplTest.maxSpanThreeNineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hardArrayMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="maxSpanThreeNineTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,29 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumArrayMethodsImplTest.zeroMaxZeroOneFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="zeroMaxZeroOneFiveTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HardArrayMethodsImplTest.maxSpanThreeNineTest" />
+        <item itemvalue="JUnit.HardArrayMethodsImplTest.maxSpanOneTwoDoubleOneThreeTest" />
         <item itemvalue="JUnit.MediumArrayMethodsImplTest.fizzBuzzFifteenAndSeventeenTest" />
         <item itemvalue="JUnit.MediumArrayMethodsImplTest.fizzBuzzOneAndSixTest" />
         <item itemvalue="JUnit.MediumArrayMethodsImplTest.evenOddOneTwoTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.evenOddDoubleThreeTwoTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.zeroMaxZeroOneFiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -290,13 +287,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00034" summary="Add method:  WithoutX2">
-      <created>1670003528690</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1670003528690</updated>
     </task>
     <task id="LOCAL-00035" summary="Add implementation:  firstLast6">
       <created>1670005119097</created>
@@ -634,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675185572990</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Add implementation: fizzBuzz">
+      <created>1675358037090</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1675358037090</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: catDog" />
     <MESSAGE value="Add implementation: countCode, endOther, xyzThere" />
     <MESSAGE value="Add implementation: bobThere, xyBalance, mixString" />
     <MESSAGE value="Add implementation: repeatEnd, repeatFront, repeatSeparator" />
@@ -677,6 +673,7 @@
     <MESSAGE value="Add implementation: post4, notAlone, zeroFront" />
     <MESSAGE value="Add implementation: withoutTen" />
     <MESSAGE value="Add implementation: zeroMax, evenOdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: zeroMax, evenOdd" />
+    <MESSAGE value="Add implementation: fizzBuzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: fizzBuzz" />
   </component>
 </project>
