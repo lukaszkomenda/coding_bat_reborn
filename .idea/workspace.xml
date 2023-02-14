@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: fizzBuzz">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethodsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/hardArrayMethods/HardArrayMethodsImplTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: maxSpan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethodsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hardArrayMethods/HardArrayMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hardArrayMethods/HardArrayMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,15 +85,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.hardArrayMethods" />
       <recent name="org.example.mediumArrayMethods" />
       <recent name="org.example.hardStringMethods" />
       <recent name="org.example.stringMethods" />
       <recent name="org.example.puzzle" />
-      <recent name="org.example.logicMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HardArrayMethodsImplTest.maxSpanThreeNineTest">
-    <configuration name="HardArrayMethodsImplTest.maxSpanOneTwoDoubleOneThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HardArrayMethodsImplTest.fix45FourOneFiveTest">
+    <configuration name="HardArrayMethodsImplTest.fix34OneThreeOneFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +103,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="maxSpanOneTwoDoubleOneThreeTest" />
+      <option name="METHOD_NAME" value="fix34OneThreeOneFourTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HardArrayMethodsImplTest.fix34ThreeOneFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hardArrayMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="fix34ThreeOneFourTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HardArrayMethodsImplTest.fix45FiveFourOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hardArrayMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="fix45FiveFourOneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HardArrayMethodsImplTest.fix45FourOneFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hardArrayMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="fix45FourOneFiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,61 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumArrayMethodsImplTest.evenOddOneTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="evenOddOneTwoTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediumArrayMethodsImplTest.fizzBuzzFifteenAndSeventeenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="fizzBuzzFifteenAndSeventeenTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediumArrayMethodsImplTest.fizzBuzzOneAndSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumArrayMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumArrayMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumArrayMethods.MediumArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="fizzBuzzOneAndSixTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HardArrayMethodsImplTest.fix45FourOneFiveTest" />
+        <item itemvalue="JUnit.HardArrayMethodsImplTest.fix45FiveFourOneTest" />
+        <item itemvalue="JUnit.HardArrayMethodsImplTest.fix34ThreeOneFourTest" />
+        <item itemvalue="JUnit.HardArrayMethodsImplTest.fix34OneThreeOneFourTest" />
         <item itemvalue="JUnit.HardArrayMethodsImplTest.maxSpanThreeNineTest" />
-        <item itemvalue="JUnit.HardArrayMethodsImplTest.maxSpanOneTwoDoubleOneThreeTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.fizzBuzzFifteenAndSeventeenTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.fizzBuzzOneAndSixTest" />
-        <item itemvalue="JUnit.MediumArrayMethodsImplTest.evenOddOneTwoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,13 +289,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00035" summary="Add implementation:  firstLast6">
-      <created>1670005119097</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1670005119097</updated>
     </task>
     <task id="LOCAL-00036" summary="Add implementation:  sameFirstLast">
       <created>1670006831864</created>
@@ -631,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675358037090</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Add implementation: maxSpan">
+      <created>1675448817657</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1675448817657</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +651,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: countCode, endOther, xyzThere" />
     <MESSAGE value="Add implementation: bobThere, xyBalance, mixString" />
     <MESSAGE value="Add implementation: repeatEnd, repeatFront, repeatSeparator" />
     <MESSAGE value="Add implementation: prefixAgain, xyzMiddle, getSandwich" />
@@ -674,6 +675,7 @@
     <MESSAGE value="Add implementation: withoutTen" />
     <MESSAGE value="Add implementation: zeroMax, evenOdd" />
     <MESSAGE value="Add implementation: fizzBuzz" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: fizzBuzz" />
+    <MESSAGE value="Add implementation: maxSpan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: maxSpan" />
   </component>
 </project>

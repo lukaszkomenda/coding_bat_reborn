@@ -27,4 +27,48 @@ class HardArrayMethodsImplTest {
         //then
         assertEquals(1, result);
     }
+
+    @Test
+    void fix34OneThreeOneFourTest() {
+        //given
+        int[] nums = {1, 3, 1, 4};
+        //when
+        int[] newArray = hardArrayMethods.fix34(nums);
+        //then
+        int[] expectedArray = {1, 3, 4, 1};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void fix34ThreeOneFourTest(){
+        //given
+        int[] nums = {3,1,4};
+        //when
+        int[] newArray = hardArrayMethods.fix34(nums);
+        //then
+        int[] expectedArray = {3, 4, 1};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void fix45FiveFourOneTest() {
+        //given
+        int[] nums = {5,4,1};
+        //when
+        int[] newArray = hardArrayMethods.fix45(nums);
+        //then
+        int[] expectedArray = {1, 4, 5};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void fix45FourOneFiveTest(){
+        //given
+        int[] nums = {4,1,5};
+        //when
+        int[] newArray = hardArrayMethods.fix45(nums);
+        //then
+        int[] expectedArray = {4,5,1};
+        assertArrayEquals(expectedArray, newArray);
+    }
 }
