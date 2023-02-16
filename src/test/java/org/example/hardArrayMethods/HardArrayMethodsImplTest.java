@@ -71,4 +71,46 @@ class HardArrayMethodsImplTest {
         int[] expectedArray = {4,5,1};
         assertArrayEquals(expectedArray, newArray);
     }
+
+    @Test
+    void canBalanceTripleOneTwoOneTest() {
+        //given
+        int[] nums = {1,1,1,2,1};
+        //when
+        boolean isLeftEqualRight = hardArrayMethods.canBalance(nums);
+        //then
+        assertTrue(isLeftEqualRight);
+    }
+
+    @Test
+    void canBalanceOneTest(){
+        //given
+        int[] nums = {1};
+        //when
+        boolean isLeftEqualRight = hardArrayMethods.canBalance(nums);
+        //then
+        assertFalse(isLeftEqualRight);
+    }
+
+    @Test
+    void linearInOneTwoFourSixAndTwoFourTest() {
+        //given
+        int[] outer = {1,2,4,6};
+        int[] inner = {2,4};
+        //when
+        boolean isInnerIncludeOuter = hardArrayMethods.linearIn(outer, inner);
+        //then
+        assertTrue(isInnerIncludeOuter);
+    }
+
+    @Test
+    void linearInOneTwoThreeAndMinusOneTest(){
+        //given
+        int[] outer = {1,2,3};
+        int[] inner = {-1};
+        //when
+        boolean isInnerIncludeOuter = hardArrayMethods.linearIn(outer, inner);
+        //then
+        assertFalse(isInnerIncludeOuter);
+    }
 }
