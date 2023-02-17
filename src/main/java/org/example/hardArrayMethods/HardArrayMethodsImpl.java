@@ -109,4 +109,35 @@ public class HardArrayMethodsImpl implements HardArrayMethods{
 
         return i == inner.length;
     }
+
+    @Override
+    public int[] squareUp(int n) {
+        int[] arr = new int[n*n];
+
+        if(n == 0)
+            return arr;
+
+        for(int i = n - 1; i < arr.length; i += n) {
+            for(int j = i; j >= i - i / n; j--)
+                arr[j] = i - j + 1;
+        }
+
+        return arr;
+    }
+
+    @Override
+    public int[] seriesUp(int n) {
+        int[] arr = new int[n*(n+1)/2];
+
+        int index = 0;
+
+        for(int i = 1; i <= n; i++) {
+            for(int j = 0; j < i; j++) {
+                arr[index + j] = j + 1;
+            }
+            index += i;
+        }
+
+        return arr;
+    }
 }

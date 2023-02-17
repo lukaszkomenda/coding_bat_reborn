@@ -113,4 +113,48 @@ class HardArrayMethodsImplTest {
         //then
         assertFalse(isInnerIncludeOuter);
     }
+
+    @Test
+    void squareUpTwoTest() {
+        //given
+        int n = 2;
+        //when
+        int[] array = hardArrayMethods.squareUp(n);
+        //then
+        int[] expectedArray = {0, 1, 2, 1};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void squareUpOneTest(){
+        //given
+        int n = 1;
+        //when
+        int[] array = hardArrayMethods.squareUp(n);
+        //then
+        int[] expectedArray = {1};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void seriesUpThreeTest() {
+        //given
+        int n = 3;
+        //when
+        int[] array = hardArrayMethods.seriesUp(n);
+        //then
+        int[] expectedArray = {1, 1, 2, 1, 2, 3};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void seriesUpTwoTest(){
+        //given
+        int n = 2;
+        //when
+        int[] array = hardArrayMethods.seriesUp(n);
+        //then
+        int[] expectedArray = {1, 1, 2};
+        assertArrayEquals(expectedArray, array);
+    }
 }
