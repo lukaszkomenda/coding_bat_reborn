@@ -9,4 +9,6 @@ public interface HardArrayMethods {
     boolean linearIn(int[] outer, int[] inner);
     int[] squareUp(int n);
     int[] seriesUp(int n);
+    int maxMirror(int[] nums);
+    int countClumps(int[] nums);
 }

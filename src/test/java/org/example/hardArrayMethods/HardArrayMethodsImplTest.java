@@ -157,4 +157,44 @@ class HardArrayMethodsImplTest {
         int[] expectedArray = {1, 1, 2};
         assertArrayEquals(expectedArray, array);
     }
+
+    @Test
+    void maxMirrorOneTwoOneFourTest() {
+        //given
+        int[] nums = {1,2,1,4};
+        //when
+        int result = hardArrayMethods.maxMirror(nums);
+        //then
+        assertEquals(3, result);
+    }
+
+    @Test
+    void maxMirrorOneTwoThreeTwoOneTest(){
+        //given
+        int[] nums = {1,2,3,2,1};
+        //when
+        int result = hardArrayMethods.maxMirror(nums);
+        //then
+        assertEquals(5, result);
+    }
+
+    @Test
+    void countClumpsDoubleOneTwoDoubleOne() {
+        //given
+        int[] nums = {1,1,2,1,1};
+        //when
+        int result = hardArrayMethods.countClumps(nums);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void countClumpsOneTwoThreeTest(){
+        //given
+        int[] nums = {1,2,3};
+        //when
+        int result = hardArrayMethods.countClumps(nums);
+        //then
+        assertEquals(0, result);
+    }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: canBalance, linearIn">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: squareUp, seriesUp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hardArrayMethods/HardArrayMethodsImpl.java" afterDir="false" />
@@ -90,8 +90,8 @@
       <recent name="org.example.puzzle" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HardArrayMethodsImplTest.seriesUpTwoTest">
-    <configuration name="HardArrayMethodsImplTest.linearInOneTwoThreeAndMinusOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HardArrayMethodsImplTest.countClumpsOneTwoThreeTest">
+    <configuration name="HardArrayMethodsImplTest.countClumpsDoubleOneTwoDoubleOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -101,13 +101,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="linearInOneTwoThreeAndMinusOneTest" />
+      <option name="METHOD_NAME" value="countClumpsDoubleOneTwoDoubleOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardArrayMethodsImplTest.seriesUpThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HardArrayMethodsImplTest.countClumpsOneTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +117,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="seriesUpThreeTest" />
+      <option name="METHOD_NAME" value="countClumpsOneTwoThreeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HardArrayMethodsImplTest.maxMirrorOneTwoOneFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hardArrayMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="maxMirrorOneTwoOneFourTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HardArrayMethodsImplTest.maxMirrorOneTwoThreeTwoOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hardArrayMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
+      <option name="METHOD_NAME" value="maxMirrorOneTwoThreeTwoOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,45 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardArrayMethodsImplTest.squareUpOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hardArrayMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="squareUpOneTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HardArrayMethodsImplTest.squareUpTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.hardArrayMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.hardArrayMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hardArrayMethods.HardArrayMethodsImplTest" />
-      <option name="METHOD_NAME" value="squareUpTwoTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HardArrayMethodsImplTest.countClumpsOneTwoThreeTest" />
+        <item itemvalue="JUnit.HardArrayMethodsImplTest.countClumpsDoubleOneTwoDoubleOne" />
+        <item itemvalue="JUnit.HardArrayMethodsImplTest.maxMirrorOneTwoThreeTwoOneTest" />
+        <item itemvalue="JUnit.HardArrayMethodsImplTest.maxMirrorOneTwoOneFourTest" />
         <item itemvalue="JUnit.HardArrayMethodsImplTest.seriesUpTwoTest" />
-        <item itemvalue="JUnit.HardArrayMethodsImplTest.seriesUpThreeTest" />
-        <item itemvalue="JUnit.HardArrayMethodsImplTest.squareUpOneTest" />
-        <item itemvalue="JUnit.HardArrayMethodsImplTest.squareUpTwoTest" />
-        <item itemvalue="JUnit.HardArrayMethodsImplTest.linearInOneTwoThreeAndMinusOneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,13 +287,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00038" summary="Add implementation:  maxEnd3, sum2, middleWay, makeEnds, has23">
-      <created>1670173308768</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1670173308768</updated>
     </task>
     <task id="LOCAL-00039" summary="Add implementation:  no23, makeLast, double23">
       <created>1670261112231</created>
@@ -631,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676573398567</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Add implementation: squareUp, seriesUp">
+      <created>1676653301462</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1676653301462</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: prefixAgain, xyzMiddle, getSandwich" />
     <MESSAGE value="Add implementation: sameStarChar, oneTwo, zipZap" />
     <MESSAGE value="Add implementation: starOut, plusOut, wordEnds" />
     <MESSAGE value="Add implementation: countYZ, withoutString" />
@@ -674,6 +673,7 @@
     <MESSAGE value="Add implementation: maxSpan" />
     <MESSAGE value="Add implementation: fix34, fix45" />
     <MESSAGE value="Add implementation: canBalance, linearIn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: canBalance, linearIn" />
+    <MESSAGE value="Add implementation: squareUp, seriesUp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: squareUp, seriesUp" />
   </component>
 </project>
