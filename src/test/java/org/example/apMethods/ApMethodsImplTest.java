@@ -67,4 +67,70 @@ class ApMethodsImplTest {
         //then
         assertFalse(isIncreasingByTwo);
     }
+
+    @Test
+    void scoresAverageDoubleTwoDoubleFourTest() {
+        //given
+        int[] nums = {2,2,4,4};
+        //when
+        int result = apMethods.scoresAverage(nums);
+        //then
+        assertEquals(4, result);
+    }
+
+    @Test
+    void scoresAverageFiveSixTest(){
+        //given
+        int[] nums = {5,6};
+        //when
+        int result = apMethods.scoresAverage(nums);
+        //then
+        assertEquals(6, result);
+    }
+
+    @Test
+    void wordsCountABbBCccOneTest() {
+        //given
+        String[] array = {"a", "bb", "ccc", "b"};
+        int len = 1;
+        //when
+        int result = apMethods.wordsCount(array, len);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void wordsCountABbBCccFourTest(){
+        //given
+        String[] array = {"a", "bb", "ccc", "b"};
+        int len = 4;
+        //when
+        int result = apMethods.wordsCount(array, len);
+        //then
+        assertEquals(0, result);
+    }
+
+    @Test
+    void wordsFrontABCDOneTest() {
+        //given
+        String[] array = {"a", "b", "c", "d"};
+        int n = 1;
+        //when
+        String[] newArray = apMethods.wordsFront(array, n);
+        //then
+        String[] expectedArray = {"a"};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void wordsFrontABCDTwoTest(){
+        //given
+        String[] array = {"a", "b", "c", "d"};
+        int n = 2;
+        //when
+        String[] newArray = apMethods.wordsFront(array, n);
+        //then
+        String[] expectedArray = {"a", "b"};
+        assertArrayEquals(expectedArray, newArray);
+    }
 }

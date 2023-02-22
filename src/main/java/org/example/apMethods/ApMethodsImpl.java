@@ -1,5 +1,8 @@
 package org.example.apMethods;
 
+
+import java.util.Arrays;
+
 public class ApMethodsImpl implements ApMethods{
     @Override
     public boolean scoresIncreasing(int[] scores) {
@@ -36,5 +39,50 @@ public class ApMethodsImpl implements ApMethods{
             }
         }
         return false;
+    }
+
+    @Override
+    public int scoresAverage(int[] scores) {
+        int half = scores.length /2;
+        int sum = 0;
+        int averageFirst;
+        int averageSecond;
+
+        if (scores.length == 2){
+            return Math.max(scores[0], scores[1]);
+        }
+
+        for (int i = 0; i <= half; i++) {
+            sum += scores[i];
+        }
+        averageFirst = sum / half;
+        sum = 0;
+
+        for (int i = half; i < scores.length; i++) {
+            sum += scores[i];
+        }
+        averageSecond = sum / half;
+
+        return Math.max(averageFirst, averageSecond);
+    }
+
+    @Override
+    public int wordsCount(String[] words, int len) {
+        int counter = 0;
+
+        for (String word : words) {
+            int wordLength = word.length();
+            if (wordLength == len) {
+                counter++;
+            }
+        }
+
+        return counter;
+    }
+
+    @Override
+    public String[] wordsFront(String[] words, int n) {
+
+        return Arrays.copyOf(words, n);
     }
 }
