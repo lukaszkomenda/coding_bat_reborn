@@ -1,5 +1,7 @@
 package org.example.apMethods;
 
+import java.util.List;
+
 public interface ApMethods {
     boolean scoresIncreasing(int[] scores);
     boolean scores100(int[] scores);
@@ -7,4 +9,7 @@ public interface ApMethods {
     int scoresAverage(int[] scores);
     int wordsCount(String[] words, int len);
     String[] wordsFront(String[] words, int n);
+    List<String> wordsWithoutList(String[] words, int len);
+    boolean hasOne(int n);
+
 }

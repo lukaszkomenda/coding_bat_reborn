@@ -1,7 +1,9 @@
 package org.example.apMethods;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ApMethodsImpl implements ApMethods{
     @Override
@@ -84,5 +86,32 @@ public class ApMethodsImpl implements ApMethods{
     public String[] wordsFront(String[] words, int n) {
 
         return Arrays.copyOf(words, n);
+    }
+
+    @Override
+    public List<String> wordsWithoutList(String[] words, int len) {
+        List<String> wordsList = new ArrayList<>();
+
+        for (String word : words) {
+            if (word.length() != len) {
+                wordsList.add(word);
+            }
+        }
+
+        return wordsList;
+    }
+
+    @Override
+    public boolean hasOne(int n) {
+
+        while (n > 0){
+
+            if (n % 10 == 1 || n / 10 == 1){
+                return true;
+            }
+            n = n / 10;
+        }
+
+        return false;
     }
 }

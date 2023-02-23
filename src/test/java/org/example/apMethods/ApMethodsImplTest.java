@@ -1,6 +1,10 @@
 package org.example.apMethods;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -132,5 +136,49 @@ class ApMethodsImplTest {
         //then
         String[] expectedArray = {"a", "b"};
         assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void wordsWithoutListABbBCccOneTest() {
+        //given
+        String[] words = {"a", "bb", "b", "ccc"};
+        int len = 1;
+        //when
+        List<String> listWithoutProvidedLength = apMethods.wordsWithoutList(words, len);
+        //then
+        List<String> expectedList = Arrays.asList("bb", "ccc");
+        Assertions.assertArrayEquals(expectedList.toArray(), listWithoutProvidedLength.toArray());
+    }
+
+    @Test
+    void wordsWithoutListABbBCccThreeTest(){
+        //given
+        String[] words = {"a", "bb", "b", "ccc"};
+        int len = 3;
+        //when
+        List<String> listWithoutProvidedLength = apMethods.wordsWithoutList(words, len);
+        //then
+        List<String> expectedList = Arrays.asList("a", "bb", "b");
+        Assertions.assertArrayEquals(expectedList.toArray(), listWithoutProvidedLength.toArray());
+    }
+
+    @Test
+    void hasOneTenTest() {
+        //given
+        int n = 10;
+        //when
+        boolean isOneContains = apMethods.hasOne(n);
+        //then
+        assertTrue(isOneContains);
+    }
+
+    @Test
+    void hasOneTwentyTwoTest(){
+        //given
+        int n = 22;
+        //when
+        boolean isOneContains = apMethods.hasOne(n);
+        //then
+        assertFalse(isOneContains);
     }
 }

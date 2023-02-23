@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: scoresIncreasing, scores100, scoresClump">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: scoresAverage, wordsCount, wordsFront">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/classpath.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/classpath.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/apMethods/ApMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/apMethods/ApMethodsImplTest.java" afterDir="false" />
@@ -92,8 +90,8 @@
       <recent name="org.example.stringMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApMethodsImplTest.wordsFrontABCDTwoTest">
-    <configuration name="ApMethodsImplTest.scoresAverageFiveSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApMethodsImplTest.hasOneTwentyTwoTest">
+    <configuration name="ApMethodsImplTest.hasOneTenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +101,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="scoresAverageFiveSixTest" />
+      <option name="METHOD_NAME" value="hasOneTenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApMethodsImplTest.wordsCountABbBCccFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApMethodsImplTest.hasOneTwentyTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -119,39 +117,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="wordsCountABbBCccFourTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApMethodsImplTest.wordsCountABbBCccOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.apMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.apMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="wordsCountABbBCccOneTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApMethodsImplTest.wordsFrontABCDOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.apMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.apMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="wordsFrontABCDOneTest" />
+      <option name="METHOD_NAME" value="hasOneTwentyTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,13 +139,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApMethodsImplTest.wordsWithoutListABbBCccOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.apMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.apMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
+      <option name="METHOD_NAME" value="wordsWithoutListABbBCccOneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApMethodsImplTest.wordsWithoutListABbBCccThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.apMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.apMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
+      <option name="METHOD_NAME" value="wordsWithoutListABbBCccThreeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApMethodsImplTest.hasOneTwentyTwoTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.hasOneTenTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.wordsWithoutListABbBCccThreeTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.wordsWithoutListABbBCccOneTest" />
         <item itemvalue="JUnit.ApMethodsImplTest.wordsFrontABCDTwoTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.wordsFrontABCDOneTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.wordsCountABbBCccFourTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.wordsCountABbBCccOneTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.scoresAverageFiveSixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -289,20 +287,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00041" summary="Add implementation:  makeMiddle, plusTwo, swapEnds">
-      <created>1670436686003</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1670436686003</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Add implementation:  midThree, maxTriple, frontPiece">
-      <created>1670523049090</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1670523049090</updated>
     </task>
     <task id="LOCAL-00043" summary="Add implementation:  unlucky1, make2, front11">
       <created>1670689429485</created>
@@ -633,7 +617,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677000468275</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Add implementation: scoresAverage, wordsCount, wordsFront">
+      <created>1677088651053</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1677088651053</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Add implementation: scoresAverage, wordsCount, wordsFront">
+      <created>1677088762314</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1677088762314</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: countYZ, withoutString" />
     <MESSAGE value="Add implementation: equalIsNot, gHappy, countTriple" />
     <MESSAGE value="Add implementation: sumDigits, sameEnds, mirrorEnds" />
     <MESSAGE value="Add implementation: sumNumbers" />
@@ -676,6 +673,7 @@
     <MESSAGE value="Add implementation: squareUp, seriesUp" />
     <MESSAGE value="Add implementation: maxMirror, countClumps" />
     <MESSAGE value="Add implementation: scoresIncreasing, scores100, scoresClump" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: scoresIncreasing, scores100, scoresClump" />
+    <MESSAGE value="Add implementation: scoresAverage, wordsCount, wordsFront" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: scoresAverage, wordsCount, wordsFront" />
   </component>
 </project>
