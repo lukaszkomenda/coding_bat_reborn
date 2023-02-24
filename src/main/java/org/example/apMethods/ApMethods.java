@@ -11,5 +11,6 @@ public interface ApMethods {
     String[] wordsFront(String[] words, int n);
     List<String> wordsWithoutList(String[] words, int len);
     boolean hasOne(int n);
-
+    boolean dividesSelf(int n);
+    int[] copyEvens(int[] nums, int count);
 }

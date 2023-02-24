@@ -181,4 +181,48 @@ class ApMethodsImplTest {
         //then
         assertFalse(isOneContains);
     }
+
+    @Test
+    void dividesSelfTwelveTest() {
+        //given
+        int n = 12;
+        //when
+        boolean isDivisible = apMethods.dividesSelf(n);
+        //then
+        assertTrue(isDivisible);
+    }
+
+    @Test
+    void dividesSelfHundredTwentyTest(){
+        //given
+        int n = 120;
+        //when
+        boolean isDivisible = apMethods.dividesSelf(n);
+        //then
+        assertFalse(isDivisible);
+    }
+
+    @Test
+    void copyEvensTwoAndOneTest() {
+        //given
+        int[] nums = {2};
+        int count = 1;
+        //when
+        int[] array = apMethods.copyEvens(nums, count);
+        //then
+        int[] expectedArray = {2};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void copyEvensOneEightFourAndOneTest(){
+        //given
+        int[] nums = {1,8,4};
+        int count = 1;
+        //when
+        int[] array = apMethods.copyEvens(nums, count);
+        //then
+        int[] expectedArray = {8};
+        assertArrayEquals(expectedArray, array);
+    }
 }

@@ -114,4 +114,30 @@ public class ApMethodsImpl implements ApMethods{
 
         return false;
     }
+
+    @Override
+    public boolean dividesSelf(int n) {
+        for(int val = n; val != 0; val /= 10) {
+            int digit = val % 10;
+            if(digit == 0 || n % digit != 0)
+                return false;
+        }
+
+        return true;
+    }
+
+    @Override
+    public int[] copyEvens(int[] nums, int count) {
+        int[] arr = new int[count];
+        int index = 0;
+
+        for(int i = 0; index < count; i++) {
+            if(nums[i] % 2 == 0) {
+                arr[index] = nums[i];
+                index++;
+            }
+        }
+
+        return arr;
+    }
 }
