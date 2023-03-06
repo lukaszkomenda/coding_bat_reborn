@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: wordsWithoutList, hasOne">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: dividesSelf, copyEvens">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/apMethods/ApMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/apMethods/ApMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/apMethods/ApMethodsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/apMethods/ApMethodsImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/apMethods/ApMethodsImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/example/apMethods/ApMethodsImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/apMethods/ApMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/apMethods/ApMethodsImplTest.java" afterDir="false" />
@@ -93,8 +90,8 @@
       <recent name="org.example.stringMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApMethodsImplTest.copyEvensOneEightFourAndOneTest">
-    <configuration name="ApMethodsImplTest.copyEvensOneEightFourAndOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApMethodsImplTest.scoreUpAabbAndQMarkcbQMarkTest">
+    <configuration name="ApMethodsImplTest.copyEndyThirteenDoubleTwoZeroAndTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +101,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="copyEvensOneEightFourAndOneTest" />
+      <option name="METHOD_NAME" value="copyEndyThirteenDoubleTwoZeroAndTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApMethodsImplTest.copyEvensTwoAndOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApMethodsImplTest.matchUpDoubleNoneCccAndAaBbCcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +117,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="copyEvensTwoAndOneTest" />
+      <option name="METHOD_NAME" value="matchUpDoubleNoneCccAndAaBbCcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApMethodsImplTest.dividesSelfHundredTwentyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApMethodsImplTest.matchUpTripleNoneAndNoneBbCcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +133,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="dividesSelfHundredTwentyTest" />
+      <option name="METHOD_NAME" value="matchUpTripleNoneAndNoneBbCcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApMethodsImplTest.dividesSelfTwelveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApMethodsImplTest.scoreUpAabbAndAcbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -152,13 +149,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="dividesSelfTwelveTest" />
+      <option name="METHOD_NAME" value="scoreUpAabbAndAcbcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApMethodsImplTest.hasOneTwentyTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApMethodsImplTest.scoreUpAabbAndQMarkcbQMarkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -168,7 +165,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="hasOneTwentyTwoTest" />
+      <option name="METHOD_NAME" value="scoreUpAabbAndQMarkcbQMarkTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApMethodsImplTest.copyEvensOneEightFourAndOneTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.copyEvensTwoAndOneTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.dividesSelfHundredTwentyTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.dividesSelfTwelveTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.hasOneTwentyTwoTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.scoreUpAabbAndQMarkcbQMarkTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.scoreUpAabbAndAcbcTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.matchUpDoubleNoneCccAndAaBbCcTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.matchUpTripleNoneAndNoneBbCcTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.copyEndyThirteenDoubleTwoZeroAndTwoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -290,13 +287,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00044" summary="Add implementation:  cigarParty">
-      <created>1670690571034</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1670690571034</updated>
     </task>
     <task id="LOCAL-00045" summary="Add implementation:  dateFashion, squirrelPlay, caughtSpeeding, sortaSum, alarmClock">
       <created>1670778428401</created>
@@ -634,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677173285485</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Add implementation: dividesSelf, copyEvens">
+      <created>1677259516313</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1677259516313</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: sumDigits, sameEnds, mirrorEnds" />
     <MESSAGE value="Add implementation: sumNumbers" />
     <MESSAGE value="Add implementation: maxBlock, notReplace" />
     <MESSAGE value="Add implementation: countEvens, bigDiff, centeredAverage" />
@@ -677,6 +673,7 @@
     <MESSAGE value="Add implementation: scoresIncreasing, scores100, scoresClump" />
     <MESSAGE value="Add implementation: scoresAverage, wordsCount, wordsFront" />
     <MESSAGE value="Add implementation: wordsWithoutList, hasOne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: wordsWithoutList, hasOne" />
+    <MESSAGE value="Add implementation: dividesSelf, copyEvens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: dividesSelf, copyEvens" />
   </component>
 </project>

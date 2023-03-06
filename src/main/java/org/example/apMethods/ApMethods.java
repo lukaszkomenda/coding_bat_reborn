@@ -13,4 +13,7 @@ public interface ApMethods {
     boolean hasOne(int n);
     boolean dividesSelf(int n);
     int[] copyEvens(int[] nums, int count);
+    int[] copyEndy(int[] nums, int count);
+    int matchUp(String[] a, String[] b);
+    int scoreUp(String[] key, String[] answers);
 }

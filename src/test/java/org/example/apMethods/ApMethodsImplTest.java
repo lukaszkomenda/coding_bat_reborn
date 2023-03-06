@@ -225,4 +225,72 @@ class ApMethodsImplTest {
         int[] expectedArray = {8};
         assertArrayEquals(expectedArray, array);
     }
+
+    @Test
+    void copyEndyTenElevenNinetyAndTwoTest() {
+        //given
+        int[] nums = {10,11,90};
+        int count = 2;
+        //when
+        int[] array = apMethods.copyEndy(nums, count);
+        //then
+        int[] expectedArray = {10,90};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void copyEndyThirteenDoubleTwoZeroAndTwoTest(){
+        //given
+        int[] nums = {13,2,2,0};
+        int count = 2;
+        //when
+        int[] array = apMethods.copyEndy(nums, count);
+        //then
+        int[] expectedArray = {2,2};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void matchUpTripleNoneAndNoneBbCcTest() {
+        //given
+        String[] a = {"", "", ""};
+        String[] b = {"", "bb", "cc"};
+        //when
+        int result = apMethods.matchUp(a, b);
+        //then
+        assertEquals(0, result);
+    }
+
+    @Test
+    void matchUpDoubleNoneCccAndAaBbCcTest(){
+        //given
+        String[] a = {"", "", "ccc"};
+        String[] b = {"aa", "bb", "cc"};
+        //when
+        int result = apMethods.matchUp(a, b);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void scoreUpAabbAndAcbcTest() {
+        //given
+        String[] key = {"a", "a", "b", "b"};
+        String[] answers = {"a", "c", "b", "c"};
+        //when
+        int result = apMethods.scoreUp(key, answers);
+        //then
+        assertEquals(6, result);
+    }
+
+    @Test
+    void scoreUpAabbAndQMarkcbQMarkTest(){
+        //given
+        String[] key = {"a", "a", "b", "b"};
+        String[] answers = {"?", "c", "b", "?"};
+        //when
+        int result = apMethods.scoreUp(key, answers);
+        //then
+        assertEquals(3, result);
+    }
 }

@@ -140,4 +140,53 @@ public class ApMethodsImpl implements ApMethods{
 
         return arr;
     }
+
+    @Override
+    public int[] copyEndy(int[] nums, int count) {
+        int[] array = new int[count];
+        int index = 0;
+
+        for (int i = 0; index < array.length; i++) {
+            if (nums[i] >= 0 && nums[i] <= 10){
+                array[index] = nums[i];
+                index++;
+            } else if (nums[i] >= 90 && nums[i] <= 100) {
+                array[index] = nums[i];
+                index++;
+            }
+        }
+        
+        return array;
+    }
+
+    @Override
+    public int matchUp(String[] a, String[] b) {
+        int count = 0;
+
+        for(int i = 0; i < a.length; i++) {
+            if(a[i].length() > 0 && b[i].length() > 0 &&
+                    a[i].charAt(0) == b[i].charAt(0))
+                count++;
+        }
+
+        return count;
+    }
+
+    @Override
+    public int scoreUp(String[] key, String[] answers) {
+        int score = 0;
+
+        for (int i = 0; i < answers.length; i++) {
+            boolean isEqual = answers[i].equals(key[i]);
+
+            if (answers[i].isEmpty() || answers[i].equals("?")){
+                score += 0;
+            } else if (isEqual) {
+                score += 4;
+            } else {
+                score -= 1;
+            }
+        }
+        return score;
+    }
 }
