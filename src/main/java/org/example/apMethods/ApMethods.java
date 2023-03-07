@@ -16,4 +16,7 @@ public interface ApMethods {
     int[] copyEndy(int[] nums, int count);
     int matchUp(String[] a, String[] b);
     int scoreUp(String[] key, String[] answers);
+    String[] wordsWithout(String[] words, String target);
+    int scoresSpecial(int[] a, int[] b);
+    int sumHeights(int[] heights, int start, int end);
 }

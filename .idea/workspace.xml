@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: dividesSelf, copyEvens">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: copyEndy, matchUp, scoreUp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/apMethods/ApMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/apMethods/ApMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/apMethods/ApMethodsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/apMethods/ApMethodsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/apMethods/ApMethodsImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/example/apMethods/ApMethodsImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apMethods/ApMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/apMethods/ApMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/apMethods/ApMethodsImplTest.java" afterDir="false" />
@@ -90,8 +93,8 @@
       <recent name="org.example.stringMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApMethodsImplTest.scoreUpAabbAndQMarkcbQMarkTest">
-    <configuration name="ApMethodsImplTest.copyEndyThirteenDoubleTwoZeroAndTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApMethodsImplTest.sumHeightsFiveThreeSixSevenTwoAndDoubleOneTest">
+    <configuration name="ApMethodsImplTest.scoresSpecialOneTwentyTwoFiftyAndThreeFourFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -101,13 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="copyEndyThirteenDoubleTwoZeroAndTwoTest" />
+      <option name="METHOD_NAME" value="scoresSpecialOneTwentyTwoFiftyAndThreeFourFiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApMethodsImplTest.matchUpDoubleNoneCccAndAaBbCcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApMethodsImplTest.scoresSpecialTwelveTenFourAndTwoTwentyThirtyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +120,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="matchUpDoubleNoneCccAndAaBbCcTest" />
+      <option name="METHOD_NAME" value="scoresSpecialTwelveTenFourAndTwoTwentyThirtyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApMethodsImplTest.matchUpTripleNoneAndNoneBbCcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApMethodsImplTest.sumHeightsFiveThreeSixSevenTwoAndDoubleOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -133,13 +136,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="matchUpTripleNoneAndNoneBbCcTest" />
+      <option name="METHOD_NAME" value="sumHeightsFiveThreeSixSevenTwoAndDoubleOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApMethodsImplTest.scoreUpAabbAndAcbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApMethodsImplTest.sumHeightsFiveThreeSixSevenTwoAndTwoAndFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -149,13 +152,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="scoreUpAabbAndAcbcTest" />
+      <option name="METHOD_NAME" value="sumHeightsFiveThreeSixSevenTwoAndTwoAndFourTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApMethodsImplTest.scoreUpAabbAndQMarkcbQMarkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApMethodsImplTest.wordsWithoutAbcaAndBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +168,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.apMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.apMethods.ApMethodsImplTest" />
-      <option name="METHOD_NAME" value="scoreUpAabbAndQMarkcbQMarkTest" />
+      <option name="METHOD_NAME" value="wordsWithoutAbcaAndBTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApMethodsImplTest.scoreUpAabbAndQMarkcbQMarkTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.scoreUpAabbAndAcbcTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.matchUpDoubleNoneCccAndAaBbCcTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.matchUpTripleNoneAndNoneBbCcTest" />
-        <item itemvalue="JUnit.ApMethodsImplTest.copyEndyThirteenDoubleTwoZeroAndTwoTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.sumHeightsFiveThreeSixSevenTwoAndDoubleOneTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.sumHeightsFiveThreeSixSevenTwoAndTwoAndFourTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.scoresSpecialOneTwentyTwoFiftyAndThreeFourFiveTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.scoresSpecialTwelveTenFourAndTwoTwentyThirtyTest" />
+        <item itemvalue="JUnit.ApMethodsImplTest.wordsWithoutAbcaAndBTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,13 +290,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00045" summary="Add implementation:  dateFashion, squirrelPlay, caughtSpeeding, sortaSum, alarmClock">
-      <created>1670778428401</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1670778428401</updated>
     </task>
     <task id="LOCAL-00046" summary="Add implementation:  love6, in1To10, specialEleven">
       <created>1670871594403</created>
@@ -631,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677259516313</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Add implementation: copyEndy, matchUp, scoreUp">
+      <created>1678124170135</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1678124170135</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: sumNumbers" />
     <MESSAGE value="Add implementation: maxBlock, notReplace" />
     <MESSAGE value="Add implementation: countEvens, bigDiff, centeredAverage" />
     <MESSAGE value="Add implementation: sum13" />
@@ -674,6 +676,7 @@
     <MESSAGE value="Add implementation: scoresAverage, wordsCount, wordsFront" />
     <MESSAGE value="Add implementation: wordsWithoutList, hasOne" />
     <MESSAGE value="Add implementation: dividesSelf, copyEvens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: dividesSelf, copyEvens" />
+    <MESSAGE value="Add implementation: copyEndy, matchUp, scoreUp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: copyEndy, matchUp, scoreUp" />
   </component>
 </project>

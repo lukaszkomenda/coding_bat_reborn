@@ -293,4 +293,74 @@ class ApMethodsImplTest {
         //then
         assertEquals(3, result);
     }
+
+    @Test
+    void wordsWithoutAbcaAndATest() {
+        //given
+        String[] words = {"a", "b", "c", "a"};
+        String target = "a";
+        //when
+        String[] array = apMethods.wordsWithout(words, target);
+        //then
+        String[] expectedArray = {"b", "c"};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void wordsWithoutAbcaAndBTest(){
+        //given
+        String[] words = {"a", "b", "c", "a"};
+        String target = "b";
+        //when
+        String[] array = apMethods.wordsWithout(words, target);
+        //then
+        String[] expectedArray = {"a", "c", "a"};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void scoresSpecialTwelveTenFourAndTwoTwentyThirtyTest() {
+        //given
+        int[] a = {12,10,4};
+        int[] b = {2,20,30};
+        //when
+        int result = apMethods.scoresSpecial(a, b);
+        //then
+        assertEquals(40, result);
+    }
+
+    @Test
+    void scoresSpecialOneTwentyTwoFiftyAndThreeFourFiveTest(){
+        //given
+        int[] a = {1,20,2,50};
+        int[] b = {3,4,5};
+        //when
+        int result = apMethods.scoresSpecial(a, b);
+        //then
+        assertEquals(50, result);
+    }
+
+    @Test
+    void sumHeightsFiveThreeSixSevenTwoAndTwoAndFourTest() {
+        //given
+        int[] heights = {5,3,6,7,2};
+        int start = 2;
+        int end = 4;
+        //when
+        int result = apMethods.sumHeights(heights, start, end);
+        //then
+        assertEquals(6, result);
+    }
+
+    @Test
+    void sumHeightsFiveThreeSixSevenTwoAndDoubleOneTest(){
+        //given
+        int[] heights = {5,3,6,7,2};
+        int start = 1;
+        int end = 1;
+        //when
+        int result = apMethods.sumHeights(heights, start, end);
+        //then
+        assertEquals(0, result);
+    }
 }

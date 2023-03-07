@@ -189,4 +189,56 @@ public class ApMethodsImpl implements ApMethods{
         }
         return score;
     }
+
+    @Override
+    public String[] wordsWithout(String[] words, String target) {
+        int count = 0;
+
+        for (String word : words) {
+            if (!word.equals(target))
+                count++;
+        }
+
+        String[] arr = new String[count];
+        int index = 0;
+
+        for(int i = 0; index < count; i++) {
+            if(!words[i].equals(target)) {
+                arr[index] = words[i];
+                index++;
+            }
+        }
+
+        return arr;
+    }
+
+    @Override
+    public int scoresSpecial(int[] a, int[] b) {
+        int largeA = 0;
+        int largeB = 0;
+
+        for (int j : a) {
+            if (j % 10 == 0 && largeA <= j) {
+                largeA = j;
+            }
+        }
+
+        for (int j : b) {
+            if (j % 10 == 0 && largeB <= j) {
+                largeB = j;
+            }
+        }
+
+        return largeA + largeB;
+    }
+
+    @Override
+    public int sumHeights(int[] heights, int start, int end) {
+        int sum = 0;
+
+        for(int i = start; i < end; i++)
+            sum += Math.abs(heights[i] - heights[i+1]);
+
+        return sum;
+    }
 }
