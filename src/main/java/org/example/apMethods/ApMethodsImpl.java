@@ -241,4 +241,30 @@ public class ApMethodsImpl implements ApMethods{
 
         return sum;
     }
+
+    @Override
+    public int sumHeights2(int[] heights, int start, int end) {
+        int sum = 0;
+
+        for(int i = start; i < end; i++) {
+            if(heights[i] < heights[i+1])
+                sum = sum + 2 * (heights[i+1] - heights[i]);
+            else
+                sum = sum + heights[i] - heights[i+1];
+        }
+
+        return sum;
+    }
+
+    @Override
+    public int bigHeights(int[] heights, int start, int end) {
+        int count = 0;
+
+        for(int i = start; i < end; i++) {
+            if(Math.abs(heights[i] - heights[i+1]) >= 5)
+                count++;
+        }
+
+        return count;
+    }
 }

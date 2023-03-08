@@ -363,4 +363,52 @@ class ApMethodsImplTest {
         //then
         assertEquals(0, result);
     }
+
+    @Test
+    void sumHeights2FiveThreeSixSevenTwoAndTwoAndFourTest() {
+        //given
+        int[] heights = {5,3,6,7,2};
+        int start = 2;
+        int end = 4;
+        //when
+        int result = apMethods.sumHeights2(heights, start, end);
+        //then
+        assertEquals(7, result);
+    }
+
+    @Test
+    void sumHeightsFiveThreeSixSevenTwoAndZeroAndOneTest(){
+        //given
+        int[] heights = {5,3,6,7,2};
+        int start = 0;
+        int end = 1;
+        //when
+        int result = apMethods.sumHeights2(heights, start, end);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void bigHeightsFiveThreeSixSevenTwoAndTwoAndFourTest() {
+        //given
+        int[] heights = {5,3,6,7,2};
+        int start = 2;
+        int end = 4;
+        //when
+        int result = apMethods.bigHeights(heights, start, end);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void bigHeightsFiveThreeSixSevenTwoAndZeroAndOneTest(){
+        //given
+        int[] heights = {5,3,6,7,2};
+        int start = 0;
+        int end = 1;
+        //when
+        int result = apMethods.bigHeights(heights, start, end);
+        //then
+        assertEquals(0, result);
+    }
 }

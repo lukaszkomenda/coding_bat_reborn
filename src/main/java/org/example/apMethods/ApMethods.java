@@ -19,4 +19,6 @@ public interface ApMethods {
     String[] wordsWithout(String[] words, String target);
     int scoresSpecial(int[] a, int[] b);
     int sumHeights(int[] heights, int start, int end);
+    int sumHeights2(int[] heights, int start, int end);
+    int bigHeights(int[] heights, int start, int end);
 }
