@@ -267,4 +267,42 @@ public class ApMethodsImpl implements ApMethods{
 
         return count;
     }
+
+    @Override
+    public int userCompare(String aName, int aId, String bName, int bId) {
+        if(aName.compareTo(bName) < 0) {
+            return -1;
+        } else if(aName.compareTo(bName) > 0) {
+            return 1;
+        } else if(aId < bId) {
+            return -1;
+        } else if(aId > bId) {
+            return 1;
+        }
+
+        return 0;
+    }
+
+    @Override
+    public String[] mergeTwo(String[] a, String[] b, int n) {
+        String[] arr = new String[n];
+        int aIndex = 0;
+        int bIndex = 0;
+
+        for(int index = 0; index < n; index++) {
+            if(a[aIndex].compareTo(b[bIndex]) < 0) {
+                arr[index] = a[aIndex];
+                aIndex++;
+            } else if(a[aIndex].compareTo(b[bIndex]) > 0) {
+                arr[index] = b[bIndex];
+                bIndex++;
+            } else {
+                arr[index] = a[aIndex];
+                aIndex++;
+                bIndex++;
+            }
+        }
+
+        return arr;
+    }
 }

@@ -21,4 +21,6 @@ public interface ApMethods {
     int sumHeights(int[] heights, int start, int end);
     int sumHeights2(int[] heights, int start, int end);
     int bigHeights(int[] heights, int start, int end);
+    int userCompare(String aName, int aId, String bName, int bId);
+    String[] mergeTwo(String[] a, String[] b, int n);
 }

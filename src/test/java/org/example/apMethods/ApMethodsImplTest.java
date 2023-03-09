@@ -411,4 +411,56 @@ class ApMethodsImplTest {
         //then
         assertEquals(0, result);
     }
+
+    @Test
+    void userCompareBbOneZzTwoTest() {
+        //given
+        String a = "bb";
+        int idA = 1;
+        String b = "zz";
+        int idB = 2;
+        //when
+        int result = apMethods.userCompare(a, idA, b, idB);
+        //then
+        assertEquals(-1, result);
+    }
+
+    @Test
+    void userCompareBbOneBbOneTest(){
+        //given
+        String a = "bb";
+        int idA = 1;
+        String b = "bb";
+        int idB = 1;
+        //when
+        int result = apMethods.userCompare(a, idA, b, idB);
+        //then
+        assertEquals(0, result);
+    }
+
+    @Test
+    void mergeTwoAczAndBfzAndThreeTest() {
+        //given
+        String[] a = {"a", "c", "z"};
+        String[] b = {"b", "f", "z"};
+        int n = 3;
+        //when
+        String[] array = apMethods.mergeTwo(a, b, n);
+        //then
+        String[] expectedArray = {"a", "b", "c"};
+        assertArrayEquals(expectedArray, array);
+    }
+
+    @Test
+    void mergeTwoAczAndAczAndTwoTest(){
+        //given
+        String[] a = {"a", "c", "z"};
+        String[] b = {"a", "c", "z"};
+        int n = 2;
+        //when
+        String[] array = apMethods.mergeTwo(a, b, n);
+        //then
+        String[] expectedArray = {"a", "c"};
+        assertArrayEquals(expectedArray, array);
+    }
 }
