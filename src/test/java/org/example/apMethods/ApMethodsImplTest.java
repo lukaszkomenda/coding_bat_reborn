@@ -463,4 +463,26 @@ class ApMethodsImplTest {
         String[] expectedArray = {"a", "c"};
         assertArrayEquals(expectedArray, array);
     }
+
+    @Test
+    void commonTwoAcxBcdxTest() {
+        //given
+        String[] a = {"a", "c", "x"};
+        String[] b = {"b", "c", "d", "x"};
+        //when
+        int result = apMethods.commonTwo(a, b);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void commonTwoAbcAbcTest(){
+        //given
+        String[] a = {"a", "b", "c"};
+        String[] b = {"a", "b", "c"};
+        //when
+        int result = apMethods.commonTwo(a, b);
+        //then
+        assertEquals(3, result);
+    }
 }
