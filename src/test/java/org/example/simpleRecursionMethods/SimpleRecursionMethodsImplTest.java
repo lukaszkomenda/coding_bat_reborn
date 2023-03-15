@@ -47,4 +47,44 @@ class SimpleRecursionMethodsImplTest {
         //then
         assertEquals(8, result);
     }
+
+    @Test
+    void fibonacciSixTest() {
+        //given
+        int n = 6;
+        //when
+        int result = simpleRecursionMethods.fibonacci(n);
+        //then
+        assertEquals(8, result);
+    }
+
+    @Test
+    void fibonacciSevenTest(){
+        //given
+        int n = 7;
+        //when
+        int result = simpleRecursionMethods.fibonacci(n);
+        //then
+        assertEquals(13, result);
+    }
+
+    @Test
+    void bunnyEars2ThreeTest(){
+        //given
+        int n = 3;
+        //when
+        int result = simpleRecursionMethods.bunnyEars2(n);
+        //then
+        assertEquals(7, result);
+    }
+
+    @Test
+    void bunnyEars2FourTest(){
+        //given
+        int n = 4;
+        //when
+        int result = simpleRecursionMethods.bunnyEars2(n);
+        //then
+        assertEquals(10, result);
+    }
 }
