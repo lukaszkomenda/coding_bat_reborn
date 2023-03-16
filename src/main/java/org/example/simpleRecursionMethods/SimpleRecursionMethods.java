@@ -6,4 +6,7 @@ public interface SimpleRecursionMethods {
     int bunnyEars(int bunnies);
     int fibonacci(int n);
     int bunnyEars2(int bunnies);
+    int triangle(int rows);
+    int sumDigits(int n);
+    int count7(int n);
 }

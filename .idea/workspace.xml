@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: commonTwo, factorial, bunnyEars">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: fibonacci, bunnyEars2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/classpath.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/classpath.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImplTest.java" afterDir="false" />
@@ -92,8 +90,8 @@
       <recent name="org.example.hardStringMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleRecursionMethodsImplTest.bunnyEars2FourTest">
-    <configuration name="SimpleRecursionMethodsImplTest.bunnyEars2FourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SimpleRecursionMethodsImplTest.count7SevenTest">
+    <configuration name="SimpleRecursionMethodsImplTest.count7SevenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +101,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="bunnyEars2FourTest" />
+      <option name="METHOD_NAME" value="count7SevenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.bunnyEars2ThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.count7SeventySevenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -119,13 +117,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="bunnyEars2ThreeTest" />
+      <option name="METHOD_NAME" value="count7SeventySevenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.bunnyEarsFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.sumDigitsTwelveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -135,13 +133,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="bunnyEarsFourTest" />
+      <option name="METHOD_NAME" value="sumDigitsTwelveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.bunnyEarsOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.triangleFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -151,13 +149,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="bunnyEarsOneTest" />
+      <option name="METHOD_NAME" value="triangleFourTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.fibonacciSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.triangleTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -167,7 +165,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="fibonacciSixTest" />
+      <option name="METHOD_NAME" value="triangleTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.bunnyEars2FourTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.bunnyEars2ThreeTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.fibonacciSixTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.bunnyEarsFourTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.bunnyEarsOneTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.count7SevenTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.count7SeventySevenTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.sumDigitsTwelveTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.triangleFourTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.triangleTwoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -289,13 +287,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00050" summary="Add implementation:  withoutDoubles, maxMod5, redTicket, greenTicket, blueTicket">
-      <created>1671388437760</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1671388437760</updated>
     </task>
     <task id="LOCAL-00051" summary="Add implementation:  fizzString2, shareDigit, sumLimit">
       <created>1671555779839</created>
@@ -633,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678813522228</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Add implementation: fibonacci, bunnyEars2">
+      <created>1678899059047</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1678899059047</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: sum28, more14" />
     <MESSAGE value="Add implementation: fizzArray, only14, fizzArray2" />
     <MESSAGE value="Add implementation: no14, isEverywhere, either24" />
     <MESSAGE value="Add implementation: matchUp, has77, has12" />
@@ -676,6 +673,7 @@
     <MESSAGE value="Add implementation: sumHeights2, bigHeights" />
     <MESSAGE value="Add implementation: userCompare, mergeTwo" />
     <MESSAGE value="Add implementation: commonTwo, factorial, bunnyEars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: commonTwo, factorial, bunnyEars" />
+    <MESSAGE value="Add implementation: fibonacci, bunnyEars2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: fibonacci, bunnyEars2" />
   </component>
 </project>
