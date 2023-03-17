@@ -62,4 +62,29 @@ public class SimpleRecursionMethodsImpl implements SimpleRecursionMethods{
 
         return count7(n / 10);
     }
+
+    @Override
+    public int count8(int n) {
+        if(n == 0)
+            return 0;
+
+        if(n % 10 == 8) {
+            if((n / 10) % 10 == 8)
+                return 2 + count8(n/10);
+
+            return 1 + count8(n/10);
+        }
+
+        return count8(n/10);
+    }
+
+    @Override
+    public int powerN(int base, int n) {
+        return (int) Math.pow(base, n);
+    }
+
+    @Override
+    public int countX(String str) {
+        return str.length() - str.replace("x", "").length();
+    }
 }

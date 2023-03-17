@@ -9,4 +9,7 @@ public interface SimpleRecursionMethods {
     int triangle(int rows);
     int sumDigits(int n);
     int count7(int n);
+    int count8(int n);
+    int powerN(int base, int n);
+    int countX(String str);
 }

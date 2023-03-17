@@ -147,4 +147,66 @@ class SimpleRecursionMethodsImplTest {
         //then
         assertEquals(1, result);
     }
+
+    @Test
+    void count8EightOneEightTest() {
+        //given
+        int n = 818;
+        //when
+        int result = simpleRecursionMethods.count8(n);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void count8DoubleEightOneEightTest(){
+        //given
+        int n = 8818;
+        //when
+        int result = simpleRecursionMethods.count8(n);
+        //then
+        assertEquals(4, result);
+    }
+
+    @Test
+    void powerNThreeTwoTest() {
+        //given
+        int base = 3;
+        int n = 2;
+        //when
+        int result = simpleRecursionMethods.powerN(base, n);
+        //then
+        assertEquals(9, result);
+    }
+
+    @Test
+    void powerNDoubleTwoTest(){
+        //given
+        int base = 2;
+        int n = 2;
+        //when
+        int result = simpleRecursionMethods.powerN(base, n);
+        //then
+        assertEquals(4, result);
+    }
+
+    @Test
+    void countXXxhixxTest() {
+        //given
+        String str = "xxhixx";
+        //when
+        int result = simpleRecursionMethods.countX(str);
+        //then
+        assertEquals(4, result);
+    }
+
+    @Test
+    void countXHiTest(){
+        //given
+        String str = "hi";
+        //when
+        int result = simpleRecursionMethods.countX(str);
+        //then
+        assertEquals(0, result);
+    }
 }
