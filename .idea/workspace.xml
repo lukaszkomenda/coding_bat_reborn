@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: triangle, sumDigits, count7">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: count8, powerN, countX">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImpl.java" afterDir="false" />
@@ -90,8 +90,8 @@
       <recent name="org.example.hardStringMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleRecursionMethodsImplTest.countXHiTest">
-    <configuration name="SimpleRecursionMethodsImplTest.count8DoubleEightOneEightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SimpleRecursionMethodsImplTest.changePiPiTest">
+    <configuration name="SimpleRecursionMethodsImplTest.changePiPiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -101,13 +101,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="count8DoubleEightOneEightTest" />
+      <option name="METHOD_NAME" value="changePiPiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.countXHiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.changePiXpixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +117,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="countXHiTest" />
+      <option name="METHOD_NAME" value="changePiXpixTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.countXXxhixxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.changeXYCodexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -133,13 +133,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="countXXxhixxTest" />
+      <option name="METHOD_NAME" value="changeXYCodexTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.powerNDoubleTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.changeXYXxxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -149,13 +149,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="powerNDoubleTwoTest" />
+      <option name="METHOD_NAME" value="changeXYXxxTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.powerNThreeTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.countHiHihihTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +165,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="powerNThreeTwoTest" />
+      <option name="METHOD_NAME" value="countHiHihihTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.countXHiTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.countXXxhixxTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.powerNDoubleTwoTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.powerNThreeTwoTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.count8DoubleEightOneEightTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.changePiPiTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.changePiXpixTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.changeXYXxxTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.changeXYCodexTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.countHiHihihTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,13 +287,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00052" summary="Add implementation:  makeBricks, loneSum, luckySum">
-      <created>1671642881313</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1671642881329</updated>
     </task>
     <task id="LOCAL-00053" summary="Add implementation:  noTeenSum, roundSum, closeFar">
       <created>1671733466606</created>
@@ -631,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678986616421</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Add implementation: count8, powerN, countX">
+      <created>1679073044924</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1679073044924</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: no14, isEverywhere, either24" />
     <MESSAGE value="Add implementation: matchUp, has77, has12" />
     <MESSAGE value="Add implementation: modThree, haveThree, twoTwo" />
     <MESSAGE value="Add implementation: sameEnds, tripleUp, fizzArray3" />
@@ -674,6 +673,7 @@
     <MESSAGE value="Add implementation: commonTwo, factorial, bunnyEars" />
     <MESSAGE value="Add implementation: fibonacci, bunnyEars2" />
     <MESSAGE value="Add implementation: triangle, sumDigits, count7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: triangle, sumDigits, count7" />
+    <MESSAGE value="Add implementation: count8, powerN, countX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: count8, powerN, countX" />
   </component>
 </project>

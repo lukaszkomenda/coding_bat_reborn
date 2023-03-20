@@ -209,4 +209,64 @@ class SimpleRecursionMethodsImplTest {
         //then
         assertEquals(0, result);
     }
+
+    @Test
+    void countHiXxhixxTest() {
+        //given
+        String str = "xxhixx";
+        //when
+        int result = simpleRecursionMethods.countHi(str);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void countHiHihihTest(){
+        //given
+        String str = "hihih";
+        //when
+        int result = simpleRecursionMethods.countHi(str);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void changeXYCodexTest() {
+        //given
+        String str = "codex";
+        //when
+        String newStr = simpleRecursionMethods.changeXY(str);
+        //then
+        assertEquals("codey", newStr);
+    }
+
+    @Test
+    void changeXYXxxTest(){
+        //given
+        String str = "xxx";
+        //when
+        String newStr = simpleRecursionMethods.changeXY(str);
+        //then
+        assertEquals("yyy", newStr);
+    }
+
+    @Test
+    void changePiXpixTest() {
+        //given
+        String str = "xpix";
+        //when
+        String newStr = simpleRecursionMethods.changePi(str);
+        //then
+        assertEquals("x3.14x", newStr);
+    }
+
+    @Test
+    void changePiPiTest(){
+        //given
+        String str = "pi";
+        //when
+        String newStr = simpleRecursionMethods.changePi(str);
+        //then
+        assertEquals("3.14", newStr);
+    }
 }

@@ -12,4 +12,7 @@ public interface SimpleRecursionMethods {
     int count8(int n);
     int powerN(int base, int n);
     int countX(String str);
+    int countHi(String str);
+    String changeXY(String str);
+    String changePi(String str);
 }

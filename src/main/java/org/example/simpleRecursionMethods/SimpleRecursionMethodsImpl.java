@@ -87,4 +87,19 @@ public class SimpleRecursionMethodsImpl implements SimpleRecursionMethods{
     public int countX(String str) {
         return str.length() - str.replace("x", "").length();
     }
+
+    @Override
+    public int countHi(String str) {
+        return str.split("hi", -1).length - 1;
+    }
+
+    @Override
+    public String changeXY(String str) {
+        return str.replace("x", "y");
+    }
+
+    @Override
+    public String changePi(String str) {
+        return str.replace("pi", "3.14");
+    }
 }
