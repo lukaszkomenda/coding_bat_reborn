@@ -102,4 +102,28 @@ public class SimpleRecursionMethodsImpl implements SimpleRecursionMethods{
     public String changePi(String str) {
         return str.replace("pi", "3.14");
     }
+
+    @Override
+    public String noX(String str) {
+        return str.replace("x", "");
+    }
+
+    @Override
+    public boolean array6(int[] nums, int index) {
+        if(index >= nums.length)
+            return false;
+
+        return nums[index] == 6 || array6(nums, index + 1);
+    }
+
+    @Override
+    public int array11(int[] nums, int index) {
+        if(index >= nums.length)
+            return 0;
+
+        if(nums[index] == 11)
+            return 1 + array11(nums, index + 1);
+
+        return array11(nums, index + 1);
+    }
 }

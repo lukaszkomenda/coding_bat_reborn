@@ -269,4 +269,68 @@ class SimpleRecursionMethodsImplTest {
         //then
         assertEquals("3.14", newStr);
     }
+
+    @Test
+    void noXXaxbTest() {
+        //given
+        String str = "xaxb";
+        //when
+        String newStr = simpleRecursionMethods.noX(str);
+        //then
+        assertEquals("ab", newStr);
+    }
+
+    @Test
+    void noXHelloxTest(){
+        //given
+        String str = "Hellox";
+        //when
+        String newStr = simpleRecursionMethods.noX(str);
+        //then
+        assertEquals("Hello", newStr);
+    }
+
+    @Test
+    void array6OneSixFourAndZeroTest() {
+        //given
+        int[] nums = {1,6,4};
+        int index = 0;
+        //when
+        boolean isSix = simpleRecursionMethods.array6(nums, index);
+        //then
+        assertTrue(isSix);
+    }
+
+    @Test
+    void array6OneFourAndZeroTest(){
+        //given
+        int[] nums = {1,4};
+        int index = 0;
+        //when
+        boolean isSix = simpleRecursionMethods.array6(nums, index);
+        //then
+        assertFalse(isSix);
+    }
+
+    @Test
+    void array11OneTwoElevenAndZeroTest() {
+        //given
+        int[] nums = {1,2,11};
+        int index = 0;
+        //when
+        int result = simpleRecursionMethods.array11(nums, index);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void array11DoubleElevenAndZeroTest(){
+        //given
+        int[] nums = {11,11};
+        int index = 0;
+        //when
+        int result = simpleRecursionMethods.array11(nums, index);
+        //then
+        assertEquals(2, result);
+    }
 }

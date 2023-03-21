@@ -15,4 +15,7 @@ public interface SimpleRecursionMethods {
     int countHi(String str);
     String changeXY(String str);
     String changePi(String str);
+    String noX(String str);
+    boolean array6(int[] nums, int index);
+    int array11(int[] nums, int index);
 }
