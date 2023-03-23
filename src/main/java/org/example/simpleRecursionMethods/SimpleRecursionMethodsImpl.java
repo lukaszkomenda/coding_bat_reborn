@@ -126,4 +126,20 @@ public class SimpleRecursionMethodsImpl implements SimpleRecursionMethods{
 
         return array11(nums, index + 1);
     }
+
+    @Override
+    public boolean array220(int[] nums, int index) {
+        if(index >= nums.length - 1)
+            return false;
+
+        return nums[index+1] == 10 * nums[index] || array220(nums, index + 1);
+    }
+
+    @Override
+    public String allStar(String str) {
+        if(str.length() <= 1)
+            return str;
+
+        return str.charAt(0) + "*" + allStar(str.substring(1));
+    }
 }

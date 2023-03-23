@@ -18,4 +18,6 @@ public interface SimpleRecursionMethods {
     String noX(String str);
     boolean array6(int[] nums, int index);
     int array11(int[] nums, int index);
+    boolean array220(int[] nums, int index);
+    String allStar(String str);
 }

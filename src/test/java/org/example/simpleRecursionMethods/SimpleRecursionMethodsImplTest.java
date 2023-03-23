@@ -333,4 +333,46 @@ class SimpleRecursionMethodsImplTest {
         //then
         assertEquals(2, result);
     }
+
+    @Test
+    void array220OneTwoTwentyAndZeroTest() {
+        //given
+        int[] nums = {1,2,20};
+        int index = 0;
+        //when
+        boolean isTenDiversify = simpleRecursionMethods.array220(nums, index);
+        //then
+        assertTrue(isTenDiversify);
+    }
+
+    @Test
+    void array220ThreeAndZeroTest(){
+        //given
+        int[] nums = {3};
+        int index = 0;
+        //when
+        boolean isTenDiversify = simpleRecursionMethods.array220(nums, index);
+        //then
+        assertFalse(isTenDiversify);
+    }
+
+    @Test
+    void allStarHelloTest() {
+        //given
+        String str = "hello";
+        //when
+        String newStr = simpleRecursionMethods.allStar(str);
+        //then
+        assertEquals("h*e*l*l*o", newStr);
+    }
+
+    @Test
+    void allStarAbcTest(){
+        //given
+        String str = "abc";
+        //when
+        String newStr = simpleRecursionMethods.allStar(str);
+        //then
+        assertEquals("a*b*c", newStr);
+    }
 }

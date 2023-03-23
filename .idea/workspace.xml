@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: countHi, changeXY, changePi">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: noX, array6, array11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImpl.java" afterDir="false" />
@@ -90,7 +90,39 @@
       <recent name="org.example.hardStringMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleRecursionMethodsImplTest.array11DoubleElevenAndZeroTest">
+  <component name="RunManager" selected="JUnit.SimpleRecursionMethodsImplTest.allStarAbcTest">
+    <configuration name="SimpleRecursionMethodsImplTest.allStarAbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simpleRecursionMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
+      <option name="METHOD_NAME" value="allStarAbcTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleRecursionMethodsImplTest.allStarHelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simpleRecursionMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
+      <option name="METHOD_NAME" value="allStarHelloTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleRecursionMethodsImplTest.array11DoubleElevenAndZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -107,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.array11OneTwoElevenAndZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.array220OneTwoTwentyAndZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +149,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="array11OneTwoElevenAndZeroTest" />
+      <option name="METHOD_NAME" value="array220OneTwoTwentyAndZeroTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.array6OneFourAndZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.array220ThreeAndZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -133,39 +165,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="array6OneFourAndZeroTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.array6OneSixFourAndZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleRecursionMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="array6OneSixFourAndZeroTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.noXHelloxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleRecursionMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="noXHelloxTest" />
+      <option name="METHOD_NAME" value="array220ThreeAndZeroTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.allStarAbcTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.allStarHelloTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.array220ThreeAndZeroTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.array220OneTwoTwentyAndZeroTest" />
         <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.array11DoubleElevenAndZeroTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.array11OneTwoElevenAndZeroTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.array6OneFourAndZeroTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.array6OneSixFourAndZeroTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.noXHelloxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,13 +287,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00054" summary="Add implementation:  blackjack, evenlySpaced, makeChocolate">
-      <created>1671820599997</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1671820600013</updated>
     </task>
     <task id="LOCAL-00055" summary="Add implementation:  doubleChar, countHi">
       <created>1671891010871</created>
@@ -631,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679331533090</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Add implementation: noX, array6, array11">
+      <created>1679418388501</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1679418388501</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: modThree, haveThree, twoTwo" />
     <MESSAGE value="Add implementation: sameEnds, tripleUp, fizzArray3" />
     <MESSAGE value="Add implementation: shiftLeft, tenRun, pre4" />
     <MESSAGE value="Add implementation: post4, notAlone, zeroFront" />
@@ -674,6 +673,7 @@
     <MESSAGE value="Add implementation: triangle, sumDigits, count7" />
     <MESSAGE value="Add implementation: count8, powerN, countX" />
     <MESSAGE value="Add implementation: countHi, changeXY, changePi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: countHi, changeXY, changePi" />
+    <MESSAGE value="Add implementation: noX, array6, array11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: noX, array6, array11" />
   </component>
 </project>
