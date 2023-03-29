@@ -375,4 +375,44 @@ class SimpleRecursionMethodsImplTest {
         //then
         assertEquals("a*b*c", newStr);
     }
+
+    @Test
+    void pairStarHelloTest() {
+        //given
+        String str = "hello";
+        //when
+        String newStr = simpleRecursionMethods.pairStar(str);
+        //then
+        assertEquals("hel*lo", newStr);
+    }
+
+    @Test
+    void pairStarXxyyTest(){
+        //given
+        String str = "xxyy";
+        //when
+        String newStr = simpleRecursionMethods.pairStar(str);
+        //then
+        assertEquals("x*xy*y", newStr);
+    }
+
+    @Test
+    void endXXxreTest() {
+        //given
+        String str = "xxre";
+        //when
+        String newStr = simpleRecursionMethods.endX(str);
+        //then
+        assertEquals("rexx", newStr);
+    }
+
+    @Test
+    void endXBxxTest(){
+        //given
+        String str = "bxx";
+        //when
+        String newStr = simpleRecursionMethods.endX(str);
+        //then
+        assertEquals("bxx", newStr);
+    }
 }

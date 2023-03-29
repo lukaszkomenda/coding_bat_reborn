@@ -20,4 +20,6 @@ public interface SimpleRecursionMethods {
     int array11(int[] nums, int index);
     boolean array220(int[] nums, int index);
     String allStar(String str);
+    String pairStar(String str);
+    String endX(String str);
 }
