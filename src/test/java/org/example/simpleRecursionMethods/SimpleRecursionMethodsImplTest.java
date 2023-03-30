@@ -415,4 +415,64 @@ class SimpleRecursionMethodsImplTest {
         //then
         assertEquals("bxx", newStr);
     }
+
+    @Test
+    void countPairsAxaTest() {
+        //given
+        String str = "axa";
+        //when
+        int result = simpleRecursionMethods.countPairs(str);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void countPairsAxaxTest(){
+        //given
+        String str = "axax";
+        //when
+        int result = simpleRecursionMethods.countPairs(str);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void countAbcAbcTest() {
+        //given
+        String str = "abc";
+        //when
+        int result = simpleRecursionMethods.countAbc(str);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void countAbcAbcxxabcTest(){
+        //given
+        String str = "abcxxabc";
+        //when
+        int result = simpleRecursionMethods.countAbc(str);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void count11111Test() {
+        //given
+        String str = "111";
+        //when
+        int result = simpleRecursionMethods.count11(str);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void count11HiTest(){
+        //given
+        String str = "hi";
+        //when
+        int result = simpleRecursionMethods.count11(str);
+        //then
+        assertEquals(0, result);
+    }
 }

@@ -22,4 +22,7 @@ public interface SimpleRecursionMethods {
     String allStar(String str);
     String pairStar(String str);
     String endX(String str);
+    int countPairs(String str);
+    int countAbc(String str);
+    int count11(String str);
 }

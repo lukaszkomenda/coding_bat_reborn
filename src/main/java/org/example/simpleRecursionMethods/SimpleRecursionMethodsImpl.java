@@ -164,4 +164,36 @@ public class SimpleRecursionMethodsImpl implements SimpleRecursionMethods{
 
         return str.charAt(0) + endX(str.substring(1));
     }
+
+    @Override
+    public int countPairs(String str) {
+        if(str.length() <= 2)
+            return 0;
+
+        if(str.charAt(0) == str.charAt(2))
+            return 1 + countPairs(str.substring(1));
+
+        return countPairs(str.substring(1));
+    }
+
+    @Override
+    public int countAbc(String str) {
+        int countAbc = 0;
+        int countAba = 0;
+
+        countAbc = str.split("abc", -1).length - 1;
+        countAba = str.split("aba", -1).length - 1;
+        return countAbc+countAba;
+    }
+
+    @Override
+    public int count11(String str) {
+        if(str.length() <= 1)
+            return 0;
+
+        if(str.startsWith("11"))
+            return 1 + count11(str.substring(2));
+
+        return count11(str.substring(1));
+    }
 }
