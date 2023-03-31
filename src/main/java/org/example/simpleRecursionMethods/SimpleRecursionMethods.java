@@ -25,4 +25,6 @@ public interface SimpleRecursionMethods {
     int countPairs(String str);
     int countAbc(String str);
     int count11(String str);
+    String stringClean(String str);
+    int countHi2(String str);
 }

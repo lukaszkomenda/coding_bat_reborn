@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: pairStar, endX">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: countPairs, countAbc, count11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImpl.java" afterDir="false" />
@@ -90,7 +90,7 @@
       <recent name="org.example.hardStringMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleRecursionMethodsImplTest">
+  <component name="RunManager" selected="JUnit.SimpleRecursionMethodsImplTest.countHi2HihihiTest">
     <configuration name="SimpleRecursionMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -106,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.count11111Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.countHi2AhibhiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +116,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="count11111Test" />
+      <option name="METHOD_NAME" value="countHi2AhibhiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.count11HiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.countHi2HihihiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -132,13 +132,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="count11HiTest" />
+      <option name="METHOD_NAME" value="countHi2HihihiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.countAbcAbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.stringCleanHelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -148,13 +148,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="countAbcAbcTest" />
+      <option name="METHOD_NAME" value="stringCleanHelloTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.countAbcAbcxxabcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleRecursionMethodsImplTest.stringCleanYyzzzaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +164,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="countAbcAbcxxabcTest" />
+      <option name="METHOD_NAME" value="stringCleanYyzzzaTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.countHi2HihihiTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.countHi2AhibhiTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.stringCleanHelloTest" />
+        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.stringCleanYyzzzaTest" />
         <item itemvalue="JUnit.SimpleRecursionMethodsImplTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.count11HiTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.count11111Test" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.countAbcAbcxxabcTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.countAbcAbcTest" />
       </list>
     </recent_temporary>
   </component>
@@ -286,13 +286,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00057" summary="Add implementation: countCode, endOther, xyzThere">
-      <created>1672065764704</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1672065764704</updated>
     </task>
     <task id="LOCAL-00058" summary="Add implementation: bobThere, xyBalance, mixString">
       <created>1672161173430</created>
@@ -630,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680102379321</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Add implementation: countPairs, countAbc, count11">
+      <created>1680187843326</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1680187843326</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: post4, notAlone, zeroFront" />
     <MESSAGE value="Add implementation: withoutTen" />
     <MESSAGE value="Add implementation: zeroMax, evenOdd" />
     <MESSAGE value="Add implementation: fizzBuzz" />
@@ -673,6 +672,7 @@
     <MESSAGE value="Add implementation: noX, array6, array11" />
     <MESSAGE value="Add implementation: array220, allStar" />
     <MESSAGE value="Add implementation: pairStar, endX" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: pairStar, endX" />
+    <MESSAGE value="Add implementation: countPairs, countAbc, count11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: countPairs, countAbc, count11" />
   </component>
 </project>

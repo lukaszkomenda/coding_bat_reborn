@@ -475,4 +475,44 @@ class SimpleRecursionMethodsImplTest {
         //then
         assertEquals(0, result);
     }
+
+    @Test
+    void stringCleanYyzzzaTest() {
+        //given
+        String str = "yyzzza";
+        //when
+        String newStr = simpleRecursionMethods.stringClean(str);
+        //then
+        assertEquals("yza", newStr);
+    }
+
+    @Test
+    void stringCleanHelloTest(){
+        //given
+        String str = "Hello";
+        //when
+        String newStr = simpleRecursionMethods.stringClean(str);
+        //then
+        assertEquals("Helo", newStr);
+    }
+
+    @Test
+    void countHi2AhibhiTest() {
+        //given
+        String str = "ahibhi";
+        //when
+        int result = simpleRecursionMethods.countHi2(str);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void countHi2HihihiTest(){
+        //given
+        String str = "hihihi";
+        //when
+        int result = simpleRecursionMethods.countHi2(str);
+        //then
+        assertEquals(3, result);
+    }
 }
