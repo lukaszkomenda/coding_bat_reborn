@@ -27,4 +27,6 @@ public interface SimpleRecursionMethods {
     int count11(String str);
     String stringClean(String str);
     int countHi2(String str);
+    String parenBit(String str);
+    boolean nestParen(String str);
 }

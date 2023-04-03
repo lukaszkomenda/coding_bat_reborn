@@ -221,4 +221,29 @@ public class SimpleRecursionMethodsImpl implements SimpleRecursionMethods{
 
         return countHi2(str.substring(1));
     }
+
+    @Override
+    public String parenBit(String str) {
+        if(str.charAt(0) == '(' && str.charAt(str.length()-1) == ')')
+            return str;
+
+        if(str.charAt(0) == '(')
+            return parenBit(str.substring(0, str.length() - 1));
+
+        if(str.charAt(str.length() - 1) == ')')
+            return parenBit(str.substring(1));
+
+        return parenBit(str.substring(1, str.length() - 1));
+    }
+
+    @Override
+    public boolean nestParen(String str) {
+        if(str.length() == 0)
+            return true;
+
+        if(str.charAt(0) == '(' && str.charAt(str.length()-1) == ')')
+            return nestParen(str.substring(1, str.length()-1));
+
+        return false;
+    }
 }

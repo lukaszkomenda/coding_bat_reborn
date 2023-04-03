@@ -515,4 +515,44 @@ class SimpleRecursionMethodsImplTest {
         //then
         assertEquals(3, result);
     }
+
+    @Test
+    void parenBitXAndHelloInBracketsTest() {
+        //given
+        String str = "x(hello)";
+        //when
+        String newStr = simpleRecursionMethods.parenBit(str);
+        //then
+        assertEquals("(hello)", newStr);
+    }
+
+    @Test
+    void parenBitXInBracketsTest(){
+        //given
+        String str = "(x)";
+        //when
+        String newStr = simpleRecursionMethods.parenBit(str);
+        //then
+        assertEquals("(x)", newStr);
+    }
+
+    @Test
+    void nestParenDoubleBracketsTest() {
+        //given
+        String str = "(())";
+        //when
+        boolean isNoneInBrackets = simpleRecursionMethods.nestParen(str);
+        //then
+        assertTrue(isNoneInBrackets);
+    }
+
+    @Test
+    void nestParenXInTripleBracketsTest(){
+        //given
+        String str = "(((x)))";
+        //when
+        boolean isNoneInBrackets = simpleRecursionMethods.nestParen(str);
+        //then
+        assertFalse(isNoneInBrackets);
+    }
 }
