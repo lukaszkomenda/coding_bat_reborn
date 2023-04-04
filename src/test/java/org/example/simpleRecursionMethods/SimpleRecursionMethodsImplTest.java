@@ -555,4 +555,72 @@ class SimpleRecursionMethodsImplTest {
         //then
         assertFalse(isNoneInBrackets);
     }
+
+    @Test
+    void strCountCatCowCatAndCatTest() {
+        //given
+        String str = "catcowcat";
+        String sub = "cat";
+        //when
+        int result = simpleRecursionMethods.strCount(str, sub);
+        //then
+        assertEquals(2, result);
+    }
+
+    @Test
+    void strCountXyxAndXTest(){
+        //given
+        String str = "xyz";
+        String sub = "x";
+        //when
+        int result = simpleRecursionMethods.strCount(str, sub);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void strCopiesCatCowCatAndCatAndTwoTest() {
+        //given
+        String str = "catcowcat";
+        String sub = "cat";
+        int n = 2;
+        //when
+        boolean isSubAppearNTimes = simpleRecursionMethods.strCopies(str, sub, n);
+        //then
+        assertTrue(isSubAppearNTimes);
+    }
+
+    @Test
+    void strCopiesCatCowCatAndCowAndTwoTest(){
+        //given
+        String str = "catcowcat";
+        String sub = "cow";
+        int n = 2;
+        //when
+        boolean isSubAppearNTimes = simpleRecursionMethods.strCopies(str, sub, n);
+        //then
+        assertFalse(isSubAppearNTimes);
+    }
+
+    @Test
+    void strDistXyzAndYTest() {
+        //given
+        String str = "xyz";
+        String sub = "y";
+        //when
+        int result = simpleRecursionMethods.strDist(str, sub);
+        //then
+        assertEquals(1, result);
+    }
+
+    @Test
+    void strDistZAndZTest(){
+        //given
+        String str = "z";
+        String sub = "z";
+        //when
+        int result = simpleRecursionMethods.strDist(str, sub);
+        //then
+        assertEquals(1, result);
+    }
 }

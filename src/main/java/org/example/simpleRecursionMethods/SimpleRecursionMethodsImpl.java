@@ -213,10 +213,10 @@ public class SimpleRecursionMethodsImpl implements SimpleRecursionMethods{
         if(str.length() <= 1)
             return 0;
 
-        if(str.length() > 2 && str.substring(0, 3).equals("xhi"))
+        if(str.length() > 2 && str.startsWith("xhi"))
             return countHi2(str.substring(3));
 
-        if(str.substring(0, 2).equals("hi"))
+        if(str.startsWith("hi"))
             return 1 + countHi2(str.substring(2));
 
         return countHi2(str.substring(1));
@@ -245,5 +245,40 @@ public class SimpleRecursionMethodsImpl implements SimpleRecursionMethods{
             return nestParen(str.substring(1, str.length()-1));
 
         return false;
+    }
+
+    @Override
+    public int strCount(String str, String sub) {
+        return str.split(sub, -1).length - 1;
+    }
+
+    @Override
+    public boolean strCopies(String str, String sub, int n) {
+        if(n == 0)
+            return true;
+
+        if(str.length() < sub.length())
+            return false;
+
+        if(str.startsWith(sub))
+            return strCopies(str.substring(1), sub, n-1);
+
+        return strCopies(str.substring(1), sub, n);
+    }
+
+    @Override
+    public int strDist(String str, String sub) {
+        if(str.length() < sub.length())
+            return 0;
+
+        boolean equals = str.startsWith(sub);
+
+        if(equals && str.endsWith(sub))
+            return str.length();
+
+        if(!equals)
+            return strDist(str.substring(1), sub);
+
+        return strDist(str.substring(0, str.length()-1), sub);
     }
 }
