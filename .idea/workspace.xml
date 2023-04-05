@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: parenBit, nestParen">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: strCount, strCopies, strDist">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumRecursionMethods/MediumRecursionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumRecursionMethods/MediumRecursionMethodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumRecursionMethods/MediumRecursionMethodsImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/simpleRecursionMethods/SimpleRecursionMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Ap-1" />
+        <entry key="$PROJECT_DIR$" value="Recursion-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,14 +83,78 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.mediumRecursionMethods" />
       <recent name="org.example.simpleRecursionMethods" />
       <recent name="org.example.apMethods" />
       <recent name="org.example.hardArrayMethods" />
       <recent name="org.example.mediumArrayMethods" />
-      <recent name="org.example.hardStringMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleRecursionMethodsImplTest">
+  <component name="RunManager" selected="JUnit.MediumRecursionMethodsImplTest.groupSum6ZeroAndFiveSixTwoAndNineTest">
+    <configuration name="MediumRecursionMethodsImplTest.groupSum6ZeroAndFiveSixTwoAndEightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
+      <option name="METHOD_NAME" value="groupSum6ZeroAndFiveSixTwoAndEightTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediumRecursionMethodsImplTest.groupSum6ZeroAndFiveSixTwoAndNineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
+      <option name="METHOD_NAME" value="groupSum6ZeroAndFiveSixTwoAndNineTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediumRecursionMethodsImplTest.groupSumOneAndTwoFourEightAndTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
+      <option name="METHOD_NAME" value="groupSumOneAndTwoFourEightAndTwoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediumRecursionMethodsImplTest.groupSumZeroAndTwoFourEightAndTenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
+      <option name="METHOD_NAME" value="groupSumZeroAndTwoFourEightAndTenTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleRecursionMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -106,77 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.strCopiesCatCowCatAndCatAndTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleRecursionMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="strCopiesCatCowCatAndCatAndTwoTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.strCopiesCatCowCatAndCowAndTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleRecursionMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="strCopiesCatCowCatAndCowAndTwoTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.strCountXyxAndXTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleRecursionMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="strCountXyxAndXTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleRecursionMethodsImplTest.strDistXyzAndYTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleRecursionMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleRecursionMethods.SimpleRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="strDistXyzAndYTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.groupSum6ZeroAndFiveSixTwoAndNineTest" />
+        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.groupSum6ZeroAndFiveSixTwoAndEightTest" />
+        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.groupSumOneAndTwoFourEightAndTwoTest" />
+        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.groupSumZeroAndTwoFourEightAndTenTest" />
         <item itemvalue="JUnit.SimpleRecursionMethodsImplTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.strDistXyzAndYTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.strCopiesCatCowCatAndCowAndTwoTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.strCopiesCatCowCatAndCatAndTwoTest" />
-        <item itemvalue="JUnit.SimpleRecursionMethodsImplTest.strCountXyxAndXTest" />
       </list>
     </recent_temporary>
   </component>
@@ -286,13 +286,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00060" summary="Add implementation: repeatEnd, repeatFront, repeatSeparator">
-      <created>1672247288584</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1672247288584</updated>
     </task>
     <task id="LOCAL-00061" summary="Add implementation: prefixAgain, xyzMiddle, getSandwich">
       <created>1672421953026</created>
@@ -630,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680537327500</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Add implementation: strCount, strCopies, strDist">
+      <created>1680625980368</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1680625980368</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: fizzBuzz" />
     <MESSAGE value="Add implementation: maxSpan" />
     <MESSAGE value="Add implementation: fix34, fix45" />
     <MESSAGE value="Add implementation: canBalance, linearIn" />
@@ -673,6 +672,7 @@
     <MESSAGE value="Add implementation: countPairs, countAbc, count11" />
     <MESSAGE value="Add implementation: stringClean, countHi2" />
     <MESSAGE value="Add implementation: parenBit, nestParen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: parenBit, nestParen" />
+    <MESSAGE value="Add implementation: strCount, strCopies, strDist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: strCount, strCopies, strDist" />
   </component>
 </project>
