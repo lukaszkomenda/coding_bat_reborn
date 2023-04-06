@@ -55,4 +55,52 @@ class MediumRecursionMethodsImplTest {
         //then
         assertFalse(isInRightSequence);
     }
+
+    @Test
+    void groupNoAdjZeroAndTwoFiveTenFourAndTwelveTest() {
+        //given
+        int start = 0;
+        int[] nums = {2,5,10,4};
+        int target = 12;
+        //when
+        boolean isElementsInNumsContainTarget = mediumRecursionMethods.groupNoAdj(start, nums, target);
+        //then
+        assertTrue(isElementsInNumsContainTarget);
+    }
+
+    @Test
+    void groupNoAdjZeroAndTwoFiveTenFourAndFourteenTest(){
+        //given
+        int start = 0;
+        int[] nums = {2,5,10,4};
+        int target = 14;
+        //when
+        boolean isElementsInNumsContainTarget = mediumRecursionMethods.groupNoAdj(start, nums, target);
+        //then
+        assertFalse(isElementsInNumsContainTarget);
+    }
+
+    @Test
+    void groupSum5ZeroAndTwoFiveTenFourAndNineteenTest() {
+        //given
+        int start = 0;
+        int[] nums = {2,5,10,4};
+        int target = 19;
+        //when
+        boolean isMultiplyOfFiveContainTarget = mediumRecursionMethods.groupSum5(start, nums, target);
+        //then
+        assertTrue(isMultiplyOfFiveContainTarget);
+    }
+
+    @Test
+    void groupSum5ZeroAndThreeFiveOneAndFourTest(){
+        //given
+        int start = 0;
+        int[] nums = {3,5,1};
+        int target = 4;
+        //when
+        boolean isMultiplyOfFiveContainTarget = mediumRecursionMethods.groupSum5(start, nums, target);
+        //then
+        assertFalse(isMultiplyOfFiveContainTarget);
+    }
 }
