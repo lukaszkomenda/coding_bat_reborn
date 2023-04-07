@@ -103,4 +103,48 @@ class MediumRecursionMethodsImplTest {
         //then
         assertFalse(isMultiplyOfFiveContainTarget);
     }
+
+    @Test
+    void groupSumClumpZeroAndTwoFourEightAndTenTest() {
+        //given
+        int start = 0;
+        int[] nums = {2,4,8};
+        int target = 10;
+        //when
+        boolean isEqualTarget = mediumRecursionMethods.groupSumClump(start, nums, target);
+        //then
+        assertTrue(isEqualTarget);
+    }
+
+    @Test
+    void groupSumClumpZeroAndTwoDoubleFourEightAndFourteenTest(){
+        //given
+        int start = 0;
+        int[] nums = {2,4,4,8};
+        int target = 14;
+        //when
+        boolean isEqualTarget = mediumRecursionMethods.groupSumClump(start, nums, target);
+        //then
+        assertFalse(isEqualTarget);
+    }
+
+    @Test
+    void splitArrayDoubleTwoTest() {
+        //given
+        int[] nums = {2,2};
+        //when
+        boolean isElementsEquals = mediumRecursionMethods.splitArray(nums);
+        //then
+        assertTrue(isElementsEquals);
+    }
+
+    @Test
+    void splitArrayTwoThreeTest(){
+        //given
+        int[] nums = {2,3};
+        //when
+        boolean isElementsEquals = mediumRecursionMethods.splitArray(nums);
+        //then
+        assertFalse(isElementsEquals);
+    }
 }
