@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: groupNoAdj, groupSum5">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: groupSumClump, splitArray">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumRecursionMethods/MediumRecursionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumRecursionMethods/MediumRecursionMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumRecursionMethods/MediumRecursionMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumRecursionMethods/MediumRecursionMethodsImpl.java" afterDir="false" />
@@ -90,8 +90,8 @@
       <recent name="org.example.mediumArrayMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumRecursionMethodsImplTest.splitArrayTwoThreeTest">
-    <configuration name="MediumRecursionMethodsImplTest.groupSum5ZeroAndThreeFiveOneAndFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MediumRecursionMethodsImplTest.split53TripleOneTest">
+    <configuration name="MediumRecursionMethodsImplTest.split53DoubleOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -101,13 +101,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="groupSum5ZeroAndThreeFiveOneAndFourTest" />
+      <option name="METHOD_NAME" value="split53DoubleOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumRecursionMethodsImplTest.groupSumClumpZeroAndTwoDoubleFourEightAndFourteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumRecursionMethodsImplTest.split53TripleOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -117,39 +117,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="groupSumClumpZeroAndTwoDoubleFourEightAndFourteenTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediumRecursionMethodsImplTest.groupSumClumpZeroAndTwoFourEightAndTenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="groupSumClumpZeroAndTwoFourEightAndTenTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediumRecursionMethodsImplTest.splitArrayDoubleTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="splitArrayDoubleTwoTest" />
+      <option name="METHOD_NAME" value="split53TripleOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,13 +139,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MediumRecursionMethodsImplTest.splitOdd10DoubleFiveSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
+      <option name="METHOD_NAME" value="splitOdd10DoubleFiveSixTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediumRecursionMethodsImplTest.splitOdd10TripleFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
+      <option name="METHOD_NAME" value="splitOdd10TripleFiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.split53TripleOneTest" />
+        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.split53DoubleOneTest" />
+        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.splitOdd10DoubleFiveSixTest" />
+        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.splitOdd10TripleFiveTest" />
         <item itemvalue="JUnit.MediumRecursionMethodsImplTest.splitArrayTwoThreeTest" />
-        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.splitArrayDoubleTwoTest" />
-        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.groupSumClumpZeroAndTwoDoubleFourEightAndFourteenTest" />
-        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.groupSumClumpZeroAndTwoFourEightAndTenTest" />
-        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.groupSum5ZeroAndThreeFiveOneAndFourTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,13 +287,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00063" summary="Add implementation: starOut, plusOut, wordEnds">
-      <created>1672765427065</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1672765427065</updated>
     </task>
     <task id="LOCAL-00064" summary="Add implementation: countYZ, withoutString">
       <created>1672851880275</created>
@@ -631,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680796212482</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Add implementation: groupSumClump, splitArray">
+      <created>1680876201859</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1680876201859</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: canBalance, linearIn" />
     <MESSAGE value="Add implementation: squareUp, seriesUp" />
     <MESSAGE value="Add implementation: maxMirror, countClumps" />
     <MESSAGE value="Add implementation: scoresIncreasing, scores100, scoresClump" />
@@ -674,6 +673,7 @@
     <MESSAGE value="Add implementation: strCount, strCopies, strDist" />
     <MESSAGE value="Add implementation: groupSum, groupSum6" />
     <MESSAGE value="Add implementation: groupNoAdj, groupSum5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: groupNoAdj, groupSum5" />
+    <MESSAGE value="Add implementation: groupSumClump, splitArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: groupSumClump, splitArray" />
   </component>
 </project>

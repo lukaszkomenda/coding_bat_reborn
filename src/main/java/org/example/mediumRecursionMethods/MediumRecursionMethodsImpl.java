@@ -78,7 +78,43 @@ public class MediumRecursionMethodsImpl implements MediumRecursionMethods {
 
     }
 
-    public boolean splitArrayHelper(int start, int[] nums, int group1, int group2) {
+    @Override
+    public boolean splitOdd10(int[] nums) {
+        return splitOdd10Helper(0, nums, 0, 0);
+    }
+
+    @Override
+    public boolean split53(int[] nums) {
+        return split53Helper(0, nums, 0, 0);
+    }
+
+    private boolean split53Helper(int start, int[] nums, int mult5, int mult3) {
+        if(start >= nums.length)
+            return mult5 == mult3;
+
+        if(nums[start] % 5 == 0)
+            return split53Helper(start+1, nums, mult5 + nums[start], mult3);
+
+        if(nums[start] % 3 == 0)
+            return split53Helper(start+1, nums, mult5, mult3 + nums[start]);
+
+        if(split53Helper(start+1, nums, mult5 + nums[start], mult3))
+            return true;
+
+        return split53Helper(start + 1, nums, mult5, mult3 + nums[start]);
+    }
+
+    private boolean splitOdd10Helper(int start, int[] nums, int mult, int odd) {
+        if(start >= nums.length)
+            return mult % 10 == 0 && odd % 2 == 1;
+
+        if(splitOdd10Helper(start+1, nums, mult + nums[start], odd))
+            return true;
+
+        return splitOdd10Helper(start + 1, nums, mult, odd + nums[start]);
+    }
+
+    private boolean splitArrayHelper(int start, int[] nums, int group1, int group2) {
         if (start >= nums.length)
             return group1 == group2;
 

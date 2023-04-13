@@ -147,4 +147,44 @@ class MediumRecursionMethodsImplTest {
         //then
         assertFalse(isElementsEquals);
     }
+
+    @Test
+    void splitOdd10TripleFiveTest() {
+        //given
+        int[] nums = {5,5,5};
+        //when
+        boolean isOdd = mediumRecursionMethods.splitOdd10(nums);
+        //then
+        assertTrue(isOdd);
+    }
+
+    @Test
+    void splitOdd10DoubleFiveSixTest(){
+        //given
+        int[] nums = {5,5,6};
+        //when
+        boolean isOdd = mediumRecursionMethods.splitOdd10(nums);
+        //then
+        assertFalse(isOdd);
+    }
+
+    @Test
+    void split53DoubleOneTest() {
+        //given
+        int[] nums = {1,1};
+        //when
+        boolean isEqual = mediumRecursionMethods.split53(nums);
+        //then
+        assertTrue(isEqual);
+    }
+
+    @Test
+    void split53TripleOneTest(){
+        //given
+        int[] nums = {1,1,1};
+        //when
+        boolean isEqual = mediumRecursionMethods.split53(nums);
+        //then
+        assertFalse(isEqual);
+    }
 }
