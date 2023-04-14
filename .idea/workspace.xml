@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: groupSumClump, splitArray">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: splitOdd10, split53">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleMapMethods/SimpleMapMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleMapMethods/SimpleMapMethodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/simpleMapMethods/SimpleMapMethodsImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumRecursionMethods/MediumRecursionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumRecursionMethods/MediumRecursionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumRecursionMethods/MediumRecursionMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumRecursionMethods/MediumRecursionMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/mediumRecursionMethods/MediumRecursionMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumRecursionMethods/MediumRecursionMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Recursion-1" />
+        <entry key="$PROJECT_DIR$" value="Recursion-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,89 +83,88 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.simpleMapMethods" />
       <recent name="org.example.mediumRecursionMethods" />
       <recent name="org.example.simpleRecursionMethods" />
       <recent name="org.example.apMethods" />
       <recent name="org.example.hardArrayMethods" />
-      <recent name="org.example.mediumArrayMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumRecursionMethodsImplTest.split53TripleOneTest">
-    <configuration name="MediumRecursionMethodsImplTest.split53DoubleOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SimpleMapMethodsImplTest">
+    <configuration name="SimpleMapMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
+          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="split53DoubleOneTest" />
+      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleMapMethodsImplTest.mapBullyAbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
+      <option name="METHOD_NAME" value="mapBullyAbTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumRecursionMethodsImplTest.split53TripleOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleMapMethodsImplTest.mapBullyAcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
+          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="split53TripleOneTest" />
+      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
+      <option name="METHOD_NAME" value="mapBullyAcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumRecursionMethodsImplTest.splitArrayTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleMapMethodsImplTest.mapShareAbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
+          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="splitArrayTwoThreeTest" />
+      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
+      <option name="METHOD_NAME" value="mapShareAbcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumRecursionMethodsImplTest.splitOdd10DoubleFiveSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleMapMethodsImplTest.mapShareBcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
+          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="splitOdd10DoubleFiveSixTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediumRecursionMethodsImplTest.splitOdd10TripleFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumRecursionMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumRecursionMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumRecursionMethods.MediumRecursionMethodsImplTest" />
-      <option name="METHOD_NAME" value="splitOdd10TripleFiveTest" />
+      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
+      <option name="METHOD_NAME" value="mapShareBcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.split53TripleOneTest" />
-        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.split53DoubleOneTest" />
-        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.splitOdd10DoubleFiveSixTest" />
-        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.splitOdd10TripleFiveTest" />
-        <item itemvalue="JUnit.MediumRecursionMethodsImplTest.splitArrayTwoThreeTest" />
+        <item itemvalue="JUnit.SimpleMapMethodsImplTest" />
+        <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapShareBcTest" />
+        <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapShareAbcTest" />
+        <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapBullyAcTest" />
+        <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapBullyAbTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,13 +286,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00064" summary="Add implementation: countYZ, withoutString">
-      <created>1672851880275</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1672851880275</updated>
     </task>
     <task id="LOCAL-00065" summary="Add implementation: equalIsNot, gHappy, countTriple">
       <created>1672938360195</created>
@@ -631,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680876201859</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="Add implementation: splitOdd10, split53">
+      <created>1681401612927</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1681401612927</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: squareUp, seriesUp" />
     <MESSAGE value="Add implementation: maxMirror, countClumps" />
     <MESSAGE value="Add implementation: scoresIncreasing, scores100, scoresClump" />
     <MESSAGE value="Add implementation: scoresAverage, wordsCount, wordsFront" />
@@ -674,6 +672,7 @@
     <MESSAGE value="Add implementation: groupSum, groupSum6" />
     <MESSAGE value="Add implementation: groupNoAdj, groupSum5" />
     <MESSAGE value="Add implementation: groupSumClump, splitArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: groupSumClump, splitArray" />
+    <MESSAGE value="Add implementation: splitOdd10, split53" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: splitOdd10, split53" />
   </component>
 </project>
