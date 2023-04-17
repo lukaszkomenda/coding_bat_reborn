@@ -5,4 +5,6 @@ import java.util.Map;
 public interface SimpleMapMethods {
     Map<String, String> mapBully(Map<String, String> map);
     Map<String, String> mapShare(Map<String, String> map);
+    Map<String, String> mapAB(Map<String, String> map);
+    Map<String, String> topping1(Map<String, String> map);
 }

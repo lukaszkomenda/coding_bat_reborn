@@ -66,4 +66,52 @@ class SimpleMapMethodsImplTest {
         assertEquals("xyz", newMap.get("b"));
         assertEquals(1, newMap.size());
     }
+
+    @Test
+    void mapABAbTest() {
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("a", "Hi");
+        map.put("b", "There");
+        //when
+        Map<String, String> newMap = simpleMapMethods.mapAB(map);
+        //then
+        assertEquals(3, newMap.size());
+        assertEquals("HiThere", newMap.get("ab"));
+    }
+
+    @Test
+    void mapABCTest(){
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("c", "meh");
+        //when
+        Map<String, String> newMap = simpleMapMethods.mapAB(map);
+        //then
+        assertEquals(1, newMap.size());
+        assertEquals("meh", newMap.get("c"));
+    }
+
+    @Test
+    void topping1IceCreamTest() {
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("ice cream", "peanuts");
+        //when
+        Map<String, String> newMap = simpleMapMethods.topping1(map);
+        //then
+        assertEquals(2, newMap.size());
+        assertEquals("cherry", newMap.get("ice cream"));
+    }
+
+    @Test
+    void topping1NoneTest(){
+        //given
+        Map<String, String> map = new HashMap<>();
+        //when
+        Map<String, String> newMap = simpleMapMethods.topping1(map);
+        //then
+        assertEquals(1, newMap.size());
+        assertEquals("butter", newMap.get("bread"));
+    }
 }
