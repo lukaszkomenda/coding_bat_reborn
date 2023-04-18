@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: mapBully, mapShare">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: mapAB, topping1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/classpath.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/classpath.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleMapMethods/SimpleMapMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleMapMethods/SimpleMapMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleMapMethods/SimpleMapMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleMapMethods/SimpleMapMethodsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/simpleMapMethods/SimpleMapMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/simpleMapMethods/SimpleMapMethodsImplTest.java" afterDir="false" />
@@ -92,70 +90,7 @@
       <recent name="org.example.hardArrayMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleMapMethodsImplTest.topping1NoneTest">
-    <configuration name="SimpleMapMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleMapMethodsImplTest.mapABAbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="mapABAbTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleMapMethodsImplTest.mapABCTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="mapABCTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleMapMethodsImplTest.topping1IceCreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="topping1IceCreamTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SimpleMapMethodsImplTest.topping3NoneTest">
     <configuration name="SimpleMapMethodsImplTest.topping1NoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -172,13 +107,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleMapMethodsImplTest.topping2IceCreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
+      <option name="METHOD_NAME" value="topping2IceCreamTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleMapMethodsImplTest.topping2SpinachIceCreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
+      <option name="METHOD_NAME" value="topping2SpinachIceCreamTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleMapMethodsImplTest.topping3NoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
+      <option name="METHOD_NAME" value="topping3NoneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleMapMethodsImplTest.topping3PotatoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
+      <option name="METHOD_NAME" value="topping3PotatoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleMapMethodsImplTest.topping3NoneTest" />
+        <item itemvalue="JUnit.SimpleMapMethodsImplTest.topping3PotatoTest" />
+        <item itemvalue="JUnit.SimpleMapMethodsImplTest.topping2SpinachIceCreamTest" />
+        <item itemvalue="JUnit.SimpleMapMethodsImplTest.topping2IceCreamTest" />
         <item itemvalue="JUnit.SimpleMapMethodsImplTest.topping1NoneTest" />
-        <item itemvalue="JUnit.SimpleMapMethodsImplTest.topping1IceCreamTest" />
-        <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapABCTest" />
-        <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapABAbTest" />
-        <item itemvalue="JUnit.SimpleMapMethodsImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -288,13 +287,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00066" summary="Add implementation: sumDigits, sameEnds, mirrorEnds">
-      <created>1673108103501</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1673108103501</updated>
     </task>
     <task id="LOCAL-00067" summary="Add implementation: sumNumbers">
       <created>1673193690433</created>
@@ -632,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681490049180</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Add implementation: mapAB, topping1">
+      <created>1681752691889</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1681752691889</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: scoresIncreasing, scores100, scoresClump" />
     <MESSAGE value="Add implementation: scoresAverage, wordsCount, wordsFront" />
     <MESSAGE value="Add implementation: wordsWithoutList, hasOne" />
     <MESSAGE value="Add implementation: dividesSelf, copyEvens" />
@@ -675,6 +673,7 @@
     <MESSAGE value="Add implementation: groupSumClump, splitArray" />
     <MESSAGE value="Add implementation: splitOdd10, split53" />
     <MESSAGE value="Add implementation: mapBully, mapShare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: mapBully, mapShare" />
+    <MESSAGE value="Add implementation: mapAB, topping1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: mapAB, topping1" />
   </component>
 </project>

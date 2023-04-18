@@ -114,4 +114,53 @@ class SimpleMapMethodsImplTest {
         assertEquals(1, newMap.size());
         assertEquals("butter", newMap.get("bread"));
     }
+
+    @Test
+    void topping2IceCreamTest() {
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("ice cream", "cherry");
+        //when
+        Map<String, String> newMap = simpleMapMethods.topping2(map);
+        //then
+        assertEquals(2, newMap.size());
+        assertEquals("cherry", newMap.get("yogurt"));
+    }
+
+    @Test
+    void topping2SpinachIceCreamTest(){
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("ice cream", "cherry");
+        map.put("spinach", "dirt");
+        //when
+        Map<String, String> newMap = simpleMapMethods.topping2(map);
+        //then
+        assertEquals(3, newMap.size());
+        assertEquals("cherry", newMap.get("yogurt"));
+        assertEquals("nuts", newMap.get("spinach"));
+    }
+
+    @Test
+    void topping3PotatoTest() {
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("potato", "ketchup");
+        //when
+        Map<String, String> newMap = simpleMapMethods.topping3(map);
+        //then
+        assertEquals(2, newMap.size());
+        assertEquals("ketchup", newMap.get("potato"));
+    }
+
+    @Test
+    void topping3NoneTest(){
+        //given
+        Map<String, String> map = new HashMap<>();
+        //when
+        Map<String, String> newMap = simpleMapMethods.topping3(map);
+        //then
+        assertEquals(0, newMap.size());
+        assertFalse(newMap.containsKey("potato"));
+    }
 }
