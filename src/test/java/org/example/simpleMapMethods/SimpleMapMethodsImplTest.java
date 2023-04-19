@@ -163,4 +163,55 @@ class SimpleMapMethodsImplTest {
         assertEquals(0, newMap.size());
         assertFalse(newMap.containsKey("potato"));
     }
+
+    @Test
+    void mapAB2AbcTest() {
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("a", "aaa");
+        map.put("b", "aaa");
+        map.put("c", "cake");
+        //when
+        Map<String, String> newMap = simpleMapMethods.mapAB2(map);
+        //then
+        assertEquals(1, newMap.size());
+    }
+
+    @Test
+    void mapAB2AbTest(){
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("a", "aaa");
+        map.put("b", "bbb");
+        //when
+        Map<String, String> newMap = simpleMapMethods.mapAB2(map);
+        //then
+        assertEquals(2, newMap.size());
+    }
+
+    @Test
+    void mapAB3AcTest() {
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("a", "aaa");
+        map.put("c", "cake");
+        //when
+        Map<String, String> newMap = simpleMapMethods.mapAB3(map);
+        //then
+        assertEquals(3, newMap.size());
+        assertEquals("aaa", newMap.get("b"));
+    }
+
+    @Test
+    void mapAB3BcTest(){
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("b", "bbb");
+        map.put("c", "cake");
+        //when
+        Map<String, String> newMap = simpleMapMethods.mapAB3(map);
+        //then
+        assertEquals(3, newMap.size());
+        assertEquals("bbb", newMap.get("a"));
+    }
 }
