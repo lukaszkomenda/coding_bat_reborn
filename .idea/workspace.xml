@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: mapAB2, mapAB3">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: mapAB4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumMapMethods/MediumMapMethodsImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleMapMethods/SimpleMapMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleMapMethods/SimpleMapMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleMapMethods/SimpleMapMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleMapMethods/SimpleMapMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/simpleMapMethods/SimpleMapMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/simpleMapMethods/SimpleMapMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Recursion-2" />
+        <entry key="$PROJECT_DIR$" value="Map-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,41 +83,41 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.mediumMapMethods" />
       <recent name="org.example.simpleMapMethods" />
       <recent name="org.example.mediumRecursionMethods" />
       <recent name="org.example.simpleRecursionMethods" />
       <recent name="org.example.apMethods" />
-      <recent name="org.example.hardArrayMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleMapMethodsImplTest.mapAB4AbTest">
-    <configuration name="SimpleMapMethodsImplTest.mapAB2AbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MediumMapMethodsImplTest.word0CbaTest">
+    <configuration name="MediumMapMethodsImplTest.word0AbabTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
+          <option name="PATTERN" value="org.example.mediumMapMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="mapAB2AbTest" />
+      <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
+      <option name="METHOD_NAME" value="word0AbabTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleMapMethodsImplTest.mapAB3AcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumMapMethodsImplTest.word0CbaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.simpleMapMethods.*" />
+          <option name="PATTERN" value="org.example.mediumMapMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleMapMethods.SimpleMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="mapAB3AcTest" />
+      <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
+      <option name="METHOD_NAME" value="word0CbaTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MediumMapMethodsImplTest.word0CbaTest" />
+        <item itemvalue="JUnit.MediumMapMethodsImplTest.word0AbabTest" />
         <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapAB4AbTest" />
         <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapAB4AbcTest" />
         <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapAB3BcTest" />
-        <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapAB3AcTest" />
-        <item itemvalue="JUnit.SimpleMapMethodsImplTest.mapAB2AbTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,13 +287,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00069" summary="Add implementation: countEvens, bigDiff, centeredAverage">
-      <created>1673372160929</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1673372160929</updated>
     </task>
     <task id="LOCAL-00070" summary="Add implementation: sum13">
       <created>1673459044982</created>
@@ -631,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681919876360</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Add implementation: mapAB4">
+      <created>1682439900174</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1682439900174</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: dividesSelf, copyEvens" />
     <MESSAGE value="Add implementation: copyEndy, matchUp, scoreUp" />
     <MESSAGE value="Add implementation: wordsWithout, scoresSpecial, sumHeights" />
     <MESSAGE value="Add implementation: sumHeights2, bigHeights" />
@@ -674,6 +673,7 @@
     <MESSAGE value="Add implementation: mapAB, topping1" />
     <MESSAGE value="Add implementation: topping2, topping3" />
     <MESSAGE value="Add implementation: mapAB2, mapAB3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: mapAB2, mapAB3" />
+    <MESSAGE value="Add implementation: mapAB4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: mapAB4" />
   </component>
 </project>
