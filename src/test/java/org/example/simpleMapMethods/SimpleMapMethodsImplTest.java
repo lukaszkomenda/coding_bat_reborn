@@ -214,4 +214,31 @@ class SimpleMapMethodsImplTest {
         assertEquals(3, newMap.size());
         assertEquals("bbb", newMap.get("a"));
     }
+
+    @Test
+    void mapAB4AbcTest(){
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("a", "aaa");
+        map.put("b", "bb");
+        map.put("c", "cake");
+        //when
+        Map<String, String> newMap = simpleMapMethods.mapAB4(map);
+        //then
+        assertEquals("aaa", newMap.get("c"));
+    }
+
+    @Test
+    void mapAB4AbTest(){
+        //given
+        Map<String, String> map = new HashMap<>();
+        map.put("a", "aa");
+        map.put("b", "bbb");
+        //when
+        Map<String, String> newMap = simpleMapMethods.mapAB4(map);
+        //then
+        assertEquals(3, newMap.size());
+        assertEquals("bbb", newMap.get("c"));
+
+    }
 }
