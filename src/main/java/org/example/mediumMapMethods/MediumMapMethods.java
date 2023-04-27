@@ -6,4 +6,6 @@ public interface MediumMapMethods {
     Map<String, Integer> word0(String[] strings);
     Map<String, Integer> wordLen(String[] strings);
     Map<String, String> pairs(String[] strings);
+    Map<String, Integer> wordCount(String[] strings);
+    Map<String, String> firstChar(String[] strings);
 }

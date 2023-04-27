@@ -81,4 +81,54 @@ class MediumMapMethodsImplTest {
         assertEquals("g", newMap.get("b"));
         assertEquals(2, newMap.size());
     }
+
+    @Test
+    void wordCountAbacbTest() {
+        //given
+        String[] strings = {"a", "b", "a", "c", "b"};
+        //when
+        Map<String, Integer> newMap = mediumMapMethods.wordCount(strings);
+        //then
+        assertEquals(2, newMap.get("a"));
+        assertEquals(2, newMap.get("b"));
+        assertEquals(1, newMap.get("c"));
+    }
+
+    @Test
+    void wordCountThisAndThisEmptyTest(){
+        //given
+        String[] strings = {"this", "and", "this", ""};
+        //when
+        Map<String, Integer> newMap = mediumMapMethods.wordCount(strings);
+        //then
+        assertEquals(2, newMap.get("this"));
+        assertEquals(1, newMap.get("and"));
+        assertEquals(1, newMap.get(""));
+    }
+
+    @Test
+    void firstCharSaltTeaSodaToastTest() {
+        //given
+        String[] strings = {"salt", "tea", "soda", "toast"};
+        //when
+        Map<String, String> newMap = mediumMapMethods.firstChar(strings);
+        //then
+        assertEquals("saltsoda", newMap.get("s"));
+        assertEquals("teatoast", newMap.get("t"));
+        assertEquals(2, newMap.size());
+    }
+
+    @Test
+    void firstCharAabbccaaacccdTest(){
+        //given
+        String[] strings = {"aa", "bb", "cc", "aAA", "cCC", "d"};
+        //when
+        Map<String, String> newMap = mediumMapMethods.firstChar(strings);
+        //then
+        assertEquals("aaaAA", newMap.get("a"));
+        assertEquals("bb", newMap.get("b"));
+        assertEquals("cccCC", newMap.get("c"));
+        assertEquals("d", newMap.get("d"));
+        assertEquals(4, newMap.size());
+    }
 }
