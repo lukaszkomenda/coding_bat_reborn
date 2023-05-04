@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: wordCount, firstChar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/mediumMapMethods/MediumMapMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumMapMethods/MediumMapMethodsImplTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: wordAppend, wordMultiple" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,13 +281,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00073" summary="Add implementation: fizzArray, only14, fizzArray2">
-      <created>1674230622709</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1674230622709</updated>
     </task>
     <task id="LOCAL-00074" summary="Add implementation: no14, isEverywhere, either24">
       <created>1674309727046</created>
@@ -630,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682610340926</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Add implementation: wordAppend, wordMultiple">
+      <created>1683215819884</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1683215819884</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: userCompare, mergeTwo" />
     <MESSAGE value="Add implementation: commonTwo, factorial, bunnyEars" />
     <MESSAGE value="Add implementation: fibonacci, bunnyEars2" />
     <MESSAGE value="Add implementation: triangle, sumDigits, count7" />
@@ -673,6 +667,7 @@
     <MESSAGE value="Add implementation: word0" />
     <MESSAGE value="Add implementation: wordLen, pairs" />
     <MESSAGE value="Add implementation: wordCount, firstChar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: wordCount, firstChar" />
+    <MESSAGE value="Add implementation: wordAppend, wordMultiple" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: wordAppend, wordMultiple" />
   </component>
 </project>
