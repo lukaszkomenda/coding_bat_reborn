@@ -8,4 +8,6 @@ public interface MediumMapMethods {
     Map<String, String> pairs(String[] strings);
     Map<String, Integer> wordCount(String[] strings);
     Map<String, String> firstChar(String[] strings);
+    String wordAppend(String[] strings);
+    Map<String, Boolean> wordMultiple(String[] strings);
 }

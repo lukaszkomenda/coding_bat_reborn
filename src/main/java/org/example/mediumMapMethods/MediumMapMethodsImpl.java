@@ -66,4 +66,47 @@ public class MediumMapMethodsImpl implements MediumMapMethods {
         }
         return map;
     }
+
+    @Override
+    public String wordAppend(String[] strings) {
+        Map<String, Integer> map    = new HashMap<>();
+        StringBuilder result = new StringBuilder();
+
+        for (String key : strings) {
+
+            if (map.containsKey(key)) {
+                int val = map.get(key);
+                val++;
+                if (val % 2 == 0) {
+                    result.append(key);
+                }
+                map.put(key, val);
+            } else {
+                map.put(key, 1);
+            }
+
+        }
+
+        return result.toString();
+    }
+
+    @Override
+    public Map<String, Boolean> wordMultiple(String[] strings) {
+        Map<String, Integer> counts = new HashMap<>();
+        Map<String, Boolean> result = new HashMap<>();
+
+        for (String key : strings) {
+            if (counts.containsKey(key)) {
+                int val = counts.get(key);
+                val++;
+                counts.put(key, val);
+            } else {
+                counts.put(key, 1);
+            }
+
+            result.put(key, counts.get(key) >= 2);
+        }
+
+        return result;
+    }
 }

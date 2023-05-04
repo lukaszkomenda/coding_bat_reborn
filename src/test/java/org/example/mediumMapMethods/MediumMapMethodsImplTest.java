@@ -131,4 +131,49 @@ class MediumMapMethodsImplTest {
         assertEquals("d", newMap.get("d"));
         assertEquals(4, newMap.size());
     }
+
+    @Test
+    void wordAppendAbcTest() {
+        //given
+        String[] strings = {"a", "b", "a"};
+        //when
+        String newStr = mediumMapMethods.wordAppend(strings);
+        //then
+        assertEquals("a", newStr);
+    }
+
+    @Test
+    void wordAppendAEmptyATest(){
+        //given
+        String[] strings = {"a", "", "a"};
+        //when
+        String newStr = mediumMapMethods.wordAppend(strings);
+        //then
+        assertEquals("a", newStr);
+    }
+
+    @Test
+    void wordMultipleAbacbTest() {
+        //given
+        String[] strings = {"a", "b", "a", "c", "b"};
+        //when
+        Map<String, Boolean> newMap = mediumMapMethods.wordMultiple(strings);
+        //then
+        assertTrue(newMap.get("a"));
+        assertTrue(newMap.get("b"));
+        assertFalse(newMap.get("c"));
+        assertEquals(3, newMap.size());
+    }
+
+    @Test
+    void wordMultipleThisAndThisTest(){
+        //given
+        String[] strings = {"this", "and", "this"};
+        //when
+        Map<String, Boolean> newMap = mediumMapMethods.wordMultiple(strings);
+        //then
+        assertTrue(newMap.get("this"));
+        assertFalse(newMap.get("and"));
+        assertEquals(2, newMap.size());
+    }
 }

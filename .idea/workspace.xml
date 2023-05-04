@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: wordLen, pairs">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: wordCount, firstChar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethodsImpl.java" afterDir="false" />
@@ -90,7 +90,7 @@
       <recent name="org.example.apMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumMapMethodsImplTest">
+  <component name="RunManager" selected="JUnit.MediumMapMethodsImplTest.wordMultipleThisAndThisTest">
     <configuration name="MediumMapMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -106,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumMapMethodsImplTest.firstCharAabbccaaacccdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumMapMethodsImplTest.wordAppendAEmptyATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +116,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="firstCharAabbccaaacccdTest" />
+      <option name="METHOD_NAME" value="wordAppendAEmptyATest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumMapMethodsImplTest.firstCharSaltTeaSodaToastTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumMapMethodsImplTest.wordAppendAbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -132,13 +132,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="firstCharSaltTeaSodaToastTest" />
+      <option name="METHOD_NAME" value="wordAppendAbcTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumMapMethodsImplTest.wordCountAbacbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumMapMethodsImplTest.wordMultipleAbacbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -148,13 +148,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="wordCountAbacbTest" />
+      <option name="METHOD_NAME" value="wordMultipleAbacbTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumMapMethodsImplTest.wordCountThisAndThisEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumMapMethodsImplTest.wordMultipleThisAndThisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +164,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="wordCountThisAndThisEmptyTest" />
+      <option name="METHOD_NAME" value="wordMultipleThisAndThisTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MediumMapMethodsImplTest.wordMultipleThisAndThisTest" />
+        <item itemvalue="JUnit.MediumMapMethodsImplTest.wordMultipleAbacbTest" />
+        <item itemvalue="JUnit.MediumMapMethodsImplTest.wordAppendAEmptyATest" />
+        <item itemvalue="JUnit.MediumMapMethodsImplTest.wordAppendAbcTest" />
         <item itemvalue="JUnit.MediumMapMethodsImplTest" />
-        <item itemvalue="JUnit.MediumMapMethodsImplTest.firstCharAabbccaaacccdTest" />
-        <item itemvalue="JUnit.MediumMapMethodsImplTest.firstCharSaltTeaSodaToastTest" />
-        <item itemvalue="JUnit.MediumMapMethodsImplTest.wordCountThisAndThisEmptyTest" />
-        <item itemvalue="JUnit.MediumMapMethodsImplTest.wordCountAbacbTest" />
       </list>
     </recent_temporary>
   </component>
@@ -286,13 +286,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00072" summary="Add implementation: sum28, more14">
-      <created>1673889294825</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1673889294825</updated>
     </task>
     <task id="LOCAL-00073" summary="Add implementation: fizzArray, only14, fizzArray2">
       <created>1674230622709</created>
@@ -630,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682525253756</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="Add implementation: wordCount, firstChar">
+      <created>1682610340910</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1682610340926</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: sumHeights2, bigHeights" />
     <MESSAGE value="Add implementation: userCompare, mergeTwo" />
     <MESSAGE value="Add implementation: commonTwo, factorial, bunnyEars" />
     <MESSAGE value="Add implementation: fibonacci, bunnyEars2" />
@@ -673,6 +672,7 @@
     <MESSAGE value="Add implementation: mapAB4" />
     <MESSAGE value="Add implementation: word0" />
     <MESSAGE value="Add implementation: wordLen, pairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: wordLen, pairs" />
+    <MESSAGE value="Add implementation: wordCount, firstChar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: wordCount, firstChar" />
   </component>
 </project>
