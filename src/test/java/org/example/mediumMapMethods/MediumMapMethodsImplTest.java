@@ -176,4 +176,48 @@ class MediumMapMethodsImplTest {
         assertFalse(newMap.get("and"));
         assertEquals(2, newMap.size());
     }
+
+    @Test
+    void allSwapAbAcTest() {
+        //given
+        String[] strings = {"ab", "ac"};
+        //when
+        String[] newStr = mediumMapMethods.allSwap(strings);
+        //then
+        String[] expectedStr = {"ac", "ab"};
+        assertArrayEquals(expectedStr, newStr);
+    }
+
+    @Test
+    void allSwapEasyDoesItEveryIceEatenTest(){
+        //given
+        String[] strings = {"easy", "does", "it", "every", "ice", "eaten"};
+        //when
+        String[] newStr = mediumMapMethods.allSwap(strings);
+        //then
+        String[] expectedStr = {"every", "does", "ice", "easy", "it", "eaten"};
+        assertArrayEquals(expectedStr, newStr);
+    }
+
+    @Test
+    void firstSwapAbAcTest() {
+        //given
+        String[] strings = {"ab", "ac"};
+        //when
+        String[] newArray = mediumMapMethods.firstSwap(strings);
+        //then
+        String[] expectedArray = {"ac", "ab"};
+        assertArrayEquals(expectedArray, newArray);
+    }
+
+    @Test
+    void firstSwapAbcxxyyzzTest(){
+        //given
+        String[] strings = {"a", "b", "c", "xx", "yy", "zz"};
+        //when
+        String[] newArray = mediumMapMethods.firstSwap(strings);
+        //then
+        String[] expectedArray = {"a", "b", "c", "xx", "yy", "zz"};
+        assertArrayEquals(expectedArray, newArray);
+    }
 }

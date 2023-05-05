@@ -109,4 +109,65 @@ public class MediumMapMethodsImpl implements MediumMapMethods {
 
         return result;
     }
+
+    @Override
+    public String[] allSwap(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < strings.length; i++) {
+
+            String key = String.valueOf(strings[i].charAt(0));
+
+            if (map.containsKey(key)) {
+
+                // swap
+                int    pos   = map.get(key);
+                String tmp   = strings[pos];
+                strings[pos] = strings[i];
+                strings[i]   = tmp ;
+
+                // delete
+                map.remove(key);
+
+            } else {
+                map.put(key, i);
+            }
+
+        }
+
+        return strings;
+    }
+
+    @Override
+    public String[] firstSwap(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < strings.length; i++) {
+
+            String key = String.valueOf(strings[i].charAt(0));
+
+            if (map.containsKey(key)) {
+
+                int val = map.get(key);
+                if (val == -1) {
+                    continue;
+                }
+
+                // swap
+                int    pos   = map.get(key);
+                String tmp   = strings[pos];
+                strings[pos] = strings[i];
+                strings[i]   = tmp ;
+
+                // set a flag
+                map.put(key, -1);
+
+            } else {
+                map.put(key, i);
+            }
+
+        }
+
+        return strings;
+    }
 }

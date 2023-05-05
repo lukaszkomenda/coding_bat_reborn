@@ -10,4 +10,6 @@ public interface MediumMapMethods {
     Map<String, String> firstChar(String[] strings);
     String wordAppend(String[] strings);
     Map<String, Boolean> wordMultiple(String[] strings);
+    String[] allSwap(String[] strings);
+    String[] firstSwap(String[] strings);
 }
