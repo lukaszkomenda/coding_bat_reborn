@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: wordAppend, wordMultiple">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: wordAppend, wordMultiple, allSwap, firstSwap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleFunctionalMethods/SimpleFunctionalMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleFunctionalMethods/SimpleFunctionalMethodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/simpleFunctionalMethods/SimpleFunctionalMethodsImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumMapMethods/MediumMapMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/mediumMapMethods/MediumMapMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumMapMethods/MediumMapMethodsImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumMapMethods/MediumMapMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumMapMethods/MediumMapMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumMapMethods/MediumMapMethodsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/mediumMapMethods/MediumMapMethodsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/mediumMapMethods/MediumMapMethodsImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/example/mediumMapMethods/MediumMapMethodsImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Map-1" />
+        <entry key="$PROJECT_DIR$" value="Map-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,62 +86,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.simpleFunctionalMethods" />
       <recent name="org.example.mediumMapMethods" />
       <recent name="org.example.simpleMapMethods" />
       <recent name="org.example.mediumRecursionMethods" />
       <recent name="org.example.simpleRecursionMethods" />
-      <recent name="org.example.apMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumMapMethodsImplTest.firstSwapAbcxxyyzzTest">
-    <configuration name="MediumMapMethodsImplTest.allSwapAbAcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumMapMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="allSwapAbAcTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediumMapMethodsImplTest.allSwapEasyDoesItEveryIceEatenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumMapMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="allSwapEasyDoesItEveryIceEatenTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediumMapMethodsImplTest.firstSwapAbAcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.mediumMapMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="firstSwapAbAcTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SimpleFunctionalMethodsImplTest.squereTwelveTest">
     <configuration name="MediumMapMethodsImplTest.firstSwapAbcxxyyzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -155,17 +110,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumMapMethodsImplTest.wordMultipleThisAndThisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleFunctionalMethodsImplTest.doublingFiveTenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.mediumMapMethods.*" />
+          <option name="PATTERN" value="org.example.simpleFunctionalMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
-      <option name="METHOD_NAME" value="wordMultipleThisAndThisTest" />
+      <option name="PACKAGE_NAME" value="org.example.simpleFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleFunctionalMethods.SimpleFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="doublingFiveTenTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFunctionalMethodsImplTest.doublingOneTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simpleFunctionalMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.simpleFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleFunctionalMethods.SimpleFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="doublingOneTwoThreeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFunctionalMethodsImplTest.squareOneTwoThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simpleFunctionalMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.simpleFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleFunctionalMethods.SimpleFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="squareOneTwoThreeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFunctionalMethodsImplTest.squereTwelveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simpleFunctionalMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.simpleFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.simpleFunctionalMethods.SimpleFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="squereTwelveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.squereTwelveTest" />
+        <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.squareOneTwoThreeTest" />
+        <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.doublingFiveTenTest" />
+        <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.doublingOneTwoThreeTest" />
         <item itemvalue="JUnit.MediumMapMethodsImplTest.firstSwapAbcxxyyzzTest" />
-        <item itemvalue="JUnit.MediumMapMethodsImplTest.firstSwapAbAcTest" />
-        <item itemvalue="JUnit.MediumMapMethodsImplTest.allSwapEasyDoesItEveryIceEatenTest" />
-        <item itemvalue="JUnit.MediumMapMethodsImplTest.allSwapAbAcTest" />
-        <item itemvalue="JUnit.MediumMapMethodsImplTest.wordMultipleThisAndThisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,13 +290,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00075" summary="Add implementation: matchUp, has77, has12">
-      <created>1674403123149</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1674403123149</updated>
     </task>
     <task id="LOCAL-00076" summary="Add implementation: modThree, haveThree, twoTwo">
       <created>1674483325053</created>
@@ -631,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683216092367</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Add implementation: wordAppend, wordMultiple, allSwap, firstSwap">
+      <created>1683302402117</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1683302402117</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: commonTwo, factorial, bunnyEars" />
     <MESSAGE value="Add implementation: fibonacci, bunnyEars2" />
     <MESSAGE value="Add implementation: triangle, sumDigits, count7" />
     <MESSAGE value="Add implementation: count8, powerN, countX" />
@@ -674,6 +676,7 @@
     <MESSAGE value="Add implementation: wordLen, pairs" />
     <MESSAGE value="Add implementation: wordCount, firstChar" />
     <MESSAGE value="Add implementation: wordAppend, wordMultiple" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: wordAppend, wordMultiple" />
+    <MESSAGE value="Add implementation: wordAppend, wordMultiple, allSwap, firstSwap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: wordAppend, wordMultiple, allSwap, firstSwap" />
   </component>
 </project>
