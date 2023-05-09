@@ -18,4 +18,16 @@ public class SimpleFunctionalMethodsImpl implements SimpleFunctionalMethods {
                 .filter(n -> n >= 0)
                 .collect(Collectors.toList());
     }
+
+    @Override
+    public List<String> addStar(List<String> strings) {
+        strings.replaceAll(n-> n + "*");
+        return strings;
+    }
+
+    @Override
+    public List<String> copies3(List<String> strings) {
+        strings.replaceAll(n-> n + n + n);
+        return strings;
+    }
 }

@@ -54,4 +54,48 @@ class SimpleFunctionalMethodsImplTest {
         List<Integer> expectedList = List.of(144);
         Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
     }
+
+    @Test
+    void addStarAbbcccTest() {
+        //given
+        List<String> strings = Arrays.asList("a", "bb", "ccc");
+        //when
+        List<String> newList = simpleFunctionalMethods.addStar(strings);
+        //then
+        List<String> expectedList = Arrays.asList("a*", "bb*", "ccc*");
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
+
+    @Test
+    void addStarHelloThereTest(){
+        //given
+        List<String> strings = Arrays.asList("hello", "there");
+        //when
+        List<String> newList = simpleFunctionalMethods.addStar(strings);
+        //then
+        List<String> expectedList = Arrays.asList("hello*", "there*");
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
+
+    @Test
+    void copies3AbbcccTest() {
+        //given
+        List<String> strings = Arrays.asList("a", "bb", "ccc");
+        //when
+        List<String> newList = simpleFunctionalMethods.copies3(strings);
+        //then
+        List<String> expectedList = Arrays.asList("aaa", "bbbbbb", "ccccccccc");
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
+
+    @Test
+    void copies3HelloThereTest(){
+        //given
+        List<String> strings = Arrays.asList("hello", "there");
+        //when
+        List<String> newList = simpleFunctionalMethods.copies3(strings);
+        //then
+        List<String> expectedList = Arrays.asList("hellohellohello", "theretherethere");
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
 }
