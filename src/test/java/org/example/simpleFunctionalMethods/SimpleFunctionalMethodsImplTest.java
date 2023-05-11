@@ -98,4 +98,48 @@ class SimpleFunctionalMethodsImplTest {
         List<String> expectedList = Arrays.asList("hellohellohello", "theretherethere");
         Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
     }
+
+    @Test
+    void moreYAbcTest() {
+        //given
+        List<String> strings = Arrays.asList("a", "b", "c");
+        //when
+        List<String> newList = simpleFunctionalMethods.moreY(strings);
+        //then
+        List<String> expectedList = Arrays.asList("yay", "yby", "ycy");
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
+
+    @Test
+    void moreYHelloThereTest(){
+        //given
+        List<String> strings = Arrays.asList("hello", "there");
+        //when
+        List<String> newList = simpleFunctionalMethods.moreY(strings);
+        //then
+        List<String> expectedList = Arrays.asList("yhelloy", "ytherey");
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
+
+    @Test
+    void math1OneTwoThreeTest() {
+        //given
+        List<Integer> nums = Arrays.asList(1,2,3);
+        //when
+        List<Integer> newList = simpleFunctionalMethods.math1(nums);
+        //then
+        List<Integer> expectedList = Arrays.asList(20, 30, 40);
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
+
+    @Test
+    void math1SixEightSixEightOneTest(){
+        //given
+        List<Integer> nums = Arrays.asList(6,8,6,8,1);
+        //when
+        List<Integer> newList = simpleFunctionalMethods.math1(nums);
+        //then
+        List<Integer> expectedList = Arrays.asList(70, 90, 70, 90, 20);
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
 }

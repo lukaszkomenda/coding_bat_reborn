@@ -7,4 +7,6 @@ public interface SimpleFunctionalMethods {
     List<Integer> square(List<Integer> nums);
     List<String> addStar(List<String> strings);
     List<String> copies3(List<String> strings);
+    List<String> moreY(List<String> strings);
+    List<Integer> math1(List<Integer> nums);
 }
