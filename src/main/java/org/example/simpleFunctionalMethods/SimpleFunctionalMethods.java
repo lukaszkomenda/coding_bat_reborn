@@ -9,4 +9,6 @@ public interface SimpleFunctionalMethods {
     List<String> copies3(List<String> strings);
     List<String> moreY(List<String> strings);
     List<Integer> math1(List<Integer> nums);
+    List<Integer> rightDigit(List<Integer> nums);
+    List<String> lower(List<String> strings);
 }

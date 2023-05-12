@@ -42,4 +42,16 @@ public class SimpleFunctionalMethodsImpl implements SimpleFunctionalMethods {
         nums.replaceAll(n-> (n+1) * 10);
         return nums;
     }
+
+    @Override
+    public List<Integer> rightDigit(List<Integer> nums) {
+        nums.replaceAll(n-> n % 10);
+        return nums;
+    }
+
+    @Override
+    public List<String> lower(List<String> strings) {
+        strings.replaceAll(String::toLowerCase);
+        return strings;
+    }
 }
