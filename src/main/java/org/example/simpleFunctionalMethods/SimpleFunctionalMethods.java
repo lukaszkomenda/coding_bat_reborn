@@ -11,4 +11,5 @@ public interface SimpleFunctionalMethods {
     List<Integer> math1(List<Integer> nums);
     List<Integer> rightDigit(List<Integer> nums);
     List<String> lower(List<String> strings);
+    List<String> noX(List<String> strings);
 }

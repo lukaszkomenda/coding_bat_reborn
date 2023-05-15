@@ -186,4 +186,26 @@ class SimpleFunctionalMethodsImplTest {
         List<String> expectedList = Arrays.asList("aaa", "bbb", "ccc");
         Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
     }
+
+    @Test
+    void noXAxBbCxTest() {
+        //given
+        List<String> strings = Arrays.asList("ax", "bb", "cx");
+        //when
+        List<String> newList = simpleFunctionalMethods.noX(strings);
+        //then
+        List<String> expectedList = Arrays.asList("a", "bb", "c");
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
+
+    @Test
+    void noXTheTaxiTest(){
+        //given
+        List<String> strings = Arrays.asList("the", "taxi");
+        //when
+        List<String> newList = simpleFunctionalMethods.noX(strings);
+        //then
+        List<String> expectedList = Arrays.asList("the", "tai");
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
 }

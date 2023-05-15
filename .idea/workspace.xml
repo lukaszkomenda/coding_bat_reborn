@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: moreY, math1">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: rightDigit, lower">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleFunctionalMethods/SimpleFunctionalMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleFunctionalMethods/SimpleFunctionalMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simpleFunctionalMethods/SimpleFunctionalMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simpleFunctionalMethods/SimpleFunctionalMethodsImpl.java" afterDir="false" />
@@ -90,7 +90,7 @@
       <recent name="org.example.simpleRecursionMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumMapMethodsImplTest">
+  <component name="RunManager" selected="JUnit.SimpleFunctionalMethodsImplTest.noXTheTaxiTest">
     <configuration name="MediumMapMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -138,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFunctionalMethodsImplTest.rightDigitFiveTenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleFunctionalMethodsImplTest.noXAxBbCxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -148,13 +148,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleFunctionalMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleFunctionalMethods.SimpleFunctionalMethodsImplTest" />
-      <option name="METHOD_NAME" value="rightDigitFiveTenTest" />
+      <option name="METHOD_NAME" value="noXAxBbCxTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFunctionalMethodsImplTest.rightDigitOneTwentyTwoNinetyThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleFunctionalMethodsImplTest.noXTheTaxiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +164,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.simpleFunctionalMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.simpleFunctionalMethods.SimpleFunctionalMethodsImplTest" />
-      <option name="METHOD_NAME" value="rightDigitOneTwentyTwoNinetyThreeTest" />
+      <option name="METHOD_NAME" value="noXTheTaxiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.noXTheTaxiTest" />
+        <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.noXAxBbCxTest" />
         <item itemvalue="JUnit.MediumMapMethodsImplTest" />
         <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.lowerAaaBbbCccTest" />
         <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.lowerHelloHiTest" />
-        <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.rightDigitOneTwentyTwoNinetyThreeTest" />
-        <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.rightDigitFiveTenTest" />
       </list>
     </recent_temporary>
   </component>
@@ -286,13 +286,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00079" summary="Add implementation: shiftLeft, tenRun, pre4">
-      <created>1674755721935</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1674755721935</updated>
     </task>
     <task id="LOCAL-00080" summary="Add implementation: post4, notAlone, zeroFront">
       <created>1674916569383</created>
@@ -630,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683820863474</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="Add implementation: rightDigit, lower">
+      <created>1683906944681</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1683906944681</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: countHi, changeXY, changePi" />
     <MESSAGE value="Add implementation: noX, array6, array11" />
     <MESSAGE value="Add implementation: array220, allStar" />
     <MESSAGE value="Add implementation: pairStar, endX" />
@@ -673,6 +672,7 @@
     <MESSAGE value="Add implementation: doubling, squere" />
     <MESSAGE value="Add implementation: addStar, copies3" />
     <MESSAGE value="Add implementation: moreY, math1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: moreY, math1" />
+    <MESSAGE value="Add implementation: rightDigit, lower" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: rightDigit, lower" />
   </component>
 </project>
