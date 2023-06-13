@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: noX">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumFunctionalMethods/MediumFunctionalMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumFunctionalMethods/MediumFunctionalMethodsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumFunctionalMethods/MediumFunctionalMethodsImplTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: noNeg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumFunctionalMethods/MediumFunctionalMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumFunctionalMethods/MediumFunctionalMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumFunctionalMethods/MediumFunctionalMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumFunctionalMethods/MediumFunctionalMethodsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/mediumFunctionalMethods/MediumFunctionalMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumFunctionalMethods/MediumFunctionalMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,39 @@
       <recent name="org.example.mediumRecursionMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediumFunctionalMethodsImplTest.noNegDoubleMinusThreeDoubleThreeTest">
+  <component name="RunManager" selected="JUnit.MediumFunctionalMethodsImplTest.noTeenOneFourteenOneTest">
+    <configuration name="MediumFunctionalMethodsImplTest.no9OneTwoNineteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumFunctionalMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumFunctionalMethods.MediumFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="no9OneTwoNineteenTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediumFunctionalMethodsImplTest.no9ZeroNineZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumFunctionalMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumFunctionalMethods.MediumFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="no9ZeroNineZeroTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MediumFunctionalMethodsImplTest.noNegDoubleMinusThreeDoubleThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -107,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumFunctionalMethodsImplTest.noNegOneMinusTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumFunctionalMethodsImplTest.noTeenFifteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
@@ -117,54 +151,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.mediumFunctionalMethods" />
       <option name="MAIN_CLASS_NAME" value="org.example.mediumFunctionalMethods.MediumFunctionalMethodsImplTest" />
-      <option name="METHOD_NAME" value="noNegOneMinusTwoTest" />
+      <option name="METHOD_NAME" value="noTeenFifteenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumMapMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumFunctionalMethodsImplTest.noTeenOneFourteenOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.mediumMapMethods.*" />
+          <option name="PATTERN" value="org.example.mediumFunctionalMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumMapMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumMapMethods.MediumMapMethodsImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleFunctionalMethodsImplTest.noXAxBbCxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleFunctionalMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleFunctionalMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleFunctionalMethods.SimpleFunctionalMethodsImplTest" />
-      <option name="METHOD_NAME" value="noXAxBbCxTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleFunctionalMethodsImplTest.noXTheTaxiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simpleFunctionalMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.simpleFunctionalMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.simpleFunctionalMethods.SimpleFunctionalMethodsImplTest" />
-      <option name="METHOD_NAME" value="noXTheTaxiTest" />
+      <option name="PACKAGE_NAME" value="org.example.mediumFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumFunctionalMethods.MediumFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="noTeenOneFourteenOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.noTeenOneFourteenOneTest" />
+        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.noTeenFifteenTest" />
+        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.no9ZeroNineZeroTest" />
+        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.no9OneTwoNineteenTest" />
         <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.noNegDoubleMinusThreeDoubleThreeTest" />
-        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.noNegOneMinusTwoTest" />
-        <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.noXTheTaxiTest" />
-        <item itemvalue="JUnit.SimpleFunctionalMethodsImplTest.noXAxBbCxTest" />
-        <item itemvalue="JUnit.MediumMapMethodsImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -286,13 +289,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00081" summary="Add implementation: withoutTen">
-      <created>1675099252808</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1675099252808</updated>
     </task>
     <task id="LOCAL-00082" summary="Add implementation: zeroMax, evenOdd">
       <created>1675185572990</created>
@@ -630,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684159986638</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Add implementation: noNeg">
+      <created>1684160825848</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1684160825848</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +651,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: array220, allStar" />
     <MESSAGE value="Add implementation: pairStar, endX" />
     <MESSAGE value="Add implementation: countPairs, countAbc, count11" />
     <MESSAGE value="Add implementation: stringClean, countHi2" />
@@ -673,6 +675,7 @@
     <MESSAGE value="Add implementation: moreY, math1" />
     <MESSAGE value="Add implementation: rightDigit, lower" />
     <MESSAGE value="Add implementation: noX" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: noX" />
+    <MESSAGE value="Add implementation: noNeg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: noNeg" />
   </component>
 </project>

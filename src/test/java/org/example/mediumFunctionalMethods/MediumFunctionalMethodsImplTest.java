@@ -32,4 +32,26 @@ class MediumFunctionalMethodsImplTest {
         List<Integer> expectedList = Arrays.asList(3, 3);
         Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
     }
+
+    @Test
+    void no9OneTwoNineteenTest() {
+        //given
+        List<Integer> nums = Arrays.asList(1, 2, 19);
+        //when
+        List<Integer> newList = mediumFunctionalMethods.no9(nums);
+        //then
+        List<Integer> expectedList = Arrays.asList(1, 2);
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
+
+    @Test
+    void no9ZeroNineZeroTest(){
+        //given
+        List<Integer> nums = Arrays.asList(0, 9, 0);
+        //when
+        List<Integer> newList = mediumFunctionalMethods.no9(nums);
+        //then
+        List<Integer> expectedList = Arrays.asList(0,0);
+        Assertions.assertArrayEquals(expectedList.toArray(), newList.toArray());
+    }
 }
