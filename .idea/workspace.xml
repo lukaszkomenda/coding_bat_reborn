@@ -4,18 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  startOz, intMax, close10">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EndUp/EndUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/In3050/In3050.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LastDigit/LastDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Max1020/Max1020.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringE/StringE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/EndUp/EndUpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/In3050/In3050Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LastDigit/LastDigitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Max1020/Max1020Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StringE/StringETest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: noTeen, noZ, noLong, no34, noYY, two2, square56">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/basicWarmupMethods/BasicWarmupMethodsImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/coding_bat_reborn_2.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/coding_bat_reborn_2.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/MonkeyTrouble/MonkeyTrouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/SleepIn/SleepIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/SumDouble/SumDouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/MonkeyTrouble/MonkeyTroubleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/SleepIn/SleepInTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/SumDouble/SumDoubleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Diff21/Diff21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MonkeyTrouble/MonkeyTrouble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SleepIn/SleepIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SumDouble/SumDouble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Diff21/Diff21Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MonkeyTrouble/MonkeyTroubleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SleepIn/SleepInTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SumDouble/SumDoubleTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +48,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Functional-2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="5e7e5963-54df-4664-94aa-e08520a9f294" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,12 +74,16 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects/coding_bat_reborn_2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,89 +98,88 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.example.EndUp" />
-      <recent name="org.example.LastDigit" />
-      <recent name="org.example.StringE" />
-      <recent name="org.example.Max1020" />
-      <recent name="org.example.In3050" />
+      <recent name="org.example.basicWarmupMethods" />
+      <recent name="org.example.mediumFunctionalMethods" />
+      <recent name="org.example.simpleFunctionalMethods" />
+      <recent name="org.example.mediumMapMethods" />
+      <recent name="org.example.simpleMapMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EndUpTest.xTest">
-    <configuration name="EndUpTest.hiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BasicWarmupMethodsImplTest">
+    <configuration name="BasicWarmupMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.EndUp.*" />
+          <option name="PATTERN" value="org.example.basicWarmupMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.EndUp" />
-      <option name="MAIN_CLASS_NAME" value="org.example.EndUp.EndUpTest" />
-      <option name="METHOD_NAME" value="hiTest" />
+      <option name="PACKAGE_NAME" value="org.example.basicWarmupMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.basicWarmupMethods.BasicWarmupMethodsImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediumFunctionalMethodsImplTest.no9OneTwoNineteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumFunctionalMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumFunctionalMethods.MediumFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="no9OneTwoNineteenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EndUpTest.wooHooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumFunctionalMethodsImplTest.no9ZeroNineZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.EndUp.*" />
+          <option name="PATTERN" value="org.example.mediumFunctionalMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.EndUp" />
-      <option name="MAIN_CLASS_NAME" value="org.example.EndUp.EndUpTest" />
-      <option name="METHOD_NAME" value="wooHooTest" />
+      <option name="PACKAGE_NAME" value="org.example.mediumFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumFunctionalMethods.MediumFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="no9ZeroNineZeroTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EndUpTest.xTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumFunctionalMethodsImplTest.noTeenFifteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.EndUp.*" />
+          <option name="PATTERN" value="org.example.mediumFunctionalMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.EndUp" />
-      <option name="MAIN_CLASS_NAME" value="org.example.EndUp.EndUpTest" />
-      <option name="METHOD_NAME" value="xTest" />
+      <option name="PACKAGE_NAME" value="org.example.mediumFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumFunctionalMethods.MediumFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="noTeenFifteenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastDigitTest.tenZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumFunctionalMethodsImplTest.noTeenOneFourteenOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.LastDigit.*" />
+          <option name="PATTERN" value="org.example.mediumFunctionalMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.LastDigit" />
-      <option name="MAIN_CLASS_NAME" value="org.example.LastDigit.LastDigitTest" />
-      <option name="METHOD_NAME" value="tenZeroTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LastDigitTest.threeHundredThirteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.LastDigit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.LastDigit" />
-      <option name="MAIN_CLASS_NAME" value="org.example.LastDigit.LastDigitTest" />
-      <option name="METHOD_NAME" value="threeHundredThirteenTest" />
+      <option name="PACKAGE_NAME" value="org.example.mediumFunctionalMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumFunctionalMethods.MediumFunctionalMethodsImplTest" />
+      <option name="METHOD_NAME" value="noTeenOneFourteenOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EndUpTest.xTest" />
-        <item itemvalue="JUnit.EndUpTest.wooHooTest" />
-        <item itemvalue="JUnit.EndUpTest.hiTest" />
-        <item itemvalue="JUnit.LastDigitTest.tenZeroTest" />
-        <item itemvalue="JUnit.LastDigitTest.threeHundredThirteenTest" />
+        <item itemvalue="JUnit.BasicWarmupMethodsImplTest" />
+        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.noTeenOneFourteenOneTest" />
+        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.noTeenFifteenTest" />
+        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.no9ZeroNineZeroTest" />
+        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.no9OneTwoNineteenTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,65 +213,439 @@
       <workItem from="1667408511163" duration="3381000" />
       <workItem from="1667491935943" duration="4615000" />
       <workItem from="1667579091937" duration="3711000" />
-      <workItem from="1667662979542" duration="6980000" />
+      <workItem from="1667662979542" duration="7367000" />
+      <workItem from="1667738961925" duration="6997000" />
+      <workItem from="1667838769791" duration="3403000" />
+      <workItem from="1667926145306" duration="3213000" />
+      <workItem from="1668013398134" duration="3313000" />
+      <workItem from="1668185301629" duration="4542000" />
+      <workItem from="1668271496225" duration="2908000" />
+      <workItem from="1668359188070" duration="3537000" />
+      <workItem from="1668443588203" duration="4437000" />
+      <workItem from="1668531699171" duration="2302000" />
+      <workItem from="1668616565456" duration="2307000" />
+      <workItem from="1668706636543" duration="2233000" />
+      <workItem from="1668868329625" duration="3727000" />
+      <workItem from="1668962987525" duration="3604000" />
+      <workItem from="1669047900926" duration="3894000" />
+      <workItem from="1669222766508" duration="5479000" />
+      <workItem from="1669311779140" duration="1000" />
+      <workItem from="1669311813353" duration="9000" />
+      <workItem from="1669312230387" duration="1404000" />
+      <workItem from="1669394782234" duration="1923000" />
+      <workItem from="1669474852583" duration="225000" />
+      <workItem from="1669486230379" duration="1446000" />
+      <workItem from="1669558415857" duration="49000" />
+      <workItem from="1669566783967" duration="1997000" />
+      <workItem from="1669653355931" duration="65000" />
+      <workItem from="1669657589679" duration="1636000" />
+      <workItem from="1669739977152" duration="61000" />
+      <workItem from="1669744299010" duration="4015000" />
+      <workItem from="1669914007770" duration="32000" />
+      <workItem from="1670001119352" duration="6051000" />
+      <workItem from="1670074077537" duration="71000" />
+      <workItem from="1670078766264" duration="3254000" />
+      <workItem from="1670161536375" duration="233000" />
+      <workItem from="1670168391807" duration="4578000" />
+      <workItem from="1670257525101" duration="3592000" />
+      <workItem from="1670344884957" duration="53000" />
+      <workItem from="1670349307146" duration="3816000" />
+      <workItem from="1670430914942" duration="41000" />
+      <workItem from="1670434367035" duration="2727000" />
+      <workItem from="1670516676564" duration="40000" />
+      <workItem from="1670520886875" duration="2207000" />
+      <workItem from="1670682374161" duration="52000" />
+      <workItem from="1670686751057" duration="3882000" />
+      <workItem from="1670764997863" duration="61000" />
+      <workItem from="1670774113729" duration="4884000" />
+      <workItem from="1670868919585" duration="3259000" />
+      <workItem from="1670949798497" duration="89000" />
+      <workItem from="1670952423987" duration="3226000" />
+      <workItem from="1671121928561" duration="594000" />
+      <workItem from="1671208467134" duration="47000" />
+      <workItem from="1671212632759" duration="3998000" />
+      <workItem from="1671284358431" duration="3461000" />
+      <workItem from="1671288692377" duration="156000" />
+      <workItem from="1671371134972" duration="3890000" />
+      <workItem from="1671386805062" duration="2225000" />
+      <workItem from="1671475343924" duration="15000" />
+      <workItem from="1671553075183" duration="2698000" />
+      <workItem from="1671639223933" duration="3549000" />
+      <workItem from="1671727358450" duration="5573000" />
+      <workItem from="1671815238830" duration="4889000" />
+      <workItem from="1671889560902" duration="2627000" />
+      <workItem from="1672063803609" duration="1957000" />
+      <workItem from="1672156692342" duration="59000" />
+      <workItem from="1672157720258" duration="4236000" />
+      <workItem from="1672244286277" duration="2988000" />
+      <workItem from="1672418260061" duration="3894000" />
+      <workItem from="1672673792765" duration="4691000" />
+      <workItem from="1672762448099" duration="3064000" />
+      <workItem from="1672848587675" duration="3866000" />
+      <workItem from="1672935592267" duration="3510000" />
+      <workItem from="1673011088304" duration="258000" />
+      <workItem from="1673104539683" duration="3623000" />
+      <workItem from="1673191669574" duration="1643000" />
+      <workItem from="1673283844015" duration="3877000" />
+      <workItem from="1673369277155" duration="2869000" />
+      <workItem from="1673457989999" duration="1090000" />
+      <workItem from="1673541390188" duration="2793000" />
+      <workItem from="1673706855135" duration="201000" />
+      <workItem from="1673887359314" duration="1931000" />
+      <workItem from="1674054962868" duration="108000" />
+      <workItem from="1674226755171" duration="3582000" />
+      <workItem from="1674304676218" duration="2815000" />
+      <workItem from="1674400840196" duration="2276000" />
+      <workItem from="1674479900024" duration="3412000" />
+      <workItem from="1674564717443" duration="3245000" />
+      <workItem from="1674752014704" duration="3684000" />
+      <workItem from="1674910160988" duration="6325000" />
+      <workItem from="1675095837508" duration="31000" />
     </task>
-    <task id="LOCAL-00001" summary="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble">
-      <created>1667062552386</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00082" summary="Add implementation: zeroMax, evenOdd">
+      <created>1675185572990</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
       <option name="project" value="LOCAL" />
-      <updated>1667062552386</updated>
+      <updated>1675185572990</updated>
     </task>
-    <task id="LOCAL-00002" summary="Add method:  makes10, nearHundred, posNeg">
-      <created>1667149650027</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00083" summary="Add implementation: fizzBuzz">
+      <created>1675358037090</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
       <option name="project" value="LOCAL" />
-      <updated>1667149650027</updated>
+      <updated>1675358037090</updated>
     </task>
-    <task id="LOCAL-00003" summary="Add method:  makes10, nearHundred">
-      <created>1667149719569</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00084" summary="Add implementation: maxSpan">
+      <created>1675448817657</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
       <option name="project" value="LOCAL" />
-      <updated>1667149719569</updated>
+      <updated>1675448817657</updated>
     </task>
-    <task id="LOCAL-00004" summary="Add method:  notString, missingChar, frontBack, front3, backAround">
-      <created>1667239638720</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00085" summary="Add implementation: fix34, fix45">
+      <created>1676393781497</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
       <option name="project" value="LOCAL" />
-      <updated>1667239638720</updated>
+      <updated>1676393781497</updated>
     </task>
-    <task id="LOCAL-00005" summary="Add method:  or35, front22, startHi">
-      <created>1667328050918</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00086" summary="Add implementation: canBalance, linearIn">
+      <created>1676573398567</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
       <option name="project" value="LOCAL" />
-      <updated>1667328050918</updated>
+      <updated>1676573398567</updated>
     </task>
-    <task id="LOCAL-00006" summary="Add method:  icyHot, in1020, hasTeen">
-      <created>1667412072128</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00087" summary="Add implementation: squareUp, seriesUp">
+      <created>1676653301462</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
       <option name="project" value="LOCAL" />
-      <updated>1667412072128</updated>
+      <updated>1676653301462</updated>
     </task>
-    <task id="LOCAL-00007" summary="Add method:  loneTeen, delDel, mixStart">
-      <created>1667496484133</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00088" summary="Add implementation: maxMirror, countClumps">
+      <created>1676914509562</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
       <option name="project" value="LOCAL" />
-      <updated>1667496484133</updated>
+      <updated>1676914509562</updated>
     </task>
-    <task id="LOCAL-00008" summary="Add method:  startOz, intMax, close10">
-      <created>1667583102462</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00089" summary="Add implementation: scoresIncreasing, scores100, scoresClump">
+      <created>1677000468275</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
       <option name="project" value="LOCAL" />
-      <updated>1667583102462</updated>
+      <updated>1677000468275</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00090" summary="Add implementation: scoresAverage, wordsCount, wordsFront">
+      <created>1677088651053</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1677088651053</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Add implementation: scoresAverage, wordsCount, wordsFront">
+      <created>1677088762314</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1677088762314</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Add implementation: wordsWithoutList, hasOne">
+      <created>1677173285485</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1677173285485</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Add implementation: dividesSelf, copyEvens">
+      <created>1677259516313</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1677259516313</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Add implementation: copyEndy, matchUp, scoreUp">
+      <created>1678124170135</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1678124170135</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Add implementation: wordsWithout, scoresSpecial, sumHeights">
+      <created>1678210298112</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1678210298112</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Add implementation: sumHeights2, bigHeights">
+      <created>1678293649366</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1678293649366</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Add implementation: userCompare, mergeTwo">
+      <created>1678380882266</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1678380882266</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Add implementation: commonTwo, factorial, bunnyEars">
+      <created>1678813522228</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1678813522228</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Add implementation: fibonacci, bunnyEars2">
+      <created>1678899059047</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1678899059047</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Add implementation: triangle, sumDigits, count7">
+      <created>1678986616421</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1678986616421</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Add implementation: count8, powerN, countX">
+      <created>1679073044924</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1679073044924</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Add implementation: countHi, changeXY, changePi">
+      <created>1679331533090</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1679331533090</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Add implementation: noX, array6, array11">
+      <created>1679418388501</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1679418388501</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Add implementation: array220, allStar">
+      <created>1679589178735</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1679589178735</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Add implementation: pairStar, endX">
+      <created>1680102379321</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1680102379321</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Add implementation: countPairs, countAbc, count11">
+      <created>1680187843326</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1680187843326</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Add implementation: stringClean, countHi2">
+      <created>1680275455091</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1680275455091</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Add implementation: parenBit, nestParen">
+      <created>1680537327500</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1680537327500</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Add implementation: strCount, strCopies, strDist">
+      <created>1680625980368</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1680625980368</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Add implementation: groupSum, groupSum6">
+      <created>1680710760940</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1680710760940</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Add implementation: groupNoAdj, groupSum5">
+      <created>1680796212482</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1680796212482</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Add implementation: groupSumClump, splitArray">
+      <created>1680876201859</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1680876201859</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Add implementation: splitOdd10, split53">
+      <created>1681401612927</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1681401612927</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Add implementation: mapBully, mapShare">
+      <created>1681490049180</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1681490049180</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Add implementation: mapAB, topping1">
+      <created>1681752691889</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1681752691889</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Add implementation: topping2, topping3">
+      <created>1681831059345</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1681831059345</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Add implementation: mapAB2, mapAB3">
+      <created>1681919876360</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1681919876360</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Add implementation: mapAB4">
+      <created>1682439900174</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1682439900174</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Add implementation: word0">
+      <created>1682440902575</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1682440902575</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Add implementation: wordLen, pairs">
+      <created>1682525253756</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1682525253756</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Add implementation: wordCount, firstChar">
+      <created>1682610340910</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1682610340926</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Add implementation: wordAppend, wordMultiple">
+      <created>1683215819884</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1683215819884</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Add implementation: wordAppend, wordMultiple">
+      <created>1683216092366</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1683216092367</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Add implementation: wordAppend, wordMultiple, allSwap, firstSwap">
+      <created>1683302402117</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1683302402117</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Add implementation: doubling, squere">
+      <created>1683562931178</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1683562931178</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Add implementation: addStar, copies3">
+      <created>1683649275810</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1683649275810</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Add implementation: moreY, math1">
+      <created>1683820863474</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1683820863474</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Add implementation: rightDigit, lower">
+      <created>1683906944681</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1683906944681</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Add implementation: noX">
+      <created>1684159986638</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1684159986638</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Add implementation: noNeg">
+      <created>1684160825848</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1684160825848</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,14 +663,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add method:  sleepIn, monkeyTrouble, sumDouble,diff21, parrotTrouble" />
-    <MESSAGE value="Add method:  makes10, nearHundred, posNeg" />
-    <MESSAGE value="Add method:  makes10, nearHundred" />
-    <MESSAGE value="Add method:  notString, missingChar, frontBack, front3, backAround" />
-    <MESSAGE value="Add method:  or35, front22, startHi" />
-    <MESSAGE value="Add method:  icyHot, in1020, hasTeen" />
-    <MESSAGE value="Add method:  loneTeen, delDel, mixStart" />
-    <MESSAGE value="Add method:  startOz, intMax, close10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  startOz, intMax, close10" />
+    <MESSAGE value="Add implementation: pairStar, endX" />
+    <MESSAGE value="Add implementation: countPairs, countAbc, count11" />
+    <MESSAGE value="Add implementation: stringClean, countHi2" />
+    <MESSAGE value="Add implementation: parenBit, nestParen" />
+    <MESSAGE value="Add implementation: strCount, strCopies, strDist" />
+    <MESSAGE value="Add implementation: groupSum, groupSum6" />
+    <MESSAGE value="Add implementation: groupNoAdj, groupSum5" />
+    <MESSAGE value="Add implementation: groupSumClump, splitArray" />
+    <MESSAGE value="Add implementation: splitOdd10, split53" />
+    <MESSAGE value="Add implementation: mapBully, mapShare" />
+    <MESSAGE value="Add implementation: mapAB, topping1" />
+    <MESSAGE value="Add implementation: topping2, topping3" />
+    <MESSAGE value="Add implementation: mapAB2, mapAB3" />
+    <MESSAGE value="Add implementation: mapAB4" />
+    <MESSAGE value="Add implementation: word0" />
+    <MESSAGE value="Add implementation: wordLen, pairs" />
+    <MESSAGE value="Add implementation: wordCount, firstChar" />
+    <MESSAGE value="Add implementation: wordAppend, wordMultiple" />
+    <MESSAGE value="Add implementation: wordAppend, wordMultiple, allSwap, firstSwap" />
+    <MESSAGE value="Add implementation: doubling, squere" />
+    <MESSAGE value="Add implementation: addStar, copies3" />
+    <MESSAGE value="Add implementation: moreY, math1" />
+    <MESSAGE value="Add implementation: rightDigit, lower" />
+    <MESSAGE value="Add implementation: noX" />
+    <MESSAGE value="Add implementation: noNeg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: noNeg" />
   </component>
 </project>
