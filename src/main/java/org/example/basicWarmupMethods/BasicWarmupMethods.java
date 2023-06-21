@@ -6,4 +6,9 @@ public interface BasicWarmupMethods {
     int sumDouble(int a, int b);
     int diff21(int n);
     boolean parrotTrouble(boolean talking, int hour);
+    boolean makes10(int a, int b);
+    boolean nearHundred(int n);
+    boolean posNeg(int a, int b, boolean negative);
+    String notString(String str);
+    String missingChar(String str, int n);
 }

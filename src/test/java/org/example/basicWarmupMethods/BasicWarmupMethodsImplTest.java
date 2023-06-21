@@ -400,4 +400,367 @@ class BasicWarmupMethodsImplTest {
         //then
         assertFalse(isTrouble);
     }
+
+    @Test
+    void nineAndTenTest() {
+        //given
+        int a = 9;
+        int b = 10;
+        //when
+        boolean make10 = basicWarmupMethods.makes10(a,b);
+        //then
+        assertTrue(make10);
+    }
+
+    @Test
+    void nineAndNineTest() {
+        //given
+        int a = 9;
+        int b = 9;
+        //when
+        boolean make10 = basicWarmupMethods.makes10(a,b);
+        //then
+        assertFalse(make10);
+    }
+
+    @Test
+    void oneAndNineTest() {
+        //given
+        int a = 1;
+        int b = 9;
+        //when
+        boolean makes101 = basicWarmupMethods.makes10(a,b);
+        //then
+        assertTrue(makes101);
+    }
+
+    @Test
+    void tenAndOneTest() {
+        //given
+        int a = 10;
+        int b = 1;
+        //when
+        boolean makes101 = basicWarmupMethods.makes10(a,b);
+        //then
+        assertTrue(makes101);
+    }
+
+    @Test
+    void tenAndTenTest() {
+        //given
+        int a = 10;
+        int b = 10;
+        //when
+        boolean makes101 = basicWarmupMethods.makes10(a,b);
+        //then
+        assertTrue(makes101);
+    }
+
+    @Test
+    void eightAndTwoTest() {
+        //given
+        int a = 8;
+        int b = 2;
+        //when
+        boolean makes101 = basicWarmupMethods.makes10(a,b);
+        //then
+        assertTrue(makes101);
+    }
+
+    @Test
+    void eightAndThreeTest() {
+        //given
+        int a = 8;
+        int b = 3;
+        //when
+        boolean makes101 = basicWarmupMethods.makes10(a,b);
+        //then
+        assertFalse(makes101);
+    }
+
+    @Test
+    void tenAndFourtytwoTest() {
+        //given
+        int a = 10;
+        int b = 42;
+        //when
+        boolean makes101 = basicWarmupMethods.makes10(a,b);
+        //then
+        assertTrue(makes101);
+    }
+
+    @Test
+    void twelveAndTwoTest() {
+        //given
+        int a = 12;
+        int b = 2;
+        //when
+        boolean makes101 = basicWarmupMethods.makes10(a,b);
+        //when
+        assertFalse(makes101);
+    }
+
+    @Test
+    void ninthyThreeTest(){
+        //given
+        int a = 93;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertTrue(near100);
+    }
+
+    @Test
+    void ninthyTest(){
+        //given
+        int a = 90;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertTrue(near100);
+    }
+
+    @Test
+    void eightyNineTest(){
+        //given
+        int a = 89;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertFalse(near100);
+    }
+
+    @Test
+    void hundredAndTenTest(){
+        //given
+        int a = 110;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertTrue(near100);
+    }
+
+    @Test
+    void hundredElevenTest(){
+        //given
+        int a = 111;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertFalse(near100);
+    }
+
+    @Test
+    void hundredTwentyOneTest(){
+        //given
+        int a = 121;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertFalse(near100);
+    }
+
+    @Test
+    void minusHundredAndOneTest(){
+        //given
+        int a = -101;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertFalse(near100);
+    }
+
+    @Test
+    void minusTwoHundredAndNineTest(){
+        //given
+        int a = -209;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertFalse(near100);
+    }
+
+    @Test
+    void oneHundredNinethyTest(){
+        //given
+        int a = 190;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertTrue(near100);
+    }
+
+    @Test
+    void twoHundredAndNineTest(){
+        //given
+        int a = 209;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertTrue(near100);
+    }
+
+    @Test
+    void nearHundredZeroTest(){
+        //given
+        int a = 0;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertFalse(near100);
+    }
+
+    @Test
+    void fiveTest(){
+        //given
+        int a = 5;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertFalse(near100);
+    }
+
+    @Test
+    void minusFiftyTest(){
+        //given
+        int a = -50;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertFalse(near100);
+    }
+
+    @Test
+    void hundredNinethyOne(){
+        //given
+        int a = 191;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertTrue(near100);
+    }
+
+    @Test
+    void hundredEightyNineTest(){
+        //given
+        int a = 189;
+        //when
+        boolean near100 = basicWarmupMethods.nearHundred(a);
+        //then
+        assertFalse(near100);
+    }
+
+    @Test
+    void multiplyNumberTest(){
+        //given
+        int a = 200;
+        int b = 210;
+        int c = 211;
+        int d = 290;
+        //when
+        //then
+        assertTrue(basicWarmupMethods.nearHundred(a));
+        assertTrue(basicWarmupMethods.nearHundred(b));
+        assertFalse(basicWarmupMethods.nearHundred(c));
+        assertFalse(basicWarmupMethods.nearHundred(d));
+    }
+
+    @Test
+    void oneAndMinusOnePositiveTest() {
+        //given
+        int a = 1;
+        int b = -1;
+        boolean negative = false;
+        //when
+        boolean isPosNeg = basicWarmupMethods.posNeg(a, b, negative);
+        //then
+        assertTrue(isPosNeg);
+    }
+
+    @Test
+    void minusOneAndOnePositiveTest() {
+        //given
+        int a = -1;
+        int b = 1;
+        boolean negative = false;
+        //when
+        boolean isPosNeg = basicWarmupMethods.posNeg(a, b, negative);
+        //then
+        assertTrue(isPosNeg);
+    }
+
+    @Test
+    void minusFourAndMinusFiveNegativeTest() {
+        //given
+        int a = -4;
+        int b = -5;
+        boolean negative = true;
+        //when
+        boolean isPosNeg = basicWarmupMethods.posNeg(a, b, negative);
+        //then
+        assertTrue(isPosNeg);
+    }
+
+    @Test
+    void candyTest(){
+        //given
+        String str = "candy";
+        //when
+        String newStr = basicWarmupMethods.notString(str);
+        //then
+        assertEquals("not candy",newStr);
+    }
+
+    @Test
+    void xTest(){
+        //given
+        String str = "x";
+        //when
+        String newStr = basicWarmupMethods.notString(str);
+        //then
+        assertEquals("not x", newStr);
+    }
+
+    @Test
+    void notTest(){
+        //given
+        String str = "not";
+        //when
+        String newStr = basicWarmupMethods.notString(str);
+        //then
+        assertEquals("not", newStr);
+    }
+
+    @Test
+    void kittenOncTest() {
+        //given
+        String str = "kitten";
+        int n = 1;
+        //when
+        String newStr = basicWarmupMethods.missingChar(str, n);
+        //then
+        assertEquals("ktten", newStr);
+    }
+
+    @Test
+    void hiZeroTest() {
+        //given
+        String str = "Hi";
+        int n = 0;
+        //when
+        String newStr = basicWarmupMethods.missingChar(str, n);
+        //then
+        assertEquals("i", newStr);
+    }
+
+    @Test
+    void codeTwoTest() {
+        //given
+        String str = "code";
+        int n = 2;
+        //when
+        String newStr = basicWarmupMethods.missingChar(str, n);
+        //then
+        assertEquals("coe", newStr);
+    }
 }

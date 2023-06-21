@@ -4,26 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add implementation: noTeen, noZ, noLong, no34, noYY, two2, square56">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethodsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/basicWarmupMethods/BasicWarmupMethodsImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/coding_bat_reborn_2.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/coding_bat_reborn_2.test.iml" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: sleepIn, monkeyTrouble, sumDouble, diff21, parrotTrouble">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/MonkeyTrouble/MonkeyTrouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/SleepIn/SleepIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/SumDouble/SumDouble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/MonkeyTrouble/MonkeyTroubleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/SleepIn/SleepInTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/SumDouble/SumDoubleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Diff21/Diff21.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MonkeyTrouble/MonkeyTrouble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SleepIn/SleepIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SumDouble/SumDouble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Diff21/Diff21Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MonkeyTrouble/MonkeyTroubleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SleepIn/SleepInTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SumDouble/SumDoubleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/Diff21/Diff21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/Makes10/Makes10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/NearHundred/NearHundred.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/ParrotTrouble/ParrotTrouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/Diff21/Diff21Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/Makes10/Makes10Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/NearHundred/NearHundredTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/example/ParrotTrouble/ParrotTroubleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Makes10/Makes10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NearHundred/NearHundred.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NotString/NotString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PosNeg/PosNeg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethodsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Makes10/Makes10Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NearHundred/NearHundredTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NotString/NotStringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PosNeg/PosNegTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/basicWarmupMethods/BasicWarmupMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/basicWarmupMethods/BasicWarmupMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,13 +302,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00082" summary="Add implementation: zeroMax, evenOdd">
-      <created>1675185572990</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1675185572990</updated>
     </task>
     <task id="LOCAL-00083" summary="Add implementation: fizzBuzz">
       <created>1675358037090</created>
@@ -645,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684160825848</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Add refactor: sleepIn, monkeyTrouble, sumDouble, diff21, parrotTrouble">
+      <created>1687276265749</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1687276265749</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +664,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: pairStar, endX" />
     <MESSAGE value="Add implementation: countPairs, countAbc, count11" />
     <MESSAGE value="Add implementation: stringClean, countHi2" />
     <MESSAGE value="Add implementation: parenBit, nestParen" />
@@ -688,6 +688,7 @@
     <MESSAGE value="Add implementation: rightDigit, lower" />
     <MESSAGE value="Add implementation: noX" />
     <MESSAGE value="Add implementation: noNeg" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation: noNeg" />
+    <MESSAGE value="Add refactor: sleepIn, monkeyTrouble, sumDouble, diff21, parrotTrouble" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: sleepIn, monkeyTrouble, sumDouble, diff21, parrotTrouble" />
   </component>
 </project>
