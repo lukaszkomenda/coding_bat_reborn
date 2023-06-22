@@ -69,4 +69,49 @@ public class BasicWarmupMethodsImpl implements BasicWarmupMethods{
     public String missingChar(String str, int n) {
         return str.substring(0,n)+str.substring(n+1);
     }
+
+    @Override
+    public String frontBack(String str) {
+        if (str.length() <= 1) {
+            return str;
+        } else {
+            return (str.substring(str.length() - 1)
+                    + str.substring(1, str.length() - 1)
+                    + str.charAt(0));
+        }
+    }
+
+    @Override
+    public String front3(String str) {
+        String threeLetters;
+
+        if (str.length() >= 3){
+            threeLetters = str.substring(0,3);
+        } else {
+            threeLetters = str;
+        }
+        return threeLetters + threeLetters + threeLetters;
+    }
+
+    @Override
+    public String backAround(String str) {
+        return str.charAt(str.length() -1) + str + str.charAt(str.length() -1);
+    }
+
+    @Override
+    public boolean or35(int n) {
+        return n % 3 == 0 || n % 5 == 0;
+    }
+
+    @Override
+    public String front22(String str) {
+        if (str.length() >= 2) {
+            return str.substring(0, 2) + str.substring(0, 2)
+                    + str.substring(2) + str.substring(0, 2);
+        } else if (str.length() == 1){
+            return str + str + str;
+        } else {
+            return str;
+        }
+    }
 }

@@ -11,4 +11,9 @@ public interface BasicWarmupMethods {
     boolean posNeg(int a, int b, boolean negative);
     String notString(String str);
     String missingChar(String str, int n);
+    String frontBack(String str);
+    String front3(String str);
+    String backAround(String str);
+    boolean or35(int n);
+    String front22(String str);
 }

@@ -763,4 +763,154 @@ class BasicWarmupMethodsImplTest {
         //then
         assertEquals("coe", newStr);
     }
+
+    @Test
+    void frontBackATest(){
+        //given
+        String str = "a";
+        //when
+        String newStr = basicWarmupMethods.frontBack(str);
+        //then
+        assertEquals("a", newStr);
+    }
+
+    @Test
+    void helloTest(){
+        //given
+        String str = "hello";
+        //when
+        String newStr = basicWarmupMethods.frontBack(str);
+        //then
+        assertEquals("oellh", newStr);
+    }
+
+    @Test
+    void frontBackAbcTest(){
+        //given
+        String str = "abc";
+        //when
+        String newStr = basicWarmupMethods.frontBack(str);
+        //then
+        assertEquals("cba", newStr);
+    }
+
+    @Test
+    void abcTest(){
+        //given
+        String str = "abc";
+        //when
+        String newStr = basicWarmupMethods.front3(str);
+        //then
+        assertEquals("abcabcabc", newStr);
+    }
+
+    @Test
+    void front3ATest(){
+        //given
+        String str = "a";
+        //when
+        String newStr = basicWarmupMethods.front3(str);
+        //then
+        assertEquals("aaa",newStr);
+    }
+
+    @Test
+    void front3NoCharTest(){
+        //given
+        String str = "";
+        //when
+        String newStr = basicWarmupMethods.front3(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void catTest(){
+        //given
+        String str = "cat";
+        //when
+        String newStr = basicWarmupMethods.backAround(str);
+        //then
+        assertEquals("tcatt", newStr);
+    }
+
+    @Test
+    void aTest(){
+        //given
+        String str = "a";
+        //when
+        String newStr = basicWarmupMethods.backAround(str);
+        //then
+        assertEquals("aaa", newStr);
+    }
+
+    @Test
+    void readTest(){
+        //given
+        String str = "read";
+        //when
+        String newStr = basicWarmupMethods.backAround(str);
+        //then
+        assertEquals("dreadd", newStr);
+    }
+
+    @Test
+    void or35TenTest(){
+        //given
+        int n = 10;
+        //when
+        boolean isMultipleThreeAndFive = basicWarmupMethods.or35(n);
+        //then
+        assertTrue(isMultipleThreeAndFive);
+    }
+
+    @Test
+    void fourTest(){
+        //given
+        int n = 4;
+        //when
+        boolean isMultipleThreeAndFive = basicWarmupMethods.or35(n);
+        //then
+        assertFalse(isMultipleThreeAndFive);
+    }
+
+    @Test
+    void hundredTest(){
+        //given
+        int n = 10;
+        //when
+        boolean isMultipleThreeAndFive = basicWarmupMethods.or35(n);
+        //then
+        assertTrue(isMultipleThreeAndFive);
+    }
+
+    @Test
+    void kittenTest(){
+        //given
+        String str = "kitten";
+        //when
+        String newStr = basicWarmupMethods.front22(str);
+        //then
+        assertEquals("kikittenki", newStr);
+    }
+
+    @Test
+    void haTest(){
+        //given
+        String str = "Ha";
+        //when
+        String newStr = basicWarmupMethods.front22(str);
+        //then
+        assertEquals("HaHaHa",newStr);
+    }
+
+    @Test
+    void noCharTest(){
+        //given
+        String str = "";
+        //when
+        String newStr = basicWarmupMethods.front22(str);
+        //then
+        assertEquals("",newStr);
+    }
 }
