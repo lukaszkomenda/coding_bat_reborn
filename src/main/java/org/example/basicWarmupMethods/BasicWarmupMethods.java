@@ -16,4 +16,9 @@ public interface BasicWarmupMethods {
     String backAround(String str);
     boolean or35(int n);
     String front22(String str);
+    boolean startHi(String str);
+    boolean icyHot(int temp1, int temp2);
+    boolean in1020(int a, int b);
+    boolean hasTeen(int a, int b, int c);
+    boolean loneTeen(int a, int b);
 }

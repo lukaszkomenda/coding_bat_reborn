@@ -114,4 +114,53 @@ public class BasicWarmupMethodsImpl implements BasicWarmupMethods{
             return str;
         }
     }
+
+    @Override
+    public boolean startHi(String str) {
+        if (str.length() >= 2){
+            return str.startsWith("hi");
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public boolean icyHot(int temp1, int temp2) {
+        return (temp1 < 0 && temp2 > 100) || (temp2 < 0 && temp1 > 100);
+    }
+
+    @Override
+    public boolean in1020(int a, int b) {
+        if (a >= 10 && a <= 20){
+            return true;
+        } else {
+            return b >= 10 && b <= 20;
+        }
+    }
+
+    @Override
+    public boolean hasTeen(int a, int b, int c) {
+        if (a >= 13 && a <= 19){
+            return true;
+        } else {
+            if (b >= 13 && b <= 19){
+                return true;
+            } else {
+                return c >= 13 && c <= 19;
+            }
+        }
+    }
+
+    @Override
+    public boolean loneTeen(int a, int b) {
+        if ((a >= 13 && a <= 19) && (b >= 13 && b <= 19)){
+            return false;
+        } else {
+            if (a >= 13 && a <=19){
+                return true;
+            } else {
+                return b >= 13 && b <= 19;
+            }
+        }
+    }
 }

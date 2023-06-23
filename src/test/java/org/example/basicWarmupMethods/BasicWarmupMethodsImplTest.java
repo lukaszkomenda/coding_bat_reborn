@@ -913,4 +913,166 @@ class BasicWarmupMethodsImplTest {
         //then
         assertEquals("",newStr);
     }
+
+    @Test
+    void hiThereTest(){
+        //given
+        String str = "hi there";
+        //when
+        boolean isStartHi = basicWarmupMethods.startHi(str);
+        //then
+        assertTrue(isStartHi);
+    }
+
+    @Test
+    void hTest(){
+        //given
+        String str = "h";
+        //when
+        boolean isStartHi = basicWarmupMethods.startHi(str);
+        //then
+        assertFalse(isStartHi);
+    }
+
+    @Test
+    void hiHoTest(){
+        //given
+        String str = "hi ho";
+        //when
+        boolean isStartHi = basicWarmupMethods.startHi(str);
+        //then
+        assertTrue(isStartHi);
+    }
+
+    @Test
+    void hundredTwentyAndMinusOneTest(){
+        //given
+        int temp1 = 120;
+        int temp2 = -1;
+        //when
+        boolean isBelowZeroAndAboveHundred = basicWarmupMethods.icyHot(temp1, temp2);
+        //then
+        assertTrue(isBelowZeroAndAboveHundred);
+    }
+
+    @Test
+    void twoAndHundredTwentyTest(){
+        //given
+        int temp1 = 2;
+        int temp2 = 120;
+        //when
+        boolean isBelowZeroAndAboveHundred = basicWarmupMethods.icyHot(temp1, temp2);
+        //then
+        assertFalse(isBelowZeroAndAboveHundred);
+    }
+
+    @Test
+    void minusTwoAndMinusTwoTest(){
+        int temp1 = -2;
+        int temp2 = -2;
+        //when
+        boolean isBelowZeroAndAboveHundred = basicWarmupMethods.icyHot(temp1, temp2);
+        //then
+        assertFalse(isBelowZeroAndAboveHundred);
+    }
+
+    @Test
+    void twentyOneAndTwelveTest(){
+        //given
+        int a = 21;
+        int b = 12;
+        //when
+        boolean isInRange1020 = basicWarmupMethods.in1020(a, b);
+        //then
+        assertTrue(isInRange1020);
+    }
+
+    @Test
+    void doubleTwentyTest(){
+        //given
+        int a = 20;
+        int b = 20;
+        //when
+        boolean isInRange1020 = basicWarmupMethods.in1020(a, b);
+        //then
+        assertTrue(isInRange1020);
+    }
+
+    @Test
+    void doubleNineTest(){
+        //given
+        int a = 9;
+        int b = 9;
+        //when
+        boolean isInRange1020 = basicWarmupMethods.in1020(a, b);
+        //then
+        assertFalse(isInRange1020);
+    }
+
+    @Test
+    void thirteenAndTwentyAndTenTest(){
+        //given
+        int a = 13;
+        int b = 20;
+        int c = 10;
+        //when
+        boolean isInRange1319 = basicWarmupMethods.hasTeen(a, b, c);
+        //then
+        assertTrue(isInRange1319);
+    }
+
+    @Test
+    void oneAndTwentyAndTwelveTest(){
+        int a = 1;
+        int b = 20;
+        int c = 12;
+        //when
+        boolean isInRange1319 = basicWarmupMethods.hasTeen(a, b, c);
+        //then
+        assertFalse(isInRange1319);
+    }
+
+    @Test
+    void fourAndTwoAndTwentyTest(){
+        int a = 4;
+        int b = 2;
+        int c = 20;
+        //when
+        boolean isInRange1319 = basicWarmupMethods.hasTeen(a, b, c);
+        //then
+        assertFalse(isInRange1319);
+    }
+
+    @Test
+    void thirteenAndNinetynineTest(){
+        //given
+        int a = 13;
+        int b = 99;
+        //when
+        boolean isInRange1319 = basicWarmupMethods.loneTeen(a, b);
+        //then
+        assertTrue(isInRange1319);
+    }
+
+    @Test
+    void doubleThirteenTest(){
+        //given
+        int a = 13;
+        int b = 13;
+        //when
+        boolean isInRange1319 = basicWarmupMethods.loneTeen(a, b);
+        //then
+        assertFalse(isInRange1319);
+    }
+
+    @Test
+    void sixteenAndNineTest(){
+        //given
+        int a = 16;
+        int b = 9;
+        //when
+        boolean isInRange1319 = basicWarmupMethods.loneTeen(a, b);
+        //then
+        assertTrue(isInRange1319);
+    }
 }
