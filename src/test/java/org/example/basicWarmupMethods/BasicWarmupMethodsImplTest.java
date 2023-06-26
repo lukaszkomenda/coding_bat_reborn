@@ -795,7 +795,7 @@ class BasicWarmupMethodsImplTest {
     }
 
     @Test
-    void abcTest(){
+    void front3AbcTest(){
         //given
         String str = "abc";
         //when
@@ -1074,5 +1074,164 @@ class BasicWarmupMethodsImplTest {
         boolean isInRange1319 = basicWarmupMethods.loneTeen(a, b);
         //then
         assertTrue(isInRange1319);
+    }
+
+    @Test
+    void delDelATest(){
+        //given
+        String str = "a";
+        //when
+        String newStr = basicWarmupMethods.delDel(str);
+        //then
+        assertEquals("a",newStr);
+    }
+
+    @Test
+    void delDelNoneTest(){
+        //given
+        String str = "";
+        //when
+        String newStr = basicWarmupMethods.delDel(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void delTest(){
+        //given
+        String str = "del";
+        //when
+        String newStr = basicWarmupMethods.delDel(str);
+        //then
+        assertEquals("del", newStr);
+    }
+
+    @Test
+    void nixTest(){
+        //given
+        String str = "nix";
+        //when
+        boolean isContainsIx = basicWarmupMethods.mixStart(str);
+        //then
+        assertTrue(isContainsIx);
+    }
+
+    @Test
+    void niTest(){
+        //given
+        String str = "ni";
+        //when
+        boolean isContainsIx = basicWarmupMethods.mixStart(str);
+        //then
+        assertFalse(isContainsIx);
+    }
+
+    @Test
+    void noneTest(){
+        //given
+        String str = "";
+        //when
+        boolean isContainsIx = basicWarmupMethods.mixStart(str);
+        //then
+        assertFalse(isContainsIx);
+    }
+
+    @Test
+    void ozymandiasTest(){
+        //given
+        String str = "ozymandias";
+        //when
+        String newStr = basicWarmupMethods.startOz(str);
+        //then
+        assertEquals("oz", newStr);
+    }
+
+    @Test
+    void oxxTest(){
+        //given
+        String str = "oxx";
+        //when
+        String newStr = basicWarmupMethods.startOz(str);
+        //then
+        assertEquals("o", newStr);
+    }
+
+    @Test
+    void abcTest(){
+        //given
+        String str = "abc";
+        //when
+        String newStr = basicWarmupMethods.startOz(str);
+        //then
+        assertEquals("",newStr);
+    }
+
+    @Test
+    void oneTwoThreeTest(){
+        //given
+        int a = 1;
+        int b = 2;
+        int c = 3;
+        //when
+        int max = basicWarmupMethods.intMax(a, b, c);
+        //then
+        assertEquals(3,max);
+    }
+
+    @Test
+    void minusThreeMinusOneMinusTwoTest(){
+        //given
+        int a = -3;
+        int b = -1;
+        int c = -2;
+        //when
+        int max = basicWarmupMethods.intMax(a, b, c);
+        //then
+        assertEquals(-1,max);
+    }
+
+    @Test
+    void sixTwoFiveTest(){
+        //given
+        int a = 6;
+        int b = 2;
+        int c = 5;
+        //when
+        int max = basicWarmupMethods.intMax(a, b, c);
+        //then
+        assertEquals(6,max);
+    }
+
+    @Test
+    void sevenThirteenTest(){
+        //given
+        int a = 7;
+        int b = 13;
+        //when
+        int mostClose = basicWarmupMethods.close10(a, b);
+        //then
+        assertEquals(0,mostClose);
+    }
+
+    @Test
+    void zeroTwentyTest(){
+        //given
+        int a = 0;
+        int b = 20;
+        //when
+        int mostClose = basicWarmupMethods.close10(a, b);
+        //then
+        assertEquals(0,mostClose);
+    }
+
+    @Test
+    void tenTwelveTest(){
+        //given
+        int a = 10;
+        int b = 12;
+        //when
+        int mostClose = basicWarmupMethods.close10(a, b);
+        //then
+        assertEquals(10,mostClose);
     }
 }

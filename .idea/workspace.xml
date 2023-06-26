@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: frontBack, front3, backAround, or35, front22">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: startHi, icyHot, in1020, hasTeen, loneTeen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IcyHot/IcyHot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/In1020/In1020.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StartHi/StartHi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DelDel/DelDel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IntMax/IntMax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MixStart/MixStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StartOz/StartOz.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/IcyHot/IcyHotTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/In1020/In1020Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StartHi/StartHiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DelDel/DelDelTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/IntMax/IntMaxTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MixStart/MixStartTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StartOz/StartOzTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/basicWarmupMethods/BasicWarmupMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/basicWarmupMethods/BasicWarmupMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -292,13 +294,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00085" summary="Add implementation: fix34, fix45">
-      <created>1676393781497</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1676393781497</updated>
     </task>
     <task id="LOCAL-00086" summary="Add implementation: canBalance, linearIn">
       <created>1676573398567</created>
@@ -636,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687451978958</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="Add refactor: startHi, icyHot, in1020, hasTeen, loneTeen">
+      <created>1687537894095</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1687537894095</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,7 +656,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: parenBit, nestParen" />
     <MESSAGE value="Add implementation: strCount, strCopies, strDist" />
     <MESSAGE value="Add implementation: groupSum, groupSum6" />
     <MESSAGE value="Add implementation: groupNoAdj, groupSum5" />
@@ -679,6 +680,7 @@
     <MESSAGE value="Add refactor: sleepIn, monkeyTrouble, sumDouble, diff21, parrotTrouble" />
     <MESSAGE value="Add refactor: makes10, nearHundred, posNeg, notString, missingChar" />
     <MESSAGE value="Add refactor: frontBack, front3, backAround, or35, front22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: frontBack, front3, backAround, or35, front22" />
+    <MESSAGE value="Add refactor: startHi, icyHot, in1020, hasTeen, loneTeen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: startHi, icyHot, in1020, hasTeen, loneTeen" />
   </component>
 </project>

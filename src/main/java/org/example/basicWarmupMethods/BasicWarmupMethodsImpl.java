@@ -1,5 +1,9 @@
 package org.example.basicWarmupMethods;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.NoSuchElementException;
+
 public class BasicWarmupMethodsImpl implements BasicWarmupMethods{
     @Override
     public boolean sleepIn(boolean weekday, boolean vacation) {
@@ -161,6 +165,60 @@ public class BasicWarmupMethodsImpl implements BasicWarmupMethods{
             } else {
                 return b >= 13 && b <= 19;
             }
+        }
+    }
+
+    @Override
+    public String delDel(String str) {
+        if (str.length() >= 4 && str.startsWith("del", 1)) return str.charAt(0) + str.substring(4);
+        else {
+            return str;
+        }
+    }
+
+    @Override
+    public boolean mixStart(String str) {
+        if (str.length() >= 3){
+            return str.startsWith("ix", 1);
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public String startOz(String str) {
+        String result = "";
+
+        if (str.length() >= 1 && str.charAt(0) == 'o'){
+            result = result + str.charAt(0);
+        }
+
+        if (str.length() >= 2 && str.charAt(1) == 'z'){
+            result = result + str.charAt(1);
+        }
+
+        return result;
+    }
+
+    @Override
+    public int intMax(int a, int b, int c) {
+        List<Integer> listOfValues = Arrays.asList(a,b,c);
+
+        return listOfValues
+                .stream()
+                .mapToInt(value -> value)
+                .max()
+                .orElseThrow(NoSuchElementException::new);
+    }
+
+    @Override
+    public int close10(int a, int b) {
+        if (Math.abs(10-a) > Math.abs(10-b)){
+            return b;
+        } else if (Math.abs(10 -a) == Math.abs(10-b)) {
+            return 0;
+        } else {
+            return a;
         }
     }
 }

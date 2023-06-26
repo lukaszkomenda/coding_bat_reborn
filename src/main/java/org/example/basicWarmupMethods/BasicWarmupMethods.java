@@ -21,4 +21,9 @@ public interface BasicWarmupMethods {
     boolean in1020(int a, int b);
     boolean hasTeen(int a, int b, int c);
     boolean loneTeen(int a, int b);
+    String delDel(String str);
+    boolean mixStart(String str);
+    String startOz(String str);
+    int intMax(int a, int b, int c);
+    int close10(int a, int b);
 }
