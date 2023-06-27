@@ -712,7 +712,7 @@ class BasicWarmupMethodsImplTest {
     }
 
     @Test
-    void xTest(){
+    void notStringXTest(){
         //given
         String str = "x";
         //when
@@ -775,7 +775,7 @@ class BasicWarmupMethodsImplTest {
     }
 
     @Test
-    void helloTest(){
+    void frontBackHelloTest(){
         //given
         String str = "hello";
         //when
@@ -1127,7 +1127,7 @@ class BasicWarmupMethodsImplTest {
     }
 
     @Test
-    void noneTest(){
+    void MixStartNoneTest(){
         //given
         String str = "";
         //when
@@ -1233,5 +1233,163 @@ class BasicWarmupMethodsImplTest {
         int mostClose = basicWarmupMethods.close10(a, b);
         //then
         assertEquals(10,mostClose);
+    }
+
+    @Test
+    void fourtyFiftyTest(){
+        //given
+        int a = 40;
+        int b = 50;
+        //when
+        boolean isInRange3050 = basicWarmupMethods.in3050(a, b);
+        //then
+        assertTrue(isInRange3050);
+    }
+
+    @Test
+    void fourtyThirtynineTest(){
+        //given
+        int a = 40;
+        int b = 39;
+        //when
+        boolean isInRange3050 = basicWarmupMethods.in3050(a, b);
+        //then
+        assertTrue(isInRange3050);
+    }
+
+    @Test
+    void fiftyFiftyoneTest() {
+        //given
+        int a = 50;
+        int b = 51;
+        //when
+        boolean isInRange3050 = basicWarmupMethods.in3050(a, b);
+        //then
+        assertFalse(isInRange3050);
+    }
+
+    @Test
+    void nineTwentyoneTest(){
+        //given
+        int a = 9;
+        int b = 21;
+        //when
+        int maxValueInRange1020 = basicWarmupMethods.max1020(a, b);
+        //then
+        assertEquals(0,maxValueInRange1020);
+    }
+
+    @Test
+    void tenTwentyoneTest(){
+        //given
+        int a = 10;
+        int b = 21;
+        //when
+        int maxValueInRange1020 = basicWarmupMethods.max1020(a, b);
+        //then
+        assertEquals(10,maxValueInRange1020);
+    }
+
+    @Test
+    void sevenTwentyTest(){
+        //given
+        int a = 7;
+        int b = 20;
+        //when
+        int maxValueInRange1020 = basicWarmupMethods.max1020(a, b);
+        //then
+        assertEquals(20,maxValueInRange1020);
+    }
+
+    @Test
+    void helloTest(){
+        //given
+        String str = "Hello";
+        //when
+        boolean isCharInRange = basicWarmupMethods.stringE(str);
+        //then
+        assertTrue(isCharInRange);
+    }
+
+    @Test
+    void hllTest(){
+        //given
+        String str = "Hll";
+        //when
+        boolean isCharInRange = basicWarmupMethods.stringE(str);
+        //then
+        assertFalse(isCharInRange);
+    }
+
+    @Test
+    void noneTest(){
+        //given
+        String str = "";
+        //when
+        boolean isCharInRange = basicWarmupMethods.stringE(str);
+        //then
+        assertFalse(isCharInRange);
+    }
+
+    @Test
+    void sixSeventeenTest(){
+        //given
+        int a = 6;
+        int b = 17;
+        //when
+        boolean isLastDigitSame = basicWarmupMethods.lastDigit(a, b);
+        //then
+        assertFalse(isLastDigitSame);
+    }
+
+    @Test
+    void threeHundredThirteenTest(){
+        //given
+        int a = 3;
+        int b = 113;
+        //when
+        boolean isLastDigitSame = basicWarmupMethods.lastDigit(a, b);
+        //then
+        assertTrue(isLastDigitSame);
+    }
+
+    @Test
+    void tenZeroTest(){
+        int a = 10;
+        int b = 0;
+        //when
+        boolean isLastDigitSame = basicWarmupMethods.lastDigit(a, b);
+        //then
+        assertTrue(isLastDigitSame);
+    }
+
+    @Test
+    void hiTest(){
+        //given
+        String str = "Hi";
+        //when
+        String newStr = basicWarmupMethods.endUp(str);
+        //then
+        assertEquals("HI",newStr);
+    }
+
+    @Test
+    void wooHooTest(){
+        //given
+        String str = "woo Hoo";
+        //when
+        String newStr = basicWarmupMethods.endUp(str);
+        //then
+        assertEquals("woo HOO", newStr);
+    }
+
+    @Test
+    void xTest(){
+        //given
+        String str = "x";
+        //when
+        String newStr = basicWarmupMethods.endUp(str);
+        //then
+        assertEquals("X", newStr);
     }
 }

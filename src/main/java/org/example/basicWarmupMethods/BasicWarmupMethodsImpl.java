@@ -221,4 +221,65 @@ public class BasicWarmupMethodsImpl implements BasicWarmupMethods{
             return a;
         }
     }
+
+    @Override
+    public boolean in3050(int a, int b) {
+        if (a >= 30 && a <= 40 && b >= 30 && b <= 40){
+            return true;
+        }
+        return a >= 40 && a <= 50 && b >= 40 && b <= 50;
+    }
+
+    @Override
+    public int max1020(int a, int b) {
+        if (a < 10 || a > 20){
+            a = 0;
+        }
+
+        if (b < 10 || b > 20){
+            b = 0;
+        }
+
+        if (a == 0 && b == 0){
+            return 0;
+        }
+
+        List<Integer> listOfValues = Arrays.asList(a,b);
+
+        return listOfValues
+                .stream()
+                .mapToInt(value -> value)
+                .max()
+                .orElseThrow(NoSuchElementException::new);
+    }
+
+    @Override
+    public boolean stringE(String str) {
+        int count = 0;
+
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == 'e'){
+                count++;
+            }
+        }
+        return (count >= 1 && count <=3);
+    }
+
+    @Override
+    public boolean lastDigit(int a, int b) {
+        return a % 10 == b % 10;
+    }
+
+    @Override
+    public String endUp(String str) {
+        int length = str.length();
+
+        if (length >= 4){
+            return str.substring(0, length - 3) + str
+                    .substring(length - 3)
+                    .toUpperCase();
+        } else {
+            return str.toUpperCase();
+        }
+    }
 }
