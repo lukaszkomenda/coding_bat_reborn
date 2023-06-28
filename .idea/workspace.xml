@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  altPairs, stringYak, array667">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Has271/Has271.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NoTriples/NoTriples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Has271/Has271Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NoTriples/NoTriplesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CountXX/CountXX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FrontTimes/FrontTimes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringTimes/StringTimes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CountXX/CountXXTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FrontTimes/FrontTimesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringTimes/StringTimesTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -42,9 +48,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="5e7e5963-54df-4664-94aa-e08520a9f294" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,14 +80,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.mediumWarmupMethods" />
       <recent name="org.example.Has271" />
       <recent name="org.example.NoTriples" />
       <recent name="org.example.Array667" />
       <recent name="org.example.StringYak" />
-      <recent name="org.example.AltPairs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Has271Test.twoSevenMinusOneTest">
+  <component name="RunManager" selected="JUnit.MediumWarmupMethodsImplTest">
     <configuration name="Has271Test.oneTwoSevenOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -133,6 +136,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MediumWarmupMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_bat_reborn_2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.mediumWarmupMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.mediumWarmupMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.mediumWarmupMethods.MediumWarmupMethodsImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NoTriplesTest.oneOneOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -149,29 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoTriplesTest.oneOneTwoTwoOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_bat_reborn_2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.NoTriples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.NoTriples" />
-      <option name="MAIN_CLASS_NAME" value="org.example.NoTriples.NoTriplesTest" />
-      <option name="METHOD_NAME" value="oneOneTwoTwoOneTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MediumWarmupMethodsImplTest" />
         <item itemvalue="JUnit.Has271Test.twoSevenMinusOneTest" />
         <item itemvalue="JUnit.Has271Test.twoSevenFourTest" />
         <item itemvalue="JUnit.Has271Test.oneTwoSevenOneTest" />
         <item itemvalue="JUnit.NoTriplesTest.oneOneOneTest" />
-        <item itemvalue="JUnit.NoTriplesTest.oneOneTwoTwoOneTest" />
       </list>
     </recent_temporary>
   </component>
