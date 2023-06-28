@@ -31,4 +31,5 @@ public interface BasicWarmupMethods {
     boolean stringE(String str);
     boolean lastDigit(int a, int b);
     String endUp(String str);
+    String everyNth(String str, int n);
 }

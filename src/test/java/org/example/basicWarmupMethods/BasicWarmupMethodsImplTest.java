@@ -1392,4 +1392,26 @@ class BasicWarmupMethodsImplTest {
         //then
         assertEquals("X", newStr);
     }
+
+    @Test
+    void everyNthMiracleTwo() {
+        //given
+        String str = "Miracle";
+        int i = 2;
+        //when
+        String newStr = basicWarmupMethods.everyNth(str, i);
+        //then
+        assertEquals("Mrce", newStr);
+    }
+
+    @Test
+    void everyNthChocolateThree(){
+        //given
+        String str = "Chocolate";
+        int i = 3;
+        //when
+        String newStr = basicWarmupMethods.everyNth(str, i);
+        //then
+        assertEquals("Cca", newStr);
+    }
 }

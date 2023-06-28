@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: delDel, mixStart, startOz, intMax, close10">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: in3050, max1020, stringE, lastDigit, endUp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EndUp/EndUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/In3050/In3050.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LastDigit/LastDigit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Max1020/Max1020.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringE/StringE.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicWarmupMethods/BasicWarmupMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/EndUp/EndUpTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/In3050/In3050Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LastDigit/LastDigitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Max1020/Max1020Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringE/StringETest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/basicWarmupMethods/BasicWarmupMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/basicWarmupMethods/BasicWarmupMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +90,7 @@
       <recent name="org.example.simpleMapMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasicWarmupMethodsImplTest">
+  <component name="RunManager" selected="JUnit.BasicWarmupMethodsImplTest.everyNthChocolateThree">
     <configuration name="BasicWarmupMethodsImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
@@ -116,33 +106,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumFunctionalMethodsImplTest.no9OneTwoNineteenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicWarmupMethodsImplTest.everyNthChocolateThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.mediumFunctionalMethods.*" />
+          <option name="PATTERN" value="org.example.basicWarmupMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumFunctionalMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumFunctionalMethods.MediumFunctionalMethodsImplTest" />
-      <option name="METHOD_NAME" value="no9OneTwoNineteenTest" />
+      <option name="PACKAGE_NAME" value="org.example.basicWarmupMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.basicWarmupMethods.BasicWarmupMethodsImplTest" />
+      <option name="METHOD_NAME" value="everyNthChocolateThree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumFunctionalMethodsImplTest.no9ZeroNineZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicWarmupMethodsImplTest.everyNthMiracleTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coding_bat_reborn_2.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.mediumFunctionalMethods.*" />
+          <option name="PATTERN" value="org.example.basicWarmupMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.mediumFunctionalMethods" />
-      <option name="MAIN_CLASS_NAME" value="org.example.mediumFunctionalMethods.MediumFunctionalMethodsImplTest" />
-      <option name="METHOD_NAME" value="no9ZeroNineZeroTest" />
+      <option name="PACKAGE_NAME" value="org.example.basicWarmupMethods" />
+      <option name="MAIN_CLASS_NAME" value="org.example.basicWarmupMethods.BasicWarmupMethodsImplTest" />
+      <option name="METHOD_NAME" value="everyNthMiracleTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicWarmupMethodsImplTest.everyNthChocolateThree" />
+        <item itemvalue="JUnit.BasicWarmupMethodsImplTest.everyNthMiracleTwo" />
         <item itemvalue="JUnit.BasicWarmupMethodsImplTest" />
         <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.noTeenOneFourteenOneTest" />
         <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.noTeenFifteenTest" />
-        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.no9ZeroNineZeroTest" />
-        <item itemvalue="JUnit.MediumFunctionalMethodsImplTest.no9OneTwoNineteenTest" />
       </list>
     </recent_temporary>
   </component>
@@ -296,13 +286,6 @@
       <workItem from="1674752014704" duration="3684000" />
       <workItem from="1674910160988" duration="6325000" />
       <workItem from="1675095837508" duration="31000" />
-    </task>
-    <task id="LOCAL-00087" summary="Add implementation: squareUp, seriesUp">
-      <created>1676653301462</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1676653301462</updated>
     </task>
     <task id="LOCAL-00088" summary="Add implementation: maxMirror, countClumps">
       <created>1676914509562</created>
@@ -640,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687794610486</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Add refactor: in3050, max1020, stringE, lastDigit, endUp">
+      <created>1687880758214</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1687880758214</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,7 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add implementation: groupSum, groupSum6" />
     <MESSAGE value="Add implementation: groupNoAdj, groupSum5" />
     <MESSAGE value="Add implementation: groupSumClump, splitArray" />
     <MESSAGE value="Add implementation: splitOdd10, split53" />
@@ -683,6 +672,7 @@
     <MESSAGE value="Add refactor: frontBack, front3, backAround, or35, front22" />
     <MESSAGE value="Add refactor: startHi, icyHot, in1020, hasTeen, loneTeen" />
     <MESSAGE value="Add refactor: delDel, mixStart, startOz, intMax, close10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: delDel, mixStart, startOz, intMax, close10" />
+    <MESSAGE value="Add refactor: in3050, max1020, stringE, lastDigit, endUp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: in3050, max1020, stringE, lastDigit, endUp" />
   </component>
 </project>
