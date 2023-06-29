@@ -46,5 +46,66 @@ public class MediumWarmupMethodsImpl implements MediumWarmupMethods{
         return str.charAt(xIndex + 1) == 'x';
     }
 
+    @Override
+    public String stringBits(String str) {
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < str.length(); i+=2) {
+            result.append(str.charAt(i));
+        }
+
+        return result.toString();
+    }
+
+    @Override
+    public String stringSplosion(String str) {
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < str.length(); i++) {
+            result.append(str, 0, i + 1);
+        }
+
+        return result.toString();
+    }
+
+    @Override
+    public int last2(String str) {
+        if (str.length() < 2) return 0;
+
+        String end = str.substring(str.length() - 2);
+        int count = 0;
+
+        for (int i = 0; i < str.length() -2; i++) {
+            String sub = str.substring(i, i+2);
+
+            if (sub.equals(end)){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    @Override
+    public int arrayCount9(int[] nums) {
+        int counter = 0;
+
+        for (int num : nums) {
+            if (num == 9) counter++;
+        }
+
+        return counter;
+    }
+
+    @Override
+    public boolean arrayFront9(int[] nums) {
+        int end = nums.length;
+        if (end > 4) end = 4;
+
+        for (int i = 0; i < end; i++) {
+            if (nums[i] == 9) return true;
+        }
+        return false;
+    }
+
 
 }

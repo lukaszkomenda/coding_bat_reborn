@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add method:  altPairs, stringYak, array667">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImplTest.java" afterDir="false" />
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: stringTimes, frontTimes, countXX, doubleX">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CountXX/CountXX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FrontTimes/FrontTimes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringTimes/StringTimes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CountXX/CountXXTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FrontTimes/FrontTimesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringTimes/StringTimesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArrayCount9/ArrayCount9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DoubleX/DoubleX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Last2/Last2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringBits/StringBits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringSplosion/StringSplosion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ArrayCount9/ArrayCount9Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DoubleX/DoubleXTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Last2/Last2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringBits/StringBitsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringSplosion/StringSplosionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668190919748</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add refactor: stringTimes, frontTimes, countXX, doubleX">
+      <created>1687968710923</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687968710923</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +352,7 @@
     <MESSAGE value="Add method:  arrayCount9, arrayFront9, array123" />
     <MESSAGE value="Add method:  stringMatch, stringX" />
     <MESSAGE value="Add method:  altPairs, stringYak, array667" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method:  altPairs, stringYak, array667" />
+    <MESSAGE value="Add refactor: stringTimes, frontTimes, countXX, doubleX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: stringTimes, frontTimes, countXX, doubleX" />
   </component>
 </project>
