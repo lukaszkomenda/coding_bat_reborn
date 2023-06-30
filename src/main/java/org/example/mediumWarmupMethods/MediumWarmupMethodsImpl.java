@@ -107,5 +107,64 @@ public class MediumWarmupMethodsImpl implements MediumWarmupMethods{
         return false;
     }
 
+    @Override
+    public boolean array123(int[] nums) {
+        for (int i = 0; i < (nums.length - 2); i++) {
+            if (nums[i] == 1 && nums[i+1] == 2 && nums[i+2] == 3){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public int stringMatch(String a, String b) {
+        int len = Math.min(a.length(), b.length());
+        int count = 0;
+
+        for (int i = 0; i < len - 1; i++) {
+            String aSub = a.substring(i, i + 2);
+            String bSub = b.substring(i, i + 2);
+
+            if (aSub.equals(bSub)) count++;
+        }
+        return count;
+    }
+
+    @Override
+    public String stringX(String str) {
+        StringBuilder newStr = new StringBuilder();
+
+        for (int i = 0; i < str.length(); i++) {
+            if (!(i > 0 && i < (str.length()-1) && str.charAt(i) == 'x')){
+                newStr.append(str.charAt(i));
+            }
+        }
+        return newStr.toString();
+    }
+
+    @Override
+    public String altPairs(String str) {
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < str.length(); i+=4) {
+            int end = i +2;
+
+            if (end > str.length()){
+                end = str.length();
+            }
+            result.append(str, i, end);
+        }
+        return result.toString();
+    }
+
+    @Override
+    public String stringYak(String str) {
+        if (str.contains("yak")){
+            return str.replace("yak", "");
+        }
+        return str;
+    }
+
 
 }

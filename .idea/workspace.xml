@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: stringTimes, frontTimes, countXX, doubleX">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: stringBits, stringSplosion, last2, arrayCount9, arrayFront9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArrayCount9/ArrayCount9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DoubleX/DoubleX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Last2/Last2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringBits/StringBits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringSplosion/StringSplosion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Array123/Array123.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringMatch/StringMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringX/StringX.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ArrayCount9/ArrayCount9Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DoubleX/DoubleXTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Last2/Last2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringBits/StringBitsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringSplosion/StringSplosionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Array123/Array123Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringMatch/StringMatchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StringX/StringXTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/mediumWarmupMethods/MediumWarmupMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -319,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687968710923</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add refactor: stringBits, stringSplosion, last2, arrayCount9, arrayFront9">
+      <created>1688054930172</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688054930172</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +356,7 @@
     <MESSAGE value="Add method:  stringMatch, stringX" />
     <MESSAGE value="Add method:  altPairs, stringYak, array667" />
     <MESSAGE value="Add refactor: stringTimes, frontTimes, countXX, doubleX" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: stringTimes, frontTimes, countXX, doubleX" />
+    <MESSAGE value="Add refactor: stringBits, stringSplosion, last2, arrayCount9, arrayFront9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: stringBits, stringSplosion, last2, arrayCount9, arrayFront9" />
   </component>
 </project>

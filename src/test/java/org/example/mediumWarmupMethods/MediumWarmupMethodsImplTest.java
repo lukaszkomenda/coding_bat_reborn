@@ -275,12 +275,164 @@ class MediumWarmupMethodsImplTest {
     }
 
     @Test
-    void noneTest(){
+    void arrayFront9NoneTest(){
         //given
         int[] nums = {};
         //when
         boolean isNineInFront = mediumWarmupMethods.arrayFront9(nums);
         //then
         assertFalse(isNineInFront);
+    }
+
+    @Test
+    void oneOneTwoThreeOneTest(){
+        //given
+        int[] nums = {1,1,2,3,1};
+        //when
+        boolean is123sequence = mediumWarmupMethods.array123(nums);
+        //then
+        assertTrue(is123sequence);
+    }
+
+    @Test
+    void oneOneTwoOneTwoOneTest(){
+        //given
+        int[] nums = {1,1,2,1,2,1};
+        //when
+        boolean is123sequence = mediumWarmupMethods.array123(nums);
+        //then
+        assertFalse(is123sequence);
+    }
+
+    @Test
+    void array123NoneTest(){
+        //given
+        int[] nums = {};
+        //when
+        boolean is123sequence = mediumWarmupMethods.array123(nums);
+        //then
+        assertFalse(is123sequence);
+    }
+
+    @Test
+    void abcAbcTest(){
+        //given
+        String a = "abc";
+        String b = "abc";
+        //when
+        int count = mediumWarmupMethods.stringMatch(a, b);
+        //then
+        assertEquals(2,count);
+    }
+
+    @Test
+    void helloHeTest(){
+        //given
+        String a = "hello";
+        String b = "he";
+        //when
+        int count = mediumWarmupMethods.stringMatch(a, b);
+        //then
+        assertEquals(1,count);
+    }
+
+    @Test
+    void abcAxcTest(){
+        //given
+        String a = "abc";
+        String b = "axc";
+        //when
+        int count = mediumWarmupMethods.stringMatch(a, b);
+        //then
+        assertEquals(0,count);
+    }
+
+    @Test
+    void abxxxcdTest(){
+        //given
+        String str = "abxxxcd";
+        //when
+        String newStr = mediumWarmupMethods.stringX(str);
+        //then
+        assertEquals("abcd", newStr);
+    }
+
+    @Test
+    void helloTest(){
+        //given
+        String str = "Hello";
+        //when
+        String newStr = mediumWarmupMethods.stringX(str);
+        //then
+        assertEquals("Hello", newStr);
+    }
+
+    @Test
+    void stringXNoneTest(){
+        //given
+        String str = "";
+        //when
+        String newStr = mediumWarmupMethods.stringX(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void kittenTest(){
+        //given
+        String str = "kitten";
+        //when
+        String newStr = mediumWarmupMethods.altPairs(str);
+        //then
+        assertEquals("kien",newStr);
+    }
+
+    @Test
+    void altPairsYakTest(){
+        //given
+        String str = "yak";
+        //when
+        String newStr = mediumWarmupMethods.altPairs(str);
+        //then
+        assertEquals("ya", newStr);
+    }
+
+    @Test
+    void noneTest(){
+        String str = "";
+        //when
+        String newStr = mediumWarmupMethods.altPairs(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void yakpakTest(){
+        //given
+        String str = "yakpak";
+        //when
+        String newStr = mediumWarmupMethods.stringYak(str);
+        //then
+        assertEquals("pak", newStr);
+    }
+
+    @Test
+    void yakTest(){
+        //given
+        String str = "yak";
+        //when
+        String newStr = mediumWarmupMethods.stringYak(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void hiyakhiTest(){
+        //given
+        String str = "HiyakHi";
+        //when
+        String newStr = mediumWarmupMethods.stringYak(str);
+        //then
+        assertEquals("HiHi", newStr);
     }
 }
