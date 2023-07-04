@@ -398,7 +398,7 @@ class MediumWarmupMethodsImplTest {
     }
 
     @Test
-    void noneTest(){
+    void altPairsNoneTest(){
         String str = "";
         //when
         String newStr = mediumWarmupMethods.altPairs(str);
@@ -434,5 +434,95 @@ class MediumWarmupMethodsImplTest {
         String newStr = mediumWarmupMethods.stringYak(str);
         //then
         assertEquals("HiHi", newStr);
+    }
+
+    @Test
+    void sixSixTwoTest(){
+        //given
+        int[] nums = {6,6,2};
+        //when
+        int counter = mediumWarmupMethods.array667(nums);
+        //then
+        assertEquals(1, counter);
+    }
+
+    @Test
+    void sixSixTwoSixSevenTest(){
+        //given
+        int[] nums = {6,6,2,6,7};
+        //when
+        int counter = mediumWarmupMethods.array667(nums);
+        //then
+        assertEquals(2,counter);
+    }
+
+    @Test
+    void noneTest(){
+        //given
+        int[] nums = {};
+        //when
+        int counter = mediumWarmupMethods.array667(nums);
+        //then
+        assertEquals(0,counter);
+    }
+
+    @Test
+    void oneTwoOneTest(){
+        //given
+        int[] nums = {1,2,1};
+        //when
+        boolean isNoTriples = mediumWarmupMethods.noTriples(nums);
+        //then
+        assertTrue(isNoTriples);
+    }
+
+    @Test
+    void oneOneTwoTwoOneTest(){
+        //given
+        int[] nums = {1,1,2,2,1};
+        //when
+        boolean isNoTriples = mediumWarmupMethods.noTriples(nums);
+        //then
+        assertTrue(isNoTriples);
+    }
+
+    @Test
+    void oneOneOneTest(){
+        //given
+        int[] nums = {1,1,1};
+        //when
+        boolean isNoTriples = mediumWarmupMethods.noTriples(nums);
+        //then
+        assertFalse(isNoTriples);
+    }
+
+    @Test
+    void oneTwoSevenOneTest(){
+        //given
+        int[] nums = {1,2,7,1};
+        //when
+        boolean is271sequence = mediumWarmupMethods.has271(nums);
+        //then
+        assertTrue(is271sequence);
+    }
+
+    @Test
+    void twoSevenFourTest(){
+        //given
+        int[] nums = {2,7,4};
+        //when
+        boolean is271sequence = mediumWarmupMethods.has271(nums);
+        //then
+        assertFalse(is271sequence);
+    }
+
+    @Test
+    void twoSevenMinusOneTest(){
+        //given
+        int[] nums = {2,7,-1};
+        //when
+        boolean is271sequence = mediumWarmupMethods.has271(nums);
+        //then
+        assertTrue(is271sequence);
     }
 }

@@ -15,4 +15,7 @@ public interface MediumWarmupMethods {
     String stringX(String str);
     String altPairs(String str);
     String stringYak(String str);
+    int array667(int[] nums);
+    boolean noTriples(int[] nums);
+    boolean has271(int[] nums);
 }

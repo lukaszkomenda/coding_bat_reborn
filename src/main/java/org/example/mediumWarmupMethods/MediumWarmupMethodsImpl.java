@@ -166,5 +166,41 @@ public class MediumWarmupMethodsImpl implements MediumWarmupMethods{
         return str;
     }
 
+    @Override
+    public int array667(int[] nums) {
+        int counter = 0;
+
+        for (int i = 0; i < nums.length -1; i++) {
+            if (nums[i] == 6){
+                if (nums[i+1] == 6 || nums[i+1] == 7){
+                    counter++;
+                }
+            }
+        }
+        return counter;
+    }
+
+    @Override
+    public boolean noTriples(int[] nums) {
+        for (int i = 0; i < nums.length - 2; i++) {
+            int first = nums[i];
+
+            if (nums[i+1] == first && nums[i+2] == first) return false;
+        }
+        return true;
+    }
+
+    @Override
+    public boolean has271(int[] nums) {
+        for (int i = 0; i < nums.length - 2; i++) {
+            int value = nums[i];
+
+            if (nums[i+1] == (value + 5) && Math.abs(nums[i+2] - (value -1)) <=2){
+                return true;
+            }
+        }
+        return false;
+    }
+
 
 }
