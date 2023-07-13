@@ -43,4 +43,36 @@ public class BasicStringMethodsImpl implements BasicStringMethods{
         int half = str.length() /2;
         return str.substring(0,half);
     }
+
+    @Override
+    public String withoutEnd(String str) {
+        return str.substring(1, str.length() -1);
+    }
+
+    @Override
+    public String comboString(String a, String b) {
+        if (a.length() >= b.length()){
+            return b + a + b;
+        } else {
+            return a+b+a;
+        }
+    }
+
+    @Override
+    public String nonStart(String a, String b) {
+        return a.substring(1) + b.substring(1);
+    }
+
+    @Override
+    public String left2(String str) {
+        String end = str.substring(0,2);
+
+        return str.substring(2) + end;
+    }
+
+    @Override
+    public String right2(String str) {
+        String end = str.substring(str.length() - 2);
+        return end + str.substring(0,str.length() - 2);
+    }
 }

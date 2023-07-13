@@ -147,7 +147,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void hiTest(){
+    void extraEndHiTest(){
         //given
         String str = "Hi";
         //when
@@ -224,5 +224,161 @@ class BasicStringMethodsImplTest {
         String newStr = basicStringMethods.firstHalf(str);
         //then
         assertEquals("", newStr);
+    }
+
+    @Test
+    void withoutEndJavaTest(){
+        //given
+        String str = "java";
+        //when
+        String newStr = basicStringMethods.withoutEnd(str);
+        //then
+        assertEquals("av", newStr);
+    }
+
+    @Test
+    void codingTest(){
+        //given
+        String str = "coding";
+        //when
+        String newStr = basicStringMethods.withoutEnd(str);
+        //then
+        assertEquals("odin", newStr);
+    }
+
+    @Test
+    void abTest(){
+        //given
+        String str = "ab";
+        //when
+        String newStr = basicStringMethods.withoutEnd(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void helloHiTest(){
+        //given
+        String a = "Hello";
+        String b = "hi";
+        //when
+        String newStr = basicStringMethods.comboString(a, b);
+        //then
+        assertEquals("hiHellohi", newStr);
+    }
+
+    @Test
+    void noneBbTest(){
+        //given
+        String a = "";
+        String b = "bb";
+        //when
+        String newStr = basicStringMethods.comboString(a, b);
+        //then
+        assertEquals("bb", newStr);
+    }
+
+    @Test
+    void xyzAbTest(){
+        //given
+        String a = "xyz";
+        String b = "ab";
+        //when
+        String newStr = basicStringMethods.comboString(a, b);
+        //then
+        assertEquals("abxyzab", newStr);
+    }
+
+    @Test
+    void javaCodeTest(){
+        //given
+        String a = "java";
+        String b = "code";
+        //when
+        String newStr = basicStringMethods.nonStart(a, b);
+        //then
+        assertEquals("avaode", newStr);
+    }
+
+    @Test
+    void abXyTest(){
+        //given
+        String a = "ab";
+        String b = "xy";
+        //when
+        String newStr = basicStringMethods.nonStart(a, b);
+        //then
+        assertEquals("by", newStr);
+    }
+
+    @Test
+    void axTest(){
+        //given
+        String a = "a";
+        String b = "x";
+        //when
+        String newStr = basicStringMethods.nonStart(a, b);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void left2JavaTest(){
+        //given
+        String str = "java";
+        //when
+        String newStr = basicStringMethods.left2(str);
+        //then
+        assertEquals("vaja", newStr);
+    }
+
+    @Test
+    void left2HiTest(){
+        //given
+        String str = "Hi";
+        //when
+        String newStr = basicStringMethods.left2(str);
+        //then
+        assertEquals("Hi", newStr);
+    }
+
+    @Test
+    void left2CatTest(){
+        //given
+        String str = "cat";
+        //when
+        String newStr = basicStringMethods.left2(str);
+        //then
+        assertEquals("tca", newStr);
+    }
+
+    @Test
+    void javaTest(){
+        //given
+        String str = "java";
+        //when
+        String newStr = basicStringMethods.right2(str);
+        //then
+        assertEquals("vaja", newStr);
+    }
+
+    @Test
+    void hiTest(){
+        //given
+        String str = "Hi";
+        //when
+        String newStr = basicStringMethods.right2(str);
+        //then
+        assertEquals("Hi", newStr);
+    }
+
+    @Test
+    void catTest(){
+        //given
+        String str = "cat";
+        //when
+        String newStr = basicStringMethods.right2(str);
+        //then
+        assertEquals("atc", newStr);
     }
 }
