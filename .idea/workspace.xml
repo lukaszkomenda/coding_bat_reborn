@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: makeTags, makeOutWord, extraEnd, firstTwo, firstHalf">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: withoutEnd, comboString, nonStart, left2, right2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ComboString/ComboString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Left2/Left2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NonStart/NonStart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WithoutEnd/WithoutEnd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EndsLy/EndsLy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MiddleTwo/MiddleTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NTwice/NTwice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TheEnd/TheEnd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WithoutEnd2/WithoutEnd2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ComboString/ComboStringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Left2/Left2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NonStart/NonStartTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WithoutEnd/WithoutEndTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/EndsLy/EndsLyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MiddleTwo/MiddleTwoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NTwice/NTwiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TheEnd/TheEndTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WithoutEnd2/WithoutEnd2Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/basicStringMethods/BasicStringMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/basicStringMethods/BasicStringMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -351,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689090163321</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add refactor: withoutEnd, comboString, nonStart, left2, right2">
+      <created>1689262119375</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1689262119375</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,6 +399,7 @@
     <MESSAGE value="Add refactor: array667, noTriples, has271" />
     <MESSAGE value="Add refactor: array667, noTriples, has271, helloName, makeAbba" />
     <MESSAGE value="Add refactor: makeTags, makeOutWord, extraEnd, firstTwo, firstHalf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: makeTags, makeOutWord, extraEnd, firstTwo, firstHalf" />
+    <MESSAGE value="Add refactor: withoutEnd, comboString, nonStart, left2, right2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: withoutEnd, comboString, nonStart, left2, right2" />
   </component>
 </project>

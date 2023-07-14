@@ -75,4 +75,48 @@ public class BasicStringMethodsImpl implements BasicStringMethods{
         String end = str.substring(str.length() - 2);
         return end + str.substring(0,str.length() - 2);
     }
+
+    @Override
+    public String theEnd(String str, boolean front) {
+        if (front){
+            return str.substring(0,1);
+        } else {
+            return str.substring(str.length() - 1);
+        }
+    }
+
+    @Override
+    public String withouEnd2(String str) {
+        if(str.length() >= 2){
+            return str.substring(1, str.length() - 1);
+        } else{
+            return "";
+        }
+    }
+
+    @Override
+    public String middleTwo(String str) {
+        int length = str.length();
+        if (length > 2){
+            return str.substring(length/2 - 1, length / 2 + 1);
+        } else {
+            return str;
+        }
+    }
+
+    @Override
+    public boolean endsLy(String str) {
+        int length = str.length();
+
+        if (length >= 2){
+            return str.endsWith("ly");
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public String nTwice(String str, int n) {
+        return str.substring(0, n) + str.substring(str.length() - n);
+    }
 }

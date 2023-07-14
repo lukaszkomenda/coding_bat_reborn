@@ -157,7 +157,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void codeTest(){
+    void extraEndCodeTest(){
         //given
         String str = "Code";
         //when
@@ -177,7 +177,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void aTest(){
+    void firstTwoATest(){
         //given
         String str = "a";
         //when
@@ -207,7 +207,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void helloTest(){
+    void firstHalfHelloTest(){
         //given
         String str = "HelloThere";
         //when
@@ -217,7 +217,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void noneTest(){
+    void firstHalfNoneTest(){
         //given
         String str = "";
         //when
@@ -247,7 +247,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void abTest(){
+    void withoutEndAbTest(){
         //given
         String str = "ab";
         //when
@@ -380,5 +380,161 @@ class BasicStringMethodsImplTest {
         String newStr = basicStringMethods.right2(str);
         //then
         assertEquals("atc", newStr);
+    }
+
+    @Test
+    void ohFrontTest(){
+        //given
+        String str = "oh";
+        boolean front = true;
+        //when
+        String newStr = basicStringMethods.theEnd(str, front);
+        //then
+        assertEquals("o", newStr);
+    }
+
+    @Test
+    void helloBackTest(){
+        //given
+        String str = "Hello";
+        boolean front = false;
+        //when
+        String newStr = basicStringMethods.theEnd(str, front);
+        //then
+        assertEquals("o", newStr);
+    }
+
+    @Test
+    void xFrontTest(){
+        //given
+        String str = "x";
+        boolean front = true;
+        //when
+        String newStr = basicStringMethods.theEnd(str, front);
+        //then
+        assertEquals("x", newStr);
+    }
+
+    @Test
+    void withoutEnd2HelloTest(){
+        //given
+        String str = "Hello";
+        //when
+        String newStr = basicStringMethods.withouEnd2(str);
+        //then
+        assertEquals("ell", newStr);
+    }
+
+    @Test
+    void abcTest(){
+        //given
+        String str = "abc";
+        //when
+        String newStr = basicStringMethods.withouEnd2(str);
+        //then
+        assertEquals("b", newStr);
+    }
+
+    @Test
+    void aTest(){
+        //given
+        String str = "a";
+        //when
+        String newStr = basicStringMethods.withouEnd2(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void stringTest(){
+        //given
+        String str = "string";
+        //when
+        String newStr = basicStringMethods.middleTwo(str);
+        //then
+        assertEquals("ri", newStr);
+    }
+
+    @Test
+    void middleTwoCodeTest(){
+        //given
+        String str = "code";
+        //when
+        String newStr = basicStringMethods.middleTwo(str);
+        //then
+        assertEquals("od", newStr);
+    }
+
+    @Test
+    void abTest(){
+        //given
+        String str = "ab";
+        //when
+        String newStr = basicStringMethods.middleTwo(str);
+        //then
+        assertEquals("ab", newStr);
+    }
+
+    @Test
+    void lyTest(){
+        //given
+        String str = "ly";
+        //when
+        boolean isLyContains = basicStringMethods.endsLy(str);
+        //then
+        assertTrue(isLyContains);
+    }
+
+    @Test
+    void yTest(){
+        //given
+        String str = "y";
+        //when
+        boolean isLyContains = basicStringMethods.endsLy(str);
+        //then
+        assertFalse(isLyContains);
+    }
+
+    @Test
+    void noneTest(){
+        //given
+        String str = "";
+        //when
+        boolean isLyContains = basicStringMethods.endsLy(str);
+        //then
+        assertFalse(isLyContains);
+    }
+
+    @Test
+    void helloTest(){
+        //given
+        String str = "Hello";
+        int n = 2;
+        //when
+        String newStr = basicStringMethods.nTwice(str, n);
+        //then
+        assertEquals("Helo", newStr);
+    }
+
+    @Test
+    void codeTest(){
+        //given
+        String str = "Code";
+        int n = 4;
+        //when
+        String newStr = basicStringMethods.nTwice(str, n);
+        //then
+        assertEquals("CodeCode", newStr);
+    }
+
+    @Test
+    void chocolateTest(){
+        //given
+        String str = "Chocolate";
+        int n = 0;
+        //when
+        String newStr = basicStringMethods.nTwice(str, n);
+        //then
+        assertEquals("", newStr);
     }
 }
