@@ -496,7 +496,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void noneTest(){
+    void endsLyNoneTest(){
         //given
         String str = "";
         //when
@@ -506,7 +506,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void helloTest(){
+    void nTwiceHelloTest(){
         //given
         String str = "Hello";
         int n = 2;
@@ -517,7 +517,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void codeTest(){
+    void nTwiceCodeTest(){
         //given
         String str = "Code";
         int n = 4;
@@ -536,5 +536,161 @@ class BasicStringMethodsImplTest {
         String newStr = basicStringMethods.nTwice(str, n);
         //then
         assertEquals("", newStr);
+    }
+
+    @Test
+    void javaZeroTest(){
+        //given
+        String str = "java";
+        int index = 0;
+        //when
+        String newStr = basicStringMethods.twoChar(str, index);
+        //then
+        assertEquals("ja", newStr);
+    }
+
+    @Test
+    void javaMinusOneTest(){
+        //given
+        String str = "java";
+        int index = -1;
+        //when
+        String newStr = basicStringMethods.twoChar(str, index);
+        //then
+        assertEquals("ja", newStr);
+    }
+
+    @Test
+    void helloNintyNineTest(){
+        //given
+        String str = "Hello";
+        int index = 99;
+        //when
+        String newStr = basicStringMethods.twoChar(str, index);
+        //then
+        assertEquals("He", newStr);
+    }
+
+    @Test
+    void candyTest(){
+        //given
+        String str = "Candy";
+        //when
+        String newStr = basicStringMethods.middleThree(str);
+        //then
+        assertEquals("and", newStr);
+    }
+
+    @Test
+    void solvingTest(){
+        //given
+        String str = "solving";
+        //when
+        String newStr = basicStringMethods.middleThree(str);
+        //then
+        assertEquals("lvi", newStr);
+    }
+
+    @Test
+    void javaYetTest(){
+        //given
+        String str = "java yet java";
+        //when
+        String newStr = basicStringMethods.middleThree(str);
+        //then
+        assertEquals("yet", newStr);
+    }
+
+    @Test
+    void badXxTest(){
+        //given
+        String str = "badxx";
+        //when
+        boolean isBadContains = basicStringMethods.hasBad(str);
+        //then
+        assertTrue(isBadContains);
+    }
+
+    @Test
+    void codeTest(){
+        //given
+        String str = "code";
+        //when
+        boolean isBadContains = basicStringMethods.hasBad(str);
+        //then
+        assertFalse(isBadContains);
+    }
+
+    @Test
+    void xBaTest(){
+        //given
+        String str = "xba";
+        //when
+        boolean isBadContains = basicStringMethods.hasBad(str);
+        //then
+        assertFalse(isBadContains);
+    }
+
+    @Test
+    void helloTest(){
+        //given
+        String str = "hello";
+        //when
+        String newStr = basicStringMethods.atFirst(str);
+        //then
+        assertEquals("he", newStr);
+    }
+
+    @Test
+    void hTest(){
+        //given
+        String str = "h";
+        //when
+        String newStr = basicStringMethods.atFirst(str);
+        //then
+        assertEquals("h@", newStr);
+    }
+
+    @Test
+    void noneTest(){
+        //given
+        String str = "";
+        //when
+        String newStr = basicStringMethods.atFirst(str);
+        //then
+        assertEquals("@@", newStr);
+    }
+
+    @Test
+    void lastCharsTest(){
+        //given
+        String a = "last";
+        String b = "chars";
+        //when
+        String newStr = basicStringMethods.lastChars(a, b);
+        //then
+        assertEquals("ls", newStr);
+    }
+
+    @Test
+    void hiNoneTest(){
+        //given
+        String a = "hi";
+        String b = "";
+        //when
+        String newStr = basicStringMethods.lastChars(a, b);
+        //then
+        assertEquals("h@", newStr);
+    }
+
+    @Test
+    void noneNoneTest(){
+        //given
+        String a = "";
+        String b = "";
+        //when
+        String newStr = basicStringMethods.lastChars(a, b);
+        //then
+        assertEquals("@@", newStr);
     }
 }

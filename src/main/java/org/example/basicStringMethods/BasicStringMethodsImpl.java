@@ -119,4 +119,73 @@ public class BasicStringMethodsImpl implements BasicStringMethods{
     public String nTwice(String str, int n) {
         return str.substring(0, n) + str.substring(str.length() - n);
     }
+
+    @Override
+    public String twoChar(String str, int index) {
+        boolean isItCharsInWord = index + 2 <= str.length() && index >= 0;
+
+        if(isItCharsInWord){
+            return str.substring(index, index + 2);
+        } else {
+            return str.substring(0,2);
+        }
+    }
+
+    @Override
+    public String middleThree(String str) {
+        int position;
+        int length;
+
+        if (str.length() % 2 == 0){
+            position = str.length() / 2 - 1;
+            length = 3;
+        } else{
+            position = str.length() / 2;
+            length = 2;
+        }
+        return str.substring(position - 1, position + length);
+    }
+
+    @Override
+    public boolean hasBad(String str) {
+        if (str.length() > 3) {
+            if (str.startsWith("bad")) {
+                return true;
+            } else return str.startsWith("bad", 1);
+        } else if (str.length() == 3) {
+            return str.equals("bad");
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public String atFirst(String str) {
+        if (str.length() >= 2){
+            return str.substring(0,2);
+        } else if (str.length() == 1) {
+            return str + "@";
+        } else {
+            return "@@";
+        }
+    }
+
+    @Override
+    public String lastChars(String a, String b) {
+        String result = "";
+
+        if (a.length() != 0){
+            result += a.substring(0,1);
+        } else {
+            result += "@";
+        }
+
+        if (b.length() != 0){
+            result += b.substring(b.length()-1);
+        } else {
+            result += "@";
+        }
+
+        return result;
+    }
 }

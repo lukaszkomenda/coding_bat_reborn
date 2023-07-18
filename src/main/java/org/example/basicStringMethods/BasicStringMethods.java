@@ -18,4 +18,9 @@ public interface BasicStringMethods {
     String middleTwo(String str);
     boolean endsLy(String str);
     String nTwice(String str, int n);
+    String twoChar(String str, int index);
+    String middleThree(String str);
+    boolean hasBad(String str);
+    String atFirst(String str);
+    String lastChars(String a, String b);
 }
