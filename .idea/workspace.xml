@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: theEnd, withouEnd2, middleTwo, endsLy, nTwice">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: twoChar, middleThree, hasBad, atFirst, lastChars">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AtFirst/AtFirst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HasBad/HasBad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MiddleThree/MiddleThree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TwoChar/TwoChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConCat/ConCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LastTwo/LastTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SeeColor/SeeColor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AtFirst/AtFirstTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HasBad/HasBadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MiddleThree/MiddleThreeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TwoChar/TwoCharTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ConCat/ConCatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LastTwo/LastTwoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SeeColor/SeeColorTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/basicStringMethods/BasicStringMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/basicStringMethods/BasicStringMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -365,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689352760246</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add refactor: twoChar, middleThree, hasBad, atFirst, lastChars">
+      <created>1689697417180</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1689697417180</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,6 +411,7 @@
     <MESSAGE value="Add refactor: makeTags, makeOutWord, extraEnd, firstTwo, firstHalf" />
     <MESSAGE value="Add refactor: withoutEnd, comboString, nonStart, left2, right2" />
     <MESSAGE value="Add refactor: theEnd, withouEnd2, middleTwo, endsLy, nTwice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: theEnd, withouEnd2, middleTwo, endsLy, nTwice" />
+    <MESSAGE value="Add refactor: twoChar, middleThree, hasBad, atFirst, lastChars" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: twoChar, middleThree, hasBad, atFirst, lastChars" />
   </component>
 </project>

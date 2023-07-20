@@ -257,7 +257,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void helloHiTest(){
+    void comboStringHelloHiTest(){
         //given
         String a = "Hello";
         String b = "hi";
@@ -373,7 +373,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void catTest(){
+    void right2CatTest(){
         //given
         String str = "cat";
         //when
@@ -420,7 +420,7 @@ class BasicStringMethodsImplTest {
         //given
         String str = "Hello";
         //when
-        String newStr = basicStringMethods.withouEnd2(str);
+        String newStr = basicStringMethods.withoutEnd2(str);
         //then
         assertEquals("ell", newStr);
     }
@@ -430,17 +430,17 @@ class BasicStringMethodsImplTest {
         //given
         String str = "abc";
         //when
-        String newStr = basicStringMethods.withouEnd2(str);
+        String newStr = basicStringMethods.withoutEnd2(str);
         //then
         assertEquals("b", newStr);
     }
 
     @Test
-    void aTest(){
+    void withoutEndATest(){
         //given
         String str = "a";
         //when
-        String newStr = basicStringMethods.withouEnd2(str);
+        String newStr = basicStringMethods.withoutEnd2(str);
         //then
         assertEquals("", newStr);
     }
@@ -466,7 +466,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void abTest(){
+    void middleTwoAbTest(){
         //given
         String str = "ab";
         //when
@@ -652,7 +652,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void noneTest(){
+    void atFirstNoneTest(){
         //given
         String str = "";
         //when
@@ -692,5 +692,160 @@ class BasicStringMethodsImplTest {
         String newStr = basicStringMethods.lastChars(a, b);
         //then
         assertEquals("@@", newStr);
+    }
+
+    @Test
+    void abcCatTest(){
+        //given
+        String a = "abc";
+        String b = "cat";
+        //when
+        String newStr = basicStringMethods.conCat(a, b);
+        //then
+        assertEquals("abcat", newStr);
+    }
+
+    @Test
+    void conCatAbcNoneTest(){
+        //given
+        String a = "abc";
+        String b = "";
+        //when
+        String newStr = basicStringMethods.conCat(a, b);
+        //then
+        assertEquals("abc", newStr);
+    }
+
+    @Test
+    void pigGTest(){
+        //given
+        String a = "pig";
+        String b = "g";
+        //when
+        String newStr = basicStringMethods.conCat(a, b);
+        //then
+        assertEquals("pig", newStr);
+    }
+
+    @Test
+    void catTest(){
+        //given
+        String str = "cat";
+        //when
+        String newStr = basicStringMethods.lastTwo(str);
+        //then
+        assertEquals("cta", newStr);
+    }
+
+    @Test
+    void abTest(){
+        //given
+        String str = "ab";
+        //when
+        String newStr = basicStringMethods.lastTwo(str);
+        //then
+        assertEquals("ba", newStr);
+    }
+
+    @Test
+    void noneTest(){
+        //given
+        String str = "";
+        //when
+        String newStr = basicStringMethods.lastTwo(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void redXxTest(){
+        //given
+        String str = "redxx";
+        //when
+        String newStr = basicStringMethods.seeColor(str);
+        //then
+        assertEquals("red", newStr);
+    }
+
+    @Test
+    void noColorTest(){
+        //given
+        String str = "NoColor";
+        //when
+        String newStr = basicStringMethods.seeColor(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void aTest(){
+        //given
+        String str = "a";
+        //when
+        String newStr = basicStringMethods.seeColor(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void editedTest(){
+        //given
+        String str = "edited";
+        //when
+        boolean isFrontAgain = basicStringMethods.frontAgain(str);
+        //then
+        assertTrue(isFrontAgain);
+    }
+
+    @Test
+    void editTest(){
+        //given
+        String str = "edit";
+        //when
+        boolean isFrontAgain = basicStringMethods.frontAgain(str);
+        //then
+        assertFalse(isFrontAgain);
+    }
+
+    @Test
+    void xTest(){
+        //given
+        String str = "x";
+        //when
+        boolean isFrontAgain = basicStringMethods.frontAgain(str);
+        //then
+        assertFalse(isFrontAgain);
+    }
+
+    @Test
+    void helloHiTest(){
+        //given
+        String a = "Hello";
+        String b = "Hi";
+        //when
+        String newStr = basicStringMethods.minCat(a, b);
+        //then
+        assertEquals("loHi", newStr);
+    }
+
+    @Test
+    void abcXTest(){
+        //given
+        String a = "abc";
+        String b = "x";
+        //when
+        String newStr = basicStringMethods.minCat(a, b);
+        //then
+        assertEquals("cx", newStr);
+    }
+
+    @Test
+    void abcNoneTest(){
+        //given
+        String a = "abc";
+        String b = "";
+        //when
+        String newStr = basicStringMethods.minCat(a, b);
+        assertEquals("", newStr);
     }
 }

@@ -86,7 +86,7 @@ public class BasicStringMethodsImpl implements BasicStringMethods{
     }
 
     @Override
-    public String withouEnd2(String str) {
+    public String withoutEnd2(String str) {
         if(str.length() >= 2){
             return str.substring(1, str.length() - 1);
         } else{
@@ -187,5 +187,85 @@ public class BasicStringMethodsImpl implements BasicStringMethods{
         }
 
         return result;
+    }
+
+    @Override
+    public String conCat(String a, String b) {
+        String mergedAb = a + b;
+
+        if (a.length() != 0 && b.length() != 0){
+            String lastLetterA = a.substring(a.length() -1);
+            String firstLetterB = b.substring(0,1);
+
+            if (lastLetterA.equals(firstLetterB)){
+                return a + b.substring(1);
+            } else {
+                return mergedAb;
+            }
+        } else {
+            return mergedAb;
+        }
+    }
+
+    @Override
+    public String lastTwo(String str) {
+        int length = str.length();
+
+        if (length > 2){
+            String beforeLastChar = str.substring(length - 2, length - 1);
+            String lastChar = str.substring(length-1);
+
+            return str.substring(0, length -2) + lastChar + beforeLastChar;
+        } else if (length == 2){
+            String beforeLastChar = str.substring(0, length - 1);
+            String lastChar = str.substring(length-1);
+
+            return lastChar + beforeLastChar;
+        } else {
+            return str;
+        }
+    }
+
+    @Override
+    public String seeColor(String str) {
+        String red = "red";
+        String blue = "blue";
+
+        if (str.startsWith(red)){
+            return red;
+        } else if (str.startsWith(blue)) {
+            return blue;
+        } else {
+            return "";
+        }
+    }
+
+    @Override
+    public boolean frontAgain(String str) {
+        if (str.length() >= 2){
+            String front = str.substring(0,2);
+
+            return str.endsWith(front);
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public String minCat(String a, String b) {
+        int lengthA = a.length();
+        int lengthB = b.length();
+
+        if (lengthA == 0 || lengthB == 0){
+            return "";
+        }  else {
+            if (lengthA == lengthB){
+                return a + b;
+            } else if (lengthA > lengthB) {
+                return a.substring(lengthA - lengthB) + b;
+            } else {
+                return a + b.substring(lengthB - lengthA);
+            }
+        }
     }
 }

@@ -14,7 +14,7 @@ public interface BasicStringMethods {
     String left2(String str);
     String right2(String str);
     String theEnd(String str, boolean front);
-    String withouEnd2(String str);
+    String withoutEnd2(String str);
     String middleTwo(String str);
     boolean endsLy(String str);
     String nTwice(String str, int n);
@@ -23,4 +23,9 @@ public interface BasicStringMethods {
     boolean hasBad(String str);
     String atFirst(String str);
     String lastChars(String a, String b);
+    String conCat(String a, String b);
+    String lastTwo(String str);
+    String seeColor(String str);
+    boolean frontAgain(String str);
+    String minCat(String a, String b);
 }
