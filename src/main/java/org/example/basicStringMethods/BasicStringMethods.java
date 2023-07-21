@@ -28,4 +28,10 @@ public interface BasicStringMethods {
     String seeColor(String str);
     boolean frontAgain(String str);
     String minCat(String a, String b);
+    String extraFront(String str);
+    String without2(String str);
+    String deFront(String str);
+    String startWord(String str, String word);
+    String withoutX(String str);
+    String withoutX2(String str);
 }

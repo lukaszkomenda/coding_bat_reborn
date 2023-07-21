@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: twoChar, middleThree, hasBad, atFirst, lastChars">
+    <list default="true" id="d9ff47b2-00a0-493b-8840-d351f63f85ab" name="Changes" comment="Add refactor: conCat, lastTwo, seeColor, frontAgain, minCat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConCat/ConCat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LastTwo/LastTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SeeColor/SeeColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DeFront/DeFront.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExtraFront/ExtraFront.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StartWord/StartWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Without2/Without2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WithoutX/WithoutX.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethodsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basicStringMethods/BasicStringMethodsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ConCat/ConCatTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LastTwo/LastTwoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SeeColor/SeeColorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DeFront/DeFrontTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ExtraFront/ExtraFrontTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StartWord/StartWordTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Without2/Without2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WithoutX/WithoutXTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/basicStringMethods/BasicStringMethodsImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/basicStringMethods/BasicStringMethodsImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -370,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689697417180</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add refactor: conCat, lastTwo, seeColor, frontAgain, minCat">
+      <created>1689869901485</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1689869901485</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,6 +423,7 @@
     <MESSAGE value="Add refactor: withoutEnd, comboString, nonStart, left2, right2" />
     <MESSAGE value="Add refactor: theEnd, withouEnd2, middleTwo, endsLy, nTwice" />
     <MESSAGE value="Add refactor: twoChar, middleThree, hasBad, atFirst, lastChars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: twoChar, middleThree, hasBad, atFirst, lastChars" />
+    <MESSAGE value="Add refactor: conCat, lastTwo, seeColor, frontAgain, minCat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add refactor: conCat, lastTwo, seeColor, frontAgain, minCat" />
   </component>
 </project>

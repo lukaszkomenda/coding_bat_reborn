@@ -268,4 +268,99 @@ public class BasicStringMethodsImpl implements BasicStringMethods{
             }
         }
     }
+
+    @Override
+    public String extraFront(String str) {
+        if (str.length() == 0){
+            return str;
+        } else if (str.length() == 1) {
+            return str + str + str;
+        } else {
+            String front = str.substring(0, 2);
+            return front + front + front;
+        }
+    }
+
+    @Override
+    public String without2(String str) {
+        if (str.length() < 2) {
+            return str;
+        } else {
+            String front = str.substring(0,2);
+            String end = str.substring(str.length() - 2);
+            if (front.equals(end)){
+                return str.substring(2);
+            } else {
+                return str;
+            }
+        }
+    }
+
+    @Override
+    public String deFront(String str) {
+        String firstLetter = str.substring(0, 1);
+        String secondLetter = str.substring(1, 2);
+
+        if (firstLetter.equals("a") && secondLetter.equals("b")) {
+            return str;
+        } else if (!firstLetter.equals("a") && secondLetter.equals("b")) {
+            return str.substring(1);
+        } else if (firstLetter.equals("a")) {
+            return firstLetter + str.substring(2);
+        } else {
+            return str.substring(2);
+        }
+    }
+
+    @Override
+    public String startWord(String str, String word) {
+        if (word.length() == 1 && str.length() > 0) return str.substring(0, 1);
+        if (word.length() > 1 && word.length() <= str.length()
+                && word.substring(1).equals(str.substring(1, word.length()))) {
+            return str.charAt(0) + word.substring(1);
+        }
+        return "";
+    }
+
+    @Override
+    public String withoutX(String str) {
+        if (str.startsWith("x") && str.endsWith("x")) {
+            if (str.length() == 1) {
+                return "";
+            } else {
+                return str.substring(1, str.length() - 1);
+            }
+        } else if (str.startsWith("x") && !str.endsWith("x")) {
+            return str.substring(1);
+        } else if (!str.startsWith("x") && str.endsWith("x")) {
+            return str.substring(0, str.length() - 1);
+        } else {
+            return str;
+        }
+    }
+
+    @Override
+    public String withoutX2(String str) {
+        if (str.length() == 0) {
+            return str;
+        } else if (str.length() == 1) {
+            if (str.startsWith("x")) {
+                return str.substring(1);
+            } else {
+                return str;
+            }
+        } else {
+            if (str.charAt(0) == 'x' && str.charAt(1) == 'x') {
+                return str.substring(2);
+            } else if (str.charAt(0) != 'x' && str.charAt(1) == 'x') {
+                return str.charAt(0) + str.substring(2);
+
+
+            } else if (str.charAt(0) == 'x' && str.charAt(1) != 'x') {
+                return str.substring(1);
+            } else {
+                return str;
+            }
+        }
+    }
 }

@@ -426,7 +426,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void abcTest(){
+    void withoutEnd2AbcTest(){
         //given
         String str = "abc";
         //when
@@ -632,7 +632,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void helloTest(){
+    void atFirstHelloTest(){
         //given
         String str = "hello";
         //when
@@ -642,7 +642,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void hTest(){
+    void atFirstNTest(){
         //given
         String str = "h";
         //when
@@ -748,7 +748,7 @@ class BasicStringMethodsImplTest {
     }
 
     @Test
-    void noneTest(){
+    void lastTwoNoneTest(){
         //given
         String str = "";
         //when
@@ -847,5 +847,198 @@ class BasicStringMethodsImplTest {
         //when
         String newStr = basicStringMethods.minCat(a, b);
         assertEquals("", newStr);
+    }
+
+    @Test
+    void extraFrontHelloTest(){
+        //given
+        String str = "Hello";
+        //when
+        String newStr = basicStringMethods.extraFront(str);
+        //then
+        assertEquals("HeHeHe", newStr);
+    }
+
+    @Test
+    void hTest(){
+        //given
+        String str = "H";
+        //when
+        String newStr = basicStringMethods.extraFront(str);
+        //then
+        assertEquals("HHH", newStr);
+    }
+
+    @Test
+    void extraFrontNoneTest(){
+        //given
+        String str = "";
+        //when
+        String newStr = basicStringMethods.extraFront(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void helloHeTest(){
+        //given
+        String str = "HelloHe";
+        //when
+        String newStr = basicStringMethods.without2(str);
+        //then
+        assertEquals("lloHe", newStr);
+    }
+
+    @Test
+    void xxxTest(){
+        //given
+        String str = "xxx";
+        //when
+        String newStr = basicStringMethods.without2(str);
+        //then
+        assertEquals("x", newStr);
+    }
+
+    @Test
+    void noneTest(){
+        //given
+        String str = "";
+        //when
+        String newStr = basicStringMethods.without2(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void helloTest(){
+        //given
+        String str = "Hello";
+        //when
+        String newStr = basicStringMethods.deFront(str);
+        //then
+        assertEquals("llo", newStr);
+    }
+
+    @Test
+    void abcTest(){
+        //given
+        String str = "abc";
+        //when
+        String newStr = basicStringMethods.deFront(str);
+        //then
+        assertEquals("abc", newStr);
+    }
+
+    @Test
+    void xbTest(){
+        //given
+        String str = "xb";
+        //when
+        String newStr = basicStringMethods.deFront(str);
+        //then
+        assertEquals("b", newStr);
+    }
+
+    @Test
+    void ayzTest(){
+        //given
+        String str = "ayz";
+        //when
+        String newStr = basicStringMethods.deFront(str);
+        //then
+        assertEquals("az", newStr);
+    }
+
+    @Test
+    void hippoHiTest(){
+        //given
+        String str = "hippo";
+        String word = "hi";
+        //when
+        String newStr = basicStringMethods.startWord(str, word);
+        //then
+        assertEquals("hi", newStr);
+    }
+
+    @Test
+    void hIxTest(){
+        //given
+        String str = "h";
+        String word = "ix";
+        //when
+        String newStr = basicStringMethods.startWord(str, word);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void hippoXippoTest(){
+        //given
+        String str = "hippo";
+        String word = "xippo";
+        //when
+        String newStr = basicStringMethods.startWord(str, word);
+        //then
+        assertEquals("hippo", newStr);
+    }
+
+    @Test
+    void withoutXXHiTest(){
+        //given
+        String str = "xHi";
+        //when
+        String newStr = basicStringMethods.withoutX(str);
+        //then
+        assertEquals("Hi", newStr);
+    }
+
+    @Test
+    void withoutXXxTest(){
+        //given
+        String str = "xx";
+        //when
+        String newStr = basicStringMethods.withoutX(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void hixTest(){
+        //given
+        String str = "Hix";
+        //when
+        String newStr = basicStringMethods.withoutX(str);
+        //then
+        assertEquals("Hi", newStr);
+    }
+
+    @Test
+    void xHiTest(){
+        //given
+        String str = "xHi";
+        //when
+        String newStr = basicStringMethods.withoutX2(str);
+        //then
+        assertEquals("Hi", newStr);
+    }
+
+    @Test
+    void xxTest(){
+        //given
+        String str = "xx";
+        //when
+        String newStr = basicStringMethods.withoutX2(str);
+        //then
+        assertEquals("", newStr);
+    }
+
+    @Test
+    void xaxbTest(){
+        //given
+        String str = "xaxb";
+        //when
+        String newStr = basicStringMethods.withoutX2(str);
+        //then
+        assertEquals("axb", newStr);
     }
 }
